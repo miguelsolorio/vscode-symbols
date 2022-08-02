@@ -56,8 +56,10 @@
     "hugo": { "iconPath": "./icons/files/hugo.svg" },
     "robot": { "iconPath": "./icons/files/robot.svg" },
     "text": { "iconPath": "./icons/files/text.svg" },
+    "ignore": { "iconPath": "./icons/files/ignore.svg" },
   },
   "fileNames": {
+    ".vscodeignore": "ignore",
     ".hugo_build.lock": "hugo",
     "robots.txt": "text",
     "test.js": "code-orange",
