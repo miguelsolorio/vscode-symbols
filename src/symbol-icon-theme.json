@@ -362,8 +362,7 @@
     "static": "folder-assets",
     "components": "folder-green-code",
   },
-  "hidesExplorerArrows": true,
+  "hidesExplorerArrows": false,
   "file": "document",
   "folder": "folder",
-  // "folderExpanded": "folder-open",
 }
