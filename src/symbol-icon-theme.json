@@ -68,6 +68,8 @@
     "docker": { "iconPath": "./icons/files/docker.svg" },
     "jest": { "iconPath": "./icons/files/jest.svg" },
     "sass": { "iconPath": "./icons/files/sass.svg" },
+    "react": { "iconPath": "./icons/files/react.svg" },
+    "react-ts": { "iconPath": "./icons/files/react-ts.svg" },
   },
   "fileNames": {
     "jest.config.js": "jest",
@@ -206,6 +208,8 @@
     "tailwind.config.cts": "tailwind",
   },
   "languageIds": {
+    "javascriptreact": "react",
+    "typescriptreact": "react-ts",
     "sql": "database",
     "sass": "sass",
     "scss": "sass",
@@ -225,6 +229,8 @@
     "editorconfig": "gear",
   },
   "fileExtensions": {
+    "jsx": "react",
+    "tsx": "react-ts",
     "vsixmanifest": "puzzle",
     "vsix": "puzzle",
     "pdb": "database",
