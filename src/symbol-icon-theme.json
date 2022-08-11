@@ -48,8 +48,6 @@
     "svg": { "iconPath": "./icons/files/svg.svg" },
     "vue": { "iconPath": "./icons/files/vue.svg" },
     "js": { "iconPath": "./icons/files/js.svg" },
-    "mjs": { "iconPath": "./icons/files/js.svg" },
-    "cjs": { "iconPath": "./icons/files/js.svg" },
     "ts": { "iconPath": "./icons/files/ts.svg" },
     "dts": { "iconPath": "./icons/files/dts.svg" },
     "robot": { "iconPath": "./icons/files/robot.svg" },
