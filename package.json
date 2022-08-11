@@ -3,6 +3,9 @@
   "displayName": "Symbols",
   "description": "A file icon theme for VS Code",
   "version": "0.0.1",
+  "publisher": "miguelsolorio",
+  "icon": "symbols.png",
+  "preview": true,
   "engines": {
     "vscode": "^1.69.0"
   },
