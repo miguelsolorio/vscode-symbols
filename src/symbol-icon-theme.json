@@ -211,6 +211,7 @@
     "tailwind.config.cts": "tailwind",
   },
   "languageIds": {
+    "javascript": "js",
     "go": "go",
     "c": "c",
     "objective-c": "c",
