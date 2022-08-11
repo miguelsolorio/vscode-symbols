@@ -72,6 +72,7 @@
     "react-ts": { "iconPath": "./icons/files/react-ts.svg" },
     "cplus": { "iconPath": "./icons/files/cplus.svg" },
     "c": { "iconPath": "./icons/files/c.svg" },
+    "go": { "iconPath": "./icons/files/go.svg" },
   },
   "fileNames": {
     "jest.config.js": "jest",
@@ -210,6 +211,7 @@
     "tailwind.config.cts": "tailwind",
   },
   "languageIds": {
+    "go": "go",
     "c": "c",
     "objective-c": "c",
     "objective-cpp": "c",
@@ -235,6 +237,7 @@
     "editorconfig": "gear",
   },
   "fileExtensions": {
+    "go": "go",
     "c": "c",
     "i": "c",
     "mi": "c",
