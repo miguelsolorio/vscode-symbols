@@ -1,7 +1,7 @@
 {
   "name": "symbols",
   "displayName": "Symbols",
-  "description": "A file icon theme for VS Code",
+  "description": "A simple file icon theme for VS Code",
   "version": "0.0.1",
   "publisher": "miguelsolorio",
   "icon": "symbols.png",
@@ -10,7 +10,14 @@
     "vscode": "^1.69.0"
   },
   "categories": [
-    "Other"
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "theme",
+    "icon-theme",
+    "file-icon-theme",
+    "file icons"
   ],
   "repository": {
     "type": "git",
