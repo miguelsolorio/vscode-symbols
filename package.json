@@ -6,6 +6,7 @@
   "publisher": "miguelsolorio",
   "icon": "symbols.png",
   "preview": true,
+  "main": "./src/extension.js",
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -29,6 +30,9 @@
   "author": {
     "name": "Miguel Solorio"
   },
+  "activationEvents": [
+    "onCommand:symbols.toggleExplorerArrows"
+  ],
   "contributes": {
     "iconThemes": [
       {
@@ -36,6 +40,26 @@
         "label": "Symbol Icons",
         "path": "./src/symbol-icon-theme.json"
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "symbols.toggleExplorerArrows",
+        "title": "Symbols: Toggle Explorer Arrows"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Symbols",
+      "properties": {
+        "symbols.hidesExplorerArrows": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hide arrow icons in the explorer section"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0"
   }
 }
