@@ -252,7 +252,7 @@
     "tailwind.config.js": "tailwind",
     "tailwind.config.cjs": "tailwind",
     "tailwind.config.ts": "tailwind",
-    "tailwind.config.cts": "tailwind",
+    "tailwind.config.cts": "tailwind"
   },
   "languageIds": {
     "rust": "rust",
@@ -324,7 +324,7 @@
     "vue-postcss": "vue",
     "vue-html": "vue",
     "ng-template": "angular",
-    "editorconfig": "gear",
+    "editorconfig": "gear"
   },
   "fileExtensions": {
     "rs": "rust",
@@ -509,7 +509,7 @@
     "directive.js": "angular",
     "resolver.ts": "angular",
     "resolver.js": "angular",
-    "toml": "gear",
+    "toml": "gear"
   },
   "folderNames": {
     ".vscode": "folder-blue",
@@ -524,9 +524,9 @@
     "assets": "folder-assets",
     "resources": "folder-assets",
     "static": "folder-assets",
-    "components": "folder-green-code",
+    "components": "folder-green-code"
   },
   // "hidesExplorerArrows": false,
   "file": "document",
-  "folder": "folder",
+  "folder": "folder"
 }
