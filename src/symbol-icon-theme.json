@@ -100,6 +100,7 @@
     "svelte": { "iconPath": "./icons/files/svelte.svg" },
     "ruby": { "iconPath": "./icons/files/ruby.svg" },
     "swift": { "iconPath": "./icons/files/swift.svg" },
+    "rust": { "iconPath": "./icons/files/rust.svg" },
   },
   "fileNames": {
     "svelte.config.js": "svelte",
@@ -254,6 +255,7 @@
     "tailwind.config.cts": "tailwind",
   },
   "languageIds": {
+    "rust": "rust",
     "swift": "swift",
     "ruby": "ruby",
     "svelte": "svelte",
@@ -325,6 +327,8 @@
     "editorconfig": "gear",
   },
   "fileExtensions": {
+    "rs": "rust",
+    "ron": "rust",
     "swift": "swift",
     "rb": "ruby",
     "erb": "ruby",
