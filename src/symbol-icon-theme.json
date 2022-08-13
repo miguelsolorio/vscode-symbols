@@ -100,7 +100,7 @@
     "svelte": { "iconPath": "./icons/files/svelte.svg" },
     "ruby": { "iconPath": "./icons/files/ruby.svg" },
     "swift": { "iconPath": "./icons/files/swift.svg" },
-    "rust": { "iconPath": "./icons/files/rust.svg" },
+    "rust": { "iconPath": "./icons/files/rust.svg" }
   },
   "fileNames": {
     "svelte.config.js": "svelte",
