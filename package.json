@@ -38,7 +38,7 @@
       {
         "id": "symbols",
         "label": "Symbol Icons",
-        "path": "./src/symbol-icon-theme.json"
+        "path": "./src/symbol-icon-theme.modified.json"
       }
     ],
     "configuration": {
