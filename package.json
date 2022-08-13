@@ -31,7 +31,7 @@
     "name": "Miguel Solorio"
   },
   "activationEvents": [
-    "onCommand:symbols.toggleExplorerArrows"
+    "onStartupFinished"
   ],
   "contributes": {
     "iconThemes": [
@@ -39,12 +39,6 @@
         "id": "symbols",
         "label": "Symbol Icons",
         "path": "./src/symbol-icon-theme.json"
-      }
-    ],
-    "commands": [
-      {
-        "command": "symbols.toggleExplorerArrows",
-        "title": "Symbols: Toggle Explorer Arrows"
       }
     ],
     "configuration": {
