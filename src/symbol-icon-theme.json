@@ -526,7 +526,7 @@
     "static": "folder-assets",
     "components": "folder-green-code"
   },
-  // "hidesExplorerArrows": false,
+  "hidesExplorerArrows": false,
   "file": "document",
   "folder": "folder"
 }
