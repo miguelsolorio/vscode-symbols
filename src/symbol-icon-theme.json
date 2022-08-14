@@ -460,6 +460,8 @@
     "license.txt": "license",
     "next.config.js": "next",
     "next.config.mjs": "next",
+    "next.config.ts": "next",
+    "next.config.mts": "next",
     "angular-cli.json": "angular",
     ".angular-cli.json": "angular",
     "angular.json": "angular",
@@ -546,7 +548,7 @@
 
   "folderNames": {
     ".vscode": "folder-blue",
-    ".next": "next",
+    ".next": "folder-gray",
     "node_modules": "folder-green",
     ".github": "folder-gray",
     "public": "folder-purple-outline",
