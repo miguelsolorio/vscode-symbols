@@ -294,7 +294,7 @@
     "directive.js": "angular",
     "resolver.ts": "angular",
     "resolver.js": "angular",
-    "toml": "gear",
+    "toml": "gear"
   },
   "fileNames": {
     "pulumi.yaml": "pulumi",
