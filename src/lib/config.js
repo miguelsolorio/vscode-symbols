@@ -1,0 +1,80 @@
+const vscode = require("vscode");
+
+const defaultConfig = require("../symbol-icon-theme.json");
+const pkgConfig = require("../../package.json");
+const { getThemeFile, writeThemeFile } = require("./theme");
+
+// mapped properties for keys in package.json vs keys in vscode
+const PKG_PROP_MAP = {
+  "symbols.hidesExplorerArrows": "hidesExplorerArrows",
+};
+
+// get the configuration definition from the package.json
+// and also the default state of the theme to act as fallback
+// values for the configs
+const configDef = pkgConfig.contributes.configuration;
+const configKeys = Object.keys(configDef.properties);
+const defaultState = themeJSONToConfig(defaultConfig);
+
+/**
+ * @description will get the current **workspace** configuration
+ */
+function getWorkspaceConfiguration() {
+  const config = {};
+  for (let key of configKeys) {
+    if (!PKG_PROP_MAP[key]) {
+      continue;
+    }
+
+    const valueGroup = vscode.workspace
+      .getConfiguration("symbols")
+      .inspect(PKG_PROP_MAP[key]);
+
+    config[PKG_PROP_MAP[key]] =
+      valueGroup.workspaceValue ||
+      valueGroup.globalValue ||
+      defaultState[PKG_PROP_MAP[key]];
+  }
+
+  return config;
+}
+
+/**
+ * @description normalize a theme definition json to only have
+ * keys that are defined in the configuration section of the package.json
+ */
+function themeJSONToConfig(themeDef) {
+  const result = {};
+
+  for (let key of configKeys) {
+    if (!PKG_PROP_MAP[key]) {
+      continue;
+    }
+    result[PKG_PROP_MAP[key]] = themeDef[PKG_PROP_MAP[key]];
+  }
+
+  return result;
+}
+
+/**
+ * @description update the changed property in the global settings and
+ * in the theme definition file
+ */
+function updateConfig(config) {
+  const themeJSON = getThemeFile();
+
+  for (let key in config) {
+    console.log(`symbols.${key} changed, updating to ${config[key]}`);
+    vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
+    themeJSON.hidesExplorerArrows = config[key];
+    vscode.window.showInformationMessage('Reload the window to see the changes take effect');
+  }
+
+  writeThemeFile(themeJSON);
+}
+
+module.exports = {
+  getWorkspaceConfiguration,
+  themeJSONToConfig,
+  updateConfig,
+};

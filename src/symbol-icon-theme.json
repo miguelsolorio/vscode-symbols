@@ -294,7 +294,7 @@
     "directive.js": "angular",
     "resolver.ts": "angular",
     "resolver.js": "angular",
-    "toml": "gear",
+    "toml": "gear"
   },
   "fileNames": {
     "pulumi.yaml": "pulumi",
@@ -719,7 +719,7 @@
     "vue-postcss": "vue",
     "vue-html": "vue",
     "ng-template": "angular",
-    "editorconfig": "gear",
+    "editorconfig": "gear"
   },
 
   "folderNames": {
@@ -736,9 +736,9 @@
     "assets": "folder-assets",
     "resources": "folder-assets",
     "static": "folder-assets",
-    "components": "folder-green-code",
+    "components": "folder-green-code"
   },
-  // "hidesExplorerArrows": false,
+  "hidesExplorerArrows": false,
   "file": "document",
-  "folder": "folder",
+  "folder": "folder"
 }
