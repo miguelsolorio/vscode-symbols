@@ -48,7 +48,7 @@
         "symbols.hidesExplorerArrows": {
           "type": "boolean",
           "default": false,
-          "description": "Hide arrow icons in the explorer section"
+          "description": "Hide arrow icons in the explorer section."
         }
       }
     }
