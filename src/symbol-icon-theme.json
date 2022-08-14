@@ -105,6 +105,7 @@
     "npm": { "iconPath": "./icons/files/npm.svg" },
     "pnpm": { "iconPath": "./icons/files/pnpm.svg" },
     "pulumi": { "iconPath": "./icons/files/pulumi.svg" },
+    "webpack": { "iconPath": "./icons/files/webpack.svg" }
   },
   "fileExtensions": {
     "pulumi": "pulumi",
@@ -466,6 +467,7 @@
     "tailwind.config.cjs": "tailwind",
     "tailwind.config.ts": "tailwind",
     "tailwind.config.cts": "tailwind",
+    "webpack.config.js": "webpack"
   },
   "languageIds": {
     "graphql": "graphql",
