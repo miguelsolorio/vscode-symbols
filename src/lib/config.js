@@ -67,6 +67,7 @@ function updateConfig(config) {
     console.log(`symbols.${key} changed, updating to ${config[key]}`);
     vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
     themeJSON.hidesExplorerArrows = config[key];
+    vscode.window.showInformationMessage('Reload the window to see the changes take effect');
   }
 
   writeThemeFile(themeJSON);
