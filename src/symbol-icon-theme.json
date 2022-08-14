@@ -102,6 +102,7 @@
     "swift": { "iconPath": "./icons/files/swift.svg" },
     "rust": { "iconPath": "./icons/files/rust.svg" },
     "graphql": { "iconPath": "./icons/files/graphql.svg" },
+    "next": { "iconPath": "./icons/files/next.svg" },
     "npm": { "iconPath": "./icons/files/npm.svg" },
     "pnpm": { "iconPath": "./icons/files/pnpm.svg" },
     "pulumi": { "iconPath": "./icons/files/pulumi.svg" },
@@ -458,6 +459,10 @@
     "license.md": "license",
     "license.rst": "license",
     "license.txt": "license",
+    "next.config.js": "next",
+    "next.config.mjs": "next",
+    "next.config.ts": "next",
+    "next.config.mts": "next",
     "angular-cli.json": "angular",
     ".angular-cli.json": "angular",
     "angular.json": "angular",
@@ -719,6 +724,7 @@
 
   "folderNames": {
     ".vscode": "folder-blue",
+    ".next": "folder-gray",
     "node_modules": "folder-green",
     ".github": "folder-gray",
     "public": "folder-purple-outline",
