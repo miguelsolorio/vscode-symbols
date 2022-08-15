@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
+const { PKG_PROP_MAP } = require("./constants");
+const { confirmReload } = require("./window");
 
 const THEME_FILE = "symbol-icon-theme.modified.json";
 const DEFAULT_THEME_FILE = "symbol-icon-theme.json";
@@ -53,13 +55,68 @@ function getThemeFile() {
   return JSON.parse(fs.readFileSync(resolveOrCreateTheme(), "utf-8"));
 }
 
+/**
+ * @description get the source theme json
+ */
+function getSoureFile() {
+  return JSON.parse(fs.readFileSync(getDefaultFilePath(), "utf-8"));
+}
+
 // write the theme data file to the **modified** theme
 // file
 function writeThemeFile(data) {
   fs.writeFileSync(getPath(), JSON.stringify(data, null, 2));
 }
 
+/**
+ * @description, force clone the original to modified theme
+ * to make sure updates are merged to it
+ *
+ * Note: kept seperate from the
+ * resolveOrCreateTheme if we wish to move this into a deeper diffing based
+ * sync later (unnecessary right now since the themeFile is small)
+ */
+async function syncOriginal() {
+  let themePath = getPath();
+  let themeJSON = getThemeFile();
+  let originalJSON = getSoureFile();
+
+  let needsSync = false;
+
+  const configurableKeys = Object.values(PKG_PROP_MAP);
+
+  // shallow check
+  for (const key in originalJSON) {
+    if (configurableKeys.indexOf(key) > -1) {
+      continue;
+    }
+
+    const stringifiedSource = JSON.stringify(originalJSON[key]);
+    if (!themeJSON[key]) {
+      needsSync = true;
+      break;
+    }
+
+    const stringifiedTheme = JSON.stringify(themeJSON[key]);
+    if (stringifiedSource != stringifiedTheme) {
+      console.log({
+        stringifiedSource,
+        stringifiedTheme,
+      });
+      needsSync = true;
+      break;
+    }
+  }
+
+  if (needsSync) {
+    await confirmReload();
+    fs.unlinkSync(themePath);
+    fs.copyFileSync(getDefaultFilePath(), themePath);
+  }
+}
+
 module.exports = {
   getThemeFile,
   writeThemeFile,
+  syncOriginal,
 };
