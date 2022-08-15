@@ -3,11 +3,9 @@ const vscode = require("vscode");
 const defaultConfig = require("../symbol-icon-theme.json");
 const pkgConfig = require("../../package.json");
 const { getThemeFile, writeThemeFile } = require("./theme");
+const {PKG_PROP_MAP} = require("./constants")
 
-// mapped properties for keys in package.json vs keys in vscode
-const PKG_PROP_MAP = {
-  "symbols.hidesExplorerArrows": "hidesExplorerArrows",
-};
+
 
 // get the configuration definition from the package.json
 // and also the default state of the theme to act as fallback
@@ -75,5 +73,5 @@ function updateConfig(config) {
 module.exports = {
   getWorkspaceConfiguration,
   themeJSONToConfig,
-  updateConfig,
+  updateConfig
 };

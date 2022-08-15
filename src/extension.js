@@ -1,12 +1,14 @@
 const vscode = require("vscode");
 const { monitorConfigChanges } = require("./lib/change-listener");
+const { syncOriginal } = require("./lib/theme");
 
 /**
  * @param {vscode.ExtensionContext} context
  */
-function activate(context) {
+async function activate(context) {
   console.log("miguelsolorio.symbols activated");
 
+  await syncOriginal();
   monitorConfigChanges();
 
   vscode.workspace.onDidChangeConfiguration(monitorConfigChanges);
