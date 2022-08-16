@@ -4,3 +4,4 @@ node_modules
 .vscode-test/
 *.vsix
 src/symbol-icon-theme.modified.json
+.DS_Store
