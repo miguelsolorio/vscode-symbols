@@ -117,9 +117,21 @@
     "postcss": { "iconPath": "./icons/files/postcss.svg" },
     "gradle": { "iconPath": "./icons/files/gradle.svg" },
     "node": { "iconPath": "./icons/files/node.svg" },
-    "yaml": { "iconPath": "./icons/files/yaml.svg" }
+    "yaml": { "iconPath": "./icons/files/yaml.svg" },
+    "storybook": { "iconPath": "./icons/files/storybook.svg" }
   },
   "fileExtensions": {
+    "stories.js": "storybook",
+    "stories.jsx": "storybook",
+    "stories.mdx": "storybook",
+    "story.js": "storybook",
+    "story.jsx": "storybook",
+    "stories.ts": "storybook",
+    "stories.tsx": "storybook",
+    "story.ts": "storybook",
+    "story.tsx": "storybook",
+    "stories.svelte": "storybook",
+    "story.mdx": "storybook",
     "yml": "yaml",
     "yaml": "yaml",
     "yml.dist": "yaml",
