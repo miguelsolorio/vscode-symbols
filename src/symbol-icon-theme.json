@@ -116,9 +116,15 @@
     "sbt": { "iconPath": "./icons/files/sbt.svg" },
     "postcss": { "iconPath": "./icons/files/postcss.svg" },
     "gradle": { "iconPath": "./icons/files/gradle.svg" },
-    "node": { "iconPath": "./icons/files/node.svg" }
+    "node": { "iconPath": "./icons/files/node.svg" },
+    "yaml": { "iconPath": "./icons/files/yaml.svg" }
   },
   "fileExtensions": {
+    "yml": "yaml",
+    "yaml": "yaml",
+    "yml.dist": "yaml",
+    "yaml.dist": "yaml",
+    "YAML-tmLanguage": "yaml",
     "gradle": "gradle",
     "pcss": "postcss",
     "sss": "postcss",
@@ -706,6 +712,8 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "yml": "yml",
+    "yaml": "yaml",
     "postcss": "postcss",
     "scala": "scala",
     "styl": "stylus",
