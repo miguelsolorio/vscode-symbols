@@ -114,9 +114,11 @@
     "stylus": { "iconPath": "./icons/files/stylus.svg" },
     "scala": { "iconPath": "./icons/files/scala.svg" },
     "sbt": { "iconPath": "./icons/files/sbt.svg" },
-    "postcss": { "iconPath": "./icons/files/postcss.svg" }
+    "postcss": { "iconPath": "./icons/files/postcss.svg" },
+    "gradle": { "iconPath": "./icons/files/gradle.svg" }
   },
   "fileExtensions": {
+    "gradle": "gradle",
     "pcss": "postcss",
     "sss": "postcss",
     "sbt": "sbt",
@@ -311,6 +313,9 @@
     "toml": "gear"
   },
   "fileNames": {
+    "gradle.properties": "gradle",
+    "gradlew": "gradle",
+    "gradle-wrapper.properties": "gradle",
     "postcss.config.js": "postcss",
     "postcss.config.cjs": "postcss",
     "postcss.config.ts": "postcss",
