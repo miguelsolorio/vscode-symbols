@@ -109,9 +109,11 @@
     "webpack": { "iconPath": "./icons/files/webpack.svg" },
     "prettier": { "iconPath": "./icons/files/prettier.svg" },
     "vite": { "iconPath": "./icons/files/vite.svg" },
-    "astro": { "iconPath": "./icons/files/astro.svg" }
+    "astro": { "iconPath": "./icons/files/astro.svg" },
+    "prisma": { "iconPath": "./icons/files/prisma.svg" }
   },
   "fileExtensions": {
+    "prisma": "prisma",
     "astro": "astro",
     "pulumi": "pulumi",
     "graphql": "graphql",
@@ -299,6 +301,7 @@
     "toml": "gear"
   },
   "fileNames": {
+    "prisma.yml": "prisma",
     "astro.config.js": "astro",
     "astro.config.mjs": "astro",
     "astro.config.cjs": "astro",
