@@ -8,7 +8,7 @@
   "preview": true,
   "main": "./src/extension.js",
   "engines": {
-    "vscode": "^1.69.0"
+    "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
