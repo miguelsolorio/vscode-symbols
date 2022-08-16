@@ -107,7 +107,8 @@
     "pnpm": { "iconPath": "./icons/files/pnpm.svg" },
     "pulumi": { "iconPath": "./icons/files/pulumi.svg" },
     "webpack": { "iconPath": "./icons/files/webpack.svg" },
-    "prettier": { "iconPath": "./icons/files/prettier.svg" }
+    "prettier": { "iconPath": "./icons/files/prettier.svg" },
+    "vite": { "iconPath": "./icons/files/vite.svg" }
   },
   "fileExtensions": {
     "pulumi": "pulumi",
@@ -296,6 +297,7 @@
     "toml": "gear"
   },
   "fileNames": {
+    "vite.config.js": "vite",
     ".prettierrc": "prettier",
     "prettier.config.js": "prettier",
     "prettier.config.cjs": "prettier",
