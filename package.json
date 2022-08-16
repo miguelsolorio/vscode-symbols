@@ -53,7 +53,11 @@
       }
     }
   },
+  "scripts": {
+    "release": "release-it"
+  },
   "devDependencies": {
-    "@types/vscode": "^1.70.0"
+    "@types/vscode": "^1.70.0",
+    "release-it": "^15.3.0"
   }
 }
