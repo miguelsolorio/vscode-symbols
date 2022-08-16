@@ -735,6 +735,7 @@
   },
 
   "folderNames": {
+    "api": "folder-red",
     ".vscode": "folder-blue",
     ".next": "folder-gray",
     "node_modules": "folder-green",
