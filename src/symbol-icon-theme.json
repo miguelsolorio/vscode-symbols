@@ -110,9 +110,11 @@
     "prettier": { "iconPath": "./icons/files/prettier.svg" },
     "vite": { "iconPath": "./icons/files/vite.svg" },
     "astro": { "iconPath": "./icons/files/astro.svg" },
-    "prisma": { "iconPath": "./icons/files/prisma.svg" }
+    "prisma": { "iconPath": "./icons/files/prisma.svg" },
+    "stylus": { "iconPath": "./icons/files/stylus.svg" }
   },
   "fileExtensions": {
+    "styl": "stylus",
     "prisma": "prisma",
     "astro": "astro",
     "pulumi": "pulumi",
@@ -301,6 +303,7 @@
     "toml": "gear"
   },
   "fileNames": {
+    ".styl": "stylus",
     "prisma.yml": "prisma",
     "astro.config.js": "astro",
     "astro.config.mjs": "astro",
@@ -672,6 +675,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "styl": "stylus",
     "graphql": "graphql",
     "rust": "rust",
     "swift": "swift",
@@ -744,7 +748,6 @@
     "ng-template": "angular",
     "editorconfig": "gear"
   },
-
   "folderNames": {
     "api": "folder-red",
     ".vscode": "folder-blue",
