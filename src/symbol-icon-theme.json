@@ -113,9 +113,12 @@
     "prisma": { "iconPath": "./icons/files/prisma.svg" },
     "stylus": { "iconPath": "./icons/files/stylus.svg" },
     "scala": { "iconPath": "./icons/files/scala.svg" },
-    "sbt": { "iconPath": "./icons/files/sbt.svg" }
+    "sbt": { "iconPath": "./icons/files/sbt.svg" },
+    "postcss": { "iconPath": "./icons/files/postcss.svg" }
   },
   "fileExtensions": {
+    "pcss": "postcss",
+    "sss": "postcss",
     "sbt": "sbt",
     "scala": "scala",
     "sc": "scala",
@@ -308,6 +311,18 @@
     "toml": "gear"
   },
   "fileNames": {
+    "postcss.config.js": "postcss",
+    "postcss.config.cjs": "postcss",
+    "postcss.config.ts": "postcss",
+    "postcss.config.cts": "postcss",
+    ".postcssrc.js": "postcss",
+    ".postcssrc.cjs": "postcss",
+    ".postcssrc.ts": "postcss",
+    ".postcssrc.cts": "postcss",
+    ".postcssrc": "postcss",
+    ".postcssrc.json": "postcss",
+    ".postcssrc.yaml": "postcss",
+    ".postcssrc.yml": "postcss",
     ".styl": "stylus",
     "prisma.yml": "prisma",
     "astro.config.js": "astro",
@@ -680,6 +695,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "postcss": "postcss",
     "scala": "scala",
     "styl": "stylus",
     "graphql": "graphql",
