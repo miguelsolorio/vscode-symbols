@@ -108,9 +108,11 @@
     "pulumi": { "iconPath": "./icons/files/pulumi.svg" },
     "webpack": { "iconPath": "./icons/files/webpack.svg" },
     "prettier": { "iconPath": "./icons/files/prettier.svg" },
-    "vite": { "iconPath": "./icons/files/vite.svg" }
+    "vite": { "iconPath": "./icons/files/vite.svg" },
+    "astro": { "iconPath": "./icons/files/astro.svg" }
   },
   "fileExtensions": {
+    "astro": "astro",
     "pulumi": "pulumi",
     "graphql": "graphql",
     "gql": "graphql",
@@ -297,6 +299,12 @@
     "toml": "gear"
   },
   "fileNames": {
+    "astro.config.js": "astro",
+    "astro.config.mjs": "astro",
+    "astro.config.cjs": "astro",
+    "astro.config.ts": "astro",
+    "astro.config.cts": "astro",
+    "astro.config.mts": "astro",
     "vite.config.js": "vite",
     ".prettierrc": "prettier",
     "prettier.config.js": "prettier",
