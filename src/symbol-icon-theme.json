@@ -285,8 +285,6 @@
     "component.js": "angular",
     "guard.ts": "angular",
     "guard.js": "angular",
-    "service.ts": "angular",
-    "service.js": "angular",
     "pipe.ts": "angular",
     "pipe.js": "angular",
     "filter.js": "angular",
