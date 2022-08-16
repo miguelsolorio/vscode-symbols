@@ -4,25 +4,25 @@
 
 ### 🚀 New Icons
 
-- Add release-it 8d3bc89de5556744f5ab26418b08b2c1beab8d1b
-- Add support for storybook stories (.stories.tsx|.stories.jsx) (#28) 551892f802b5d5fd9e163db40cb28730be09a685
-- Add support for .yaml/.yml files (#27) ae15d36cf3fa445fbd515b97430cd81b89af876c
-- Add support for `.node-version` (#25) 7a0206e2f39ba8a55d8b03cf71523a7b6a31b28d
-- Add support for `.gradle` files (#23) e0a13440e4add57d41735c10c994deab173bae43
-- Add support for postcss (#19) cbfce514f28a79d6a0c70936ed600c7f70c29758
-- Scala language support (#17) 309be7fcfecb84d0198386f91173a7b3f6c1cb60
-- Stylus lang support (.styl) (#16) 3a52841e2823654c3813c8b2aa946456d337032c
-- Add support for Prisma icon/folder (#14) e014bd4ce0d50637767ec8ffd8b812f455ee9d2d
-- Add support for .astro (#13) 015bd37fe721cc2e129b79fff4b7c22e7e67bee6
-- Add support for api folder (#12) ced45a9d1c03f149cd40095b39e2167bb26e54f3
-- Add support for vite.js (#11) 4de94a68a7c45bdcb0bfe95eb3dd06643179f113
-- Add support for prettier (#10) 640b6079c46720d7a53ff74bf90521a8bd31ac06
+- Add support for storybook stories (.stories.tsx|.stories.jsx) (#28) https://github.com/misolori/vscode-symbols/commit/551892f802b5d5fd9e163db40cb28730be09a685
+- Add support for .yaml/.yml files (#27) https://github.com/misolori/vscode-symbols/commit/ae15d36cf3fa445fbd515b97430cd81b89af876c
+- Add support for `.node-version` (#25) https://github.com/misolori/vscode-symbols/commit/7a0206e2f39ba8a55d8b03cf71523a7b6a31b28d
+- Add support for `.gradle` files (#23) https://github.com/misolori/vscode-symbols/commit/e0a13440e4add57d41735c10c994deab173bae43
+- Add support for postcss (#19) https://github.com/misolori/vscode-symbols/commit/cbfce514f28a79d6a0c70936ed600c7f70c29758
+- Scala language support (#17) https://github.com/misolori/vscode-symbols/commit/309be7fcfecb84d0198386f91173a7b3f6c1cb60
+- Stylus lang support (.styl) (#16) https://github.com/misolori/vscode-symbols/commit/3a52841e2823654c3813c8b2aa946456d337032c
+- Add support for Prisma icon/folder (#14) https://github.com/misolori/vscode-symbols/commit/e014bd4ce0d50637767ec8ffd8b812f455ee9d2d
+- Add support for .astro (#13) https://github.com/misolori/vscode-symbols/commit/015bd37fe721cc2e129b79fff4b7c22e7e67bee6
+- Add support for api folder (#12) https://github.com/misolori/vscode-symbols/commit/ced45a9d1c03f149cd40095b39e2167bb26e54f3
+- Add support for vite.js (#11) https://github.com/misolori/vscode-symbols/commit/4de94a68a7c45bdcb0bfe95eb3dd06643179f113
+- Add support for prettier (#10) https://github.com/misolori/vscode-symbols/commit/640b6079c46720d7a53ff74bf90521a8bd31ac06
 
 ### 🧹 Clean Up
 
-- Update Python icon f342054261ebd32098037e4ed116bf42e96d690c
-- Update node icon 988a17615875bd3764ca6ef0f35f551c869a0721
-- Add .DS_Store file to .gitignore (#26) 51c5d93e4ab845401ca87d3750f78b61809442b9 via @mohouyizme
+- Update Python icon https://github.com/misolori/vscode-symbols/commit/f342054261ebd32098037e4ed116bf42e96d690c
+- Update node icon https://github.com/misolori/vscode-symbols/commit/988a17615875bd3764ca6ef0f35f551c869a0721
+- Add .DS_Store file to .gitignore (#26) https://github.com/misolori/vscode-symbols/commit/51c5d93e4ab845401ca87d3750f78b61809442b9 via @mohouyizme
+- Add release-it https://github.com/misolori/vscode-symbols/commit/8d3bc89de5556744f5ab26418b08b2c1beab8d1b
 
 ## 0.0.6
 
