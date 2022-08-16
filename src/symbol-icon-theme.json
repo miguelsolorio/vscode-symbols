@@ -111,9 +111,14 @@
     "vite": { "iconPath": "./icons/files/vite.svg" },
     "astro": { "iconPath": "./icons/files/astro.svg" },
     "prisma": { "iconPath": "./icons/files/prisma.svg" },
-    "stylus": { "iconPath": "./icons/files/stylus.svg" }
+    "stylus": { "iconPath": "./icons/files/stylus.svg" },
+    "scala": { "iconPath": "./icons/files/scala.svg" },
+    "sbt": { "iconPath": "./icons/files/sbt.svg" }
   },
   "fileExtensions": {
+    "sbt": "sbt",
+    "scala": "scala",
+    "sc": "scala",
     "styl": "stylus",
     "prisma": "prisma",
     "astro": "astro",
@@ -675,6 +680,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "scala": "scala",
     "styl": "stylus",
     "graphql": "graphql",
     "rust": "rust",
