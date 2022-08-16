@@ -115,7 +115,8 @@
     "scala": { "iconPath": "./icons/files/scala.svg" },
     "sbt": { "iconPath": "./icons/files/sbt.svg" },
     "postcss": { "iconPath": "./icons/files/postcss.svg" },
-    "gradle": { "iconPath": "./icons/files/gradle.svg" }
+    "gradle": { "iconPath": "./icons/files/gradle.svg" },
+    "node": { "iconPath": "./icons/files/node.svg" }
   },
   "fileExtensions": {
     "gradle": "gradle",
@@ -313,6 +314,11 @@
     "toml": "gear"
   },
   "fileNames": {
+    "package.json": "node",
+    "package-lock.json": "node",
+    ".nvmrc": "node",
+    ".esmrc": "node",
+    ".node-version": "node",
     "gradle.properties": "gradle",
     "gradlew": "gradle",
     "gradle-wrapper.properties": "gradle",
