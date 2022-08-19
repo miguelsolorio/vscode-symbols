@@ -74,6 +74,7 @@
     "tailwind": { "iconPath": "./icons/files/tailwind.svg" },
     "hugo": { "iconPath": "./icons/files/hugo.svg" },
     "firebase": { "iconPath": "./icons/files/firebase.svg" },
+    "font": { "iconPath": "./icons/files/font.svg" },
     "docker": { "iconPath": "./icons/files/docker.svg" },
     "jest": { "iconPath": "./icons/files/jest.svg" },
     "sass": { "iconPath": "./icons/files/sass.svg" },
@@ -329,7 +330,14 @@
     "directive.js": "angular",
     "resolver.ts": "angular",
     "resolver.js": "angular",
-    "toml": "gear"
+    "toml": "gear",
+    "ttf": "font",
+    "otf": "font",
+    "woff": "font",
+    "woff2": "font",
+    "eot": "font",
+    "fon": "font",
+    "fnt": "font"
   },
   "fileNames": {
     "package.json": "node",
