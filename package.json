@@ -6,7 +6,6 @@
   "publisher": "miguelsolorio",
   "icon": "symbols.png",
   "preview": true,
-  "main": "./src/extension.js",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -30,34 +29,24 @@
   "author": {
     "name": "Miguel Solorio"
   },
-  "activationEvents": [
-    "onStartupFinished"
-  ],
   "contributes": {
     "iconThemes": [
       {
         "id": "symbols",
         "label": "Symbol Icons",
-        "path": "./src/symbol-icon-theme.modified.json"
+        "path": "./variants/symbol-icon-theme.json"
+      },
+      {
+        "id": "symbols-no-folder-arrows",
+        "label": "Symbol Icons (No Folder Arrows)",
+        "path": "./variants/symbol-icon-theme.no-arrows.json"
       }
-    ],
-    "configuration": {
-      "type": "object",
-      "title": "Symbols",
-      "properties": {
-        "symbols.hidesExplorerArrows": {
-          "type": "boolean",
-          "default": false,
-          "description": "Hide arrow icons in the explorer section."
-        }
-      }
-    }
+    ]
   },
   "scripts": {
     "release": "release-it"
   },
   "devDependencies": {
-    "@types/vscode": "^1.70.0",
     "release-it": "^15.3.0"
   }
 }
