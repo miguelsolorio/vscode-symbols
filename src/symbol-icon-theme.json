@@ -197,6 +197,10 @@
     "py": "python",
     "python": "python",
     "go": "go",
+    "go.mod": "go-mod",
+    "go.sum": "go-mod",
+    "go.work": "go-mod",
+    "go.work.sum": "go-mod",
     "c": "c",
     "i": "c",
     "mi": "c",
@@ -739,11 +743,7 @@
     "webpackfile.mjs": "webpack",
     "webpackfile.ts": "webpack",
     "webpackfile.cts": "webpack",
-    "webpackfile.mts": "webpack",
-    "go.mod": "go-mod",
-    "go.sum": "go-mod",
-    "go.work": "go-mod",
-    "go.work.sum": "go-mod",
+    "webpackfile.mts": "webpack"
   },
   "languageIds": {
     "yml": "yml",
