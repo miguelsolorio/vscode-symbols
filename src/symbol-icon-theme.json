@@ -83,6 +83,7 @@
     "c": { "iconPath": "./icons/files/c.svg" },
     "csharp": { "iconPath": "./icons/files/csharp.svg" },
     "go": { "iconPath": "./icons/files/go.svg" },
+    "go-mod": { "iconPath": "./icons/files/go-mod.svg" },
     "python": { "iconPath": "./icons/files/python.svg" },
     "julia": { "iconPath": "./icons/files/julia.svg" },
     "julia-markdown": { "iconPath": "./icons/files/julia-markdown.svg" },
@@ -738,7 +739,11 @@
     "webpackfile.mjs": "webpack",
     "webpackfile.ts": "webpack",
     "webpackfile.cts": "webpack",
-    "webpackfile.mts": "webpack"
+    "webpackfile.mts": "webpack",
+    "go.mod": "go-mod",
+    "go.sum": "go-mod",
+    "go.work": "go-mod",
+    "go.work.sum": "go-mod",
   },
   "languageIds": {
     "yml": "yml",
