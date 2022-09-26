@@ -68,6 +68,7 @@
     "database": { "iconPath": "./icons/files/database.svg" },
     "puzzle": { "iconPath": "./icons/files/puzzle.svg" },
     "shell": { "iconPath": "./icons/files/shell.svg" },
+    "elixir": { "iconPath": "./icons/files/elixir.svg" },
 
     "eslint": { "iconPath": "./icons/files/eslint.svg" },
     "angular": { "iconPath": "./icons/files/angular.svg" },
@@ -122,6 +123,11 @@
     "storybook": { "iconPath": "./icons/files/storybook.svg" }
   },
   "fileExtensions": {
+    "ex": "elixir",
+    "exs": "elixir",
+    "eex": "elixir",
+    "leex": "elixir",
+    "heex": "elixir",
     "stories.js": "storybook",
     "stories.jsx": "storybook",
     "stories.mdx": "storybook",
@@ -752,6 +758,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "elixir": "elixir",
     "yml": "yml",
     "yaml": "yaml",
     "postcss": "postcss",
