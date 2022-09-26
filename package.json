@@ -30,6 +30,12 @@
   "author": {
     "name": "Miguel Solorio"
   },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
   "activationEvents": [
     "onStartupFinished"
   ],
