@@ -121,7 +121,8 @@
     "gradle": { "iconPath": "./icons/files/gradle.svg" },
     "node": { "iconPath": "./icons/files/node.svg" },
     "yaml": { "iconPath": "./icons/files/yaml.svg" },
-    "storybook": { "iconPath": "./icons/files/storybook.svg" }
+    "storybook": { "iconPath": "./icons/files/storybook.svg" },
+    "supabase": { "iconPath": "./icons/files/supabase.svg" },
   },
   "fileExtensions": {
     "woff": "font",
