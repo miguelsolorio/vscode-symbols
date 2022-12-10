@@ -129,7 +129,8 @@
     "ionic": { "iconPath": "./icons/files/ionic.svg" },
     "capacitor": { "iconPath": "./icons/files/capacitor.svg" },
     "cypress": { "iconPath": "./icons/files/cypress.svg" },
-    "gulp": { "iconPath": "./icons/files/gulp.svg" }
+    "gulp": { "iconPath": "./icons/files/gulp.svg" },
+    "supabase": { "iconPath": "./icons/files/supabase.svg" }
   },
   "fileExtensions": {
     "jenkinsfile": "jenkins",
