@@ -133,7 +133,9 @@
     "capacitor": { "iconPath": "./icons/files/capacitor.svg" },
     "cypress": { "iconPath": "./icons/files/cypress.svg" },
     "gulp": { "iconPath": "./icons/files/gulp.svg" },
-    "supabase": { "iconPath": "./icons/files/supabase.svg" }
+    "supabase": { "iconPath": "./icons/files/supabase.svg" },
+    "babel": { "iconPath": "./icons/files/babel.svg" },
+    "laravel": { "iconPath": "./icons/files/laravel.svg" }
   },
   "fileExtensions": {
     "test.js": "js-test",
