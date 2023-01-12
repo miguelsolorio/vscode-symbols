@@ -133,7 +133,8 @@
     "capacitor": { "iconPath": "./icons/files/capacitor.svg" },
     "cypress": { "iconPath": "./icons/files/cypress.svg" },
     "gulp": { "iconPath": "./icons/files/gulp.svg" },
-    "supabase": { "iconPath": "./icons/files/supabase.svg" }
+    "supabase": { "iconPath": "./icons/files/supabase.svg" },
+    "v": { "iconPath": "./icons/files/v.svg" }
   },
   "fileExtensions": {
     "test.js": "js-test",
@@ -382,7 +383,8 @@
     "directive.js": "angular",
     "resolver.ts": "angular",
     "resolver.js": "angular",
-    "toml": "gear"
+    "toml": "gear",
+    "v": "v"
   },
   "fileNames": {
     "test.js": "js-test",
