@@ -56,7 +56,9 @@
     "svg": { "iconPath": "./icons/files/svg.svg" },
     "vue": { "iconPath": "./icons/files/vue.svg" },
     "js": { "iconPath": "./icons/files/js.svg" },
+    "js-test": { "iconPath": "./icons/files/js-test.svg" },
     "ts": { "iconPath": "./icons/files/ts.svg" },
+    "ts-test": { "iconPath": "./icons/files/ts-test.svg" },
     "dts": { "iconPath": "./icons/files/dts.svg" },
     "robot": { "iconPath": "./icons/files/robot.svg" },
     "text": { "iconPath": "./icons/files/text.svg" },
@@ -133,6 +135,8 @@
     "supabase": { "iconPath": "./icons/files/supabase.svg" }
   },
   "fileExtensions": {
+    "test.js": "js-test",
+    "test.ts": "ts-test",
     "jenkinsfile": "jenkins",
     "jenkins": "jenkins",
     "tsconfig.json": "tsconfig",
@@ -376,6 +380,8 @@
     "toml": "gear"
   },
   "fileNames": {
+    "test.js": "js-test",
+    "test.ts": "ts-test",
     "gulpfile.js": "gulp",
     "gulpfile.mjs": "gulp",
     "gulpfile.ts": "gulp",
@@ -580,7 +586,6 @@
     ".vscodeignore": "ignore",
     ".hugo_build.lock": "hugo",
     "robots.txt": "text",
-    "test.js": "code-orange",
     "yarn.lock": "yarn",
     "yarn": "yarn",
     ".direnv": "gear",
@@ -644,7 +649,7 @@
     "tsconfig.eslint.json": "tsconfig",
     "tsconfig.lib.json": "tsconfig",
     "tsconfig.node.json": "tsconfig",
-    "tsconfig.test.json": "tsconfig",
+    "tsconfig.test.json": "ts-test",
     "tsconfig.e2e.json": "tsconfig",
     "tsconfig.web.json": "tsconfig",
     "tsconfig.webworker.json": "tsconfig",
