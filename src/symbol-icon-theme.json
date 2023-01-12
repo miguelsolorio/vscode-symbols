@@ -502,6 +502,7 @@
     "pylintrc": "python",
     ".pylintrc": "python",
     "pyproject.toml": "python",
+    "setup.cfg": "python",
     "jest.config.js": "jest",
     "jest.config.cjs": "jest",
     "jest.config.mjs": "jest",
