@@ -138,9 +138,12 @@
     "babel": { "iconPath": "./icons/files/babel.svg" },
     "laravel": { "iconPath": "./icons/files/laravel.svg" },
     "proto": { "iconPath": "./icons/files/proto.svg" },
-    "zig": { "iconPath": "./icons/files/zig.svg" }
+    "zig": { "iconPath": "./icons/files/zig.svg" },
+    "exe": { "iconPath": "./icons/files/exe.svg" }
   },
   "fileExtensions": {
+    "exe": "exe",
+    "msi": "exe",
     "zig": "zig",
     "proto": "proto",
     "test.js": "js-test",
