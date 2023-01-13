@@ -135,9 +135,11 @@
     "gulp": { "iconPath": "./icons/files/gulp.svg" },
     "supabase": { "iconPath": "./icons/files/supabase.svg" },
     "babel": { "iconPath": "./icons/files/babel.svg" },
-    "laravel": { "iconPath": "./icons/files/laravel.svg" }
+    "laravel": { "iconPath": "./icons/files/laravel.svg" },
+    "proto": { "iconPath": "./icons/files/proto.svg" }
   },
   "fileExtensions": {
+    "proto": "proto",
     "test.js": "js-test",
     "spec.js": "js-test",
     "test.ts": "ts-test",
