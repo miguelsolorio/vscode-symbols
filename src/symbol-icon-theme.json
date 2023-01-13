@@ -134,6 +134,7 @@
     "cypress": { "iconPath": "./icons/files/cypress.svg" },
     "gulp": { "iconPath": "./icons/files/gulp.svg" },
     "supabase": { "iconPath": "./icons/files/supabase.svg" },
+    "v": { "iconPath": "./icons/files/v.svg" },
     "babel": { "iconPath": "./icons/files/babel.svg" },
     "laravel": { "iconPath": "./icons/files/laravel.svg" }
   },
@@ -384,7 +385,8 @@
     "directive.js": "angular",
     "resolver.ts": "angular",
     "resolver.js": "angular",
-    "toml": "gear"
+    "toml": "gear",
+    "v": "v"
   },
   "fileNames": {
     "test.js": "js-test",
