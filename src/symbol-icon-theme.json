@@ -137,9 +137,11 @@
     "v": { "iconPath": "./icons/files/v.svg" },
     "babel": { "iconPath": "./icons/files/babel.svg" },
     "laravel": { "iconPath": "./icons/files/laravel.svg" },
-    "proto": { "iconPath": "./icons/files/proto.svg" }
+    "proto": { "iconPath": "./icons/files/proto.svg" },
+    "zig": { "iconPath": "./icons/files/zig.svg" }
   },
   "fileExtensions": {
+    "zig": "zig",
     "proto": "proto",
     "test.js": "js-test",
     "spec.js": "js-test",
