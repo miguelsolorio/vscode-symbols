@@ -29,6 +29,9 @@
     "folder-yellow-code": { "iconPath": "./icons/folders/folder-yellow-code.svg" },
     "folder-red-code": { "iconPath": "./icons/folders/folder-red-code.svg" },
 
+    "folder-config": { "iconPath": "./icons/folders/folder-config.svg" },
+    "folder-app": { "iconPath": "./icons/folders/folder-app.svg" },
+
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
     "code-purple": { "iconPath": "./icons/files/code-purple.svg" },
@@ -933,6 +936,13 @@
     "editorconfig": "gear"
   },
   "folderNames": {
+    "app": "folder-app",
+    "config": "folder-config",
+    "env": "folder-green",
+    "server": "folder-orange",
+    "styles": "folder-orange-code",
+    "types": "folder-blue-code",
+    "utils": "folder-green-code",
     "api": "folder-red",
     ".vscode": "folder-blue",
     ".next": "folder-gray",
