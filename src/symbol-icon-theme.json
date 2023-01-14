@@ -148,9 +148,14 @@
     "audio": { "iconPath": "./icons/files/audio.svg" },
     "video": { "iconPath": "./icons/files/video.svg" },
     "patch": { "iconPath": "./icons/files/patch.svg" },
-    "drawio": { "iconPath": "./icons/files/drawio.svg" }
+    "drawio": { "iconPath": "./icons/files/drawio.svg" },
+    "tex": { "iconPath": "./icons/files/tex.svg" }
   },
   "fileExtensions": {
+    "tex": "tex",
+    "sty": "tex",
+    "dtx": "tex",
+    "ltx": "tex",
     "drawio": "drawio",
     "dio": "drawio",
     "patch": "patch",
@@ -896,6 +901,10 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "tex": "tex",
+    "doctex": "tex",
+    "latex": "tex",
+    "latex-expl3": "tex",
     "terraform": "terraform",
     "elixir": "elixir",
     "yml": "yml",
