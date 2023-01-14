@@ -1,5 +1,58 @@
 # Change Log
 
+## 0.0.9
+
+### 🚀 New Icons
+
+- `al` support [#48](https://github.com/miguelsolorio/vscode-symbols/issues/48)
+- `app`, `config`, `env`, `server`, `styles`, `types`, `utils` folder support [#64](https://github.com/miguelsolorio/vscode-symbols/issues/64)
+- `audio` & `video` support [#33](https://github.com/miguelsolorio/vscode-symbols/issues/33)
+- `cls` support [#62](https://github.com/miguelsolorio/vscode-symbols/issues/62)
+- `drawio` support [#60](https://github.com/miguelsolorio/vscode-symbols/issues/60)
+- `exe` support [#53](https://github.com/miguelsolorio/vscode-symbols/issues/53)
+- `git` folder support
+- `http` & `rest` support [#43](https://github.com/miguelsolorio/vscode-symbols/issues/43)
+- `latex` support [#67](https://github.com/miguelsolorio/vscode-symbols/issues/67)
+- `php` support [#30](https://github.com/miguelsolorio/vscode-symbols/issues/30)
+- `vlang` support [#68](https://github.com/miguelsolorio/vscode-symbols/issues/68) via [@Marcisbee](https://github.com/Marcisbee)
+- `zig` support [#51](https://github.com/miguelsolorio/vscode-symbols/issues/51)
+
+### 🧹 Cleanup
+
+- Associate `setup.cfg` to Python [#65](https://github.com/miguelsolorio/vscode-symbols/issues/65) via [@joaopalmeiro](https://github.com/joaopalmeiro)
+- Fix a couple of missing icon definitions [#69](https://github.com/miguelsolorio/vscode-symbols/issues/69) via [@istratos](https://github.com/istratos)
+
+## 0.0.8
+
+### ✨ Features
+
+- Add `capabilities` settings to package.json [#50](https://github.com/miguelsolorio/vscode-symbols/issues/50) via [@izcream](https://github.com/izcream)
+
+### 🚀 New Icons
+
+- Add support for `test` files (js, ts, tsx, spec) [#35](https://github.com/miguelsolorio/vscode-symbols/issues/35)
+- Add support for `babel` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `capacitor` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `cyrpress` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `gulp` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `ionic` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `jenkins` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `laravel` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `nodemon` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `tsconfig` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `vite-simple` [#54](https://github.com/miguelsolorio/vscode-symbols/issues/54)
+- Add support for `supabase` [#56](https://github.com/miguelsolorio/vscode-symbols/issues/56)
+- Add support for `fonts` files [#32](https://github.com/miguelsolorio/vscode-symbols/issues/32)
+- Add support for `elixir` [#29](https://github.com/miguelsolorio/vscode-symbols/issues/29)
+- Add support for common `.env` file names [#42](https://github.com/miguelsolorio/vscode-symbols/issues/42) via [@rvndl](https://github.com/rvndl)
+
+### 🧹 Clean Up
+
+- Fix vite.config.ts [#39](https://github.com/miguelsolorio/vscode-symbols/issues/39)
+- Fix `nextjs` [#55](https://github.com/miguelsolorio/vscode-symbols/issues/55)
+- Fix `webpack` [#37](https://github.com/miguelsolorio/vscode-symbols/issues/37) via [@FradSer](https://github.com/FradSer)
+- Fix `vite` file mappings [#11](https://github.com/miguelsolorio/vscode-symbols/issues/11)
+
 ## 0.0.7
 
 ### 🚀 New Icons
