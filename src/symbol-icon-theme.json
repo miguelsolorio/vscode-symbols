@@ -147,6 +147,7 @@
     "http": { "iconPath": "./icons/files/http.svg" }
   },
   "fileExtensions": {
+    "al": "code-green",
     "http": "http",
     "rest": "http",
     "cls": "code-blue",
