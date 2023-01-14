@@ -940,6 +940,7 @@
     "editorconfig": "gear"
   },
   "folderNames": {
+    ".git": "folder-red",
     "app": "folder-app",
     "config": "folder-config",
     "env": "folder-green",
