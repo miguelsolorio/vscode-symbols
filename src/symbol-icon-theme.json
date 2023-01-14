@@ -143,9 +143,12 @@
     "proto": { "iconPath": "./icons/files/proto.svg" },
     "zig": { "iconPath": "./icons/files/zig.svg" },
     "exe": { "iconPath": "./icons/files/exe.svg" },
-    "php": { "iconPath": "./icons/files/php.svg" }
+    "php": { "iconPath": "./icons/files/php.svg" },
+    "http": { "iconPath": "./icons/files/http.svg" }
   },
   "fileExtensions": {
+    "http": "http",
+    "rest": "http",
     "cls": "code-blue",
     "exe": "exe",
     "msi": "exe",
