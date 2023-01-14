@@ -146,9 +146,11 @@
     "php": { "iconPath": "./icons/files/php.svg" },
     "http": { "iconPath": "./icons/files/http.svg" },
     "audio": { "iconPath": "./icons/files/audio.svg" },
-    "video": { "iconPath": "./icons/files/video.svg" }
+    "video": { "iconPath": "./icons/files/video.svg" },
+    "patch": { "iconPath": "./icons/files/patch.svg" }
   },
   "fileExtensions": {
+    "patch": "patch",
     "webm": "video",
     "mkv": "video",
     "flv": "video",
