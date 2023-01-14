@@ -147,9 +147,12 @@
     "http": { "iconPath": "./icons/files/http.svg" },
     "audio": { "iconPath": "./icons/files/audio.svg" },
     "video": { "iconPath": "./icons/files/video.svg" },
-    "patch": { "iconPath": "./icons/files/patch.svg" }
+    "patch": { "iconPath": "./icons/files/patch.svg" },
+    "drawio": { "iconPath": "./icons/files/drawio.svg" }
   },
   "fileExtensions": {
+    "drawio": "drawio",
+    "dio": "drawio",
     "patch": "patch",
     "webm": "video",
     "mkv": "video",
