@@ -142,7 +142,8 @@
     "laravel": { "iconPath": "./icons/files/laravel.svg" },
     "proto": { "iconPath": "./icons/files/proto.svg" },
     "zig": { "iconPath": "./icons/files/zig.svg" },
-    "exe": { "iconPath": "./icons/files/exe.svg" }
+    "exe": { "iconPath": "./icons/files/exe.svg" },
+    "php": { "iconPath": "./icons/files/php.svg" }
   },
   "fileExtensions": {
     "cls": "code-blue",
@@ -900,7 +901,7 @@
     "bat": "shell",
     "awk": "shell",
     "shellscript": "shell",
-    "php": "brackets-purple",
+    "php": "php",
     "html": "brackets-orange",
     "json": "brackets-yellow",
     "pip-requirements": "python",
