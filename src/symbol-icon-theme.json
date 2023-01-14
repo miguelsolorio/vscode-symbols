@@ -142,6 +142,7 @@
     "exe": { "iconPath": "./icons/files/exe.svg" }
   },
   "fileExtensions": {
+    "cls": "code-blue",
     "exe": "exe",
     "msi": "exe",
     "zig": "zig",
