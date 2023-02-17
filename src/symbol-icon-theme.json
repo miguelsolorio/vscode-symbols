@@ -149,7 +149,9 @@
     "video": { "iconPath": "./icons/files/video.svg" },
     "patch": { "iconPath": "./icons/files/patch.svg" },
     "drawio": { "iconPath": "./icons/files/drawio.svg" },
-    "tex": { "iconPath": "./icons/files/tex.svg" }
+    "tex": { "iconPath": "./icons/files/tex.svg" },
+    "rescript": { "iconPath": "./icons/files/rescript.svg" },
+    "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" }
   },
   "fileExtensions": {
     "tex": "tex",
@@ -372,6 +374,8 @@
     "mjs": "js",
     "cjs": "js",
     "ts": "ts",
+    "res": "rescript",
+    "resi": "rescript-interface",
     "json": "brackets-yellow",
     "html": "code-orange",
     "md": "markdown",
@@ -956,6 +960,8 @@
     "python": "python",
     "typescript": "ts",
     "javascript": "js",
+    "rescript": "rescript",
+    "rescript-interface": "rescript-interface",
     "go": "go",
     "c": "c",
     "objective-c": "c",
