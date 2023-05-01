@@ -153,7 +153,9 @@
     "editorconfig": { "iconPath": "./icons/files/editorconfig.svg" },
     "vercel": { "iconPath": "./icons/files/vercel.svg" },
     "netlify": { "iconPath": "./icons/files/netlify.svg" },
-    "deno": { "iconPath": "./icons/files/deno.svg" }
+    "deno": { "iconPath": "./icons/files/deno.svg" },
+    "rescript": { "iconPath": "./icons/files/rescript.svg" },
+    "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" }
   },
   "fileExtensions": {
     "deno": "deno",
@@ -380,6 +382,8 @@
     "mjs": "js",
     "cjs": "js",
     "ts": "ts",
+    "res": "rescript",
+    "resi": "rescript-interface",
     "json": "brackets-yellow",
     "html": "code-orange",
     "md": "markdown",
@@ -975,6 +979,8 @@
     "python": "python",
     "typescript": "ts",
     "javascript": "js",
+    "rescript": "rescript",
+    "rescript-interface": "rescript-interface",
     "go": "go",
     "c": "c",
     "objective-c": "c",
