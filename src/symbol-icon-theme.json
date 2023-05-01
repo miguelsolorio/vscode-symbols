@@ -150,10 +150,18 @@
     "patch": { "iconPath": "./icons/files/patch.svg" },
     "drawio": { "iconPath": "./icons/files/drawio.svg" },
     "tex": { "iconPath": "./icons/files/tex.svg" },
+    "editorconfig": { "iconPath": "./icons/files/editorconfig.svg" },
+    "vercel": { "iconPath": "./icons/files/vercel.svg" },
+    "netlify": { "iconPath": "./icons/files/netlify.svg" },
+    "deno": { "iconPath": "./icons/files/deno.svg" },
     "rescript": { "iconPath": "./icons/files/rescript.svg" },
     "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" }
   },
   "fileExtensions": {
+    "deno": "deno",
+    "netlify": "netlify",
+    "vercel": "vercel",
+    "editorconfig": "editorconfig",
     "tex": "tex",
     "sty": "tex",
     "dtx": "tex",
@@ -449,6 +457,17 @@
     "v": "v"
   },
   "fileNames": {
+    "deno.json": "deno",
+    "netlify.json": "netlify",
+    "netlify.yml": "netlify",
+    "netlify.yaml": "netlify",
+    "netlify.toml": "netlify",
+    ".vercel": "vercel",
+    "vercel.json": "vercel",
+    ".vercelignore": "vercel",
+    "now.json": "vercel",
+    ".nowignore": "vercel",
+    ".editorconfig": "editorconfig",
     "test.js": "js-test",
     "test.ts": "ts-test",
     "gulpfile.js": "gulp",
@@ -666,7 +685,6 @@
     ".env.production": "gear",
     ".env.prod": "gear",
     ".env.test": "gear",
-    ".editorconfig": "gear",
     ".eslintrc.js": "eslint",
     ".eslintrc.cjs": "eslint",
     ".eslintrc.yaml": "eslint",
@@ -905,6 +923,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "editorconfig": "editorconfig",
     "tex": "tex",
     "doctex": "tex",
     "latex": "tex",
@@ -987,8 +1006,7 @@
     "vue": "vue",
     "vue-postcss": "vue",
     "vue-html": "vue",
-    "ng-template": "angular",
-    "editorconfig": "gear"
+    "ng-template": "angular"
   },
   "folderNames": {
     ".git": "folder-red",
@@ -996,7 +1014,12 @@
     "config": "folder-config",
     "env": "folder-green",
     "server": "folder-orange",
-    "styles": "folder-orange-code",
+    "client": "folder-blue",
+    "sass": "folder-purple-code",
+    "css": "folder-sky-code",
+    "styles": "folder-sky-code",
+    "scripts": "folder-red-code",
+    "js": "folder-red-code",
     "types": "folder-blue-code",
     "utils": "folder-green-code",
     "api": "folder-red",
