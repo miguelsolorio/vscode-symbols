@@ -1013,6 +1013,8 @@
     "ng-template": "angular"
   },
   "folderNames": {
+    "docker": "folder-blue",
+    ".docker": "folder-blue",
     ".git": "folder-red",
     "app": "folder-app",
     "config": "folder-config",
