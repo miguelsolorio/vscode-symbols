@@ -158,9 +158,11 @@
     "rescript": { "iconPath": "./icons/files/rescript.svg" },
     "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" },
     "coldfusion": { "iconPath": "./icons/files/coldfusion.svg" },
-    "mdx": { "iconPath": "./icons/files/mdx.svg" }
+    "mdx": { "iconPath": "./icons/files/mdx.svg" },
+    "liquid": { "iconPath": "./icons/files/liquid.svg" }
   },
   "fileExtensions": {
+    "liquid": "liquid",
     "mdx": "mdx",
     "cfml": "coldfusion",
     "cfc": "coldfusion",
