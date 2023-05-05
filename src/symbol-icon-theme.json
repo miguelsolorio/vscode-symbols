@@ -157,9 +157,11 @@
     "erlang": { "iconPath": "./icons/files/erlang.svg" },
     "rescript": { "iconPath": "./icons/files/rescript.svg" },
     "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" },
-    "coldfusion": { "iconPath": "./icons/files/coldfusion.svg" }
+    "coldfusion": { "iconPath": "./icons/files/coldfusion.svg" },
+    "mdx": { "iconPath": "./icons/files/mdx.svg" }
   },
   "fileExtensions": {
+    "mdx": "mdx",
     "cfml": "coldfusion",
     "cfc": "coldfusion",
     "lucee": "coldfusion",
@@ -931,6 +933,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "mdx": "mdx",
     "lang-cfml": "coldfusion",
     "editorconfig": "editorconfig",
     "tex": "tex",
