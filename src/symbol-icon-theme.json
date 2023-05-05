@@ -160,9 +160,20 @@
     "coldfusion": { "iconPath": "./icons/files/coldfusion.svg" },
     "mdx": { "iconPath": "./icons/files/mdx.svg" },
     "liquid": { "iconPath": "./icons/files/liquid.svg" },
-    "h": { "iconPath": "./icons/files/h.svg" }
+    "h": { "iconPath": "./icons/files/h.svg" },
+    "visual-studio": { "iconPath": "./icons/files/visual-studio.svg" }
   },
   "fileExtensions": {
+    "csproj": "visual-studio",
+    "ruleset": "visual-studio",
+    "sln": "visual-studio",
+    "suo": "visual-studio",
+    "vb": "visual-studio",
+    "vbs": "visual-studio",
+    "vcxitems": "visual-studio",
+    "vcxitems.filters": "visual-studio",
+    "vcxproj": "visual-studio",
+    "vcxproj.filters": "visual-studio",
     "h": "h",
     "liquid": "liquid",
     "mdx": "mdx",
@@ -938,6 +949,8 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "testOutput": "visual-studio",
+    "vb": "visual-studio",
     "mdx": "mdx",
     "lang-cfml": "coldfusion",
     "editorconfig": "editorconfig",
