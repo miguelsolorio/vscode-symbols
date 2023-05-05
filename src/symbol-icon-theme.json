@@ -156,9 +156,14 @@
     "deno": { "iconPath": "./icons/files/deno.svg" },
     "erlang": { "iconPath": "./icons/files/erlang.svg" },
     "rescript": { "iconPath": "./icons/files/rescript.svg" },
-    "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" }
+    "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" },
+    "coldfusion": { "iconPath": "./icons/files/coldfusion.svg" }
   },
   "fileExtensions": {
+    "cfml": "coldfusion",
+    "cfc": "coldfusion",
+    "lucee": "coldfusion",
+    "cfm": "coldfusion",
     "erl": "erlang",
     "hrl": "erlang",
     "deno": "deno",
@@ -926,6 +931,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "lang-cfml": "coldfusion",
     "editorconfig": "editorconfig",
     "tex": "tex",
     "doctex": "tex",
