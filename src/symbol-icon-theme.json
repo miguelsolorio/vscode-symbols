@@ -26,7 +26,7 @@
     "folder-orange-code": { "iconPath": "./icons/folders/folder-orange-code.svg" },
     "folder-sky-code": { "iconPath": "./icons/folders/folder-sky-code.svg" },
     "folder-gray-code": { "iconPath": "./icons/folders/folder-gray-code.svg" },
-    "folder-yellow-code": { "iconPath": "./icons/folders/folder-yellow-code.svg" },
+    "folder-yellow-code": {"iconPath": "./icons/folders/folder-yellow-code.svg"},
     "folder-red-code": { "iconPath": "./icons/folders/folder-red-code.svg" },
 
     "folder-config": { "iconPath": "./icons/folders/folder-config.svg" },
@@ -154,10 +154,13 @@
     "vercel": { "iconPath": "./icons/files/vercel.svg" },
     "netlify": { "iconPath": "./icons/files/netlify.svg" },
     "deno": { "iconPath": "./icons/files/deno.svg" },
+    "erlang": { "iconPath": "./icons/files/erlang.svg" },
     "rescript": { "iconPath": "./icons/files/rescript.svg" },
     "rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" }
   },
   "fileExtensions": {
+    "erl": "erlang",
+    "hrl": "erlang",
     "deno": "deno",
     "netlify": "netlify",
     "vercel": "vercel",
@@ -930,6 +933,7 @@
     "latex-expl3": "tex",
     "terraform": "terraform",
     "elixir": "elixir",
+    "erlang": "erlang",
     "yml": "yml",
     "yaml": "yaml",
     "postcss": "postcss",
