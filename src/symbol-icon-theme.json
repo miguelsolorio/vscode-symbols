@@ -327,9 +327,6 @@
     "python": "python",
     "go": "go",
     "go.mod": "go-mod",
-    "go.sum": "go-mod",
-    "go.work": "go-mod",
-    "go.work.sum": "go-mod",
     "c": "c",
     "i": "c",
     "mi": "c",
@@ -469,6 +466,10 @@
     "v": "v"
   },
   "fileNames": {
+    "go.mod": "go-mod",
+    "go.sum": "go-mod",
+    "go.work": "go-mod",
+    "go.work.sum": "go-mod",
     "deno.json": "deno",
     "netlify.json": "netlify",
     "netlify.yml": "netlify",
