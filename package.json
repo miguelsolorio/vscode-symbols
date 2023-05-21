@@ -60,6 +60,11 @@
           "type": "object",
           "default": {},
           "description": "With this configuration can customize the folder icons."
+        },
+        "symbols.files.associations": {
+          "type": "object",
+          "default": {},
+          "description": "With this configuration can customize the files icons."
         }
       }
     }
