@@ -87,22 +87,7 @@ async function syncOriginal() {
 
   // shallow check
   for (const key in originalJSON) {
-    if (configurableKeys.indexOf(key) > -1) {
-      continue;
-    }
-
-    const stringifiedSource = JSON.stringify(originalJSON[key]);
-    if (!themeJSON[key]) {
-      needsSync = true;
-      break;
-    }
-
-    const stringifiedTheme = JSON.stringify(themeJSON[key]);
-    if (stringifiedSource != stringifiedTheme) {
-      console.log({
-        stringifiedSource,
-        stringifiedTheme,
-      });
+    if (configurableKeys.indexOf(key) > -1 && themeJSON[key] !== originalJSON[key]) {
       needsSync = true;
       break;
     }

@@ -3,8 +3,8 @@ const vscode = require("vscode");
 const defaultConfig = require("../symbol-icon-theme.json");
 const pkgConfig = require("../../package.json");
 const { getThemeFile, writeThemeFile } = require("./theme");
-const {PKG_PROP_MAP} = require("./constants")
-
+const { PKG_PROP_MAP } = require("./constants")
+const { updateThemeJSONHandlers } = require("./theme-json-handlers")
 
 
 // get the configuration definition from the package.json
@@ -63,8 +63,11 @@ function updateConfig(config) {
 
   for (let key in config) {
     console.log(`symbols.${key} changed, updating to ${config[key]}`);
-    vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
-    themeJSON.hidesExplorerArrows = config[key];
+    const updateHandler = updateThemeJSONHandlers[key];
+    if (updateHandler) {
+      vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
+      updateHandler(themeJSON, config[key]);
+    }
   }
 
   writeThemeFile(themeJSON);
