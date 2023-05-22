@@ -87,16 +87,31 @@ async function syncOriginal() {
 
   // shallow check
   for (const key in originalJSON) {
-    if (configurableKeys.indexOf(key) > -1 && themeJSON[key] !== originalJSON[key]) {
+    if (configurableKeys.indexOf(key) > -1) {
+      continue;
+    }
+
+    const stringifiedSource = JSON.stringify(originalJSON[key]);
+    if (!themeJSON[key]) {
       needsSync = true;
       break;
     }
-  }
 
-  if (needsSync) {
-    await confirmReload();
-    fs.unlinkSync(themePath);
-    fs.copyFileSync(getDefaultFilePath(), themePath);
+    const stringifiedTheme = JSON.stringify(themeJSON[key]);
+    if (stringifiedSource != stringifiedTheme) {
+      console.log({
+        stringifiedSource,
+        stringifiedTheme,
+      });
+      needsSync = true;
+      break;
+    }
+
+    if (needsSync) {
+      await confirmReload();
+      fs.unlinkSync(themePath);
+      fs.copyFileSync(getDefaultFilePath(), themePath);
+    }
   }
 }
 
