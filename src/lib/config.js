@@ -2,7 +2,7 @@ const vscode = require("vscode");
 
 const defaultConfig = require("../symbol-icon-theme.json");
 const pkgConfig = require("../../package.json");
-const { getThemeFile, writeThemeFile } = require("./theme");
+const { getSoureFile, writeThemeFile } = require("./theme");
 const { PKG_PROP_MAP } = require("./constants")
 const { updateThemeJSONHandlers } = require("./theme-json-handlers")
 
@@ -59,7 +59,7 @@ function themeJSONToConfig(themeDef) {
  * in the theme definition file
  */
 function updateConfig(config) {
-  const themeJSON = getThemeFile();
+  const themeJSON = getSoureFile();
 
   for (let key in config) {
     console.log(`symbols.${key} changed, updating to ${config[key]}`);

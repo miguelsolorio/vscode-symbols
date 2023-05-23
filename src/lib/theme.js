@@ -117,6 +117,7 @@ async function syncOriginal() {
 
 module.exports = {
   getThemeFile,
+  getSoureFile,
   writeThemeFile,
   syncOriginal,
 };
