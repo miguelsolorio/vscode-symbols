@@ -106,12 +106,12 @@ async function syncOriginal() {
       needsSync = true;
       break;
     }
+  }
 
-    if (needsSync) {
-      await confirmReload();
-      fs.unlinkSync(themePath);
-      fs.copyFileSync(getDefaultFilePath(), themePath);
-    }
+  if (needsSync) {
+    await confirmReload();
+    fs.unlinkSync(themePath);
+    fs.copyFileSync(getDefaultFilePath(), themePath);
   }
 }
 
