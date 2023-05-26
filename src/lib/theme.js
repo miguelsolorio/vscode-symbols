@@ -4,6 +4,7 @@ const { PKG_PROP_MAP } = require("./constants");
 const { confirmReload } = require("./window");
 
 const THEME_FILE = "symbol-icon-theme.modified.json";
+const BACKUP_THEME_FILE = "symbol-icon-theme.bkp.json";
 const DEFAULT_THEME_FILE = "symbol-icon-theme.json";
 
 // getPath and getDefaultPath are seperated in
@@ -36,6 +37,18 @@ function getDefaultFilePath() {
 }
 
 /**
+ * @description get the path for the backup theme file (or the source code theme)
+ */
+function getBackupFilePath() {
+  if (__dirname === "src") {
+    return path.join(__dirname, BACKUP_THEME_FILE);
+  } else {
+    // relative to the current file aka theme.js
+    return path.join(__dirname, "..", BACKUP_THEME_FILE);
+  }
+}
+
+/**
  * @description check if the theme source exists,
  * if not, create one and then send the path
  */
@@ -45,6 +58,18 @@ function resolveOrCreateTheme() {
     fs.copyFileSync(getDefaultFilePath(), themeFile);
   }
   return themeFile;
+}
+
+/**
+ * @description check if the backup theme exists,
+ * if not, create one and then send the path
+ */
+function resolveOrCreateBackupTheme() {
+  const backupFile = getBackupFilePath();
+  if (!fs.existsSync(backupFile)) {
+    fs.copyFileSync(getDefaultFilePath(), backupFile);
+  }
+  return backupFile;
 }
 
 /**
@@ -60,6 +85,13 @@ function getThemeFile() {
  */
 function getSoureFile() {
   return JSON.parse(fs.readFileSync(getDefaultFilePath(), "utf-8"));
+}
+
+/**
+ * @description get the backup theme json
+ */
+function getBackupFile() {
+  return JSON.parse(fs.readFileSync(resolveOrCreateBackupTheme(), "utf-8"));
 }
 
 // write the theme data file to the **modified** theme
@@ -78,7 +110,7 @@ function writeThemeFile(data) {
  */
 async function syncOriginal() {
   let themePath = getPath();
-  let themeJSON = getThemeFile();
+  let backupJSON = getBackupFile();
   let originalJSON = getSoureFile();
 
   let needsSync = false;
@@ -92,16 +124,16 @@ async function syncOriginal() {
     }
 
     const stringifiedSource = JSON.stringify(originalJSON[key]);
-    if (!themeJSON[key]) {
+    if (!backupJSON[key]) {
       needsSync = true;
       break;
     }
 
-    const stringifiedTheme = JSON.stringify(themeJSON[key]);
-    if (stringifiedSource != stringifiedTheme) {
+    const stringifiedBackup = JSON.stringify(backupJSON[key]);
+    if (stringifiedSource != stringifiedBackup) {
       console.log({
         stringifiedSource,
-        stringifiedTheme,
+        stringifiedBackup,
       });
       needsSync = true;
       break;
@@ -112,6 +144,7 @@ async function syncOriginal() {
     await confirmReload();
     fs.unlinkSync(themePath);
     fs.copyFileSync(getDefaultFilePath(), themePath);
+    fs.copyFileSync(getDefaultFilePath(), getBackupFilePath());
   }
 }
 
