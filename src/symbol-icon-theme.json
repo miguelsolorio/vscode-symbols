@@ -162,9 +162,12 @@
     "mdx": { "iconPath": "./icons/files/mdx.svg" },
     "liquid": { "iconPath": "./icons/files/liquid.svg" },
     "h": { "iconPath": "./icons/files/h.svg" },
-    "visual-studio": { "iconPath": "./icons/files/visual-studio.svg" }
+    "visual-studio": { "iconPath": "./icons/files/visual-studio.svg" },
+    "nunjucks": { "iconPath": "./icons/files/nunjucks.svg" }
   },
   "fileExtensions": {
+    "njk": "nunjucks",
+    "nunjucks": "nunjucks",
     "csproj": "visual-studio",
     "ruleset": "visual-studio",
     "sln": "visual-studio",
@@ -951,6 +954,7 @@
     "webpackfile.mts": "webpack"
   },
   "languageIds": {
+    "nunjucks": "nunjucks",
     "testOutput": "visual-studio",
     "vb": "visual-studio",
     "mdx": "mdx",
