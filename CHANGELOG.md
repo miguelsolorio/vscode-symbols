@@ -1,5 +1,37 @@
 # Change Log
 
+## 0.0.11
+
+### ✨ Features
+
+- Set folder and file associations [#73](https://github.com/miguelsolorio/vscode-symbols/issues/73) [#92](https://github.com/miguelsolorio/vscode-symbols/pull/92) via [@wladimirgrf](https://github.com/wladimirgrf)
+
+### 🚀 New Icons
+
+- `njk` support [#89](https://github.com/miguelsolorio/vscode-symbols/issues/89)
+
+## 0.0.10
+
+### 🚀 New Icons
+
+- `haml` support [#86](https://github.com/miguelsolorio/vscode-symbols/pull/86) via [@OsvaldoMDLM](https://github.com/OsvaldoMDLM)
+- `csproj` and `sln` support [#85](https://github.com/miguelsolorio/vscode-symbols/issues/85)
+- `h` support [#80](https://github.com/miguelsolorio/vscode-symbols/issues/80)
+- `liquid` support [#78](https://github.com/miguelsolorio/vscode-symbols/issues/78)
+- `mdx` support [#77](https://github.com/miguelsolorio/vscode-symbols/issues/77)
+- `cfc` support [#74](https://github.com/miguelsolorio/vscode-symbols/issues/74)
+- `docker` folder support [#72](https://github.com/miguelsolorio/vscode-symbols/issues/72)
+- `erlang` support [#84](https://github.com/miguelsolorio/vscode-symbols/pull/84) via [@meppu](https://github.com/meppu)
+- `res` and `resi` support [#81](https://github.com/miguelsolorio/vscode-symbols/pull/81) via [@meluiz](https://github.com/meluiz)
+- `client` `folder` support [#71](https://github.com/miguelsolorio/vscode-symbols/issues/71)
+- `firebase`, `deno`, `netlify`, and `vercel` support and [#70](https://github.com/miguelsolorio/vscode-symbols/issues/70)
+
+### 🧹 Cleanup
+
+- Add linguist override [#87](https://github.com/miguelsolorio/vscode-symbols/pull/87) via @meppu
+- Fix go.mod [#79](https://github.com/miguelsolorio/vscode-symbols/issues/79)
+- Fix swift icon size [#76](https://github.com/miguelsolorio/vscode-symbols/issues/76)
+
 ## 0.0.9
 
 ### 🚀 New Icons
