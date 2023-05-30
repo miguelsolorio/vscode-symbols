@@ -1,6 +1,8 @@
 // mapped properties for keys in package.json vs keys in vscode
 const PKG_PROP_MAP = {
   "symbols.hidesExplorerArrows": "hidesExplorerArrows",
+  "symbols.folders.associations": "folders.associations",
+  "symbols.files.associations": "files.associations"
 };
 
 const MESSAGES = {

@@ -55,6 +55,16 @@
           "type": "boolean",
           "default": false,
           "description": "Hide arrow icons in the explorer section."
+        },
+        "symbols.folders.associations": {
+          "type": "object",
+          "default": {},
+          "description": "With this configuration can customize the folder icons."
+        },
+        "symbols.files.associations": {
+          "type": "object",
+          "default": {},
+          "description": "With this configuration can customize the files icons."
         }
       }
     }
