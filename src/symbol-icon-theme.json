@@ -164,7 +164,8 @@
     "liquid": { "iconPath": "./icons/files/liquid.svg" },
     "h": { "iconPath": "./icons/files/h.svg" },
     "visual-studio": { "iconPath": "./icons/files/visual-studio.svg" },
-    "nunjucks": { "iconPath": "./icons/files/nunjucks.svg" }
+    "nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
+    "nest": { "iconPath": "./icons/files/nest.svg" }
   },
   "fileExtensions": {
     "njk": "nunjucks",
@@ -485,6 +486,10 @@
     "v": "v"
   },
   "fileNames": {
+    "nest-cli.json": "nest",
+    ".nest-cli.json": "nest",
+    "nestconfig.json": "nest",
+    ".nestconfig.json": "nest",
     "go.mod": "go-mod",
     "go.sum": "go-mod",
     "go.work": "go-mod",
