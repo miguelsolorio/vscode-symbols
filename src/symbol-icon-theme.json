@@ -165,7 +165,8 @@
     "h": { "iconPath": "./icons/files/h.svg" },
     "visual-studio": { "iconPath": "./icons/files/visual-studio.svg" },
     "nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
-    "nest": { "iconPath": "./icons/files/nest.svg" }
+    "nest": { "iconPath": "./icons/files/nest.svg" },
+    "nix": { "iconPath": "./icons/files/nix.svg" }
   },
   "fileExtensions": {
     "njk": "nunjucks",
@@ -483,7 +484,8 @@
     "resolver.ts": "angular",
     "resolver.js": "angular",
     "toml": "gear",
-    "v": "v"
+    "v": "v",
+    "nix": "nix"
   },
   "fileNames": {
     "nest-cli.json": "nest",
@@ -1050,7 +1052,8 @@
     "vue": "vue",
     "vue-postcss": "vue",
     "vue-html": "vue",
-    "ng-template": "angular"
+    "ng-template": "angular",
+    "nix": "nix"
   },
   "folderNames": {
     "docker": "folder-blue",
