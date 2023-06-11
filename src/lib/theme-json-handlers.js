@@ -9,7 +9,12 @@ const updateThemeJSONHandlers = {
   },
   "files.associations": (themeJSON, files) => {
     for (const file in files) {
-      themeJSON.fileNames[file] = files[file];
+      if(file.startsWith('*.')){
+        const newExtension = file.replace('*.','');
+        themeJSON.fileExtensions[newExtension] = files[file];
+      } else {
+        themeJSON.fileNames[file] = files[file];
+      }
     }
   },
 };
