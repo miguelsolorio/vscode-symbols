@@ -43,7 +43,7 @@ You can use `*` to match all files with a specific file extension:
 
 ### Icon Previews
 
-You can choose which icons to use from our Library:
+You can choose which icons to use from the [Library](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd9pSN/Symbols---File-Icons?node-id=20521%3A84115&t=PyBzZOlVG5TXyEdx-1):
 
 |Name|Preview|
 |--|--|
