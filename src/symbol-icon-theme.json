@@ -166,9 +166,11 @@
     "visual-studio": { "iconPath": "./icons/files/visual-studio.svg" },
     "nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
     "nest": { "iconPath": "./icons/files/nest.svg" },
-    "nix": { "iconPath": "./icons/files/nix.svg" }
+    "nix": { "iconPath": "./icons/files/nix.svg" },
+    "vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" }
   },
   "fileExtensions": {
+    "css.ts": "vanilla-extract",
     "njk": "nunjucks",
     "nunjucks": "nunjucks",
     "csproj": "visual-studio",
