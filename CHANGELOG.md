@@ -1,5 +1,23 @@
 # Change Log
 
+## 0.0.12
+
+### ✨ Features
+
+- Allow `*` wildcards for files association [#101](https://github.com/miguelsolorio/vscode-symbols/pull/101) via [@wladimirgrf](https://github.com/wladimirgrf)
+
+### 🚀 New Icons
+
+- `nest` support [#95](https://github.com/miguelsolorio/vscode-symbols/issues/95)
+- `nix` support [#98](https://github.com/miguelsolorio/vscode-symbols/pull/98) via [meppu](https://github.com/meppu)
+- `vanilla extract` support [#100](https://github.com/miguelsolorio/vscode-symbols/issues/100)
+
+### 🧹 Cleanup
+
+- Update folder and file association settings ([#73](https://github.com/miguelsolorio/vscode-symbols/issues/73)) without reload [#99](https://github.com/miguelsolorio/vscode-symbols/pull/99) via [@wladimirgrf](https://github.com/wladimirgrf)
+- Yellow folder not working when custom theme [#94](https://github.com/miguelsolorio/vscode-symbols/issues/94)
+- README typos [#97](https://github.com/miguelsolorio/vscode-symbols/pull/97) via [@radovanovic-stevan](https://github.com/radovanovic-stevan)
+
 ## 0.0.11
 
 ### ✨ Features
