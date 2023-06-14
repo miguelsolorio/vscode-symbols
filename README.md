@@ -24,22 +24,38 @@ You can configure which folders and files icons are displayed by using the follo
 
 ```json
 "symbols.folders.associations": {
+    "{folder name}": "{icon name}"
+}
+```
+
+And here is an example using this setting:
+
+```json
+"symbols.folders.associations": {
     "entities": "folder-assets",
     "infra": "folder-app",
-    "schemas": "folder-purple",
+    "schemas": "folder-purple"
 }
 ```
 
 ### Files
 
-You can use `*` to match all files with a specific file extension:
+```json
+"symbols.files.associations": {
+    "{file name}": "{icon name}"
+}
+```
+
+And here is an example:
 
 ```json
 "symbols.files.associations": {
-    "app.module.ts": "ts",
+    "app.module.ts": "nest",
     "*.service.ts": "nest"
-},
+}
 ```
+
+_Note: For file names, you can use `*` to match all files with a specific file extension._
 
 ### Icon Previews
 
