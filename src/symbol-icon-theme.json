@@ -32,6 +32,7 @@
 
     "folder-config": { "iconPath": "./icons/folders/folder-config.svg" },
     "folder-app": { "iconPath": "./icons/folders/folder-app.svg" },
+    "folder-prisma": { "iconPath": "./icons/folders/folder-prisma.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1087,7 +1088,8 @@
     "assets": "folder-assets",
     "resources": "folder-assets",
     "static": "folder-assets",
-    "components": "folder-green-code"
+    "components": "folder-green-code",
+    "prisma": "folder-prisma"
   },
   "hidesExplorerArrows": false,
   "file": "document",
