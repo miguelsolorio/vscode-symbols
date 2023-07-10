@@ -168,7 +168,8 @@
     "nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
     "nest": { "iconPath": "./icons/files/nest.svg" },
     "nix": { "iconPath": "./icons/files/nix.svg" },
-    "vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" }
+    "vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
+    "turborepo": { "iconPath": "./icons/files/turborepo.svg" }
   },
   "fileExtensions": {
     "css.ts": "vanilla-extract",
@@ -764,6 +765,7 @@
     "angular-cli.json": "angular",
     ".angular-cli.json": "angular",
     "angular.json": "angular",
+    "turbo.json": "turborepo",
     "tailwind.js": "tailwind",
     "tailwind.ts": "tailwind",
     "tailwind.config.js": "tailwind",
