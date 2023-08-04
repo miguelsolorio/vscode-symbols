@@ -1,5 +1,7 @@
 const vscode = require("vscode");
-
+const {
+  log
+} = require("./log")
 const defaultConfig = require("../symbol-icon-theme.json");
 const pkgConfig = require("../../package.json");
 const { getSoureFile, writeThemeFile } = require("./theme");
@@ -62,7 +64,7 @@ function updateConfig(config) {
   const themeJSON = getSoureFile();
 
   for (let key in config) {
-    console.log(`symbols.${key} changed, updating to ${config[key]}`);
+    log.info(`symbols.${key} changed, updating to ${config[key]}`);
     const updateHandler = updateThemeJSONHandlers[key];
     if (updateHandler) {
       vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
