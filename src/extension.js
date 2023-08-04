@@ -1,13 +1,14 @@
 const vscode = require("vscode");
 const { monitorConfigChanges } = require("./lib/change-listener");
 const { syncOriginal } = require("./lib/theme");
-
+const {
+  log
+} = require("./lib/log")
 /**
  * @param {vscode.ExtensionContext} context
  */
 async function activate(context) {
-  console.log("miguelsolorio.symbols activated");
-
+  log.info("miguelsolorio.symbols activated")
   await syncOriginal();
   monitorConfigChanges();
 

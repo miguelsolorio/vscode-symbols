@@ -13,6 +13,10 @@
   "categories": [
     "Themes"
   ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
   "keywords": [
     "icons",
     "theme",

@@ -79,6 +79,7 @@
     "font": { "iconPath": "./icons/files/font.svg" },
 
     "eslint": { "iconPath": "./icons/files/eslint.svg" },
+    "rome": { "iconPath": "./icons/files/rome.svg" },
     "angular": { "iconPath": "./icons/files/angular.svg" },
     "tailwind": { "iconPath": "./icons/files/tailwind.svg" },
     "hugo": { "iconPath": "./icons/files/hugo.svg" },
@@ -501,6 +502,7 @@
     "go.work": "go-mod",
     "go.work.sum": "go-mod",
     "deno.json": "deno",
+    "deno.jsonc": "deno",
     "netlify.json": "netlify",
     "netlify.yml": "netlify",
     "netlify.yaml": "netlify",
@@ -728,6 +730,7 @@
     ".env.production": "gear",
     ".env.prod": "gear",
     ".env.test": "gear",
+    "rome.json": "rome",
     ".eslintrc.js": "eslint",
     ".eslintrc.cjs": "eslint",
     ".eslintrc.yaml": "eslint",

@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { PKG_PROP_MAP } = require("./constants");
 const { confirmReload } = require("./window");
+const { log } = require("./log");
 
 const THEME_FILE = "symbol-icon-theme.modified.json";
 const BACKUP_THEME_FILE = "symbol-icon-theme.bkp.json";
@@ -131,7 +132,7 @@ async function syncOriginal() {
 
     const stringifiedBackup = JSON.stringify(backupJSON[key]);
     if (stringifiedSource != stringifiedBackup) {
-      console.log({
+      log.info({
         stringifiedSource,
         stringifiedBackup,
       });
