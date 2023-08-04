@@ -65,6 +65,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |--|--|
 |folder|![img](preview/folders/folder.png)|
 |folder-app|![img](preview/folders/folder-app.png)|
+|folder-prisma|![img](preview/folders/folder-prisma.png)|
 |folder-assets|![img](preview/folders/folder-assets.png)|
 |folder-blue|![img](preview/folders/folder-blue.png)|
 |folder-blue-code|![img](preview/folders/folder-blue-code.png)|
@@ -214,6 +215,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |ts-test|![img](preview/files/ts-test.png)|
 |ts|![img](preview/files/ts.png)|
 |tsconfig|![img](preview/files/tsconfig.png)|
+|turborepo|![img](preview/files/turborepo.png)|
 |v|![img](preview/files/v.png)|
 |vanilla-extract|![img](preview/files/vanilla-extract.png)|
 |vercel|![img](preview/files/vercel.png)|
