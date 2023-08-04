@@ -170,9 +170,11 @@
     "nest": { "iconPath": "./icons/files/nest.svg" },
     "nix": { "iconPath": "./icons/files/nix.svg" },
     "vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
-    "turborepo": { "iconPath": "./icons/files/turborepo.svg" }
+    "turborepo": { "iconPath": "./icons/files/turborepo.svg" },
+    "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" }
   },
   "fileExtensions": {
+    "dev.vars": "cloudflare-workers",
     "css.ts": "vanilla-extract",
     "njk": "nunjucks",
     "nunjucks": "nunjucks",
