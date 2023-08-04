@@ -177,7 +177,8 @@
     "nix": { "iconPath": "./icons/files/nix.svg" },
     "vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
     "turborepo": { "iconPath": "./icons/files/turborepo.svg" },
-    "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" }
+    "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" },
+    "gif": { "iconPath": "./icons/files/gif.svg" }
   },
   "fileExtensions": {
     "dev.vars": "cloudflare-workers",
@@ -215,6 +216,7 @@
     "drawio": "drawio",
     "dio": "drawio",
     "patch": "patch",
+    "gif": "gif",
     "webm": "video",
     "mkv": "video",
     "flv": "video",
@@ -433,7 +435,6 @@
     "png": "image",
     "jpeg": "image",
     "jpg": "image",
-    "gif": "image",
     "ico": "image",
     "tif": "image",
     "tiff": "image",
