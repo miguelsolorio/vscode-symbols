@@ -499,6 +499,7 @@
     "go.work": "go-mod",
     "go.work.sum": "go-mod",
     "deno.json": "deno",
+    "deno.jsonc": "deno",
     "netlify.json": "netlify",
     "netlify.yml": "netlify",
     "netlify.yaml": "netlify",
