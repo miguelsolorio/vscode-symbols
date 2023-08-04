@@ -65,8 +65,9 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |--|--|
 |folder|![img](preview/folders/folder.png)|
 |folder-app|![img](preview/folders/folder-app.png)|
-|folder-prisma|![img](preview/folders/folder-prisma.png)|
+|folder-android|![img](preview/folders/folder-android.png)|
 |folder-assets|![img](preview/folders/folder-assets.png)|
+|folder-prisma|![img](preview/folders/folder-prisma.png)|
 |folder-blue|![img](preview/folders/folder-blue.png)|
 |folder-blue-code|![img](preview/folders/folder-blue-code.png)|
 |folder-blue-outline|![img](preview/folders/folder-blue-outline.png)|
