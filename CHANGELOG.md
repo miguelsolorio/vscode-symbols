@@ -1,5 +1,25 @@
 # Change Log
 
+## 0.0.13
+
+### ✨ Features
+
+- Enable global installation [#113](https://github.com/miguelsolorio/vscode-symbols/pull/113) via [@luisorbaiceta](https://github.com/luisorbaiceta)
+
+### 🚀 New Icons
+
+- `prisma` folder support [#106](https://github.com/miguelsolorio/vscode-symbols/pull/106) via [andrefelipeschulle](https://github.com/andrefelipeschulle)
+- `android` folder support [#114](https://github.com/miguelsolorio/vscode-symbols/pull/114) via [andrefelipeschulle](https://github.com/andrefelipeschulle)
+- `context`, `database`, `layout`, `middleware` folder support [#102](https://github.com/miguelsolorio/vscode-symbols/issues/102)
+- `deno.jsonc` support [#103](https://github.com/miguelsolorio/vscode-symbols/issues/103) via [anurag-roy](https://github.com/anurag-roy)
+- `turbo` support [#106](https://github.com/miguelsolorio/vscode-symbols/pull/106) via [andrefelipeschulle](https://github.com/andrefelipeschulle)
+- `rome` support [#111](https://github.com/miguelsolorio/vscode-symbols/pull/111) via [bjohansebas](https://github.com/bjohansebas)
+- `.dev.vars` support [#110](https://github.com/miguelsolorio/vscode-symbols/issues/110)
+
+### 🧹 Cleanup
+- Fix console spam [#108](https://github.com/miguelsolorio/vscode-symbols/pull/108) via [@luxass](https://github.com/luxass)
+- Updated `gif` icon [15b03fc](https://github.com/miguelsolorio/vscode-symbols/commit/15b03fca811988f004f3207c75a390445d610786)
+
 ## 0.0.12
 
 ### ✨ Features
