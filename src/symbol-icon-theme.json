@@ -39,6 +39,7 @@
     "folder-utils": { "iconPath": "./icons/folders/folder-utils.svg" },
     "folder-context": { "iconPath": "./icons/folders/folder-context.svg" },
     "folder-middleware": { "iconPath": "./icons/folders/folder-middleware.svg" },
+    "folder-ios": { "iconPath": "./icons/folders/folder-ios.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1088,6 +1089,7 @@
     "nix": "nix"
   },
   "folderNames": {
+    "ios": "folder-ios",
     "context": "folder-context",
     "contexts": "folder-context",
     "middleware": "folder-middleware",
