@@ -180,9 +180,11 @@
     "vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
     "turborepo": { "iconPath": "./icons/files/turborepo.svg" },
     "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" },
-    "gif": { "iconPath": "./icons/files/gif.svg" }
+    "gif": { "iconPath": "./icons/files/gif.svg" },
+    "cmake": { "iconPath": "./icons/files/cmake.svg" }
   },
   "fileExtensions": {
+    "cmake": "cmake",
     "dev.vars": "cloudflare-workers",
     "css.ts": "vanilla-extract",
     "njk": "nunjucks",
@@ -505,6 +507,8 @@
     "nix": "nix"
   },
   "fileNames": {
+    "cmakelists.txt": "cmake",
+    "cmakecache.txt": "cmake",
     "nest-cli.json": "nest",
     ".nest-cli.json": "nest",
     "nestconfig.json": "nest",
