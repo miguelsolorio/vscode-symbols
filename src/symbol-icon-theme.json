@@ -87,6 +87,7 @@
 
     "eslint": { "iconPath": "./icons/files/eslint.svg" },
     "rome": { "iconPath": "./icons/files/rome.svg" },
+    "biome": { "iconPath": "./icons/files/biome.svg" },
     "angular": { "iconPath": "./icons/files/angular.svg" },
     "tailwind": { "iconPath": "./icons/files/tailwind.svg" },
     "hugo": { "iconPath": "./icons/files/hugo.svg" },
@@ -182,7 +183,8 @@
     "turborepo": { "iconPath": "./icons/files/turborepo.svg" },
     "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" },
     "gif": { "iconPath": "./icons/files/gif.svg" },
-    "cmake": { "iconPath": "./icons/files/cmake.svg" }
+    "cmake": { "iconPath": "./icons/files/cmake.svg" },
+    "contentlayer": { "iconPath": "./icons/files/contentlayer.svg" }
   },
   "fileExtensions": {
     "cmake": "cmake",
@@ -514,6 +516,8 @@
     ".nest-cli.json": "nest",
     "nestconfig.json": "nest",
     ".nestconfig.json": "nest",
+    "contentlayer.config.ts": "contentlayer",
+    "contentlayer.config.js": "contentlayer",
     "go.mod": "go-mod",
     "go.sum": "go-mod",
     "go.work": "go-mod",
@@ -752,6 +756,7 @@
     ".env.prod": "gear",
     ".env.test": "gear",
     "rome.json": "rome",
+    "biome.json": "biome",
     ".eslintrc.js": "eslint",
     ".eslintrc.cjs": "eslint",
     ".eslintrc.yaml": "eslint",
