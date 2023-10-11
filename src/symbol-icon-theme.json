@@ -191,7 +191,8 @@
     "lock": { "iconPath": "./icons/files/lock.svg" },
     "stylelint": { "iconPath": "./icons/files/stylelint.svg" },
     "drizzle": { "iconPath": "./icons/files/drizzle.svg" },
-    "ocaml": { "iconPath": "./icons/files/ocaml.svg" }
+    "ocaml": { "iconPath": "./icons/files/ocaml.svg" },
+    "dune": { "iconPath": "./icons/files/dune.svg" }
   },
   "fileExtensions": {
     "ml": "ocaml",
@@ -523,6 +524,10 @@
     "nix": "nix"
   },
   "fileNames": {
+    "dune": "dune",
+    "dune-project": "dune",
+    "dune-workspace": "dune",
+    "dune-workspace.dev": "dune",
     "drizzle.config.ts": "drizzle",
     ".stylelintrc": "stylelint",
     "stylelint.config.js": "stylelint",
