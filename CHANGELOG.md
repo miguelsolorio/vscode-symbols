@@ -2,7 +2,7 @@
 
 ## 0.0.14
 
-## 🚀 New Icons
+### 🚀 New Icons
 
 - `eslint.config.*` support [#136](https://github.com/miguelsolorio/vscode-symbols/issues/136) via [@nicolasribeiroo](https://github.com/nicolasribeiroo)
 - `biome` and `contentlayer` support [#135](https://github.com/miguelsolorio/vscode-symbols/issues/135) via [@bjohansebas](https://github.com/bjohansebas)
