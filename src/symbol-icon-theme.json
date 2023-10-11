@@ -192,7 +192,8 @@
     "stylelint": { "iconPath": "./icons/files/stylelint.svg" },
     "drizzle": { "iconPath": "./icons/files/drizzle.svg" },
     "ocaml": { "iconPath": "./icons/files/ocaml.svg" },
-    "dune": { "iconPath": "./icons/files/dune.svg" }
+    "dune": { "iconPath": "./icons/files/dune.svg" },
+    "bun": { "iconPath": "./icons/files/bun.svg" }
   },
   "fileExtensions": {
     "ml": "ocaml",
@@ -524,6 +525,8 @@
     "nix": "nix"
   },
   "fileNames": {
+    "bun.lockb": "bun",
+    "bunfig.toml": "bun",
     "dune": "dune",
     "dune-project": "dune",
     "dune-workspace": "dune",
