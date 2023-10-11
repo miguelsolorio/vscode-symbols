@@ -42,6 +42,7 @@
     "folder-ios": { "iconPath": "./icons/folders/folder-ios.svg" },
     "folder-target": { "iconPath": "./icons/folders/folder-target.svg" },
     "folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
+    "folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1095,6 +1096,7 @@
     "nix": "nix"
   },
   "folderNames": {
+    "tina": "folder-tina",
     ".vercel": "folder-vercel",
     "vercel": "folder-vercel",
     "target": "folder-target",
