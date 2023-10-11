@@ -189,7 +189,7 @@
     "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" },
     "gif": { "iconPath": "./icons/files/gif.svg" },
     "cmake": { "iconPath": "./icons/files/cmake.svg" },
-    "contentlayer": { "iconPath": "./icons/files/contentlayer.svg" }
+    "contentlayer": { "iconPath": "./icons/files/contentlayer.svg" },
     "lock": { "iconPath": "./icons/files/lock.svg" },
     "stylelint": { "iconPath": "./icons/files/stylelint.svg" },
     "drizzle": { "iconPath": "./icons/files/drizzle.svg" },
