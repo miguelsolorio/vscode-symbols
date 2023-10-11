@@ -43,6 +43,7 @@
     "folder-target": { "iconPath": "./icons/folders/folder-target.svg" },
     "folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
     "folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
+    "folder-drizzle": { "iconPath": "./icons/folders/folder-drizzle.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -188,7 +189,8 @@
     "gif": { "iconPath": "./icons/files/gif.svg" },
     "cmake": { "iconPath": "./icons/files/cmake.svg" },
     "lock": { "iconPath": "./icons/files/lock.svg" },
-    "stylelint": { "iconPath": "./icons/files/stylelint.svg" }
+    "stylelint": { "iconPath": "./icons/files/stylelint.svg" },
+    "drizzle": { "iconPath": "./icons/files/drizzle.svg" }
   },
   "fileExtensions": {
     "stylelint": "stylelint",
@@ -517,6 +519,7 @@
     "nix": "nix"
   },
   "fileNames": {
+    "drizzle.config.ts": "drizzle",
     ".stylelintrc": "stylelint",
     "stylelint.config.js": "stylelint",
     "stylelint.config.cjs": "stylelint",
@@ -1108,6 +1111,8 @@
     "nix": "nix"
   },
   "folderNames": {
+    ".drizzle": "folder-drizzle",
+    "drizzle": "folder-drizzle",
     "tina": "folder-tina",
     ".vercel": "folder-vercel",
     "vercel": "folder-vercel",
