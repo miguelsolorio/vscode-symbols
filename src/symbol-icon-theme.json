@@ -40,6 +40,7 @@
     "folder-context": { "iconPath": "./icons/folders/folder-context.svg" },
     "folder-middleware": { "iconPath": "./icons/folders/folder-middleware.svg" },
     "folder-ios": { "iconPath": "./icons/folders/folder-ios.svg" },
+    "folder-target": { "iconPath": "./icons/folders/folder-target.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -182,9 +183,11 @@
     "turborepo": { "iconPath": "./icons/files/turborepo.svg" },
     "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" },
     "gif": { "iconPath": "./icons/files/gif.svg" },
-    "cmake": { "iconPath": "./icons/files/cmake.svg" }
+    "cmake": { "iconPath": "./icons/files/cmake.svg" },
+    "lock": { "iconPath": "./icons/files/lock.svg" }
   },
   "fileExtensions": {
+    "lock": "lock",
     "cmake": "cmake",
     "dev.vars": "cloudflare-workers",
     "css.ts": "vanilla-extract",
@@ -1089,6 +1092,7 @@
     "nix": "nix"
   },
   "folderNames": {
+    "target": "folder-target",
     "ios": "folder-ios",
     "context": "folder-context",
     "contexts": "folder-context",
