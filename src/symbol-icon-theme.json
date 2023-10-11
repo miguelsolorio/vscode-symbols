@@ -187,9 +187,11 @@
     "cloudflare-workers": { "iconPath": "./icons/files/cloudflare-workers.svg" },
     "gif": { "iconPath": "./icons/files/gif.svg" },
     "cmake": { "iconPath": "./icons/files/cmake.svg" },
-    "lock": { "iconPath": "./icons/files/lock.svg" }
+    "lock": { "iconPath": "./icons/files/lock.svg" },
+    "stylelint": { "iconPath": "./icons/files/stylelint.svg" }
   },
   "fileExtensions": {
+    "stylelint": "stylelint",
     "lock": "lock",
     "cmake": "cmake",
     "dev.vars": "cloudflare-workers",
@@ -515,6 +517,16 @@
     "nix": "nix"
   },
   "fileNames": {
+    ".stylelintrc": "stylelint",
+    "stylelint.config.js": "stylelint",
+    "stylelint.config.cjs": "stylelint",
+    ".stylelintrc.json": "stylelint",
+    ".stylelintrc.yaml": "stylelint",
+    ".stylelintrc.yml": "stylelint",
+    ".stylelintrc.js": "stylelint",
+    ".stylelintrc.cjs": "stylelint",
+    ".stylelintignore": "stylelint",
+    ".stylelintcache": "stylelint",
     "cmakelists.txt": "cmake",
     "cmakecache.txt": "cmake",
     "nest-cli.json": "nest",
