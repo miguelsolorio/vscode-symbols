@@ -190,9 +190,13 @@
     "cmake": { "iconPath": "./icons/files/cmake.svg" },
     "lock": { "iconPath": "./icons/files/lock.svg" },
     "stylelint": { "iconPath": "./icons/files/stylelint.svg" },
-    "drizzle": { "iconPath": "./icons/files/drizzle.svg" }
+    "drizzle": { "iconPath": "./icons/files/drizzle.svg" },
+    "ocaml": { "iconPath": "./icons/files/ocaml.svg" }
   },
   "fileExtensions": {
+    "ml": "ocaml",
+    "mli": "ocaml",
+    "cmx": "ocaml",
     "stylelint": "stylelint",
     "lock": "lock",
     "cmake": "cmake",
