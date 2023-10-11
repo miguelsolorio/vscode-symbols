@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.0.14
+## 0.0.15
 
 ### 🚀 New Icons
 
@@ -22,7 +22,7 @@
 - `.mts` support [#125](https://github.com/miguelsolorio/vscode-symbols/issues/125) via [@andrefelipeschulle](@https://github.com/andrefelipeschulle)
 - `cucumber` support [#122](https://github.com/miguelsolorio/vscode-symbols/issues/122) via [@RenerPires](https://github.com/RenerPires)
 
-## 0.0.13
+## 0.0.14
 
 ### ✨ Features
 

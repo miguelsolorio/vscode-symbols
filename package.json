@@ -2,7 +2,7 @@
   "name": "symbols",
   "displayName": "Symbols",
   "description": "A simple file icon theme for VS Code",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "publisher": "miguelsolorio",
   "icon": "symbols.png",
   "preview": true,
