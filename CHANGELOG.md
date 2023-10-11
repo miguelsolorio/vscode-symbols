@@ -1,5 +1,27 @@
 # Change Log
 
+## 0.0.14
+
+## 🚀 New Icons
+
+- `eslint.config.*` support [#136](https://github.com/miguelsolorio/vscode-symbols/issues/136) via [@nicolasribeiroo](https://github.com/nicolasribeiroo)
+- `biome` and `contentlayer` support [#135](https://github.com/miguelsolorio/vscode-symbols/issues/135) via [@bjohansebas](https://github.com/bjohansebas)
+- `bun` suppoer [#131](https://github.com/miguelsolorio/vscode-symbols/issues/131)
+- `dune` support [#137](https://github.com/miguelsolorio/vscode-symbols/issues/137)
+- `OCaml` support [#134](https://github.com/miguelsolorio/vscode-symbols/issues/134)
+- `drizzle` support [#133](https://github.com/miguelsolorio/vscode-symbols/issues/133)
+- `stylelint` support [#129](https://github.com/miguelsolorio/vscode-symbols/issues/129)
+- `tina` folder support [#127](https://github.com/miguelsolorio/vscode-symbols/issues/127)
+- `vercel` folder support [#126](https://github.com/miguelsolorio/vscode-symbols/issues/126)
+- `.svx` support [#121](https://github.com/miguelsolorio/vscode-symbols/issues/121)
+- `.lock` and `target` folder support [#119](https://github.com/miguelsolorio/vscode-symbols/issues/119)
+- `ios` folder support [#117](https://github.com/miguelsolorio/vscode-symbols/issues/117)
+- `CMakeLists` support [#115](https://github.com/miguelsolorio/vscode-symbols/issues/115)
+- `razor` support [#130](https://github.com/miguelsolorio/vscode-symbols/issues/130) via [@evertonandrade](https://github.com/evertonandrade)
+- `.mjs` support [#128](https://github.com/miguelsolorio/vscode-symbols/issues/128) via [@jacobthesheep](https://github.com/jacobthesheep)
+- `.mts` support [#125](https://github.com/miguelsolorio/vscode-symbols/issues/125) via [@andrefelipeschulle](@https://github.com/andrefelipeschulle)
+- `cucumber` support [#122](https://github.com/miguelsolorio/vscode-symbols/issues/122) via [@RenerPires](https://github.com/RenerPires)
+
 ## 0.0.13
 
 ### ✨ Features
