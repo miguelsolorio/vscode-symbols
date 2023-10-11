@@ -41,6 +41,7 @@
     "folder-middleware": { "iconPath": "./icons/folders/folder-middleware.svg" },
     "folder-ios": { "iconPath": "./icons/folders/folder-ios.svg" },
     "folder-target": { "iconPath": "./icons/folders/folder-target.svg" },
+    "folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1094,6 +1095,8 @@
     "nix": "nix"
   },
   "folderNames": {
+    ".vercel": "folder-vercel",
+    "vercel": "folder-vercel",
     "target": "folder-target",
     "ios": "folder-ios",
     "context": "folder-context",
