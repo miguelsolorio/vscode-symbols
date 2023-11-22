@@ -7,7 +7,7 @@ async function confirmReload() {
 		MESSAGES.reloadButton,
 	);
 
-	if (response != MESSAGES.reloadButton) {
+	if (response !== MESSAGES.reloadButton) {
 		return false;
 	}
 

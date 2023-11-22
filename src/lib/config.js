@@ -18,7 +18,7 @@ const defaultState = themeJSONToConfig(defaultConfig);
  */
 function getWorkspaceConfiguration() {
 	const config = {};
-	for (let key of configKeys) {
+	for (const key of configKeys) {
 		if (!PKG_PROP_MAP[key]) {
 			continue;
 		}
@@ -43,7 +43,7 @@ function getWorkspaceConfiguration() {
 function themeJSONToConfig(themeDef) {
 	const result = {};
 
-	for (let key of configKeys) {
+	for (const key of configKeys) {
 		if (!PKG_PROP_MAP[key]) {
 			continue;
 		}
@@ -60,7 +60,7 @@ function themeJSONToConfig(themeDef) {
 function updateConfig(config) {
 	const themeJSON = getSoureFile();
 
-	for (let key in config) {
+	for (const key in config) {
 		log.info(`symbols.${key} changed, updating to ${config[key]}`);
 		const updateHandler = updateThemeJSONHandlers[key];
 		if (updateHandler) {

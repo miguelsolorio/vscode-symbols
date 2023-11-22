@@ -110,9 +110,9 @@ function writeThemeFile(data) {
  * sync later (unnecessary right now since the themeFile is small)
  */
 async function syncOriginal() {
-	let themePath = getPath();
-	let backupJSON = getBackupFile();
-	let originalJSON = getSoureFile();
+	const themePath = getPath();
+	const backupJSON = getBackupFile();
+	const originalJSON = getSoureFile();
 
 	let needsSync = false;
 
@@ -131,7 +131,7 @@ async function syncOriginal() {
 		}
 
 		const stringifiedBackup = JSON.stringify(backupJSON[key]);
-		if (stringifiedSource != stringifiedBackup) {
+		if (stringifiedSource !== stringifiedBackup) {
 			log.info({
 				stringifiedSource,
 				stringifiedBackup,

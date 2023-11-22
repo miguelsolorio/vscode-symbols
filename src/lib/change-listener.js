@@ -12,7 +12,7 @@ function monitorConfigChanges() {
 
 	const updatedKeys = {};
 
-	for (let currentKey in currentState) {
+	for (const currentKey in currentState) {
 		updatedKeys[currentKey] = workspaceState[currentKey];
 	}
 
