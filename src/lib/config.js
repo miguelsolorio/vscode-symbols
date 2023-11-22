@@ -1,13 +1,10 @@
 const vscode = require("vscode");
-const {
-  log
-} = require("./log")
+const { log } = require("./log");
 const defaultConfig = require("../symbol-icon-theme.json");
 const pkgConfig = require("../../package.json");
 const { getSoureFile, writeThemeFile } = require("./theme");
-const { PKG_PROP_MAP } = require("./constants")
-const { updateThemeJSONHandlers } = require("./theme-json-handlers")
-
+const { PKG_PROP_MAP } = require("./constants");
+const { updateThemeJSONHandlers } = require("./theme-json-handlers");
 
 // get the configuration definition from the package.json
 // and also the default state of the theme to act as fallback
@@ -20,23 +17,23 @@ const defaultState = themeJSONToConfig(defaultConfig);
  * @description will get the current **workspace** configuration
  */
 function getWorkspaceConfiguration() {
-  const config = {};
-  for (let key of configKeys) {
-    if (!PKG_PROP_MAP[key]) {
-      continue;
-    }
+	const config = {};
+	for (let key of configKeys) {
+		if (!PKG_PROP_MAP[key]) {
+			continue;
+		}
 
-    const valueGroup = vscode.workspace
-      .getConfiguration("symbols")
-      .inspect(PKG_PROP_MAP[key]);
+		const valueGroup = vscode.workspace
+			.getConfiguration("symbols")
+			.inspect(PKG_PROP_MAP[key]);
 
-    config[PKG_PROP_MAP[key]] =
-      valueGroup.workspaceValue ||
-      valueGroup.globalValue ||
-      defaultState[PKG_PROP_MAP[key]];
-  }
+		config[PKG_PROP_MAP[key]] =
+			valueGroup.workspaceValue ||
+			valueGroup.globalValue ||
+			defaultState[PKG_PROP_MAP[key]];
+	}
 
-  return config;
+	return config;
 }
 
 /**
@@ -44,16 +41,16 @@ function getWorkspaceConfiguration() {
  * keys that are defined in the configuration section of the package.json
  */
 function themeJSONToConfig(themeDef) {
-  const result = {};
+	const result = {};
 
-  for (let key of configKeys) {
-    if (!PKG_PROP_MAP[key]) {
-      continue;
-    }
-    result[PKG_PROP_MAP[key]] = themeDef[PKG_PROP_MAP[key]];
-  }
+	for (let key of configKeys) {
+		if (!PKG_PROP_MAP[key]) {
+			continue;
+		}
+		result[PKG_PROP_MAP[key]] = themeDef[PKG_PROP_MAP[key]];
+	}
 
-  return result;
+	return result;
 }
 
 /**
@@ -61,22 +58,24 @@ function themeJSONToConfig(themeDef) {
  * in the theme definition file
  */
 function updateConfig(config) {
-  const themeJSON = getSoureFile();
+	const themeJSON = getSoureFile();
 
-  for (let key in config) {
-    log.info(`symbols.${key} changed, updating to ${config[key]}`);
-    const updateHandler = updateThemeJSONHandlers[key];
-    if (updateHandler) {
-      vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
-      updateHandler(themeJSON, config[key]);
-    }
-  }
+	for (let key in config) {
+		log.info(`symbols.${key} changed, updating to ${config[key]}`);
+		const updateHandler = updateThemeJSONHandlers[key];
+		if (updateHandler) {
+			vscode.workspace
+				.getConfiguration("symbols")
+				.update(key, config[key], true);
+			updateHandler(themeJSON, config[key]);
+		}
+	}
 
-  writeThemeFile(themeJSON);
+	writeThemeFile(themeJSON);
 }
 
 module.exports = {
-  getWorkspaceConfiguration,
-  themeJSONToConfig,
-  updateConfig
+	getWorkspaceConfiguration,
+	themeJSONToConfig,
+	updateConfig,
 };
