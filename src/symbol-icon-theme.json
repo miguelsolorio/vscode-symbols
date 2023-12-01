@@ -44,6 +44,7 @@
     "folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
     "folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
     "folder-drizzle": { "iconPath": "./icons/folders/folder-drizzle.svg" },
+    "folder-images": { "iconPath": "./icons/folders/folder-images.svg" },
 
     "code-green": { "iconPath": "./icons/files/code-green.svg" },
     "code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -195,7 +196,8 @@
     "drizzle": { "iconPath": "./icons/files/drizzle.svg" },
     "ocaml": { "iconPath": "./icons/files/ocaml.svg" },
     "dune": { "iconPath": "./icons/files/dune.svg" },
-    "bun": { "iconPath": "./icons/files/bun.svg" }
+    "bun": { "iconPath": "./icons/files/bun.svg" },
+    "zip": { "iconPath": "./icons/files/zip.svg" }
   },
   "fileExtensions": {
     "ml": "ocaml",
@@ -524,7 +526,9 @@
     "resolver.js": "angular",
     "toml": "gear",
     "v": "v",
-    "nix": "nix"
+    "nix": "nix",
+    "zip": "zip",
+    "tgz": "zip"
   },
   "fileNames": {
     "bun.lockb": "bun",
