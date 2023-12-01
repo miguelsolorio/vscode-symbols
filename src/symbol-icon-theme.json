@@ -1185,7 +1185,9 @@
     "static": "folder-assets",
     "components": "folder-green-code",
     "prisma": "folder-prisma",
-    "android": "folder-android"
+    "android": "folder-android",
+    "image": "folder-images",
+    "images": "folder-images"
   },
   "hidesExplorerArrows": false,
   "file": "document",
