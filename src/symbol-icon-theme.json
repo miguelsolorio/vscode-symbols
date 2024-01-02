@@ -225,7 +225,8 @@
 		"drizzle": { "iconPath": "./icons/files/drizzle.svg" },
 		"ocaml": { "iconPath": "./icons/files/ocaml.svg" },
 		"dune": { "iconPath": "./icons/files/dune.svg" },
-		"bun": { "iconPath": "./icons/files/bun.svg" }
+		"bun": { "iconPath": "./icons/files/bun.svg" },
+		"keystatic": { "iconPath": "./icons/files/keystatic.svg" }
 	},
 	"fileExtensions": {
 		"ml": "ocaml",
@@ -557,6 +558,8 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"keystatic.page.ts": "keystatic",
+		"keystatic.config.ts": "keystatic",
 		"bun.lockb": "bun",
 		"bunfig.toml": "bun",
 		"dune": "dune",
