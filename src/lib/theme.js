@@ -17,36 +17,36 @@ const DEFAULT_THEME_FILE = "symbol-icon-theme.json";
  * (or the theme file that vscode looks for)
  */
 function getPath() {
-  if (__dirname === "src") {
-    return path.join(__dirname, THEME_FILE);
-  } else {
-    // relative to the current file aka theme.js
-    return path.join(__dirname, "..", THEME_FILE);
-  }
+	if (__dirname === "src") {
+		return path.join(__dirname, THEME_FILE);
+	} else {
+		// relative to the current file aka theme.js
+		return path.join(__dirname, "..", THEME_FILE);
+	}
 }
 
 /**
  * @description get the path for the default theme file (or the source code theme)
  */
 function getDefaultFilePath() {
-  if (__dirname === "src") {
-    return path.join(__dirname, DEFAULT_THEME_FILE);
-  } else {
-    // relative to the current file aka theme.js
-    return path.join(__dirname, "..", DEFAULT_THEME_FILE);
-  }
+	if (__dirname === "src") {
+		return path.join(__dirname, DEFAULT_THEME_FILE);
+	} else {
+		// relative to the current file aka theme.js
+		return path.join(__dirname, "..", DEFAULT_THEME_FILE);
+	}
 }
 
 /**
  * @description get the path for the backup theme file (or the source code theme)
  */
 function getBackupFilePath() {
-  if (__dirname === "src") {
-    return path.join(__dirname, BACKUP_THEME_FILE);
-  } else {
-    // relative to the current file aka theme.js
-    return path.join(__dirname, "..", BACKUP_THEME_FILE);
-  }
+	if (__dirname === "src") {
+		return path.join(__dirname, BACKUP_THEME_FILE);
+	} else {
+		// relative to the current file aka theme.js
+		return path.join(__dirname, "..", BACKUP_THEME_FILE);
+	}
 }
 
 /**
@@ -54,11 +54,11 @@ function getBackupFilePath() {
  * if not, create one and then send the path
  */
 function resolveOrCreateTheme() {
-  const themeFile = getPath();
-  if (!fs.existsSync(themeFile)) {
-    fs.copyFileSync(getDefaultFilePath(), themeFile);
-  }
-  return themeFile;
+	const themeFile = getPath();
+	if (!fs.existsSync(themeFile)) {
+		fs.copyFileSync(getDefaultFilePath(), themeFile);
+	}
+	return themeFile;
 }
 
 /**
@@ -66,11 +66,11 @@ function resolveOrCreateTheme() {
  * if not, create one and then send the path
  */
 function resolveOrCreateBackupTheme() {
-  const backupFile = getBackupFilePath();
-  if (!fs.existsSync(backupFile)) {
-    fs.copyFileSync(getDefaultFilePath(), backupFile);
-  }
-  return backupFile;
+	const backupFile = getBackupFilePath();
+	if (!fs.existsSync(backupFile)) {
+		fs.copyFileSync(getDefaultFilePath(), backupFile);
+	}
+	return backupFile;
 }
 
 /**
@@ -78,27 +78,27 @@ function resolveOrCreateBackupTheme() {
  * or the default one
  */
 function getThemeFile() {
-  return JSON.parse(fs.readFileSync(resolveOrCreateTheme(), "utf-8"));
+	return JSON.parse(fs.readFileSync(resolveOrCreateTheme(), "utf-8"));
 }
 
 /**
  * @description get the source theme json
  */
 function getSoureFile() {
-  return JSON.parse(fs.readFileSync(getDefaultFilePath(), "utf-8"));
+	return JSON.parse(fs.readFileSync(getDefaultFilePath(), "utf-8"));
 }
 
 /**
  * @description get the backup theme json
  */
 function getBackupFile() {
-  return JSON.parse(fs.readFileSync(resolveOrCreateBackupTheme(), "utf-8"));
+	return JSON.parse(fs.readFileSync(resolveOrCreateBackupTheme(), "utf-8"));
 }
 
 // write the theme data file to the **modified** theme
 // file
 function writeThemeFile(data) {
-  fs.writeFileSync(getPath(), JSON.stringify(data, null, 2));
+	fs.writeFileSync(getPath(), JSON.stringify(data, null, 2));
 }
 
 /**
@@ -110,48 +110,48 @@ function writeThemeFile(data) {
  * sync later (unnecessary right now since the themeFile is small)
  */
 async function syncOriginal() {
-  let themePath = getPath();
-  let backupJSON = getBackupFile();
-  let originalJSON = getSoureFile();
+	const themePath = getPath();
+	const backupJSON = getBackupFile();
+	const originalJSON = getSoureFile();
 
-  let needsSync = false;
+	let needsSync = false;
 
-  const configurableKeys = Object.values(PKG_PROP_MAP);
+	const configurableKeys = Object.values(PKG_PROP_MAP);
 
-  // shallow check
-  for (const key in originalJSON) {
-    if (configurableKeys.indexOf(key) > -1) {
-      continue;
-    }
+	// shallow check
+	for (const key in originalJSON) {
+		if (configurableKeys.indexOf(key) > -1) {
+			continue;
+		}
 
-    const stringifiedSource = JSON.stringify(originalJSON[key]);
-    if (!backupJSON[key]) {
-      needsSync = true;
-      break;
-    }
+		const stringifiedSource = JSON.stringify(originalJSON[key]);
+		if (!backupJSON[key]) {
+			needsSync = true;
+			break;
+		}
 
-    const stringifiedBackup = JSON.stringify(backupJSON[key]);
-    if (stringifiedSource != stringifiedBackup) {
-      log.info({
-        stringifiedSource,
-        stringifiedBackup,
-      });
-      needsSync = true;
-      break;
-    }
-  }
+		const stringifiedBackup = JSON.stringify(backupJSON[key]);
+		if (stringifiedSource !== stringifiedBackup) {
+			log.info({
+				stringifiedSource,
+				stringifiedBackup,
+			});
+			needsSync = true;
+			break;
+		}
+	}
 
-  if (needsSync) {
-    await confirmReload();
-    fs.unlinkSync(themePath);
-    fs.copyFileSync(getDefaultFilePath(), themePath);
-    fs.copyFileSync(getDefaultFilePath(), getBackupFilePath());
-  }
+	if (needsSync) {
+		await confirmReload();
+		fs.unlinkSync(themePath);
+		fs.copyFileSync(getDefaultFilePath(), themePath);
+		fs.copyFileSync(getDefaultFilePath(), getBackupFilePath());
+	}
 }
 
 module.exports = {
-  getThemeFile,
-  getSoureFile,
-  writeThemeFile,
-  syncOriginal,
+	getThemeFile,
+	getSoureFile,
+	writeThemeFile,
+	syncOriginal,
 };
