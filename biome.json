@@ -13,6 +13,10 @@
 			"recommended": true
 		}
 	},
+	"formatter": {
+		"enabled": true,
+		"lineWidth": 120
+	},
 	"overrides": [
 		{
 			"include": [".vscode"],

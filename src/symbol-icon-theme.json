@@ -2,7 +2,6 @@
 	"iconDefinitions": {
 		"folder": { "iconPath": "./icons/folders/folder.svg" },
 		"folder-assets": { "iconPath": "./icons/folders/folder-assets.svg" },
-
 		"folder-red": { "iconPath": "./icons/folders/folder-red.svg" },
 		"folder-green": { "iconPath": "./icons/folders/folder-green.svg" },
 		"folder-blue": { "iconPath": "./icons/folders/folder-blue.svg" },
@@ -12,46 +11,22 @@
 		"folder-gray": { "iconPath": "./icons/folders/folder-gray.svg" },
 		"folder-yellow": { "iconPath": "./icons/folders/folder-yellow.svg" },
 
-		"folder-red-outline": {
-			"iconPath": "./icons/folders/folder-red-outline.svg"
-		},
-		"folder-green-outline": {
-			"iconPath": "./icons/folders/folder-green-outline.svg"
-		},
-		"folder-blue-outline": {
-			"iconPath": "./icons/folders/folder-blue-outline.svg"
-		},
-		"folder-purple-outline": {
-			"iconPath": "./icons/folders/folder-purple-outline.svg"
-		},
-		"folder-orange-outline": {
-			"iconPath": "./icons/folders/folder-orange-outline.svg"
-		},
-		"folder-sky-outline": {
-			"iconPath": "./icons/folders/folder-sky-outline.svg"
-		},
-		"folder-gray-outline": {
-			"iconPath": "./icons/folders/folder-gray-outline.svg"
-		},
-		"folder-yellow-outline": {
-			"iconPath": "./icons/folders/folder-yellow-outline.svg"
-		},
+		"folder-red-outline": { "iconPath": "./icons/folders/folder-red-outline.svg" },
+		"folder-green-outline": { "iconPath": "./icons/folders/folder-green-outline.svg" },
+		"folder-blue-outline": { "iconPath": "./icons/folders/folder-blue-outline.svg" },
+		"folder-purple-outline": { "iconPath": "./icons/folders/folder-purple-outline.svg" },
+		"folder-orange-outline": { "iconPath": "./icons/folders/folder-orange-outline.svg" },
+		"folder-sky-outline": { "iconPath": "./icons/folders/folder-sky-outline.svg" },
+		"folder-gray-outline": { "iconPath": "./icons/folders/folder-gray-outline.svg" },
+		"folder-yellow-outline": { "iconPath": "./icons/folders/folder-yellow-outline.svg" },
 
-		"folder-green-code": {
-			"iconPath": "./icons/folders/folder-green-code.svg"
-		},
+		"folder-green-code": { "iconPath": "./icons/folders/folder-green-code.svg" },
 		"folder-blue-code": { "iconPath": "./icons/folders/folder-blue-code.svg" },
-		"folder-purple-code": {
-			"iconPath": "./icons/folders/folder-purple-code.svg"
-		},
-		"folder-orange-code": {
-			"iconPath": "./icons/folders/folder-orange-code.svg"
-		},
+		"folder-purple-code": { "iconPath": "./icons/folders/folder-purple-code.svg" },
+		"folder-orange-code": { "iconPath": "./icons/folders/folder-orange-code.svg" },
 		"folder-sky-code": { "iconPath": "./icons/folders/folder-sky-code.svg" },
 		"folder-gray-code": { "iconPath": "./icons/folders/folder-gray-code.svg" },
-		"folder-yellow-code": {
-			"iconPath": "./icons/folders/folder-yellow-code.svg"
-		},
+		"folder-yellow-code": { "iconPath": "./icons/folders/folder-yellow-code.svg" },
 		"folder-red-code": { "iconPath": "./icons/folders/folder-red-code.svg" },
 
 		"folder-config": { "iconPath": "./icons/folders/folder-config.svg" },
@@ -62,9 +37,7 @@
 		"folder-database": { "iconPath": "./icons/folders/folder-database.svg" },
 		"folder-utils": { "iconPath": "./icons/folders/folder-utils.svg" },
 		"folder-context": { "iconPath": "./icons/folders/folder-context.svg" },
-		"folder-middleware": {
-			"iconPath": "./icons/folders/folder-middleware.svg"
-		},
+		"folder-middleware": { "iconPath": "./icons/folders/folder-middleware.svg" },
 		"folder-ios": { "iconPath": "./icons/folders/folder-ios.svg" },
 		"folder-target": { "iconPath": "./icons/folders/folder-target.svg" },
 		"folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },

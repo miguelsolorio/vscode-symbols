@@ -1,8 +1,4 @@
-const {
-	themeJSONToConfig,
-	getWorkspaceConfiguration,
-	updateConfig,
-} = require("./config");
+const { themeJSONToConfig, getWorkspaceConfiguration, updateConfig } = require("./config");
 const { getThemeFile } = require("./theme");
 
 function monitorConfigChanges() {

@@ -79,7 +79,7 @@
     "lint": "biome lint .",
     "lint:fix": "biome lint --apply .",
     "check-format": "biome check .",
-    "check-format:fix": "biome --apply .",
+    "check-format:fix": "biome check --apply .",
     "precommit": "npm run check-format && npm run lint",
     "release": "release-it"
   },

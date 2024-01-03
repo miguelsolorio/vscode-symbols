@@ -23,14 +23,9 @@ function getWorkspaceConfiguration() {
 			continue;
 		}
 
-		const valueGroup = vscode.workspace
-			.getConfiguration("symbols")
-			.inspect(PKG_PROP_MAP[key]);
+		const valueGroup = vscode.workspace.getConfiguration("symbols").inspect(PKG_PROP_MAP[key]);
 
-		config[PKG_PROP_MAP[key]] =
-			valueGroup.workspaceValue ||
-			valueGroup.globalValue ||
-			defaultState[PKG_PROP_MAP[key]];
+		config[PKG_PROP_MAP[key]] = valueGroup.workspaceValue || valueGroup.globalValue || defaultState[PKG_PROP_MAP[key]];
 	}
 
 	return config;
@@ -64,9 +59,7 @@ function updateConfig(config) {
 		log.info(`symbols.${key} changed, updating to ${config[key]}`);
 		const updateHandler = updateThemeJSONHandlers[key];
 		if (updateHandler) {
-			vscode.workspace
-				.getConfiguration("symbols")
-				.update(key, config[key], true);
+			vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
 			updateHandler(themeJSON, config[key]);
 		}
 	}
