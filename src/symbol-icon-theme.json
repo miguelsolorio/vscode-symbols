@@ -229,7 +229,8 @@
 		"keystatic": { "iconPath": "./icons/files/keystatic.svg" },
 		"markdoc": { "iconPath": "./icons/files/markdoc.svg" },
 		"sanity": { "iconPath": "./icons/files/sanity.svg" },
-		"panda": { "iconPath": "./icons/files/panda.svg" }
+		"panda": { "iconPath": "./icons/files/panda.svg" },
+		"gatsby": { "iconPath": "./icons/files/gatsby.svg" }
 	},
 	"fileExtensions": {
 		"mdoc": "markdoc",
@@ -562,6 +563,16 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"gatsby-config.js": "gatsby",
+		"gatsby-config.mjs": "gatsby",
+		"gatsby-config.ts": "gatsby",
+		"gatsby-node.js": "gatsby",
+		"gatsby-node.mjs": "gatsby",
+		"gatsby-node.ts": "gatsby",
+		"gatsby-browser.js": "gatsby",
+		"gatsby-browser.tsx": "gatsby",
+		"gatsby-ssr.js": "gatsby",
+		"gatsby-ssr.tsx": "gatsby",
 		"panda.config.ts": "panda",
 		"sanity.cli.ts": "sanity",
 		"sanity.config.ts": "sanity",
