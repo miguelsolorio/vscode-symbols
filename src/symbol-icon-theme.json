@@ -70,6 +70,7 @@
 		"folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
 		"folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
 		"folder-drizzle": { "iconPath": "./icons/folders/folder-drizzle.svg" },
+		"folder-github": { "iconPath": "./icons/folders/folder-github.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1242,7 +1243,7 @@
 		".vscode": "folder-blue",
 		".next": "folder-gray",
 		"node_modules": "folder-green",
-		".github": "folder-gray",
+		".github": "folder-github",
 		"public": "folder-purple-outline",
 		"source": "folder-orange-code",
 		"src": "folder-orange-code",
