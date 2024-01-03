@@ -227,7 +227,8 @@
 		"dune": { "iconPath": "./icons/files/dune.svg" },
 		"bun": { "iconPath": "./icons/files/bun.svg" },
 		"keystatic": { "iconPath": "./icons/files/keystatic.svg" },
-		"markdoc": { "iconPath": "./icons/files/markdoc.svg" }
+		"markdoc": { "iconPath": "./icons/files/markdoc.svg" },
+		"sanity": { "iconPath": "./icons/files/sanity.svg" }
 	},
 	"fileExtensions": {
 		"mdoc": "markdoc",
@@ -560,6 +561,9 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"sanity.cli.ts": "sanity",
+		"sanity.config.ts": "sanity",
+		"sanity.theme.mjs": "sanity",
 		"markdoc.config.ts": "markdoc",
 		"keystatic.page.ts": "keystatic",
 		"keystatic.config.ts": "keystatic",
