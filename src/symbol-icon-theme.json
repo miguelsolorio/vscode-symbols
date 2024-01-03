@@ -73,6 +73,7 @@
 		"folder-github": { "iconPath": "./icons/folders/folder-github.svg" },
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
+		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -552,20 +553,6 @@
 		"pgm": "image",
 		"pnm": "image",
 		"svgx": "image",
-		"module.ts": "angular",
-		"module.js": "angular",
-		"ng-template": "angular",
-		"component.ts": "angular",
-		"component.js": "angular",
-		"guard.ts": "angular",
-		"guard.js": "angular",
-		"pipe.ts": "angular",
-		"pipe.js": "angular",
-		"filter.js": "angular",
-		"directive.ts": "angular",
-		"directive.js": "angular",
-		"resolver.ts": "angular",
-		"resolver.js": "angular",
 		"toml": "gear",
 		"v": "v",
 		"nix": "nix"
@@ -1207,6 +1194,8 @@
 		"nix": "nix"
 	},
 	"folderNames": {
+		"angular": "folder-angular",
+		".angular": "folder-angular",
 		"firebase": "folder-firebase",
 		"supabase": "folder-supabase",
 		".drizzle": "folder-drizzle",
