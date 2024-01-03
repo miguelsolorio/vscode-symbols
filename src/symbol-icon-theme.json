@@ -226,9 +226,11 @@
 		"ocaml": { "iconPath": "./icons/files/ocaml.svg" },
 		"dune": { "iconPath": "./icons/files/dune.svg" },
 		"bun": { "iconPath": "./icons/files/bun.svg" },
-		"keystatic": { "iconPath": "./icons/files/keystatic.svg" }
+		"keystatic": { "iconPath": "./icons/files/keystatic.svg" },
+		"markdoc": { "iconPath": "./icons/files/markdoc.svg" }
 	},
 	"fileExtensions": {
+		"mdoc": "markdoc",
 		"ml": "ocaml",
 		"mli": "ocaml",
 		"cmx": "ocaml",
@@ -558,6 +560,7 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"markdoc.config.ts": "markdoc",
 		"keystatic.page.ts": "keystatic",
 		"keystatic.config.ts": "keystatic",
 		"bun.lockb": "bun",
