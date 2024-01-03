@@ -71,6 +71,8 @@
 		"folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
 		"folder-drizzle": { "iconPath": "./icons/folders/folder-drizzle.svg" },
 		"folder-github": { "iconPath": "./icons/folders/folder-github.svg" },
+		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
+		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1205,6 +1207,8 @@
 		"nix": "nix"
 	},
 	"folderNames": {
+		"firebase": "folder-firebase",
+		"supabase": "folder-supabase",
 		".drizzle": "folder-drizzle",
 		"drizzle": "folder-drizzle",
 		"tina": "folder-tina",
