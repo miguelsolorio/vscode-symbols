@@ -231,7 +231,8 @@
 		"sanity": { "iconPath": "./icons/files/sanity.svg" },
 		"panda": { "iconPath": "./icons/files/panda.svg" },
 		"gatsby": { "iconPath": "./icons/files/gatsby.svg" },
-		"solidity": { "iconPath": "./icons/files/solidity.svg" }
+		"solidity": { "iconPath": "./icons/files/solidity.svg" },
+		"severless": { "iconPath": "./icons/files/severless.svg" }
 	},
 	"fileExtensions": {
 		"sol": "solidity",
@@ -565,6 +566,7 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"serverless.yml": "severless",
 		"gatsby-config.js": "gatsby",
 		"gatsby-config.mjs": "gatsby",
 		"gatsby-config.ts": "gatsby",
