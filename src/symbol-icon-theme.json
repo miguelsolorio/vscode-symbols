@@ -234,7 +234,8 @@
 		"solidity": { "iconPath": "./icons/files/solidity.svg" },
 		"severless": { "iconPath": "./icons/files/severless.svg" },
 		"earthfile": { "iconPath": "./icons/files/earthfile.svg" },
-		"knip": { "iconPath": "./icons/files/knip.svg" }
+		"knip": { "iconPath": "./icons/files/knip.svg" },
+		"unocss": { "iconPath": "./icons/files/unocss.svg" }
 	},
 	"fileExtensions": {
 		"earthlyignore": "earthfile",
@@ -567,6 +568,14 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"uno.config.js": "unocss",
+		"uno.config.mjs": "unocss",
+		"uno.config.ts": "unocss",
+		"uno.config.mts": "unocss",
+		"unocss.config.js": "unocss",
+		"unocss.config.mjs": "unocss",
+		"unocss.config.ts": "unocss",
+		"unocss.config.mts": "unocss",
 		"knip.json": "knip",
 		"knip.jsonc": "knip",
 		"knip.ts": "knip",
