@@ -230,9 +230,11 @@
 		"markdoc": { "iconPath": "./icons/files/markdoc.svg" },
 		"sanity": { "iconPath": "./icons/files/sanity.svg" },
 		"panda": { "iconPath": "./icons/files/panda.svg" },
-		"gatsby": { "iconPath": "./icons/files/gatsby.svg" }
+		"gatsby": { "iconPath": "./icons/files/gatsby.svg" },
+		"solidity": { "iconPath": "./icons/files/solidity.svg" }
 	},
 	"fileExtensions": {
+		"sol": "solidity",
 		"mdoc": "markdoc",
 		"ml": "ocaml",
 		"mli": "ocaml",
