@@ -233,7 +233,8 @@
 		"gatsby": { "iconPath": "./icons/files/gatsby.svg" },
 		"solidity": { "iconPath": "./icons/files/solidity.svg" },
 		"severless": { "iconPath": "./icons/files/severless.svg" },
-		"earthfile": { "iconPath": "./icons/files/earthfile.svg" }
+		"earthfile": { "iconPath": "./icons/files/earthfile.svg" },
+		"knip": { "iconPath": "./icons/files/knip.svg" }
 	},
 	"fileExtensions": {
 		"earthlyignore": "earthfile",
@@ -566,6 +567,9 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"knip.json": "knip",
+		"knip.jsonc": "knip",
+		"knip.ts": "knip",
 		"css.ts": "vanilla-extract",
 		"dev.vars": "cloudflare-workers",
 		"serverless.yml": "severless",
