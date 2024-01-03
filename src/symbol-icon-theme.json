@@ -228,7 +228,8 @@
 		"bun": { "iconPath": "./icons/files/bun.svg" },
 		"keystatic": { "iconPath": "./icons/files/keystatic.svg" },
 		"markdoc": { "iconPath": "./icons/files/markdoc.svg" },
-		"sanity": { "iconPath": "./icons/files/sanity.svg" }
+		"sanity": { "iconPath": "./icons/files/sanity.svg" },
+		"panda": { "iconPath": "./icons/files/panda.svg" }
 	},
 	"fileExtensions": {
 		"mdoc": "markdoc",
@@ -561,6 +562,7 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"panda.config.ts": "panda",
 		"sanity.cli.ts": "sanity",
 		"sanity.config.ts": "sanity",
 		"sanity.theme.mjs": "sanity",
