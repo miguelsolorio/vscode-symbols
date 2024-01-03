@@ -566,6 +566,7 @@
 		"nix": "nix"
 	},
 	"fileNames": {
+		"dev.vars": "cloudflare-workers",
 		"serverless.yml": "severless",
 		"gatsby-config.js": "gatsby",
 		"gatsby-config.mjs": "gatsby",
