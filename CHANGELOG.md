@@ -18,8 +18,8 @@
 
 ### 🧹 Cleanup
 
-- Add Biom [#150](https://github.com/miguelsolorio/vscode-symbols/pull/150) via @jacobdalamb
-- `anuglar` updated icon [#161)](https://github.com/miguelsolorio/vscode-symbols/issues/161)
+- Add Biome [#150](https://github.com/miguelsolorio/vscode-symbols/pull/150) via @jacobdalamb
+- `anuglar` updated icon [#161](https://github.com/miguelsolorio/vscode-symbols/issues/161)
 
 ## 0.0.15
 
