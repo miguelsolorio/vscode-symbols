@@ -1,5 +1,26 @@
 # Change Log
 
+## 0.0.16
+
+### 🚀 New Icons
+
+- `github` folder support [#158)](https://github.com/miguelsolorio/vscode-symbols/issues/158)
+- `supabase` and `firebase` folder support [#159)](https://github.com/miguelsolorio/vscode-symbols/issues/159)
+- `keystatic` support [#139](https://github.com/miguelsolorio/vscode-symbols/issues/139)
+- `sanity` support [#141](https://github.com/miguelsolorio/vscode-symbols/issues/141)
+- `panda` support [#144)](https://github.com/miguelsolorio/vscode-symbols/issues/144)
+- `gatsbyjs` support [#148)](https://github.com/miguelsolorio/vscode-symbols/issues/148)
+- `solidity` support [#145)](https://github.com/miguelsolorio/vscode-symbols/issues/145)
+- `severless` support [#146)](https://github.com/miguelsolorio/vscode-symbols/issues/146)
+- `earthly` support [#151)](https://github.com/miguelsolorio/vscode-symbols/issues/151)
+- `knip` support [#152)](https://github.com/miguelsolorio/vscode-symbols/issues/152)
+- `unocss` support [#154)](https://github.com/miguelsolorio/vscode-symbols/issues/154)
+
+### 🧹 Cleanup
+
+- Add Biom [#150](https://github.com/miguelsolorio/vscode-symbols/pull/150) via @jacobdalamb
+- `anuglar` updated icon [#161)](https://github.com/miguelsolorio/vscode-symbols/issues/161)
+
 ## 0.0.15
 
 ### 🚀 New Icons
