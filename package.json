@@ -80,11 +80,11 @@
     "lint:fix": "biome lint --apply .",
     "check-format": "biome check .",
     "check-format:fix": "biome check --apply .",
-    "precommit": "npm run check-format && npm run lint",
+    "precommit": "pnpm run check-format && pnpm run lint",
     "release": "release-it"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.4.1",
+    "@biomejs/biome": "^1.5.1",
     "@types/vscode": "^1.85.0",
     "release-it": "^17.0.1"
   }
