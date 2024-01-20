@@ -122,6 +122,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |coffeescript|![img](preview/files/coffeescript.png)|
 |coldfusion|![img](preview/files/coldfusion.png)|
 |cplus|![img](preview/files/cplus.png)|
+|crystal|![img](preview/files/crystal.png)|
 |csharp|![img](preview/files/csharp.png)|
 |csv|![img](preview/files/csv.png)|
 |cypress|![img](preview/files/cypress.png)|
