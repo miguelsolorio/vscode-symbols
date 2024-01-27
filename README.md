@@ -68,6 +68,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-android|![img](preview/folders/folder-android.png)|
 |folder-assets|![img](preview/folders/folder-assets.png)|
 |folder-prisma|![img](preview/folders/folder-prisma.png)|
+|folder-mail|![img](preview/folders/folder-mail.png)|
 |folder-blue|![img](preview/folders/folder-blue.png)|
 |folder-blue-code|![img](preview/folders/folder-blue-code.png)|
 |folder-blue-outline|![img](preview/folders/folder-blue-outline.png)|
@@ -100,6 +101,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |astro|![img](preview/files/astro.png)|
 |audio|![img](preview/files/audio.png)|
 |babel|![img](preview/files/babel.png)|
+|biome|![img](preview/files/biome.png)|
 |brackets-blue|![img](preview/files/brackets-blue.png)|
 |brackets-gray|![img](preview/files/brackets-gray.png)|
 |brackets-green|![img](preview/files/brackets-green.png)|
@@ -208,6 +210,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |supabase|![img](preview/files/supabase.png)|
 |svelte|![img](preview/files/svelte.png)|
 |svg|![img](preview/files/svg.png)|
+|swc|![img](preview/files/swc.png)|
 |swift|![img](preview/files/swift.png)|
 |tailwind|![img](preview/files/tailwind.png)|
 |terraform|![img](preview/files/terraform.png)|
