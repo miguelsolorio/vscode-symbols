@@ -212,7 +212,8 @@
 		"severless": { "iconPath": "./icons/files/severless.svg" },
 		"earthfile": { "iconPath": "./icons/files/earthfile.svg" },
 		"knip": { "iconPath": "./icons/files/knip.svg" },
-		"unocss": { "iconPath": "./icons/files/unocss.svg" }
+		"unocss": { "iconPath": "./icons/files/unocss.svg" },
+		"swc": { "iconPath": "./icons/files/swc.svg" }
 	},
 	"fileExtensions": {
 		"earthlyignore": "earthfile",
@@ -850,6 +851,7 @@
 		".gitkeep": "git",
 		".gitinclude": "git",
 		"git-history": "git",
+		".swcrc": "swc",
 		"license": "license",
 		"license-agpl": "license",
 		"license-apache": "license",
