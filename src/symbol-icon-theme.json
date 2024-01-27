@@ -1213,6 +1213,7 @@
 		".vscode": "folder-blue",
 		".next": "folder-gray",
 		".turbo": "folder-red",
+		".contentlayer": "folder-purple",
 		"node_modules": "folder-green",
 		".github": "folder-github",
 		"public": "folder-purple-outline",
