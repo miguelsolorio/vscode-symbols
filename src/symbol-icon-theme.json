@@ -47,6 +47,7 @@
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
+		"folder-mail": { "iconPath": "./icons/folders/folder-mail.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1224,7 +1225,12 @@
 		"static": "folder-assets",
 		"components": "folder-green-code",
 		"prisma": "folder-prisma",
-		"android": "folder-android"
+		"android": "folder-android",
+		"mail": "folder-mail",
+		"mails": "folder-mail",
+		"emails": "folder-mail",
+		"smtp": "folder-mail",
+		"mailers": "folder-mail"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
