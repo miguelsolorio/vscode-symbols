@@ -217,6 +217,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |ts|![img](preview/files/ts.png)|
 |tsconfig|![img](preview/files/tsconfig.png)|
 |turborepo|![img](preview/files/turborepo.png)|
+|twig|![img](preview/files/twig.png)|
 |v|![img](preview/files/v.png)|
 |vanilla-extract|![img](preview/files/vanilla-extract.png)|
 |vercel|![img](preview/files/vercel.png)|
