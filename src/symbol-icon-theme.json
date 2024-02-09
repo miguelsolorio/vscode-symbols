@@ -47,6 +47,7 @@
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
+		"folder-pinia": { "iconPath": "./icons/folders/folder-pinia.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1167,6 +1168,8 @@
 		"nix": "nix"
 	},
 	"folderNames": {
+		"store": "folder-pinia",
+		"stores": "folder-pinia",
 		"angular": "folder-angular",
 		".angular": "folder-angular",
 		"firebase": "folder-firebase",
