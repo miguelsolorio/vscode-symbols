@@ -19,6 +19,7 @@
 		"folder-sky-outline": { "iconPath": "./icons/folders/folder-sky-outline.svg" },
 		"folder-gray-outline": { "iconPath": "./icons/folders/folder-gray-outline.svg" },
 		"folder-yellow-outline": { "iconPath": "./icons/folders/folder-yellow-outline.svg" },
+		"folder-nuxt": { "iconPath": "./icons/folders/folder-nuxt.svg" },
 
 		"folder-green-code": { "iconPath": "./icons/folders/folder-green-code.svg" },
 		"folder-blue-code": { "iconPath": "./icons/folders/folder-blue-code.svg" },
@@ -1168,6 +1169,7 @@
 		"nix": "nix"
 	},
 	"folderNames": {
+		".nuxt": "folder-nuxt",
 		"store": "folder-pinia",
 		"stores": "folder-pinia",
 		"angular": "folder-angular",
