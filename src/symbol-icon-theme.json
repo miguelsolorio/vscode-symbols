@@ -47,6 +47,7 @@
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
+		"folder-nuxt": { "iconPath": "./icons/folders/folder-nuxt.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1167,6 +1168,7 @@
 		"nix": "nix"
 	},
 	"folderNames": {
+		".nuxt": "folder-nuxt",
 		"angular": "folder-angular",
 		".angular": "folder-angular",
 		"firebase": "folder-firebase",
