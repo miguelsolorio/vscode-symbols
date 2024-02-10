@@ -19,6 +19,7 @@
 		"folder-sky-outline": { "iconPath": "./icons/folders/folder-sky-outline.svg" },
 		"folder-gray-outline": { "iconPath": "./icons/folders/folder-gray-outline.svg" },
 		"folder-yellow-outline": { "iconPath": "./icons/folders/folder-yellow-outline.svg" },
+		"folder-nuxt": { "iconPath": "./icons/folders/folder-nuxt.svg" },
 
 		"folder-green-code": { "iconPath": "./icons/folders/folder-green-code.svg" },
 		"folder-blue-code": { "iconPath": "./icons/folders/folder-blue-code.svg" },
@@ -47,6 +48,7 @@
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
+		"folder-pinia": { "iconPath": "./icons/folders/folder-pinia.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1167,6 +1169,9 @@
 		"nix": "nix"
 	},
 	"folderNames": {
+		".nuxt": "folder-nuxt",
+		"store": "folder-pinia",
+		"stores": "folder-pinia",
 		"angular": "folder-angular",
 		".angular": "folder-angular",
 		"firebase": "folder-firebase",
