@@ -223,6 +223,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |video|![img](preview/files/video.png)|
 |visual-studio|![img](preview/files/visual-studio.png)|
 |vite|![img](preview/files/vite.png)|
+|vitest|![img](preview/files/vitest.png)|
 |vue|![img](preview/files/vue.png)|
 |webpack|![img](preview/files/webpack.png)|
 |xml|![img](preview/files/xml.png)|
