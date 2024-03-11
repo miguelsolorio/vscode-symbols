@@ -47,6 +47,7 @@
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
+		"folder-mail": { "iconPath": "./icons/folders/folder-mail.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -214,7 +215,8 @@
 		"severless": { "iconPath": "./icons/files/severless.svg" },
 		"earthfile": { "iconPath": "./icons/files/earthfile.svg" },
 		"knip": { "iconPath": "./icons/files/knip.svg" },
-		"unocss": { "iconPath": "./icons/files/unocss.svg" }
+		"unocss": { "iconPath": "./icons/files/unocss.svg" },
+		"swc": { "iconPath": "./icons/files/swc.svg" }
 	},
 	"fileExtensions": {
 		"earthlyignore": "earthfile",
@@ -830,6 +832,7 @@
 		".env.test": "gear",
 		"rome.json": "rome",
 		"biome.json": "biome",
+		"biome.jsonc": "biome",
 		"eslint.config.js": "eslint",
 		"eslint.config.cjs": "eslint",
 		"eslint.config.mjs": "eslint",
@@ -853,6 +856,7 @@
 		".gitkeep": "git",
 		".gitinclude": "git",
 		"git-history": "git",
+		".swcrc": "swc",
 		"license": "license",
 		"license-agpl": "license",
 		"license-apache": "license",
@@ -1226,7 +1230,12 @@
 		"static": "folder-assets",
 		"components": "folder-green-code",
 		"prisma": "folder-prisma",
-		"android": "folder-android"
+		"android": "folder-android",
+		"mail": "folder-mail",
+		"mails": "folder-mail",
+		"emails": "folder-mail",
+		"smtp": "folder-mail",
+		"mailers": "folder-mail"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
