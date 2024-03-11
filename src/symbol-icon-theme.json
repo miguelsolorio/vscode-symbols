@@ -194,6 +194,7 @@
 		"nix": { "iconPath": "./icons/files/nix.svg" },
 		"vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
 		"turborepo": { "iconPath": "./icons/files/turborepo.svg" },
+		"twig": { "iconPath": "./icons/files/twig.svg" },
 		"cloudflare-workers": {
 			"iconPath": "./icons/files/cloudflare-workers.svg"
 		},
@@ -343,6 +344,8 @@
 		"story.tsx": "storybook",
 		"stories.svelte": "storybook",
 		"blade.php": "laravel",
+		"twig": "twig",
+		"html.twig": "twig",
 		"story.mdx": "storybook",
 		"yml": "yaml",
 		"yaml": "yaml",
@@ -1141,6 +1144,7 @@
 		"awk": "shell",
 		"shellscript": "shell",
 		"php": "php",
+		"twig": "twig",
 		"haml": "haml",
 		"html": "brackets-orange",
 		"json": "brackets-yellow",
