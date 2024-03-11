@@ -391,6 +391,7 @@
 		"tcsh": "shell",
 		"zsh": "shell",
 		"bash": "shell",
+		"nu": "shell",
 		"bat": "shell",
 		"cmd": "shell",
 		"awk": "shell",
