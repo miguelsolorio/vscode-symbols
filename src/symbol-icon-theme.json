@@ -1234,6 +1234,7 @@
 		"public": "folder-purple-outline",
 		"source": "folder-orange-code",
 		"src": "folder-orange-code",
+		"lib": "folder-utils",
 		"dist": "folder-purple-outline",
 		"out": "folder-purple-outline",
 		"build": "folder-purple-outline",
