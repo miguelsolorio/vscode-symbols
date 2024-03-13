@@ -1243,7 +1243,7 @@
 		"lib": "folder-utils",
 		"doc": "folder-blue",
 		"docs": "folder-blue",
-		"documentation": "",
+		"documentation": "folder-blue",
 		"dist": "folder-purple-outline",
 		"out": "folder-purple-outline",
 		"build": "folder-purple-outline",
