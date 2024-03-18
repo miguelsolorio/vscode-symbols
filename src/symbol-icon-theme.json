@@ -219,9 +219,11 @@
 		"earthfile": { "iconPath": "./icons/files/earthfile.svg" },
 		"knip": { "iconPath": "./icons/files/knip.svg" },
 		"unocss": { "iconPath": "./icons/files/unocss.svg" },
-		"swc": { "iconPath": "./icons/files/swc.svg" }
+		"swc": { "iconPath": "./icons/files/swc.svg" },
+		"haskell": { "iconPath": "./icons/files/haskell.svg" }
 	},
 	"fileExtensions": {
+		"hs": "haskell",
 		"component.ts": "angular-component",
 		"component.js": "angular-component",
 		"service.ts": "angular-service",
@@ -1092,6 +1094,7 @@
 		"webpackfile.mts": "webpack"
 	},
 	"languageIds": {
+		"haskell": "haskell",
 		"earthfile": "earthfile",
 		"nunjucks": "nunjucks",
 		"testOutput": "visual-studio",
