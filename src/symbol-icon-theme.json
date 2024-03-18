@@ -224,6 +224,7 @@
 		"pkl": { "iconPath": "./icons/files/pkl.svg" }
 	},
 	"fileExtensions": {
+		"env": "gear",
 		"pkl": "pkl",
 		"hs": "haskell",
 		"component.ts": "angular-component",
