@@ -221,9 +221,11 @@
 		"unocss": { "iconPath": "./icons/files/unocss.svg" },
 		"swc": { "iconPath": "./icons/files/swc.svg" },
 		"haskell": { "iconPath": "./icons/files/haskell.svg" },
-		"pkl": { "iconPath": "./icons/files/pkl.svg" }
+		"pkl": { "iconPath": "./icons/files/pkl.svg" },
+		"pdf": { "iconPath": "./icons/files/pdf.svg" }
 	},
 	"fileExtensions": {
+		"pdf": "pdf",
 		"env": "gear",
 		"pkl": "pkl",
 		"hs": "haskell",
@@ -1097,6 +1099,7 @@
 		"webpackfile.mts": "webpack"
 	},
 	"languageIds": {
+		"pdf": "pdf",
 		"haskell": "haskell",
 		"earthfile": "earthfile",
 		"nunjucks": "nunjucks",
