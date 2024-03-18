@@ -220,9 +220,11 @@
 		"knip": { "iconPath": "./icons/files/knip.svg" },
 		"unocss": { "iconPath": "./icons/files/unocss.svg" },
 		"swc": { "iconPath": "./icons/files/swc.svg" },
-		"haskell": { "iconPath": "./icons/files/haskell.svg" }
+		"haskell": { "iconPath": "./icons/files/haskell.svg" },
+		"pkl": { "iconPath": "./icons/files/pkl.svg" }
 	},
 	"fileExtensions": {
+		"pkl": "pkl",
 		"hs": "haskell",
 		"component.ts": "angular-component",
 		"component.js": "angular-component",
