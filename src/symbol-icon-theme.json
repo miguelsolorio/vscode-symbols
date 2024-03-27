@@ -339,6 +339,8 @@
 		"msi": "exe",
 		"zig": "zig",
 		"proto": "proto",
+		"test.mjs": "js-test",
+		"spec.mjs": "js-test",
 		"test.js": "js-test",
 		"spec.js": "js-test",
 		"test.ts": "ts-test",
