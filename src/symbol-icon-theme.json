@@ -56,6 +56,11 @@
 		"folder-shared": { "iconPath": "./icons/folders/folder-shared.svg" },
 		"folder-router": { "iconPath": "./icons/folders/folder-router.svg" },
 		"folder-modules": { "iconPath": "./icons/folders/folder-modules.svg" },
+		"folder-redux-reducer": { "iconPath": "./icons/folders/folder-reducer.svg "},
+		"folder-redux-effects": { "iconPath": "./icons/folders/folder-effects.svg "},
+		"folder-redux-actions": { "iconPath": "./icons/folders/folder-actions.svg "},
+		"folder-redux-selector": { "iconPath": "./icons/folders/folder-selector.svg "},
+		"folder-redux-facade": { "iconPath": "./icons/folders/folder-facade.svg"},
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -230,9 +235,20 @@
 		"swc": { "iconPath": "./icons/files/swc.svg" },
 		"haskell": { "iconPath": "./icons/files/haskell.svg" },
 		"pkl": { "iconPath": "./icons/files/pkl.svg" },
-		"pdf": { "iconPath": "./icons/files/pdf.svg" }
+		"pdf": { "iconPath": "./icons/files/pdf.svg" },
+		"redux-reducer": { "iconPath": "./icons/files/redux-reducer.svg "},
+		"redux-effects": { "iconPath": "./icons/files/redux-effects.svg "},
+		"redux-actions": { "iconPath": "./icons/files/redux-actions.svg "},
+		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg "},
+		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg"}
 	},
 	"fileExtensions": {
+		"actions.ts": "redux-actions",
+		"effects.ts": "redux-effects",
+		"facade.ts": "redux-facade",
+		"reducer.ts": "redux-reducer",
+		"selector.ts": "redux-selector",
+		"selectors.ts": "redux-selector",
 		"pdf": "pdf",
 		"env": "gear",
 		"pkl": "pkl",
