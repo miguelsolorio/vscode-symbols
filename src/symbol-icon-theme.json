@@ -240,9 +240,11 @@
 		"redux-effects": { "iconPath": "./icons/files/redux-effects.svg "},
 		"redux-actions": { "iconPath": "./icons/files/redux-actions.svg "},
 		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg "},
-		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg"}
+		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg"},
+		"gleam": { "iconPath": "./icons/files/gleam.svg"}
 	},
 	"fileExtensions": {
+		"gleam": "gleam",
 		"actions.ts": "redux-actions",
 		"effects.ts": "redux-effects",
 		"facade.ts": "redux-facade",
