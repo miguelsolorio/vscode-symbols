@@ -1,5 +1,32 @@
 # Change Log
 
+## 0.0.17
+
+### 🚀 New Icons
+
+- `nu` support [#160](https://github.com/miguelsolorio/vscode-symbols/issues/160) via [@jacobdalamb](https://github.com/jacobdalamb)
+- `crystal` support [#169](https://github.com/miguelsolorio/vscode-symbols/issues/169) @AndCorradi
+- `vitest` icon [#172](https://github.com/miguelsolorio/vscode-symbols/issues/172) @Ricardofreitasdev
+- `mail` folder support  173 via [@bjohansebas](https://github.com/bjohansebas)
+- `swc` support  [#173](https://github.com/miguelsolorio/vscode-symbols/issues/173) via [@bjohansebas](https://github.com/bjohansebas)
+- `twig` support [#177](https://github.com/miguelsolorio/vscode-symbols/issues/177) @raminhuk
+- `lib`, `support` folder support [#186](https://github.com/miguelsolorio/vscode-symbols/issues/186) [#187](https://github.com/miguelsolorio/vscode-symbols/issues/187) via [@castrogarciajs](https://github.com/castrogarciajs)
+- `angular service` support [#166](https://github.com/miguelsolorio/vscode-symbols/issues/166)
+- `interfaces`, `models`, `router`, `helps` support [#192](https://github.com/miguelsolorio/vscode-symbols/issues/192) via [@keidsondesigner](https://github.com/keidsondesigner)
+- `redux` support [#190](https://github.com/miguelsolorio/vscode-symbols/issues/190) via [@keidsondesigner](https://github.com/keidsondesigner)
+- `haskell` support [#167](https://github.com/miguelsolorio/vscode-symbols/issues/167)
+- `pkl` support [#182](https://github.com/miguelsolorio/vscode-symbols/issues/182)
+- `pdf` support [#189](https://github.com/miguelsolorio/vscode-symbols/issues/189)
+- `.env` support [#188](https://github.com/miguelsolorio/vscode-symbols/issues/188)
+- `gleam` support [#191](https://github.com/miguelsolorio/vscode-symbols/issues/191)
+
+### 🧹 Cleanup
+
+- Updated Biome [#173](https://github.com/miguelsolorio/vscode-symbols/issues/173) via [@bjohansebas](https://github.com/bjohansebas)
+- Updated `husky`, `turborepo`, `contentlayer` support [#174](https://github.com/miguelsolorio/vscode-symbols/issues/174) @bjohansebas
+- Updated `react-test` [#178](https://github.com/miguelsolorio/vscode-symbols/issues/178) via [@emedeirox](https://github.com/emedeirox)
+- Updated `mjs` support [#184](https://github.com/miguelsolorio/vscode-symbols/issues/184)
+
 ## 0.0.16
 
 ### 🚀 New Icons
@@ -18,7 +45,7 @@
 
 ### 🧹 Cleanup
 
-- Add Biome [#150](https://github.com/miguelsolorio/vscode-symbols/pull/150) via @jacobdalamb
+- Add Biome [#150](https://github.com/miguelsolorio/vscode-symbols/pull/150) via [@jacobdalamb](https://github.com/jacobdalamb)
 - `anuglar` updated icon [#161](https://github.com/miguelsolorio/vscode-symbols/issues/161)
 
 ## 0.0.15
@@ -109,7 +136,7 @@
 
 ### 🧹 Cleanup
 
-- Add linguist override [#87](https://github.com/miguelsolorio/vscode-symbols/pull/87) via @meppu
+- Add linguist override [#87](https://github.com/miguelsolorio/vscode-symbols/pull/87) via [@meppu](https://github.com/meppu)
 - Fix go.mod [#79](https://github.com/miguelsolorio/vscode-symbols/issues/79)
 - Fix swift icon size [#76](https://github.com/miguelsolorio/vscode-symbols/issues/76)
 
@@ -187,20 +214,20 @@
 
 - Update Python icon https://github.com/misolori/vscode-symbols/commit/f342054261ebd32098037e4ed116bf42e96d690c
 - Update node icon https://github.com/misolori/vscode-symbols/commit/988a17615875bd3764ca6ef0f35f551c869a0721
-- Add .DS_Store file to .gitignore (#26) https://github.com/misolori/vscode-symbols/commit/51c5d93e4ab845401ca87d3750f78b61809442b9 via @mohouyizme
+- Add .DS_Store file to .gitignore (#26) https://github.com/misolori/vscode-symbols/commit/51c5d93e4ab845401ca87d3750f78b61809442b9 via [@mohouyizme](https://github.com/mohouyizme)
 - Add release-it https://github.com/misolori/vscode-symbols/commit/8d3bc89de5556744f5ab26418b08b2c1beab8d1b
 
 ## 0.0.6
 
 ### ✨ New Features
 
-- Toggle Explorer Arrows Configuration w/ `symbols.hidesExplorerArrows` <https://github.com/misolori/vscode-symbols/commit/db942ba8543067f0df5f0bcb9a76239ed5a0a553> via @barelyhuman
+- Toggle Explorer Arrows Configuration w/ `symbols.hidesExplorerArrows` <https://github.com/misolori/vscode-symbols/commit/db942ba8543067f0df5f0bcb9a76239ed5a0a553> via [@barelyhuman](https://github.com/barelyhuman)
 
 ### 🚀 New Icons
 
 - Support for Rust <https://github.com/misolori/vscode-symbols/commit/22c2414ff113c9d49657e31233b3dee1f3d01ec1>
 - Support for Pulumi, pnpm, npm, GraphQL <https://github.com/misolori/vscode-symbols/commit/eb55f06a2d04f12b09799001cca8700641db975a>
-- Support for Next.js <https://github.com/misolori/vscode-symbols/commit/c0eb05f8836e933e8427514b82978ed74d9c8a22> via @FradSer
+- Support for Next.js <https://github.com/misolori/vscode-symbols/commit/c0eb05f8836e933e8427514b82978ed74d9c8a22> via [@FradSer](https://github.com/FradSer)
 - Support for Webpack <https://github.com/misolori/vscode-symbols/commit/af34512f46464a3acd0f4d80462e97b766c4b8df> via @FradSer
 - Support for cjs and mjs <https://github.com/misolori/vscode-symbols/commit/04d2e4b661303d91dbc70791fe59f7f7874ea49b> via @KyleMcKell
 
