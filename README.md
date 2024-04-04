@@ -175,6 +175,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |nest|![img](preview/files/nest.png)|
 |netlify|![img](preview/files/netlify.png)|
 |next|![img](preview/files/next.png)|
+|nuxt|![img](preview/files/nuxt.png)|
 |nix|![img](preview/files/nix.png)|
 |node|![img](preview/files/node.png)|
 |nodemon|![img](preview/files/nodemon.png)|
