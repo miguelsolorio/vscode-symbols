@@ -1280,6 +1280,7 @@
 		".vscode": "folder-blue",
 		".next": "folder-gray",
 		".turbo": "folder-red",
+		".nuxt": "folder-green",
 		".contentlayer": "folder-purple",
 		"node_modules": "folder-green",
 		".github": "folder-github",
