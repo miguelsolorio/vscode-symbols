@@ -241,9 +241,15 @@
 		"redux-actions": { "iconPath": "./icons/files/redux-actions.svg " },
 		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg " },
 		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg" },
-		"gleam": { "iconPath": "./icons/files/gleam.svg" }
+		"gleam": { "iconPath": "./icons/files/gleam.svg" },
+		"i18n": { "iconPath": "./icons/files/i18n.svg" }
 	},
+
 	"fileExtensions": {
+		"lang": "i18n",
+		"mo": "i18n",
+		"po": "i18n",
+		"pot": "i18n",
 		"gleam": "gleam",
 		"actions.ts": "redux-actions",
 		"effects.ts": "redux-effects",
@@ -582,6 +588,7 @@
 		"v": "v",
 		"nix": "nix"
 	},
+
 	"fileNames": {
 		"uno.config.js": "unocss",
 		"uno.config.mjs": "unocss",
@@ -1126,6 +1133,7 @@
 		"webpackfile.cts": "webpack",
 		"webpackfile.mts": "webpack"
 	},
+
 	"languageIds": {
 		"pdf": "pdf",
 		"haskell": "haskell",
@@ -1228,6 +1236,7 @@
 		"ng-template": "angular",
 		"nix": "nix"
 	},
+
 	"folderNames": {
 		"auth": "folder-auth",
 		"core": "folder-core",

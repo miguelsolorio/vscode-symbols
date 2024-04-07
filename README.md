@@ -155,6 +155,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |haml|![img](preview/files/haml.png)|
 |http|![img](preview/files/http.png)|
 |hugo|![img](preview/files/hugo.png)|
+|i18n|![img](preview/files/i18n.png)|
 |ignore|![img](preview/files/ignore.png)|
 |image|![img](preview/files/image.png)|
 |ionic|![img](preview/files/ionic.png)|
