@@ -173,6 +173,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |lua|![img](preview/files/lua.png)|
 |markdown|![img](preview/files/markdown.png)|
 |mdx|![img](preview/files/mdx.png)|
+|minecraft|![img](preview/files/minecraft.png)|
 |nest|![img](preview/files/nest.png)|
 |netlify|![img](preview/files/netlify.png)|
 |next|![img](preview/files/next.png)|
