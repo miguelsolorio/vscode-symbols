@@ -242,10 +242,17 @@
 		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg " },
 		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg" },
 		"gleam": { "iconPath": "./icons/files/gleam.svg" },
-		"i18n": { "iconPath": "./icons/files/i18n.svg" }
+		"i18n": { "iconPath": "./icons/files/i18n.svg" },
+		"minecraft": { "iconPath": "./icons/files/minecraft.svg" }
 	},
 
 	"fileExtensions": {
+		"mcfunction": "minecraft",
+    "mcmeta": "minecraft",
+    "mcworld": "minecraft",
+    "mcstructure": "minecraft",
+    "mcpack": "minecraft",
+    "mcaddon": "minecraft",
 		"lang": "i18n",
 		"mo": "i18n",
 		"po": "i18n",
@@ -590,6 +597,9 @@
 	},
 
 	"fileNames": {
+		".mcattributes": "minecraft",
+		".mcdefinitions": "minecraft",
+		".mcignore": "minecraft",
 		"uno.config.js": "unocss",
 		"uno.config.mjs": "unocss",
 		"uno.config.ts": "unocss",
