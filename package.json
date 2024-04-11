@@ -1,102 +1,89 @@
 {
-  "name": "symbols",
-  "displayName": "Symbols",
-  "description": "A simple file icon theme for VS Code",
-  "version": "0.0.17",
-  "publisher": "miguelsolorio",
-  "icon": "symbols.png",
-  "preview": true,
-  "main": "./src/extension.js",
-  "engines": {
-    "vscode": "^1.70.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "extensionKind": [
-    "ui",
-    "workspace"
-  ],
-  "keywords": [
-    "icons",
-    "theme",
-    "icon-theme",
-    "file-icon-theme",
-    "file icons"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/misolori/vscode-symbols.git"
-  },
-  "bugs": {
-    "url": "https://github.com/misolori/vscode-symbols/issues"
-  },
-  "author": {
-    "name": "Miguel Solorio"
-  },
-  "capabilities": {
-    "untrustedWorkspaces": {
-      "supported": true
-    },
-    "virtualWorkspaces": true
-  },
-  "activationEvents": [
-    "onStartupFinished"
-  ],
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "symbols",
-        "label": "Symbol Icons",
-        "path": "./src/symbol-icon-theme.modified.json",
-        "_watch": true
-      }
-    ],
-    "configuration": {
-      "type": "object",
-      "title": "Symbols",
-      "properties": {
-        "symbols.hidesExplorerArrows": {
-          "type": "boolean",
-          "default": false,
-          "description": "Hide arrow icons in the explorer section."
-        },
-        "symbols.folders.associations": {
-          "type": "object",
-          "default": {},
-          "description": "With this configuration can customize the folder icons."
-        },
-        "symbols.files.associations": {
-          "type": "object",
-          "default": {},
-          "description": "With this configuration can customize the files icons."
-        }
-      }
-    }
-  },
-  "scripts": {
-    "format": "biome format --write .",
-    "lint": "biome lint .",
-    "lint:fix": "biome lint --apply .",
-    "check-format": "biome check .",
-    "check-format:fix": "biome check --apply .",
-    "precommit": "npm run check-format && npm run lint",
-    "release": "release-it"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.3.3",
-    "@types/vscode": "^1.70.0",
-    "release-it": "^15.11.0"
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release v${version}"
-    },
-    "npm": {
-      "publish": false
-    },
-    "github": {
-      "release": true
-    }
-  }
+	"name": "symbols",
+	"displayName": "Symbols",
+	"description": "A simple file icon theme for VS Code",
+	"version": "0.0.17",
+	"publisher": "miguelsolorio",
+	"icon": "symbols.png",
+	"preview": true,
+	"main": "./src/extension.js",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": ["Themes"],
+	"extensionKind": ["ui", "workspace"],
+	"keywords": ["icons", "theme", "icon-theme", "file-icon-theme", "file icons"],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/misolori/vscode-symbols.git"
+	},
+	"bugs": {
+		"url": "https://github.com/misolori/vscode-symbols/issues"
+	},
+	"author": {
+		"name": "Miguel Solorio"
+	},
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		},
+		"virtualWorkspaces": true
+	},
+	"activationEvents": ["onStartupFinished"],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "symbols",
+				"label": "Symbol Icons",
+				"path": "./src/symbol-icon-theme.modified.json",
+				"_watch": true
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Symbols",
+			"properties": {
+				"symbols.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "Hide arrow icons in the explorer section."
+				},
+				"symbols.folders.associations": {
+					"type": "object",
+					"default": {},
+					"description": "With this configuration can customize the folder icons."
+				},
+				"symbols.files.associations": {
+					"type": "object",
+					"default": {},
+					"description": "With this configuration can customize the files icons."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"format": "biome format --write .",
+		"lint": "biome lint .",
+		"lint:fix": "biome lint --apply .",
+		"check-format": "biome check .",
+		"check-format:fix": "biome check --apply .",
+		"precommit": "npm run check-format && npm run lint",
+		"release": "release-it"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.6.4",
+		"@types/vscode": "^1.88.0",
+		"release-it": "^17.1.1"
+	},
+	"release-it": {
+		"git": {
+			"commitMessage": "chore: release v${version}"
+		},
+		"npm": {
+			"publish": false
+		},
+		"github": {
+			"release": true
+		}
+	}
 }
