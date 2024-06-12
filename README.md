@@ -155,6 +155,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |haml|![img](preview/files/haml.png)|
 |http|![img](preview/files/http.png)|
 |hugo|![img](preview/files/hugo.png)|
+|i18n|![img](preview/files/i18n.png)|
 |ignore|![img](preview/files/ignore.png)|
 |image|![img](preview/files/image.png)|
 |ionic|![img](preview/files/ionic.png)|
@@ -172,6 +173,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |lua|![img](preview/files/lua.png)|
 |markdown|![img](preview/files/markdown.png)|
 |mdx|![img](preview/files/mdx.png)|
+|minecraft|![img](preview/files/minecraft.png)|
 |nest|![img](preview/files/nest.png)|
 |netlify|![img](preview/files/netlify.png)|
 |next|![img](preview/files/next.png)|
