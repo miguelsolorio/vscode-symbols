@@ -178,6 +178,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |erlang|![erlang](preview/files/erlang.png)|
 |eslint|![eslint](preview/files/eslint.png)|
 |exe|![exe](preview/files/exe.png)|
+|expressive-code|![expressive-code](preview/files/expressive-code.png)|
 |firebase|![firebase](preview/files/firebase.png)|
 |font|![font](preview/files/font.png)|
 |fsharp|![fsharp](preview/files/fsharp.png)|
