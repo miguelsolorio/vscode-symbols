@@ -248,7 +248,8 @@
 		"gleam": { "iconPath": "./icons/files/gleam.svg" },
 		"i18n": { "iconPath": "./icons/files/i18n.svg" },
 		"minecraft": { "iconPath": "./icons/files/minecraft.svg" },
-		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" }
+		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
+		"lunaria": { "iconPath": "./icons/files/lunaria.svg" }
 	},
 
 	"fileExtensions": {
@@ -603,6 +604,7 @@
 	},
 
 	"fileNames": {
+		"lunaria.config.json": "lunaria",
 		"ec.config.mjs": "expressive-code",
 		".mcattributes": "minecraft",
 		".mcdefinitions": "minecraft",
