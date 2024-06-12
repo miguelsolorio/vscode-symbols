@@ -221,6 +221,8 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |mdx|![mdx](preview/files/mdx.png)|
 |minecraft|![minecraft](preview/files/minecraft.png)|
 |nest|![nest](preview/files/nest.png)|
+|nest-controller|![nest-controller](preview/files/nest-controller.png)|
+|nest-service|![nest-service](preview/files/nest-service.png)|
 |netlify|![netlify](preview/files/netlify.png)|
 |next|![next](preview/files/next.png)|
 |nix|![nix](preview/files/nix.png)|

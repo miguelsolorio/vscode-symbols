@@ -208,6 +208,8 @@
 		"visual-studio": { "iconPath": "./icons/files/visual-studio.svg" },
 		"nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
 		"nest": { "iconPath": "./icons/files/nest.svg" },
+		"nest-controller": { "iconPath": "./icons/files/nest-controller.svg" },
+		"nest-service": { "iconPath": "./icons/files/nest-service.svg" },
 		"nix": { "iconPath": "./icons/files/nix.svg" },
 		"vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
 		"turborepo": { "iconPath": "./icons/files/turborepo.svg" },
