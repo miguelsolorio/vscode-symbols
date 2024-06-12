@@ -249,11 +249,11 @@
 
 	"fileExtensions": {
 		"mcfunction": "minecraft",
-    "mcmeta": "minecraft",
-    "mcworld": "minecraft",
-    "mcstructure": "minecraft",
-    "mcpack": "minecraft",
-    "mcaddon": "minecraft",
+		"mcmeta": "minecraft",
+		"mcworld": "minecraft",
+		"mcstructure": "minecraft",
+		"mcpack": "minecraft",
+		"mcaddon": "minecraft",
 		"lang": "i18n",
 		"mo": "i18n",
 		"po": "i18n",
