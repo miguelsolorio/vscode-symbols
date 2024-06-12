@@ -1266,6 +1266,8 @@
 		"helpers": "folder-helpers",
 		"shared": "folder-shared",
 		"router": "folder-router",
+		"routers": "folder-router",
+		"routes": "folder-router",
 		"modules": "folder-modules",
 		"angular": "folder-angular",
 		".angular": "folder-angular",
