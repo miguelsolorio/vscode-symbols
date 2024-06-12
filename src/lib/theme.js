@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 const { PKG_PROP_MAP } = require("./constants");
 const { confirmReload } = require("./window");
 const { log } = require("./log");
@@ -19,10 +19,9 @@ const DEFAULT_THEME_FILE = "symbol-icon-theme.json";
 function getPath() {
 	if (__dirname === "src") {
 		return path.join(__dirname, THEME_FILE);
-	} else {
-		// relative to the current file aka theme.js
-		return path.join(__dirname, "..", THEME_FILE);
 	}
+	// relative to the current file aka theme.js
+	return path.join(__dirname, "..", THEME_FILE);
 }
 
 /**
@@ -31,10 +30,9 @@ function getPath() {
 function getDefaultFilePath() {
 	if (__dirname === "src") {
 		return path.join(__dirname, DEFAULT_THEME_FILE);
-	} else {
-		// relative to the current file aka theme.js
-		return path.join(__dirname, "..", DEFAULT_THEME_FILE);
 	}
+	// relative to the current file aka theme.js
+	return path.join(__dirname, "..", DEFAULT_THEME_FILE);
 }
 
 /**
@@ -43,10 +41,9 @@ function getDefaultFilePath() {
 function getBackupFilePath() {
 	if (__dirname === "src") {
 		return path.join(__dirname, BACKUP_THEME_FILE);
-	} else {
-		// relative to the current file aka theme.js
-		return path.join(__dirname, "..", BACKUP_THEME_FILE);
 	}
+	// relative to the current file aka theme.js
+	return path.join(__dirname, "..", BACKUP_THEME_FILE);
 }
 
 /**
