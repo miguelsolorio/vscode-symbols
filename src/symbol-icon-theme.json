@@ -1297,6 +1297,7 @@
 		".docker": "folder-blue",
 		".git": "folder-red",
 		"app": "folder-app",
+		"apps": "folder-app",
 		"config": "folder-config",
 		"env": "folder-green",
 		"server": "folder-orange",
