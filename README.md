@@ -273,9 +273,8 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |stylelint|![stylelint](preview/files/stylelint.png)|
 |stylus|![stylus](preview/files/stylus.png)|
 |supabase|![supabase](preview/files/supabase.png)|
-|svelte-1|![svelte-1](preview/files/svelte-1.png)|
-|svelte-ts|![svelte-ts](preview/files/svelte-ts.png)|
 |svelte|![svelte](preview/files/svelte.png)|
+|svelte-ts|![svelte-ts](preview/files/svelte-ts.png)|
 |svg|![svg](preview/files/svg.png)|
 |svx|![svx](preview/files/svx.png)|
 |swc|![swc](preview/files/swc.png)|
