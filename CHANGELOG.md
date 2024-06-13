@@ -1,5 +1,26 @@
 # Change Log
 
+## 0.0.18
+
+### 🚀 New Icons
+
+- `lunaria` support [#206](https://github.com/miguelsolorio/vscode-symbols/issues/206)
+- `expressive code` support [#205](https://github.com/miguelsolorio/vscode-symbols/issues/205)
+- `nest-controller` and `nest-service` support [#207](https://github.com/miguelsolorio/vscode-symbols/issues/207)
+- `.svelte.ts` and `.svelte.js` icons [#204](https://github.com/miguelsolorio/vscode-symbols/issues/204)
+- `i18n` file icon and `Minecraft` file icon [#197](https://github.com/miguelsolorio/vscode-symbols/issues/197) via [@llgavamt](https://github.com/llgavamt)
+- `apps` folder icon [#202](https://github.com/miguelsolorio/vscode-symbols/issues/202) via [@johancsmm](https://github.com/johancsmm)
+- More icons for folder `router` [#201](https://github.com/miguelsolorio/vscode-symbols/issues/201) via [@johancsmm](https://github.com/johancsmm)
+- `nuxt` icons [#200](https://github.com/miguelsolorio/vscode-symbols/issues/200) via [@johancsmm](https://github.com/johancsmm)
+- More `vite` file names [#196](https://github.com/miguelsolorio/vscode-symbols/issues/196) via [@rafaelpimpa](https://github.com/rafaelpimpa)
+- Updated `go` and `go mod` icons size [#208](https://github.com/miguelsolorio/vscode-symbols/issues/208)
+-  `utils` folder icon support [#209](https://github.com/miguelsolorio/vscode-symbols/issues/209) via [@castrogarciajs](https://github.com/castrogarciajs)
+
+### 🧹 Cleanup
+
+- Update dependencies and add workflow [#199](https://github.com/miguelsolorio/vscode-symbols/issues/199) via [@jacobtlamb](https://github.com/jacobtlamb)
+- Update preview thumbnails
+
 ## 0.0.17
 
 ### 🚀 New Icons
