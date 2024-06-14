@@ -61,6 +61,7 @@
 		"folder-redux-actions": { "iconPath": "./icons/folders/folder-actions.svg " },
 		"folder-redux-selector": { "iconPath": "./icons/folders/folder-selector.svg " },
 		"folder-redux-facade": { "iconPath": "./icons/folders/folder-facade.svg" },
+		"folder-test": { "iconPath": "./icons/folders/folder-test.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -89,7 +90,7 @@
 		"svg": { "iconPath": "./icons/files/svg.svg" },
 		"vue": { "iconPath": "./icons/files/vue.svg" },
 		"js": { "iconPath": "./icons/files/js.svg" },
-		"js-test": { "iconPath": "./icons/files/js-test.svg" },
+		"js-test": { "iconPath": "./icons/files/tstest.svg" },
 		"ts": { "iconPath": "./icons/files/ts.svg" },
 		"ts-test": { "iconPath": "./icons/files/ts-test.svg" },
 		"dts": { "iconPath": "./icons/files/dts.svg" },
@@ -1376,7 +1377,9 @@
 		"mails": "folder-mail",
 		"emails": "folder-mail",
 		"smtp": "folder-mail",
-		"mailers": "folder-mail"
+		"mailers": "folder-mail",
+		"test": "folder-test",
+		"tests": "folder-test"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
