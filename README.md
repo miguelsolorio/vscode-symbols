@@ -93,6 +93,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-helpers|![folder-helpers](preview/folders/folder-helpers.png)|
 |folder-images|![folder-images](preview/folders/folder-images.png)|
 |folder-intefaces|![folder-intefaces](preview/folders/folder-intefaces.png)|
+|folder-interceptors|![folder-interceptors](preview/folders/folder-interceptors.png)|
 |folder-ios|![folder-ios](preview/folders/folder-ios.png)|
 |folder-layout|![folder-layout](preview/folders/folder-layout.png)|
 |folder-mail|![folder-mail](preview/folders/folder-mail.png)|
@@ -103,15 +104,18 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-orange-outline|![folder-orange-outline](preview/folders/folder-orange-outline.png)|
 |folder-orange|![folder-orange](preview/folders/folder-orange.png)|
 |folder-prisma|![folder-prisma](preview/folders/folder-prisma.png)|
+|folder-pipes|![folder-pipes](preview/folders/folder-pipes.png)|
 |folder-purple-code|![folder-purple-code](preview/folders/folder-purple-code.png)|
 |folder-purple-outline|![folder-purple-outline](preview/folders/folder-purple-outline.png)|
 |folder-purple|![folder-purple](preview/folders/folder-purple.png)|
+|folder-providers|![folder-providers](preview/folders/folder-providers.png)|
 |folder-red-code|![folder-red-code](preview/folders/folder-red-code.png)|
 |folder-red-outline|![folder-red-outline](preview/folders/folder-red-outline.png)|
 |folder-red|![folder-red](preview/folders/folder-red.png)|
 |folder-reducer|![folder-reducer](preview/folders/folder-reducer.png)|
 |folder-router|![folder-router](preview/folders/folder-router.png)|
 |folder-selector|![folder-selector](preview/folders/folder-selector.png)|
+|folder-services|![folder-services](preview/folders/folder-services.png)|
 |folder-shared|![folder-shared](preview/folders/folder-shared.png)|
 |folder-sky-code|![folder-sky-code](preview/folders/folder-sky-code.png)|
 |folder-sky-outline|![folder-sky-outline](preview/folders/folder-sky-outline.png)|
