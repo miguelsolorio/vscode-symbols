@@ -2,13 +2,13 @@
 	"name": "symbols",
 	"displayName": "Symbols",
 	"description": "A simple file icon theme for VS Code",
-	"version": "0.0.17",
+	"version": "0.0.18",
 	"publisher": "miguelsolorio",
 	"icon": "symbols.png",
 	"preview": true,
 	"main": "./src/extension.js",
 	"engines": {
-		"vscode": "^1.70.0"
+		"vscode": "^1.88.0"
 	},
 	"categories": ["Themes"],
 	"extensionKind": ["ui", "workspace"],
