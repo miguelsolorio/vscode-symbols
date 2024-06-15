@@ -972,6 +972,8 @@
 		"next.config.mjs": "next",
 		"next.config.ts": "next",
 		"next.config.mts": "next",
+		".nuxtrc": "nuxt",
+		".nuxtignore": "nuxt",
 		"nuxt.config.js": "nuxt",
 		"nuxt.config.mjs": "nuxt",
 		"nuxt.config.ts": "nuxt",
