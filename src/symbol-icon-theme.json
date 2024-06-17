@@ -90,7 +90,7 @@
 		"svg": { "iconPath": "./icons/files/svg.svg" },
 		"vue": { "iconPath": "./icons/files/vue.svg" },
 		"js": { "iconPath": "./icons/files/js.svg" },
-		"js-test": { "iconPath": "./icons/files/tstest.svg" },
+		"js-test": { "iconPath": "./icons/files/js-test.svg" },
 		"ts": { "iconPath": "./icons/files/ts.svg" },
 		"ts-test": { "iconPath": "./icons/files/ts-test.svg" },
 		"dts": { "iconPath": "./icons/files/dts.svg" },
