@@ -61,6 +61,7 @@
 		"folder-redux-actions": { "iconPath": "./icons/folders/folder-actions.svg " },
 		"folder-redux-selector": { "iconPath": "./icons/folders/folder-selector.svg " },
 		"folder-redux-facade": { "iconPath": "./icons/folders/folder-facade.svg" },
+		"folder-test": { "iconPath": "./icons/folders/folder-test.svg" },
 
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
@@ -1376,7 +1377,9 @@
 		"mails": "folder-mail",
 		"emails": "folder-mail",
 		"smtp": "folder-mail",
-		"mailers": "folder-mail"
+		"mailers": "folder-mail",
+		"test": "folder-test",
+		"tests": "folder-test"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
