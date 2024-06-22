@@ -2,19 +2,13 @@
 
 <img src="https://raw.githubusercontent.com/misolori/vscode-symbols/main/symbols.png" width="140" />
 
-# Symbols
+# Catppuccin Noctis Icons
 
-A file icon for VS Code
+A fork of [Symbols Icons](https://github.com/miguelsolorio/vscode-symbols)
 
-![Preview of extension](https://github.com/misolori/vscode-symbols/raw/main/preview.png)
+![Preview of extension](preview.png)
 
 </div>
-
-## Contributing
-
-If you'd like to contribute to this extension, please take a look at the issues or create a new one. If you'd like to create a new icon, please reference the [Symbols - File Icon Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd9pSN/Symbols---File-Icons?node-id=20521%3A84115&t=PyBzZOlVG5TXyEdx-1), you can make a copy or reference the styles used (tailwind). Please try to limit your colors to the ones used in existing icons before choosing a different color style.
-
-When submitting a PR, please ensure you've tested the extension locally and ensure that your new icons appear correctly in the file tree view with your new file extension. Include a screenshot of your proposed icon in your PR.
 
 ## Configuration
 
@@ -23,7 +17,7 @@ You can configure which folders and files icons are displayed by using the follo
 ### Folders
 
 ```json
-"symbols.folders.associations": {
+"catppuccin-noctis-icons.folders.associations": {
     "{folder name}": "{icon name}"
 }
 ```
@@ -31,7 +25,7 @@ You can configure which folders and files icons are displayed by using the follo
 And here is an example using this setting:
 
 ```json
-"symbols.folders.associations": {
+"catppuccin-noctis-icons.folders.associations": {
     "entities": "folder-assets",
     "infra": "folder-app",
     "schemas": "folder-purple"
@@ -41,7 +35,7 @@ And here is an example using this setting:
 ### Files
 
 ```json
-"symbols.files.associations": {
+"catppuccin-noctis-icons.files.associations": {
     "{file name}": "{icon name}"
 }
 ```
@@ -49,7 +43,7 @@ And here is an example using this setting:
 And here is an example:
 
 ```json
-"symbols.files.associations": {
+"catppuccin-noctis-icons.files.associations": {
     "app.module.ts": "nest",
     "*.service.ts": "nest"
 }
@@ -58,8 +52,6 @@ And here is an example:
 _Note: For file names, you can use `*` to match all files with a specific file extension._
 
 ### Icon Previews
-
-You can choose which icons to use from the [Library](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd9pSN/Symbols---File-Icons?node-id=20521%3A84115&t=PyBzZOlVG5TXyEdx-1):
 
 <details>
 <summary>Preview</summary>

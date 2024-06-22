@@ -6,7 +6,7 @@ const { log } = require("./lib/log");
  * @param {vscode.ExtensionContext} context
  */
 async function activate(context) {
-	log.info("miguelsolorio.symbols activated");
+	log.info("alexdauenhauer.catppuccin-noctis-icons activated");
 	await syncOriginal();
 	monitorConfigChanges();
 
@@ -19,7 +19,7 @@ async function activate(context) {
 	});
 }
 
-function deactivate() {}
+function deactivate() { }
 
 // eslint-disable-next-line no-undef
 module.exports = {

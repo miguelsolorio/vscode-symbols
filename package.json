@@ -1,27 +1,35 @@
 {
-	"name": "symbols",
-	"displayName": "Symbols",
-	"description": "A simple file icon theme for VS Code",
-	"version": "0.0.18",
-	"publisher": "miguelsolorio",
+	"name": "catppuccin-noctis-icons",
+	"displayName": "Catppuccin Noctis Icons",
+	"description": "A companion icons theme for Catppuccin Noctis color theme. Forked from Symbols Icon Theme",
+	"version": "0.0.1",
+	"publisher": "alexdauenhauer",
 	"icon": "symbols.png",
 	"preview": true,
 	"main": "./src/extension.js",
 	"engines": {
 		"vscode": "^1.88.0"
 	},
-	"categories": ["Themes"],
-	"extensionKind": ["ui", "workspace"],
-	"keywords": ["icons", "theme", "icon-theme", "file-icon-theme", "file icons"],
+	"categories": [
+		"Themes"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"keywords": [
+		"icons",
+		"theme",
+		"icon-theme",
+		"file-icon-theme",
+		"file icons"
+	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/misolori/vscode-symbols.git"
-	},
-	"bugs": {
-		"url": "https://github.com/misolori/vscode-symbols/issues"
+		"url": "https://github.com/alexdauenhauer/catppuccin-noctis-icons.git"
 	},
 	"author": {
-		"name": "Miguel Solorio"
+		"name": "Alex Dauenhauer"
 	},
 	"capabilities": {
 		"untrustedWorkspaces": {
@@ -29,31 +37,33 @@
 		},
 		"virtualWorkspaces": true
 	},
-	"activationEvents": ["onStartupFinished"],
+	"activationEvents": [
+		"onStartupFinished"
+	],
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "symbols",
-				"label": "Symbol Icons",
-				"path": "./src/symbol-icon-theme.modified.json",
+				"id": "catppuccin noctis icons",
+				"label": "Catppuccin Noctis Icons",
+				"path": "./src/catppuccin-noctis-icon-theme.modified.json",
 				"_watch": true
 			}
 		],
 		"configuration": {
 			"type": "object",
-			"title": "Symbols",
+			"title": "Catppuccin Noctis Icons",
 			"properties": {
-				"symbols.hidesExplorerArrows": {
+				"catppuccin-noctis-icons.hidesExplorerArrows": {
 					"type": "boolean",
 					"default": false,
 					"description": "Hide arrow icons in the explorer section."
 				},
-				"symbols.folders.associations": {
+				"catppuccin-noctis-icons.folders.associations": {
 					"type": "object",
 					"default": {},
 					"description": "With this configuration can customize the folder icons."
 				},
-				"symbols.files.associations": {
+				"catppuccin-noctis-icons.files.associations": {
 					"type": "object",
 					"default": {},
 					"description": "With this configuration can customize the files icons."

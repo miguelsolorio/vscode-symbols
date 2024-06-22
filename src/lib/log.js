@@ -1,6 +1,6 @@
 const vscode = require("vscode");
 
-const channel = vscode.window.createOutputChannel("Symbols");
+const channel = vscode.window.createOutputChannel("Catppuccin Noctis Icons");
 const log = {
 	info: (...args) => {
 		const time = new Date().toLocaleTimeString();

@@ -4,9 +4,9 @@ const { PKG_PROP_MAP } = require("./constants");
 const { confirmReload } = require("./window");
 const { log } = require("./log");
 
-const THEME_FILE = "symbol-icon-theme.modified.json";
-const BACKUP_THEME_FILE = "symbol-icon-theme.bkp.json";
-const DEFAULT_THEME_FILE = "symbol-icon-theme.json";
+const THEME_FILE = "catppuccin-noctis-icon-theme.modified.json";
+const BACKUP_THEME_FILE = "catppuccin-noctis-icon-theme.bkp.json";
+const DEFAULT_THEME_FILE = "catppuccin-noctis-icon-theme.json";
 
 // getPath and getDefaultPath are seperated in
 // case we decide to change the path at which the
