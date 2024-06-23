@@ -4,7 +4,9 @@
 
 # Catppuccin Noctis Icons
 
-A ~~blatant ripoff~~ fork of [Symbols Icons](https://github.com/miguelsolorio/vscode-symbols)
+A ~~blatant ripoff~~ fork of [Symbols Icons](https://github.com/miguelsolorio/vscode-symbols) using [Catppuccin](https://github.com/catppuccin/catppuccin) color palette.
+
+Designed to be paired with [Catppuccin Noctis Theme](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis)
 
 ![Preview of extension](preview.png)
 
