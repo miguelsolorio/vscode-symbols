@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/misolori/vscode-symbols/main/symbols.png" width="140" />
+<img src="logo.png" width="140" />
 
 # Catppuccin Noctis Icons
 
-A fork of [Symbols Icons](https://github.com/miguelsolorio/vscode-symbols)
+A ~~blatant ripoff~~ fork of [Symbols Icons](https://github.com/miguelsolorio/vscode-symbols)
 
 ![Preview of extension](preview.png)
 
