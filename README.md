@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" width="140" />
+<img src="https://raw.githubusercontent.com/alexdauenhauer/catppuccin-noctis-icons/main/logo.png" width="140" />
 
 # Catppuccin Noctis Icons
 
@@ -8,7 +8,7 @@ A ~~blatant ripoff~~ fork of [Symbols Icons](https://github.com/miguelsolorio/vs
 
 Designed to be paired with [Catppuccin Noctis Theme](https://marketplace.visualstudio.com/items?itemName=AlexDauenhauer.catppuccin-noctis)
 
-![Preview of extension](preview.png)
+![Preview of extension](https://raw.githubusercontent.com/alexdauenhauer/catppuccin-noctis-icons/main/preview.png)
 
 </div>
 
