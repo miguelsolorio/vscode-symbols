@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.2.0
+
+- make grays brighter
+
+## 0.1.1
+
+- update README images
+
 ## 0.1.0
 
 - update logo
