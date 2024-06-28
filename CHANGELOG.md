@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.2.1
+
+- update README images
+
 ## 0.2.0
 
 - make grays brighter
