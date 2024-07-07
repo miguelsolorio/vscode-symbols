@@ -182,6 +182,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |firebase|![firebase](preview/files/firebase.png)|
 |font|![font](preview/files/font.png)|
 |fsharp|![fsharp](preview/files/fsharp.png)|
+|func|[func](preview/files/func.png)|
 |gatsby|![gatsby](preview/files/gatsby.png)|
 |gear|![gear](preview/files/gear.png)|
 |gif|![gif](preview/files/gif.png)|

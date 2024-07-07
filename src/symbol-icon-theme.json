@@ -249,7 +249,9 @@
 		"i18n": { "iconPath": "./icons/files/i18n.svg" },
 		"minecraft": { "iconPath": "./icons/files/minecraft.svg" },
 		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
-		"lunaria": { "iconPath": "./icons/files/lunaria.svg" }
+		"lunaria": { "iconPath": "./icons/files/lunaria.svg" },
+		"func": { "iconPath": "./icons/files/func.svg" }
+	
 	},
 
 	"fileExtensions": {
@@ -600,7 +602,8 @@
 		"svgx": "image",
 		"toml": "gear",
 		"v": "v",
-		"nix": "nix"
+		"nix": "nix",
+		"func": "fc"
 	},
 
 	"fileNames": {
@@ -1293,7 +1296,8 @@
 		"vue-postcss": "vue",
 		"vue-html": "vue",
 		"ng-template": "angular",
-		"nix": "nix"
+		"nix": "nix",
+		"func": "func"
 	},
 
 	"folderNames": {
