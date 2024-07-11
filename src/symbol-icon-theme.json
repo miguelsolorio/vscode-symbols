@@ -510,6 +510,7 @@
 		"sass": "sass",
 		"dockerignore": "docker",
 		"dockerfile": "docker",
+		"containerignore": "docker",
 		"xml": "xml",
 		"plist": "xml",
 		"xsd": "xml",
