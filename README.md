@@ -125,6 +125,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-yellow-outline|![folder-yellow-outline](preview/folders/folder-yellow-outline.png)|
 |folder-yellow|![folder-yellow](preview/folders/folder-yellow.png)|
 |folder|![folder](preview/folders/folder.png)|
+|folder-test|![folder](preview/folders/folder-test.png)|
 |angular-component|![angular-component](preview/files/angular-component.png)|
 |angular-service|![angular-service](preview/files/angular-service.png)|
 |angular|![angular](preview/files/angular.png)|
