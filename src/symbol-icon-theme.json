@@ -605,6 +605,7 @@
 	},
 
 	"fileNames": {
+		"file.config": "gear",
 		"lunaria.config.json": "lunaria",
 		"ec.config.mjs": "expressive-code",
 		".mcattributes": "minecraft",
