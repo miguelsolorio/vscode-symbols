@@ -720,6 +720,7 @@
 		"gradle-wrapper.properties": "gradle",
 		"postcss.config.js": "postcss",
 		"postcss.config.cjs": "postcss",
+		"postcss.config.mjs": "postcss",
 		"postcss.config.ts": "postcss",
 		"postcss.config.cts": "postcss",
 		"postcss.config.mts": "postcss",
