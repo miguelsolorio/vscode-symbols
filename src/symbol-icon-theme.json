@@ -66,6 +66,7 @@
 		"folder-redux-selector": { "iconPath": "./icons/folders/folder-selector.svg " },
 		"folder-redux-facade": { "iconPath": "./icons/folders/folder-facade.svg" },
 		"folder-images": { "iconPath": "./icons/folders/folder-images.svg" },
+
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-purple": { "iconPath": "./icons/files/code-purple.svg" },
