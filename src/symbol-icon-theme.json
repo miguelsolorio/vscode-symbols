@@ -102,6 +102,7 @@
 		"js-test": { "iconPath": "./icons/files/js-test.svg" },
 		"ts": { "iconPath": "./icons/files/ts.svg" },
 		"ts-test": { "iconPath": "./icons/files/ts-test.svg" },
+		"ts-types": { "iconPath": "./icons/files/ts-types.svg" },
 		"dts": { "iconPath": "./icons/files/dts.svg" },
 		"robot": { "iconPath": "./icons/files/robot.svg" },
 		"text": { "iconPath": "./icons/files/text.svg" },
@@ -265,6 +266,9 @@
 	},
 
 	"fileExtensions": {
+		"d.ts": "ts-types",
+		"d.cts": "ts-types",
+		"d.mts": "ts-types",
 		"mcfunction": "minecraft",
 		"mcmeta": "minecraft",
 		"mcworld": "minecraft",

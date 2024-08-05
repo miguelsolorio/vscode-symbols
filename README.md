@@ -294,6 +294,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |terraform|![terraform](preview/files/terraform.png)|
 |tex|![tex](preview/files/tex.png)|
 |text|![text](preview/files/text.png)|
+|ts-types|![ts-test](preview/files/ts-types.png)|
 |ts-test|![ts-test](preview/files/ts-test.png)|
 |ts|![ts](preview/files/ts.png)|
 |tsconfig|![tsconfig](preview/files/tsconfig.png)|
