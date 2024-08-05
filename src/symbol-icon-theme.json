@@ -505,6 +505,8 @@
 		"mm": "cplus",
 		"mii": "cplus",
 		"ii": "cplus",
+		"cu": "cuda",
+		"cuh": "cuda",
 		"jsx": "react",
 		"tsx": "react-ts",
 		"vsixmanifest": "puzzle",
