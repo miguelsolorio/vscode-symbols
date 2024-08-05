@@ -47,6 +47,10 @@
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
+		"folder-services": { "iconPath": "./icons/folders/folder-services.svg" },
+		"folder-pipes": { "iconPath": "./icons/folders/folder-pipes.svg" },
+		"folder-interceptors": { "iconPath": "./icons/folders/folder-interceptors.svg" },
+		"folder-providers": { "iconPath": "./icons/folders/folder-providers.svg" },
 		"folder-mail": { "iconPath": "./icons/folders/folder-mail.svg" },
 		"folder-auth": { "iconPath": "./icons/folders/folder-auth.svg" },
 		"folder-core": { "iconPath": "./icons/folders/folder-core.svg" },
@@ -152,6 +156,7 @@
 		"graphql": { "iconPath": "./icons/files/graphql.svg" },
 		"next": { "iconPath": "./icons/files/next.svg" },
 		"nuxt": { "iconPath": "./icons/files/nuxt.svg" },
+		"fresh": { "iconPath": "./icons/files/fresh.svg" },
 		"npm": { "iconPath": "./icons/files/npm.svg" },
 		"pnpm": { "iconPath": "./icons/files/pnpm.svg" },
 		"pulumi": { "iconPath": "./icons/files/pulumi.svg" },
@@ -250,7 +255,8 @@
 		"i18n": { "iconPath": "./icons/files/i18n.svg" },
 		"minecraft": { "iconPath": "./icons/files/minecraft.svg" },
 		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
-		"lunaria": { "iconPath": "./icons/files/lunaria.svg" }
+		"lunaria": { "iconPath": "./icons/files/lunaria.svg" },
+		"func": { "iconPath": "./icons/files/func.svg" }
 	},
 
 	"fileExtensions": {
@@ -602,7 +608,8 @@
 		"svgx": "image",
 		"toml": "gear",
 		"v": "v",
-		"nix": "nix"
+		"nix": "nix",
+		"fc": "func"
 	},
 
 	"fileNames": {
@@ -716,6 +723,7 @@
 		"gradle-wrapper.properties": "gradle",
 		"postcss.config.js": "postcss",
 		"postcss.config.cjs": "postcss",
+		"postcss.config.mjs": "postcss",
 		"postcss.config.ts": "postcss",
 		"postcss.config.cts": "postcss",
 		"postcss.config.mts": "postcss",
@@ -1017,10 +1025,16 @@
 		"next.config.mjs": "next",
 		"next.config.ts": "next",
 		"next.config.mts": "next",
+		".nuxtrc": "nuxt",
+		".nuxtignore": "nuxt",
 		"nuxt.config.js": "nuxt",
 		"nuxt.config.mjs": "nuxt",
 		"nuxt.config.ts": "nuxt",
 		"nuxt.config.mts": "nuxt",
+		"fresh.config.js": "fresh",
+		"fresh.config.mjs": "fresh",
+		"fresh.config.ts": "fresh",
+		"fresh.config.mts": "fresh",
 		"angular-cli.json": "angular",
 		".angular-cli.json": "angular",
 		"angular.json": "angular",
@@ -1327,7 +1341,8 @@
 		"vue-postcss": "vue",
 		"vue-html": "vue",
 		"ng-template": "angular",
-		"nix": "nix"
+		"nix": "nix",
+		"func": "func"
 	},
 
 	"folderNames": {
@@ -1344,6 +1359,14 @@
 		"modules": "folder-modules",
 		"angular": "folder-angular",
 		".angular": "folder-angular",
+		"services": "folder-services",
+		"service": "folder-services",
+		"providers": "folder-providers",
+		"provider": "folder-providers",
+		"interceptors": "folder-interceptors",
+		"interceptor": "folder-interceptors",
+		"pipes": "folder-pipes",
+		"pipe": "folder-pipes",
 		"firebase": "folder-firebase",
 		"supabase": "folder-supabase",
 		".drizzle": "folder-drizzle",
@@ -1392,6 +1415,10 @@
 		"public": "folder-purple-outline",
 		"source": "folder-orange-code",
 		"src": "folder-orange-code",
+		"test": "folder-red-code",
+		"tests": "folder-red-code",
+		"spec": "folder-red-code",
+		"specs": "folder-red-code",
 		"tools": "folder-utils",
 		"lib": "folder-utils",
 		"doc": "folder-blue",
@@ -1411,7 +1438,7 @@
 		"emails": "folder-mail",
 		"smtp": "folder-mail",
 		"mailers": "folder-mail",
-		"images": "folder-images",
+		"images": "folder-images"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
