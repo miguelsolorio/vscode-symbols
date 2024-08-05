@@ -251,7 +251,7 @@
 		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
 		"lunaria": { "iconPath": "./icons/files/lunaria.svg" },
 		"func": { "iconPath": "./icons/files/func.svg" }
-	
+
 	},
 
 	"fileExtensions": {
@@ -603,7 +603,7 @@
 		"toml": "gear",
 		"v": "v",
 		"nix": "nix",
-		"func": "fc"
+		"fc": "func"
 	},
 
 	"fileNames": {
