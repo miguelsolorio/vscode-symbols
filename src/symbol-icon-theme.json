@@ -116,7 +116,7 @@
 		"vue": { "iconPath": "./icons/files/vue.svg" },
 		"xml": { "iconPath": "./icons/files/xml.svg" },
 		"yarn": { "iconPath": "./icons/files/yarn.svg" },
-		
+
 		"angular": { "iconPath": "./icons/files/angular.svg" },
 		"angular-component": { "iconPath": "./icons/files/angular-component.svg" },
 		"angular-service": { "iconPath": "./icons/files/angular-service.svg" },
