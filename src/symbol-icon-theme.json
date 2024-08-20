@@ -153,7 +153,7 @@
 		"firebase": { "iconPath": "./icons/files/firebase.svg" },
 		"fresh": { "iconPath": "./icons/files/fresh.svg" },
 		"fsharp": { "iconPath": "./icons/files/fsharp.svg" },
-		"func": { "iconPath": "./icons/files/func.svg" }
+		"func": { "iconPath": "./icons/files/func.svg" },
 		"gatsby": { "iconPath": "./icons/files/gatsby.svg" },
 		"gif": { "iconPath": "./icons/files/gif.svg" },
 		"github": { "iconPath": "./icons/files/github.svg" },
