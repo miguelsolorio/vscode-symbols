@@ -258,7 +258,7 @@
 		"vitest": { "iconPath": "./icons/files/vitest.svg" },
 		"webpack": { "iconPath": "./icons/files/webpack.svg" },
 		"yaml": { "iconPath": "./icons/files/yaml.svg" },
-		"zig": { "iconPath": "./icons/files/zig.svg" },
+		"zig": { "iconPath": "./icons/files/zig.svg" }
 	},
 
 	"fileExtensions": {
