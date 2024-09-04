@@ -43,6 +43,7 @@
 		"folder-drizzle": { "iconPath": "./icons/folders/folder-drizzle.svg" },
 		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
 		"folder-github": { "iconPath": "./icons/folders/folder-github.svg" },
+		"folder-gitlab": { "iconPath": "./icons/folders/folder-gitlab.svg" },
 		"folder-graphql": { "iconPath": "./icons/folders/folder-graphql.svg" },
 		"folder-helpers": { "iconPath": "./icons/folders/folder-helpers.svg" },
 		"folder-images": { "iconPath": "./icons/folders/folder-images.svg" },
@@ -140,6 +141,7 @@
 		"gif": { "iconPath": "./icons/files/gif.svg" },
 		"git": { "iconPath": "./icons/files/git.svg" },
 		"github": { "iconPath": "./icons/files/github.svg" },
+		"gitlab": { "iconPath": "./icons/files/gitlab.svg" },
 		"gleam": { "iconPath": "./icons/files/gleam.svg" },
 		"go-mod": { "iconPath": "./icons/files/go-mod.svg" },
 		"go": { "iconPath": "./icons/files/go.svg" },
@@ -624,6 +626,7 @@
 	},
 
 	"fileNames": {
+		"gitlab-ci.yml": "gitlab",
 		"file.config": "gear",
 		"lunaria.config.json": "lunaria",
 		"ec.config.mjs": "expressive-code",
@@ -1372,6 +1375,7 @@
 	},
 
 	"folderNames": {
+		".gitlab": "folder-gitlab",
 		"auth": "folder-auth",
 		"core": "folder-core",
 		"models": "folder-models",
