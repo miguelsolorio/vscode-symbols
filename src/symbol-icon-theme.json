@@ -249,7 +249,8 @@
 		"i18n": { "iconPath": "./icons/files/i18n.svg" },
 		"minecraft": { "iconPath": "./icons/files/minecraft.svg" },
 		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
-		"lunaria": { "iconPath": "./icons/files/lunaria.svg" }
+		"lunaria": { "iconPath": "./icons/files/lunaria.svg" },
+		"cuda": { "iconPath": "./icons/files/cuda.svg" }
 	},
 
 	"fileExtensions": {
