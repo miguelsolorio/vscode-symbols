@@ -217,7 +217,7 @@
 		"rescript": { "iconPath": "./icons/files/rescript.svg" },
 		"robot": { "iconPath": "./icons/files/robot.svg" },
 		"rome": { "iconPath": "./icons/files/rome.svg" },
-    "rsbuild": { "iconPath": "./icons/files/rsbuild.svg" },
+		"rsbuild": { "iconPath": "./icons/files/rsbuild.svg" },
 		"rspack": { "iconPath": "./icons/files/rspack.svg" },
 		"rslib": { "iconPath": "./icons/files/rslib.svg" },
 		"ruby": { "iconPath": "./icons/files/ruby.svg" },
