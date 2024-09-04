@@ -262,6 +262,7 @@
 		"minecraft": { "iconPath": "./icons/files/minecraft.svg" },
 		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
 		"lunaria": { "iconPath": "./icons/files/lunaria.svg" },
+		"cuda": { "iconPath": "./icons/files/cuda.svg" },
 		"func": { "iconPath": "./icons/files/func.svg" }
 	},
 
@@ -505,6 +506,8 @@
 		"mm": "cplus",
 		"mii": "cplus",
 		"ii": "cplus",
+		"cu": "cuda",
+		"cuh": "cuda",
 		"jsx": "react",
 		"tsx": "react-ts",
 		"vsixmanifest": "puzzle",
