@@ -1,5 +1,41 @@
 # Change Log
 
+## 0.0.19
+
+## What's Changed
+
+* Add more babel configuration files by [@sebastiandotdev](https://github.com/sebastiandotdev) in https://github.com/miguelsolorio/vscode-symbols/pull/211
+* Add more variants of compose.yml by [@caoimhebyrne](https://github.com/caoimhebyrne) in https://github.com/miguelsolorio/vscode-symbols/pull/223
+* Add `.containerignore` by [@caoimhebyrne](https://github.com/caoimhebyrne) in https://github.com/miguelsolorio/vscode-symbols/pull/224
+* Add folder for Pipes, Services, Interceptors, Providers from Angular by [@sebastiandotdev](https://github.com/sebastiandotdev) in https://github.com/miguelsolorio/vscode-symbols/pull/212
+* Add folder-images icon by [@JoaoGFdev](https://github.com/JoaoGFdev) in https://github.com/miguelsolorio/vscode-symbols/pull/213
+* Add new icons for test folders by [@sebastiandotdev](https://github.com/sebastiandotdev) in https://github.com/miguelsolorio/vscode-symbols/pull/215
+* Add Deno fresh icon by [@sebastiandotdev](https://github.com/sebastiandotdev) in https://github.com/miguelsolorio/vscode-symbols/pull/216
+* Add icons Nuxt for configuration files by [@sebastiandotdev](https://github.com/sebastiandotdev) in https://github.com/miguelsolorio/vscode-symbols/pull/217
+* 👾 Add icon for `postcss.config.mjs` by [@Rnbsov](https://github.com/Rnbsov) in https://github.com/miguelsolorio/vscode-symbols/pull/220
+* Add func language file icon by [@RyanHolanda](https://github.com/RyanHolanda) in https://github.com/miguelsolorio/vscode-symbols/pull/221
+* Add 'folder-images' to folders and associations by [@iJuulia](https://github.com/iJuulia) in https://github.com/miguelsolorio/vscode-symbols/pull/227
+* Add icons/folder-icons for different Storybook folders by [@dimentoree](https://github.com/dimentoree) in https://github.com/miguelsolorio/vscode-symbols/pull/228
+* Add icon for CUDA files by [@eduardo](https://github.com/eduardo)-kurek in https://github.com/miguelsolorio/vscode-symbols/pull/218
+* Add folder-icon for GraphQL folders by [@dimentoree](https://github.com/dimentoree) in https://github.com/miguelsolorio/vscode-symbols/pull/229
+* Reorganize `iconDefinitions` in alphabetical order by [@iJuulia](https://github.com/iJuulia) in https://github.com/miguelsolorio/vscode-symbols/pull/231
+* add rstack family icon by [@wChenonly](https://github.com/wChenonly) in https://github.com/miguelsolorio/vscode-symbols/pull/236
+* add gitlab icon and folder-icon by [@dimentoree](https://github.com/dimentoree) in https://github.com/miguelsolorio/vscode-symbols/pull/230
+
+## New Contributors
+
+* [@caoimhebyrne](https://github.com/caoimhebyrne) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/223
+* [@JoaoGFdev](https://github.com/JoaoGFdev) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/213
+* [@Rnbsov](https://github.com/Rnbsov) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/220
+* [@RyanHolanda](https://github.com/RyanHolanda) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/221
+* [@iJuulia](https://github.com/iJuulia) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/227
+* [@dimentoree](https://github.com/dimentoree) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/228
+* [@eduardo](https://github.com/eduardo)-kurek made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/218
+* [@wChenonly](https://github.com/wChenonly) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/236
+* [@dimentoree](https://github.com/dimentoree) made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/230
+
+**Full Changelog**: https://github.com/miguelsolorio/vscode-symbols/compare/0.0.18...0.0.19
+
 ## 0.0.18
 
 ### 🚀 New Icons
