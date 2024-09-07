@@ -59,7 +59,6 @@ function updateConfig(config) {
 		log.info(`🤖 symbols.${key} changed, updating to ${config[key]}`);
 		const updateHandler = updateThemeJSONHandlers[key];
 		if (updateHandler) {
-			vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
 			updateHandler(themeJSON, config[key]);
 		}
 	}
