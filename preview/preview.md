@@ -30,7 +30,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-green|![folder-green](folders/folder-green.png)|
 |folder-helpers|![folder-helpers](folders/folder-helpers.png)|
 |folder-images|![folder-images](folders/folder-images.png)|
-|folder-intefaces|![folder-intefaces](folders/folder-intefaces.png)|
+|folder-interfaces|![folder-interfaces](folders/folder-interfaces.png)|
 |folder-interceptors|![folder-interceptors](folders/folder-interceptors.png)|
 |folder-ios|![folder-ios](folders/folder-ios.png)|
 |folder-layout|![folder-layout](folders/folder-layout.png)|
