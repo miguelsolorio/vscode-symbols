@@ -1,6 +1,17 @@
 # Change Log
 
+## 0.0.20
+
+### 🚀 New Icons
+
+* `statamatic antlers` support [#240](https://github.com/miguelsolorio/vscode-symbols/issues/240) via [@zacksmash ](https://github.com/zacksmash )
+
+### 🧹 Cleanup
+
 ## 0.0.19
+
+* Fixed an issue where enbaling `symbols.hidesExplorerArrows` wouldn't hide the arrows in the explorer view reliably [#241](https://github.com/miguelsolorio/vscode-symbols/pull/241)
+* Fixed an issue where the extension would write to the user's settings when disabling `symbols.hidesExplorerArrows` [#241](https://github.com/miguelsolorio/vscode-symbols/pull/241)
 
 ## What's Changed
 
