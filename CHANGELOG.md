@@ -11,6 +11,8 @@
 * Fixed an issue where enbaling `symbols.hidesExplorerArrows` wouldn't hide the arrows in the explorer view reliably [#241](https://github.com/miguelsolorio/vscode-symbols/pull/241)
 * Fixed an issue where the extension would write to the user's settings when disabling `symbols.hidesExplorerArrows` [#241](https://github.com/miguelsolorio/vscode-symbols/pull/241)
 
+## 0.0.19
+
 ## What's Changed
 
 * Add more babel configuration files by [@sebastiandotdev](https://github.com/sebastiandotdev) in https://github.com/miguelsolorio/vscode-symbols/pull/211
