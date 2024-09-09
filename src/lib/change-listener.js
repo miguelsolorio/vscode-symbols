@@ -7,24 +7,12 @@ function monitorConfigChanges() {
 	const workspaceState = getWorkspaceConfiguration();
 
 	const updatedKeys = {};
-	let hasChanges = false;
 
 	for (const currentKey in currentState) {
-		if (currentKey in workspaceState) {
-			if (JSON.stringify(workspaceState[currentKey]) !== JSON.stringify(currentState[currentKey])) {
-				updatedKeys[currentKey] = workspaceState[currentKey];
-				hasChanges = true;
-			}
-		} else if (currentState[currentKey] !== undefined) {
-			// The setting was removed, so we need to update it to undefined
-			updatedKeys[currentKey] = undefined;
-			hasChanges = true;
-		}
+		updatedKeys[currentKey] = workspaceState[currentKey];
 	}
 
-	if (hasChanges) {
-		updateConfig(updatedKeys);
-	}
+	updateConfig(updatedKeys);
 }
 
 module.exports = {

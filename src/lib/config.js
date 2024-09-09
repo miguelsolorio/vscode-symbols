@@ -25,12 +25,7 @@ function getWorkspaceConfiguration() {
 
 		const valueGroup = vscode.workspace.getConfiguration("symbols").inspect(PKG_PROP_MAP[key]);
 
-		if (valueGroup.workspaceValue !== undefined) {
-			config[PKG_PROP_MAP[key]] = valueGroup.workspaceValue;
-		} else if (valueGroup.globalValue !== undefined) {
-			config[PKG_PROP_MAP[key]] = valueGroup.globalValue;
-		}
-		// We no longer fall back to defaultState
+		config[PKG_PROP_MAP[key]] = valueGroup.workspaceValue || valueGroup.globalValue || defaultState[PKG_PROP_MAP[key]];
 	}
 
 	return config;
@@ -61,20 +56,10 @@ function updateConfig(config) {
 	const themeJSON = getSoureFile();
 
 	for (const key in config) {
-		if (config[key] === undefined) {
-			log.info(`symbols.${key} removed, updating theme`);
-			vscode.workspace.getConfiguration("symbols").update(key, undefined, true);
-			// Remove the key from themeJSON if it exists
-			if (key in themeJSON) {
-				delete themeJSON[key];
-			}
-		} else {
-			log.info(`symbols.${key} changed, updating to ${config[key]}`);
-			const updateHandler = updateThemeJSONHandlers[key];
-			if (updateHandler) {
-				vscode.workspace.getConfiguration("symbols").update(key, config[key], true);
-				updateHandler(themeJSON, config[key]);
-			}
+		log.info(`🤖 symbols.${key} changed, updating to ${config[key]}`);
+		const updateHandler = updateThemeJSONHandlers[key];
+		if (updateHandler) {
+			updateHandler(themeJSON, config[key]);
 		}
 	}
 
