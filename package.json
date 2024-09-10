@@ -2,7 +2,7 @@
 	"name": "symbols",
 	"displayName": "Symbols",
 	"description": "A simple file icon theme for VS Code",
-	"version": "0.0.19",
+	"version": "0.0.20",
 	"publisher": "miguelsolorio",
 	"icon": "symbols.png",
 	"preview": true,
@@ -15,10 +15,10 @@
 	"keywords": ["icons", "theme", "icon-theme", "file-icon-theme", "file icons"],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/misolori/vscode-symbols.git"
+		"url": "https://github.com/miguelsolorio/vscode-symbols.git"
 	},
 	"bugs": {
-		"url": "https://github.com/misolori/vscode-symbols/issues"
+		"url": "https://github.com/miguelsolorio/vscode-symbols/issues"
 	},
 	"author": {
 		"name": "Miguel Solorio"

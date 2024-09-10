@@ -11,12 +11,6 @@ async function activate(context) {
 	monitorConfigChanges();
 
 	vscode.workspace.onDidChangeConfiguration(monitorConfigChanges);
-
-	vscode.window.onDidChangeWindowState((state) => {
-		if (state.focused) {
-			monitorConfigChanges();
-		}
-	});
 }
 
 function deactivate() {}
