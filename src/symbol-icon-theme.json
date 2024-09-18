@@ -179,6 +179,7 @@
 		"minecraft": { "iconPath": "./icons/files/minecraft.svg" },
 		"nest-controller": { "iconPath": "./icons/files/nest-controller.svg" },
 		"nest-service": { "iconPath": "./icons/files/nest-service.svg" },
+		"nest-guard": { "iconPath": "./icons/files/nest-guard.svg" },
 		"nest": { "iconPath": "./icons/files/nest.svg" },
 		"netlify": { "iconPath": "./icons/files/netlify.svg" },
 		"next": { "iconPath": "./icons/files/next.svg" },
