@@ -172,6 +172,7 @@
 		"liquid": { "iconPath": "./icons/files/liquid.svg" },
 		"lock": { "iconPath": "./icons/files/lock.svg" },
 		"lua": { "iconPath": "./icons/files/lua.svg" },
+                "luau": { "iconPath": "./icons/files/luau.svg" },
 		"lunaria": { "iconPath": "./icons/files/lunaria.svg" },
 		"markdoc": { "iconPath": "./icons/files/markdoc.svg" },
 		"markdown": { "iconPath": "./icons/files/markdown.svg" },
