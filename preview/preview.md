@@ -108,6 +108,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |dart|![dart](files/dart.png)|
 |database|![database](files/database.png)|
 |deno|![deno](files/deno.png)|
+|docusaurus|![docusaurus](files/docusaurus.png)|
 |docker|![docker](files/docker.png)|
 |document|![document](files/document.png)|
 |drawio|![drawio](files/drawio.png)|
