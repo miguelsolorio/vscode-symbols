@@ -629,6 +629,7 @@
 	},
 
 	"fileNames": {
+		".gitlab-ci.yml": "gitlab",
 		"gitlab-ci.yml": "gitlab",
 		"file.config": "gear",
 		"lunaria.config.json": "lunaria",
