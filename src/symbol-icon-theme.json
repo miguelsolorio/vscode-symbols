@@ -1477,7 +1477,9 @@
 		"smtp": "folder-mail",
 		"mailers": "folder-mail",
 		"image": "folder-images",
-		"images": "folder-images"
+		"images": "folder-images",
+		"hooks": "folder-hooks",
+		"contants": "folder-constants"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
