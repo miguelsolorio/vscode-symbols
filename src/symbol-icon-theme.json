@@ -71,6 +71,8 @@
 		"folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
 		"folder-utils": { "iconPath": "./icons/folders/folder-utils.svg" },
 		"folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
+		"folder-hooks": { "iconPath": "./icons/folders/folder-hooks.svg" },
+		"folder-constants": { "iconPath": "./icons/folders/folder-constants.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
