@@ -193,6 +193,7 @@
 		"nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
 		"nuxt": { "iconPath": "./icons/files/nuxt.svg" },
 		"ocaml": { "iconPath": "./icons/files/ocaml.svg" },
+		"oxlint": { "iconPath": "./icons/files/oxlint.svg" },
 		"panda": { "iconPath": "./icons/files/panda.svg" },
 		"patch": { "iconPath": "./icons/files/patch.svg" },
 		"pdf": { "iconPath": "./icons/files/pdf.svg" },
@@ -1273,7 +1274,9 @@
 		"rslib.config.js": "rslib",
 		"rslib.config.cjs": "rslib",
 		"rslib.config.mts": "rslib",
-		"rslib.config.cts": "rslib"
+		"rslib.config.cts": "rslib",
+		".oxlintrc.json": "oxlint",
+		".oxlintignore": "oxlint"
 	},
 
 	"languageIds": {
