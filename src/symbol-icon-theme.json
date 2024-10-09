@@ -1271,7 +1271,8 @@
 		"rslib.config.cjs": "rslib",
 		"rslib.config.mts": "rslib",
 		"rslib.config.cts": "rslib",
-		".oxlintrc.json": "oxlint"
+		".oxlintrc.json": "oxlint",
+		".oxlintignore": "oxlint"
 	},
 
 	"languageIds": {
