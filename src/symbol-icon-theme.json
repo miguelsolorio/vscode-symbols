@@ -71,6 +71,7 @@
 		"folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
 		"folder-utils": { "iconPath": "./icons/folders/folder-utils.svg" },
 		"folder-vercel": { "iconPath": "./icons/folders/folder-vercel.svg" },
+		"folder-bruno": { "iconPath": "./icons/folders/folder-bruno.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -100,6 +101,7 @@
 		"babel": { "iconPath": "./icons/files/babel.svg" },
 		"biome": { "iconPath": "./icons/files/biome.svg" },
 		"bun": { "iconPath": "./icons/files/bun.svg" },
+		"bruno": { "iconPath": "./icons/files/bruno.svg" },
 		"c": { "iconPath": "./icons/files/c.svg" },
 		"capacitor": { "iconPath": "./icons/files/capacitor.svg" },
 		"clojure": { "iconPath": "./icons/files/clojure.svg" },
@@ -374,6 +376,7 @@
 		"al": "code-green",
 		"http": "http",
 		"rest": "http",
+		"bru": "http",
 		"cls": "code-blue",
 		"exe": "exe",
 		"msi": "exe",
@@ -667,6 +670,7 @@
 		"markdoc.config.ts": "markdoc",
 		"keystatic.page.ts": "keystatic",
 		"keystatic.config.ts": "keystatic",
+		"bruno.json": "bruno",
 		"bun.lockb": "bun",
 		"bunfig.toml": "bun",
 		"dune": "dune",
@@ -1477,7 +1481,9 @@
 		"smtp": "folder-mail",
 		"mailers": "folder-mail",
 		"image": "folder-images",
-		"images": "folder-images"
+		"images": "folder-images",
+		".bru": "folder-bruno",
+		"bru": "folder-bruno"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
