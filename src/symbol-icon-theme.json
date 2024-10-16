@@ -997,7 +997,7 @@
 		".env.production": "gear",
 		".env.prod": "gear",
 		".env.test": "gear",
-		".mongodb": "mongo",
+		"mongodb": "mongo",
 		"pre-commit": "shell",
 		"commit-msg": "shell",
 		"pre-push": "shell",
