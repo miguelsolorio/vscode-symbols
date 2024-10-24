@@ -137,6 +137,7 @@
 		"expressive-code": { "iconPath": "./icons/files/expressive-code.svg" },
 		"firebase": { "iconPath": "./icons/files/firebase.svg" },
 		"font": { "iconPath": "./icons/files/font.svg" },
+		"fortran": { "iconPath": "./icons/files/fortran.svg" },
 		"fresh": { "iconPath": "./icons/files/fresh.svg" },
 		"fsharp": { "iconPath": "./icons/files/fsharp.svg" },
 		"func": { "iconPath": "./icons/files/func.svg" },
@@ -274,6 +275,11 @@
 	},
 
 	"fileExtensions": {
+		"f90": "fortran",
+		"f95": "fortran",
+		"f03": "fortran",
+		"f": "fortran",
+		"for": "fortran",
 		"d.ts": "ts-types",
 		"d.cts": "ts-types",
 		"d.mts": "ts-types",

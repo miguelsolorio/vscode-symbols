@@ -123,6 +123,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |expressive-code|![expressive-code](files/expressive-code.png)|
 |firebase|![firebase](files/firebase.png)|
 |font|![font](files/font.png)|
+|fortran|![fortran](files/fortran.png)|
 |fsharp|![fsharp](files/fsharp.png)|
 |func|[func](files/func.png)|
 |fresh|![fresh](files/fresh.png)|
