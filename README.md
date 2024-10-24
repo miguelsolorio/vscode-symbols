@@ -60,3 +60,8 @@ _Note: For file names, you can use `*` to match all files with a specific file e
 ## Icon Preview
 
 You can preview the icons by reading the the [preview.md](./preview/preview.md) file.
+
+## React Symbols
+[Pablo Hdez](https://github.com/pheralb) has graciously created [React-Symbols](https://react-symbols.vercel.app) ([pheralb/react-symbols](https://github.com/pheralb/react-symbols)) to allow you to embed Symbol icons for your React projects.
+
+<img src="https://raw.githubusercontent.com/pheralb/react-symbols/main/website/public/images/og.png">
