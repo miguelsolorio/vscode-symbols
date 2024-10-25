@@ -108,6 +108,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |dart|![dart](files/dart.png)|
 |database|![database](files/database.png)|
 |deno|![deno](files/deno.png)|
+|docusaurus|![docusaurus](files/docusaurus.png)|
 |docker|![docker](files/docker.png)|
 |document|![document](files/document.png)|
 |drawio|![drawio](files/drawio.png)|
@@ -123,6 +124,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |expressive-code|![expressive-code](files/expressive-code.png)|
 |firebase|![firebase](files/firebase.png)|
 |font|![font](files/font.png)|
+|fortran|![fortran](files/fortran.png)|
 |fsharp|![fsharp](files/fsharp.png)|
 |func|[func](files/func.png)|
 |fresh|![fresh](files/fresh.png)|
@@ -161,6 +163,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |liquid|![liquid](files/liquid.png)|
 |lock|![lock](files/lock.png)|
 |lua|![lua](files/lua.png)|
+|luau|![lua](files/luau.png)|
 |lunaria|![lunaria](files/lunaria.png)|
 |markdoc|![markdoc](files/markdoc.png)|
 |markdown|![markdown](files/markdown.png)|
