@@ -1481,7 +1481,7 @@
 		"image": "folder-images",
 		"images": "folder-images",
 		"hooks": "folder-hooks",
-		"contants": "folder-constants"
+		"constants": "folder-constants"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
