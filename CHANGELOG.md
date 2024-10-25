@@ -1,5 +1,31 @@
 # Change Log
 
+## 0.0.21
+
+## What's Changed
+
+* Add Nest Guard Icon by [@renanholler](https://github.com/renanholler) in [#246](https://github.com/miguelsolorio/vscode-symbols/pull/246)
+* Add icon for .gitlab-ci.yml file by [@gerzon05](https://github.com/gerzon05) in [#250](https://github.com/miguelsolorio/vscode-symbols/pull/250)
+* update deno icon by [@falcao](https://github.com/falcao)-g in [#255](https://github.com/miguelsolorio/vscode-symbols/pull/255)
+* Add some icons for `Angular` files by [@dimentoree](https://github.com/dimentoree) in [#244](https://github.com/miguelsolorio/vscode-symbols/pull/244)
+* Add icon to fortran files by [@GabLunaDev](https://github.com/GabLunaDev) in [#245](https://github.com/miguelsolorio/vscode-symbols/pull/245)
+* Add icon for `oxlint` files  by [@dimentoree](https://github.com/dimentoree) in [#252](https://github.com/miguelsolorio/vscode-symbols/pull/252)
+* Add icon to luau files  by [@zoi1op](https://github.com/zoi1op) in [#247](https://github.com/miguelsolorio/vscode-symbols/pull/247)
+* Proposal for a new docusaurus icon by [@sebastiandotdev](https://github.com/sebastiandotdev) in [#249](https://github.com/miguelsolorio/vscode-symbols/pull/249)
+* add "hooks" and "constants" folders by [@iJuulia](https://github.com/iJuulia) in [#251](https://github.com/miguelsolorio/vscode-symbols/pull/251)
+* Add file/folder icons for `MongoDB` by [@dimentoree](https://github.com/dimentoree) in [#256](https://github.com/miguelsolorio/vscode-symbols/pull/256)
+* Add icon for bruno by [@guilhermedunguel](https://github.com/guilhermedunguel) in [#254](https://github.com/miguelsolorio/vscode-symbols/pull/254)
+
+## New Contributors
+
+* [@renanholler](https://github.com/renanholler) made their first contribution in [#246](https://github.com/miguelsolorio/vscode-symbols/pull/246)
+* [@gerzon05](https://github.com/gerzon05) made their first contribution in [#250](https://github.com/miguelsolorio/vscode-symbols/pull/250)
+* [@falcao](https://github.com/falcao)-g made their first contribution in [#255](https://github.com/miguelsolorio/vscode-symbols/pull/255)
+* [@GabLunaDev](https://github.com/GabLunaDev) made their first contribution in [#245](https://github.com/miguelsolorio/vscode-symbols/pull/245)
+* [@zoi1op](https://github.com/zoi1op) made their first contribution in [#247](https://github.com/miguelsolorio/vscode-symbols/pull/247)
+* [@guilhermedunguel](https://github.com/guilhermedunguel) made their first contribution in [#254](https://github.com/miguelsolorio/vscode-symbols/pull/254)
+
+
 ## 0.0.20
 
 ### 🚀 New Icons
