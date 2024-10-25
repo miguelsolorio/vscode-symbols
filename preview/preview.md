@@ -162,6 +162,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |liquid|![liquid](files/liquid.png)|
 |lock|![lock](files/lock.png)|
 |lua|![lua](files/lua.png)|
+|luau|![lua](files/luau.png)|
 |lunaria|![lunaria](files/lunaria.png)|
 |markdoc|![markdoc](files/markdoc.png)|
 |markdown|![markdown](files/markdown.png)|
