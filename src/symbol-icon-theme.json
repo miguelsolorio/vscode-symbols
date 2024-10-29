@@ -75,6 +75,8 @@
 		"folder-bruno": { "iconPath": "./icons/folders/folder-bruno.svg" },
 		"folder-hooks": { "iconPath": "./icons/folders/folder-hooks.svg" },
 		"folder-constants": { "iconPath": "./icons/folders/folder-constants.svg" },
+		"folder-expo": { "iconPath": "./icons/folders/folder-expo.svg" },
+		"folder-gradle": { "iconPath": "./icons/folders/folder-gradle.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -1525,7 +1527,11 @@
 		"mongo": "folder-mongo",
 		"mongodb": "folder-mongo",
 		"hooks": "folder-hooks",
-		"constants": "folder-constants"
+		"constants": "folder-constants",
+		"expo": "folder-expo",
+		".expo": "folder-expo",
+		"gradle": "folder-gradle",
+		".gradle": "folder-gradle"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",

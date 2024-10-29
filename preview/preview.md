@@ -19,9 +19,11 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-database|![folder-database](folders/folder-database.png)|
 |folder-drizzle|![folder-drizzle](folders/folder-drizzle.png)|
 |folder-effects|![folder-effects](folders/folder-effects.png)|
+|folder-expo|![folder-expo](folders/folder-expo.png)|
 |folder-facade|![folder-facade](folders/folder-facade.png)|
 |folder-firebase|![folder-firebase](folders/folder-firebase.png)|
 |folder-github|![folder-github](folders/folder-github.png)|
+|folder-gradle|![folder-gradle](folders/folder-gradle.png)|
 |folder-gray-code|![folder-gray-code](folders/folder-gray-code.png)|
 |folder-gray-outline|![folder-gray-outline](folders/folder-gray-outline.png)|
 |folder-gray|![folder-gray](folders/folder-gray.png)|
