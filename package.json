@@ -48,6 +48,11 @@
 					"default": false,
 					"description": "Hide arrow icons in the explorer section."
 				},
+				"symbols.defaultAssociations": {
+					"type": "boolean",
+					"default": true,
+					"description": "Include a set of predefined file and folder associations."
+				},
 				"symbols.folders.associations": {
 					"type": "object",
 					"default": {},
