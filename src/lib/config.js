@@ -55,6 +55,15 @@ function themeJSONToConfig(themeDef) {
 function updateConfig(config) {
 	const themeJSON = getSoureFile();
 
+	const useDefaultAssociations = vscode.workspace.getConfiguration("symbols").get("defaultAssociations", true);
+	log.info(`🤖 symbols.defaultAssociations changed, updating to ${useDefaultAssociations}`);
+	if (useDefaultAssociations === false) {
+		themeJSON.fileExtensions = {};
+		themeJSON.fileNames = {};
+		themeJSON.languageIds = {};
+		themeJSON.folderNames = {};
+	}
+
 	for (const key in config) {
 		log.info(`🤖 symbols.${key} changed, updating to ${config[key]}`);
 		const updateHandler = updateThemeJSONHandlers[key];
