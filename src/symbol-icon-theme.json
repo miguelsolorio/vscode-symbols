@@ -1101,6 +1101,7 @@
 		"tailwind.ts": "tailwind",
 		"tailwind.config.js": "tailwind",
 		"tailwind.config.cjs": "tailwind",
+		"tailwind.config.mjs": "tailwind",
 		"tailwind.config.ts": "tailwind",
 		"tailwind.config.cts": "tailwind",
 		"tailwind.config.mts": "tailwind",
