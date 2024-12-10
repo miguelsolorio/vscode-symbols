@@ -156,6 +156,7 @@
 		"github": { "iconPath": "./icons/files/github.svg" },
 		"gitlab": { "iconPath": "./icons/files/gitlab.svg" },
 		"gleam": { "iconPath": "./icons/files/gleam.svg" },
+		"go": { "iconPath": "./icons/files/go.svg" },
 		"go-mod": { "iconPath": "./icons/files/go-mod.svg" },
 		"go-green": { "iconPath": "./icons/files/go-green.svg" },
 		"go-orange": { "iconPath": "./icons/files/go-orange.svg" },
