@@ -196,6 +196,8 @@
 		"nest-service": { "iconPath": "./icons/files/nest-service.svg" },
 		"nest-guard": { "iconPath": "./icons/files/nest-guard.svg" },
 		"nest": { "iconPath": "./icons/files/nest.svg" },
+		"nest-decorator": { "iconPath": "./icons/files/nest-decorator.svg" },
+		"nest-middleware": { "iconPath": "./icons/files/nest-middleware.svg" },
 		"netlify": { "iconPath": "./icons/files/netlify.svg" },
 		"next": { "iconPath": "./icons/files/next.svg" },
 		"nix": { "iconPath": "./icons/files/nix.svg" },
