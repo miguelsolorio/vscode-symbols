@@ -590,7 +590,7 @@
 		"xml.dist.sample": "xml",
 		"dmn": "xml",
 		"htaccess": "document",
-		"txt": "document",
+		"txt": "text",
 		"xlsx": "csv",
 		"xlsm": "csv",
 		"xls": "csv",
