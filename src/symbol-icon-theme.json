@@ -163,7 +163,6 @@
 		"go-orange": { "iconPath": "./icons/files/go-orange.svg" },
 		"go-purple": { "iconPath": "./icons/files/go-purple.svg" },
 		"go-red": { "iconPath": "./icons/files/go-red.svg" },
-		"go-sky": { "iconPath": "./icons/files/go-sky.svg" },
 		"go-yellow": { "iconPath": "./icons/files/go-yellow.svg" },
 		"gradle": { "iconPath": "./icons/files/gradle.svg" },
 		"graphql": { "iconPath": "./icons/files/graphql.svg" },
