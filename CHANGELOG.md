@@ -1,5 +1,23 @@
 # Change Log
 
+## 0.0.22
+
+## What's Changed
+
+* feat: Add `expo` and `gradle` folders by [@Pedroo-Nietoo](https://github.com/Pedroo-Nietoo) in https://github.com/miguelsolorio/vscode-symbols/pull/259
+* Add NestJS Guard, Decorator icons by [@premdasvm](https://github.com/premdasvm) in https://github.com/miguelsolorio/vscode-symbols/pull/262
+* Add missing file name for tailwind.config.mjs by [@victorbadaro](https://github.com/victorbadaro) in https://github.com/miguelsolorio/vscode-symbols/pull/264
+* Add option to exclude default associations by [@Remceau](https://github.com/Remceau) in https://github.com/miguelsolorio/vscode-symbols/pull/266
+* feat: added more colors to `go` files by [@CarlosNayan](https://github.com/CarlosNayan) in https://github.com/miguelsolorio/vscode-symbols/pull/268
+
+## New Contributors
+
+* @Pedroo-Nietoo made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/259
+* @premdasvm made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/262
+* @victorbadaro made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/264
+* @Remceau made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/266
+* @CarlosNayan made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/268
+
 ## 0.0.21
 
 ## What's Changed
