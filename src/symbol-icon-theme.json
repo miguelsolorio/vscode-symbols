@@ -916,7 +916,7 @@
 		"manifest.in": "python",
 		"pylintrc": "python",
 		".pylintrc": "python",
-		"pyproject.toml": "python",
+		"pyproject.toml": "gear",
 		"setup.cfg": "python",
 		"jest.config.js": "jest",
 		"jest.config.cjs": "jest",
