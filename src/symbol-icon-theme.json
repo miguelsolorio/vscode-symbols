@@ -35,7 +35,8 @@
 		"folder-android": { "iconPath": "./icons/folders/folder-android.svg" },
 		"folder-angular": { "iconPath": "./icons/folders/folder-angular.svg" },
 		"folder-app": { "iconPath": "./icons/folders/folder-app.svg" },
-		"folder-auth": { "iconPath": "./icons/folders/folder-auth.svg" },
+		"folder-auth": { "iconPath": "./icons/folders/folder-lock.svg" },
+		"folder-lock": { "iconPath": "./icons/folders/folder-lock.svg" },
 		"folder-config": { "iconPath": "./icons/folders/folder-config.svg" },
 		"folder-context": { "iconPath": "./icons/folders/folder-context.svg" },
 		"folder-core": { "iconPath": "./icons/folders/folder-core.svg" },
@@ -1431,8 +1432,9 @@
 	},
 
 	"folderNames": {
+		".venv": "folder-lock",
 		".gitlab": "folder-gitlab",
-		"auth": "folder-auth",
+		"auth": "folder-lock",
 		"core": "folder-core",
 		"models": "folder-models",
 		"interface": "folder-interfaces",
