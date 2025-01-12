@@ -717,6 +717,7 @@
 		"keystatic.page.ts": "keystatic",
 		"keystatic.config.ts": "keystatic",
 		"bruno.json": "bruno",
+		"bun.lock": "bun",
 		"bun.lockb": "bun",
 		"bunfig.toml": "bun",
 		"dune": "dune",
