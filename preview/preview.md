@@ -9,7 +9,6 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-angular|![folder-angular](folders/folder-angular.png)|
 |folder-app|![folder-app](folders/folder-app.png)|
 |folder-assets|![folder-assets](folders/folder-assets.png)|
-|folder-auth|![folder-auth](folders/folder-auth.png)|
 |folder-blue-code|![folder-blue-code](folders/folder-blue-code.png)|
 |folder-blue-outline|![folder-blue-outline](folders/folder-blue-outline.png)|
 |folder-blue|![folder-blue](folders/folder-blue.png)|
@@ -31,6 +30,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 |folder-green-outline|![folder-green-outline](folders/folder-green-outline.png)|
 |folder-green|![folder-green](folders/folder-green.png)|
 |folder-helpers|![folder-helpers](folders/folder-helpers.png)|
+|folder-i18n|![folder-i18n](folders/folder-i18n.png)|
 |folder-images|![folder-images](folders/folder-images.png)|
 |folder-intefaces|![folder-intefaces](folders/folder-intefaces.png)|
 |folder-interceptors|![folder-interceptors](folders/folder-interceptors.png)|
