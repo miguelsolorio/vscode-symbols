@@ -66,7 +66,7 @@
 			}
 		}
 	},
-	"type": "module",
+	"type": "commonjs",
 	"scripts": {
 		"format": "biome format --write .",
 		"lint": "biome lint .",
@@ -74,7 +74,7 @@
 		"check-format": "biome check .",
 		"check-format:fix": "biome check --apply .",
 		"precommit": "npm run check-format && npm run lint && npm run generate-previews",
-		"generate-previews": "node scripts/generate-previews.js && node scripts/generate-markdown.js"
+		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.7.2",

@@ -1,298 +1,294 @@
-### Icon Previews
+# Icon Previews
 
 You can choose which icons to use from the [Library](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd9pSN/Symbols---File-Icons?node-id=20521%3A84115&t=PyBzZOlVG5TXyEdx-1):
 
-|Name|Preview|
-|--|--|
-|folder-actions|![folder-actions](folders/folder-actions.png)|
-|folder-android|![folder-android](folders/folder-android.png)|
-|folder-angular|![folder-angular](folders/folder-angular.png)|
-|folder-app|![folder-app](folders/folder-app.png)|
-|folder-assets|![folder-assets](folders/folder-assets.png)|
-|folder-blue-code|![folder-blue-code](folders/folder-blue-code.png)|
-|folder-blue-outline|![folder-blue-outline](folders/folder-blue-outline.png)|
-|folder-blue|![folder-blue](folders/folder-blue.png)|
-|folder-bruno|![folder-bruno](folders/folder-bruno.png)|
-|folder-config|![folder-config](folders/folder-config.png)|
-|folder-constants|![folder-constants](folders/folder-constants.png)|
-|folder-context|![folder-context](folders/folder-context.png)|
-|folder-core|![folder-core](folders/folder-core.png)|
-|folder-database|![folder-database](folders/folder-database.png)|
-|folder-docker|![folder-docker](folders/folder-docker.png)|
-|folder-drizzle|![folder-drizzle](folders/folder-drizzle.png)|
-|folder-effects|![folder-effects](folders/folder-effects.png)|
-|folder-expo|![folder-expo](folders/folder-expo.png)|
-|folder-facade|![folder-facade](folders/folder-facade.png)|
-|folder-firebase|![folder-firebase](folders/folder-firebase.png)|
-|folder-github|![folder-github](folders/folder-github.png)|
-|folder-gitlab|![folder-gitlab](folders/folder-gitlab.png)|
-|folder-gradle|![folder-gradle](folders/folder-gradle.png)|
-|folder-graphql|![folder-graphql](folders/folder-graphql.png)|
-|folder-gray-code|![folder-gray-code](folders/folder-gray-code.png)|
-|folder-gray-outline|![folder-gray-outline](folders/folder-gray-outline.png)|
-|folder-gray|![folder-gray](folders/folder-gray.png)|
-|folder-green-code|![folder-green-code](folders/folder-green-code.png)|
-|folder-green-outline|![folder-green-outline](folders/folder-green-outline.png)|
-|folder-green|![folder-green](folders/folder-green.png)|
-|folder-helpers|![folder-helpers](folders/folder-helpers.png)|
-|folder-hooks|![folder-hooks](folders/folder-hooks.png)|
-|folder-i18n|![folder-i18n](folders/folder-i18n.png)|
-|folder-images|![folder-images](folders/folder-images.png)|
-|folder-interceptors|![folder-interceptors](folders/folder-interceptors.png)|
-|folder-interfaces|![folder-interfaces](folders/folder-interfaces.png)|
-|folder-ios|![folder-ios](folders/folder-ios.png)|
-|folder-layout|![folder-layout](folders/folder-layout.png)|
-|folder-lock|![folder-lock](folders/folder-lock.png)|
-|folder-mail|![folder-mail](folders/folder-mail.png)|
-|folder-middleware|![folder-middleware](folders/folder-middleware.png)|
-|folder-models|![folder-models](folders/folder-models.png)|
-|folder-modules|![folder-modules](folders/folder-modules.png)|
-|folder-mongo|![folder-mongo](folders/folder-mongo.png)|
-|folder-open|![folder-open](folders/folder-open.png)|
-|folder-orange-code-1|![folder-orange-code-1](folders/folder-orange-code-1.png)|
-|folder-orange-code-2|![folder-orange-code-2](folders/folder-orange-code-2.png)|
-|folder-orange-code-3|![folder-orange-code-3](folders/folder-orange-code-3.png)|
-|folder-orange-code-4|![folder-orange-code-4](folders/folder-orange-code-4.png)|
-|folder-orange-code|![folder-orange-code](folders/folder-orange-code.png)|
-|folder-orange-outline|![folder-orange-outline](folders/folder-orange-outline.png)|
-|folder-orange|![folder-orange](folders/folder-orange.png)|
-|folder-pink-code|![folder-pink-code](folders/folder-pink-code.png)|
-|folder-pink-outline|![folder-pink-outline](folders/folder-pink-outline.png)|
-|folder-pink|![folder-pink](folders/folder-pink.png)|
-|folder-pipes|![folder-pipes](folders/folder-pipes.png)|
-|folder-prisma|![folder-prisma](folders/folder-prisma.png)|
-|folder-providers|![folder-providers](folders/folder-providers.png)|
-|folder-purple-code|![folder-purple-code](folders/folder-purple-code.png)|
-|folder-purple-outline|![folder-purple-outline](folders/folder-purple-outline.png)|
-|folder-purple|![folder-purple](folders/folder-purple.png)|
-|folder-red-code|![folder-red-code](folders/folder-red-code.png)|
-|folder-red-outline|![folder-red-outline](folders/folder-red-outline.png)|
-|folder-red|![folder-red](folders/folder-red.png)|
-|folder-reducer|![folder-reducer](folders/folder-reducer.png)|
-|folder-router|![folder-router](folders/folder-router.png)|
-|folder-selector|![folder-selector](folders/folder-selector.png)|
-|folder-services|![folder-services](folders/folder-services.png)|
-|folder-shared|![folder-shared](folders/folder-shared.png)|
-|folder-sky-code|![folder-sky-code](folders/folder-sky-code.png)|
-|folder-sky-outline|![folder-sky-outline](folders/folder-sky-outline.png)|
-|folder-sky|![folder-sky](folders/folder-sky.png)|
-|folder-src|![folder-src](folders/folder-src.png)|
-|folder-supabase|![folder-supabase](folders/folder-supabase.png)|
-|folder-target|![folder-target](folders/folder-target.png)|
-|folder-tina|![folder-tina](folders/folder-tina.png)|
-|folder-utils|![folder-utils](folders/folder-utils.png)|
-|folder-vercel|![folder-vercel](folders/folder-vercel.png)|
-|folder-yellow-code|![folder-yellow-code](folders/folder-yellow-code.png)|
-|folder-yellow-outline|![folder-yellow-outline](folders/folder-yellow-outline.png)|
-|folder-yellow|![folder-yellow](folders/folder-yellow.png)|
-|folder|![folder](folders/folder.png)|
-|angular-component|![angular-component](files/angular-component.png)|
-|angular-directive|![angular-directive](files/angular-directive.png)|
-|angular-guard|![angular-guard](files/angular-guard.png)|
-|angular-module|![angular-module](files/angular-module.png)|
-|angular-pipe|![angular-pipe](files/angular-pipe.png)|
-|angular-service|![angular-service](files/angular-service.png)|
-|angular|![angular](files/angular.png)|
-|astro|![astro](files/astro.png)|
-|audio|![audio](files/audio.png)|
-|babel|![babel](files/babel.png)|
-|biome|![biome](files/biome.png)|
-|brackets-blue|![brackets-blue](files/brackets-blue.png)|
-|brackets-gray|![brackets-gray](files/brackets-gray.png)|
-|brackets-green|![brackets-green](files/brackets-green.png)|
-|brackets-orange|![brackets-orange](files/brackets-orange.png)|
-|brackets-pink|![brackets-pink](files/brackets-pink.png)|
-|brackets-purple|![brackets-purple](files/brackets-purple.png)|
-|brackets-red|![brackets-red](files/brackets-red.png)|
-|brackets-sky|![brackets-sky](files/brackets-sky.png)|
-|brackets-yellow|![brackets-yellow](files/brackets-yellow.png)|
-|bruno|![bruno](files/bruno.png)|
-|bun|![bun](files/bun.png)|
-|c|![c](files/c.png)|
-|capacitor|![capacitor](files/capacitor.png)|
-|clojure|![clojure](files/clojure.png)|
-|cloudflare-workers|![cloudflare-workers](files/cloudflare-workers.png)|
-|cmake|![cmake](files/cmake.png)|
-|code-blue|![code-blue](files/code-blue.png)|
-|code-gray|![code-gray](files/code-gray.png)|
-|code-green|![code-green](files/code-green.png)|
-|code-orange|![code-orange](files/code-orange.png)|
-|code-pink|![code-pink](files/code-pink.png)|
-|code-purple|![code-purple](files/code-purple.png)|
-|code-red|![code-red](files/code-red.png)|
-|code-sky|![code-sky](files/code-sky.png)|
-|code-yellow|![code-yellow](files/code-yellow.png)|
-|coffeescript|![coffeescript](files/coffeescript.png)|
-|coldfusion|![coldfusion](files/coldfusion.png)|
-|contentlayer|![contentlayer](files/contentlayer.png)|
-|cplus|![cplus](files/cplus.png)|
-|crystal|![crystal](files/crystal.png)|
-|csharp|![csharp](files/csharp.png)|
-|csv|![csv](files/csv.png)|
-|cucumber|![cucumber](files/cucumber.png)|
-|cuda|![cuda](files/cuda.png)|
-|cypress|![cypress](files/cypress.png)|
-|dart|![dart](files/dart.png)|
-|database|![database](files/database.png)|
-|deno|![deno](files/deno.png)|
-|docker|![docker](files/docker.png)|
-|document|![document](files/document.png)|
-|docusaurus|![docusaurus](files/docusaurus.png)|
-|drawio|![drawio](files/drawio.png)|
-|drizzle|![drizzle](files/drizzle.png)|
-|dts|![dts](files/dts.png)|
-|dune|![dune](files/dune.png)|
-|earthfile|![earthfile](files/earthfile.png)|
-|editorconfig|![editorconfig](files/editorconfig.png)|
-|elixir|![elixir](files/elixir.png)|
-|erlang|![erlang](files/erlang.png)|
-|eslint|![eslint](files/eslint.png)|
-|exe|![exe](files/exe.png)|
-|expressive-code|![expressive-code](files/expressive-code.png)|
-|firebase|![firebase](files/firebase.png)|
-|font|![font](files/font.png)|
-|fortran|![fortran](files/fortran.png)|
-|fresh|![fresh](files/fresh.png)|
-|fsharp|![fsharp](files/fsharp.png)|
-|func|![func](files/func.png)|
-|gatsby|![gatsby](files/gatsby.png)|
-|gear|![gear](files/gear.png)|
-|gif|![gif](files/gif.png)|
-|git|![git](files/git.png)|
-|github|![github](files/github.png)|
-|gitlab|![gitlab](files/gitlab.png)|
-|gleam|![gleam](files/gleam.png)|
-|go-green|![go-green](files/go-green.png)|
-|go-orange|![go-orange](files/go-orange.png)|
-|go-pink|![go-pink](files/go-pink.png)|
-|go-purple|![go-purple](files/go-purple.png)|
-|go-red|![go-red](files/go-red.png)|
-|go-yellow|![go-yellow](files/go-yellow.png)|
-|go|![go](files/go.png)|
-|gradle|![gradle](files/gradle.png)|
-|graphql|![graphql](files/graphql.png)|
-|gulp|![gulp](files/gulp.png)|
-|h|![h](files/h.png)|
-|haml|![haml](files/haml.png)|
-|haskell|![haskell](files/haskell.png)|
-|http|![http](files/http.png)|
-|hugo|![hugo](files/hugo.png)|
-|i18n|![i18n](files/i18n.png)|
-|ignore|![ignore](files/ignore.png)|
-|image|![image](files/image.png)|
-|ionic|![ionic](files/ionic.png)|
-|java|![java](files/java.png)|
-|jenkins|![jenkins](files/jenkins.png)|
-|jest|![jest](files/jest.png)|
-|js-test|![js-test](files/js-test.png)|
-|js|![js](files/js.png)|
-|julia-markdown|![julia-markdown](files/julia-markdown.png)|
-|julia|![julia](files/julia.png)|
-|keystatic|![keystatic](files/keystatic.png)|
-|knip|![knip](files/knip.png)|
-|kotlin|![kotlin](files/kotlin.png)|
-|laravel|![laravel](files/laravel.png)|
-|license|![license](files/license.png)|
-|liquid|![liquid](files/liquid.png)|
-|lock|![lock](files/lock.png)|
-|lua|![lua](files/lua.png)|
-|luau|![luau](files/luau.png)|
-|lunaria|![lunaria](files/lunaria.png)|
-|markdoc|![markdoc](files/markdoc.png)|
-|markdown|![markdown](files/markdown.png)|
-|mdx|![mdx](files/mdx.png)|
-|minecraft|![minecraft](files/minecraft.png)|
-|mongo|![mongo](files/mongo.png)|
-|nest-controller|![nest-controller](files/nest-controller.png)|
-|nest-decorator|![nest-decorator](files/nest-decorator.png)|
-|nest-guard|![nest-guard](files/nest-guard.png)|
-|nest-middleware|![nest-middleware](files/nest-middleware.png)|
-|nest-service|![nest-service](files/nest-service.png)|
-|nest|![nest](files/nest.png)|
-|netlify|![netlify](files/netlify.png)|
-|next|![next](files/next.png)|
-|nix|![nix](files/nix.png)|
-|node|![node](files/node.png)|
-|nodemon|![nodemon](files/nodemon.png)|
-|notebook|![notebook](files/notebook.png)|
-|npm|![npm](files/npm.png)|
-|nunjucks|![nunjucks](files/nunjucks.png)|
-|nuxt|![nuxt](files/nuxt.png)|
-|ocaml|![ocaml](files/ocaml.png)|
-|oxlint|![oxlint](files/oxlint.png)|
-|panda|![panda](files/panda.png)|
-|patch|![patch](files/patch.png)|
-|pdf|![pdf](files/pdf.png)|
-|perl|![perl](files/perl.png)|
-|php|![php](files/php.png)|
-|pkl|![pkl](files/pkl.png)|
-|pnpm|![pnpm](files/pnpm.png)|
-|postcss|![postcss](files/postcss.png)|
-|prettier|![prettier](files/prettier.png)|
-|prisma|![prisma](files/prisma.png)|
-|proto|![proto](files/proto.png)|
-|pug|![pug](files/pug.png)|
-|pulumi|![pulumi](files/pulumi.png)|
-|puzzle|![puzzle](files/puzzle.png)|
-|python|![python](files/python.png)|
-|r|![r](files/r.png)|
-|razor|![razor](files/razor.png)|
-|react-test|![react-test](files/react-test.png)|
-|react-ts|![react-ts](files/react-ts.png)|
-|react|![react](files/react.png)|
-|redux-actions|![redux-actions](files/redux-actions.png)|
-|redux-effects|![redux-effects](files/redux-effects.png)|
-|redux-facade|![redux-facade](files/redux-facade.png)|
-|redux-reducer|![redux-reducer](files/redux-reducer.png)|
-|redux-selector|![redux-selector](files/redux-selector.png)|
-|rescript-interface|![rescript-interface](files/rescript-interface.png)|
-|rescript|![rescript](files/rescript.png)|
-|robot|![robot](files/robot.png)|
-|rome|![rome](files/rome.png)|
-|rsbuild|![rsbuild](files/rsbuild.png)|
-|rslib|![rslib](files/rslib.png)|
-|rspack|![rspack](files/rspack.png)|
-|ruby|![ruby](files/ruby.png)|
-|rust|![rust](files/rust.png)|
-|sanity|![sanity](files/sanity.png)|
-|sass|![sass](files/sass.png)|
-|sbt|![sbt](files/sbt.png)|
-|scala|![scala](files/scala.png)|
-|severless|![severless](files/severless.png)|
-|shell|![shell](files/shell.png)|
-|solidity|![solidity](files/solidity.png)|
-|statamic-antlers|![statamic-antlers](files/statamic-antlers.png)|
-|storybook|![storybook](files/storybook.png)|
-|stylelint|![stylelint](files/stylelint.png)|
-|stylus|![stylus](files/stylus.png)|
-|supabase|![supabase](files/supabase.png)|
-|svelte-ts|![svelte-ts](files/svelte-ts.png)|
-|svelte|![svelte](files/svelte.png)|
-|svg|![svg](files/svg.png)|
-|svx|![svx](files/svx.png)|
-|swc|![swc](files/swc.png)|
-|swift|![swift](files/swift.png)|
-|tailwind|![tailwind](files/tailwind.png)|
-|terraform|![terraform](files/terraform.png)|
-|tex|![tex](files/tex.png)|
-|text|![text](files/text.png)|
-|ts-test|![ts-test](files/ts-test.png)|
-|ts-types|![ts-types](files/ts-types.png)|
-|ts|![ts](files/ts.png)|
-|tsconfig|![tsconfig](files/tsconfig.png)|
-|turborepo|![turborepo](files/turborepo.png)|
-|twig|![twig](files/twig.png)|
-|unocss|![unocss](files/unocss.png)|
-|v|![v](files/v.png)|
-|vanilla-extract|![vanilla-extract](files/vanilla-extract.png)|
-|vercel|![vercel](files/vercel.png)|
-|video|![video](files/video.png)|
-|visual-studio|![visual-studio](files/visual-studio.png)|
-|vite|![vite](files/vite.png)|
-|vitest|![vitest](files/vitest.png)|
-|vue|![vue](files/vue.png)|
-|webpack|![webpack](files/webpack.png)|
-|xml|![xml](files/xml.png)|
-|yaml|![yaml](files/yaml.png)|
-|yarn|![yarn](files/yarn.png)|
-|zig|![zig](files/zig.png)|
+| Name                  | Preview                                                     |
+| --------------------- | ----------------------------------------------------------- |
+| angular               | ![angular](files/angular.png)                               |
+| angular-component     | ![angular-component](files/angular-component.png)           |
+| angular-directive     | ![angular-directive](files/angular-directive.png)           |
+| angular-guard         | ![angular-guard](files/angular-guard.png)                   |
+| angular-module        | ![angular-module](files/angular-module.png)                 |
+| angular-pipe          | ![angular-pipe](files/angular-pipe.png)                     |
+| angular-service       | ![angular-service](files/angular-service.png)               |
+| astro                 | ![astro](files/astro.png)                                   |
+| audio                 | ![audio](files/audio.png)                                   |
+| babel                 | ![babel](files/babel.png)                                   |
+| biome                 | ![biome](files/biome.png)                                   |
+| brackets-blue         | ![brackets-blue](files/brackets-blue.png)                   |
+| brackets-gray         | ![brackets-gray](files/brackets-gray.png)                   |
+| brackets-green        | ![brackets-green](files/brackets-green.png)                 |
+| brackets-orange       | ![brackets-orange](files/brackets-orange.png)               |
+| brackets-pink         | ![brackets-pink](files/brackets-pink.png)                   |
+| brackets-purple       | ![brackets-purple](files/brackets-purple.png)               |
+| brackets-red          | ![brackets-red](files/brackets-red.png)                     |
+| brackets-sky          | ![brackets-sky](files/brackets-sky.png)                     |
+| brackets-yellow       | ![brackets-yellow](files/brackets-yellow.png)               |
+| bruno                 | ![bruno](files/bruno.png)                                   |
+| bun                   | ![bun](files/bun.png)                                       |
+| c                     | ![c](files/c.png)                                           |
+| capacitor             | ![capacitor](files/capacitor.png)                           |
+| clojure               | ![clojure](files/clojure.png)                               |
+| cloudflare-workers    | ![cloudflare-workers](files/cloudflare-workers.png)         |
+| cmake                 | ![cmake](files/cmake.png)                                   |
+| code-blue             | ![code-blue](files/code-blue.png)                           |
+| code-gray             | ![code-gray](files/code-gray.png)                           |
+| code-green            | ![code-green](files/code-green.png)                         |
+| code-orange           | ![code-orange](files/code-orange.png)                       |
+| code-pink             | ![code-pink](files/code-pink.png)                           |
+| code-purple           | ![code-purple](files/code-purple.png)                       |
+| code-red              | ![code-red](files/code-red.png)                             |
+| code-sky              | ![code-sky](files/code-sky.png)                             |
+| code-yellow           | ![code-yellow](files/code-yellow.png)                       |
+| coffeescript          | ![coffeescript](files/coffeescript.png)                     |
+| coldfusion            | ![coldfusion](files/coldfusion.png)                         |
+| contentlayer          | ![contentlayer](files/contentlayer.png)                     |
+| cplus                 | ![cplus](files/cplus.png)                                   |
+| crystal               | ![crystal](files/crystal.png)                               |
+| csharp                | ![csharp](files/csharp.png)                                 |
+| csv                   | ![csv](files/csv.png)                                       |
+| cucumber              | ![cucumber](files/cucumber.png)                             |
+| cuda                  | ![cuda](files/cuda.png)                                     |
+| cypress               | ![cypress](files/cypress.png)                               |
+| dart                  | ![dart](files/dart.png)                                     |
+| database              | ![database](files/database.png)                             |
+| deno                  | ![deno](files/deno.png)                                     |
+| docker                | ![docker](files/docker.png)                                 |
+| document              | ![document](files/document.png)                             |
+| docusaurus            | ![docusaurus](files/docusaurus.png)                         |
+| drawio                | ![drawio](files/drawio.png)                                 |
+| drizzle               | ![drizzle](files/drizzle.png)                               |
+| dts                   | ![dts](files/dts.png)                                       |
+| dune                  | ![dune](files/dune.png)                                     |
+| earthfile             | ![earthfile](files/earthfile.png)                           |
+| editorconfig          | ![editorconfig](files/editorconfig.png)                     |
+| elixir                | ![elixir](files/elixir.png)                                 |
+| erlang                | ![erlang](files/erlang.png)                                 |
+| eslint                | ![eslint](files/eslint.png)                                 |
+| exe                   | ![exe](files/exe.png)                                       |
+| expressive-code       | ![expressive-code](files/expressive-code.png)               |
+| firebase              | ![firebase](files/firebase.png)                             |
+| folder                | ![folder](folders/folder.png)                               |
+| folder-android        | ![folder-android](folders/folder-android.png)               |
+| folder-angular        | ![folder-angular](folders/folder-angular.png)               |
+| folder-app            | ![folder-app](folders/folder-app.png)                       |
+| folder-assets         | ![folder-assets](folders/folder-assets.png)                 |
+| folder-auth           | ![folder-auth](folders/folder-lock.png)                     |
+| folder-blue           | ![folder-blue](folders/folder-blue.png)                     |
+| folder-blue-code      | ![folder-blue-code](folders/folder-blue-code.png)           |
+| folder-blue-outline   | ![folder-blue-outline](folders/folder-blue-outline.png)     |
+| folder-bruno          | ![folder-bruno](folders/folder-bruno.png)                   |
+| folder-config         | ![folder-config](folders/folder-config.png)                 |
+| folder-constants      | ![folder-constants](folders/folder-constants.png)           |
+| folder-context        | ![folder-context](folders/folder-context.png)               |
+| folder-core           | ![folder-core](folders/folder-core.png)                     |
+| folder-database       | ![folder-database](folders/folder-database.png)             |
+| folder-docker         | ![folder-docker](folders/folder-docker.png)                 |
+| folder-drizzle        | ![folder-drizzle](folders/folder-drizzle.png)               |
+| folder-expo           | ![folder-expo](folders/folder-expo.png)                     |
+| folder-firebase       | ![folder-firebase](folders/folder-firebase.png)             |
+| folder-github         | ![folder-github](folders/folder-github.png)                 |
+| folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
+| folder-gradle         | ![folder-gradle](folders/folder-gradle.png)                 |
+| folder-graphql        | ![folder-graphql](folders/folder-graphql.png)               |
+| folder-gray           | ![folder-gray](folders/folder-gray.png)                     |
+| folder-gray-code      | ![folder-gray-code](folders/folder-gray-code.png)           |
+| folder-gray-outline   | ![folder-gray-outline](folders/folder-gray-outline.png)     |
+| folder-green          | ![folder-green](folders/folder-green.png)                   |
+| folder-green-code     | ![folder-green-code](folders/folder-green-code.png)         |
+| folder-green-outline  | ![folder-green-outline](folders/folder-green-outline.png)   |
+| folder-helpers        | ![folder-helpers](folders/folder-helpers.png)               |
+| folder-hooks          | ![folder-hooks](folders/folder-hooks.png)                   |
+| folder-i18n           | ![folder-i18n](folders/folder-i18n.png)                     |
+| folder-images         | ![folder-images](folders/folder-images.png)                 |
+| folder-interceptors   | ![folder-interceptors](folders/folder-interceptors.png)     |
+| folder-interfaces     | ![folder-interfaces](folders/folder-interfaces.png)         |
+| folder-ios            | ![folder-ios](folders/folder-ios.png)                       |
+| folder-layout         | ![folder-layout](folders/folder-layout.png)                 |
+| folder-lock           | ![folder-lock](folders/folder-lock.png)                     |
+| folder-mail           | ![folder-mail](folders/folder-mail.png)                     |
+| folder-middleware     | ![folder-middleware](folders/folder-middleware.png)         |
+| folder-models         | ![folder-models](folders/folder-models.png)                 |
+| folder-modules        | ![folder-modules](folders/folder-modules.png)               |
+| folder-mongo          | ![folder-mongo](folders/folder-mongo.png)                   |
+| folder-orange         | ![folder-orange](folders/folder-orange.png)                 |
+| folder-orange-code    | ![folder-orange-code](folders/folder-orange-code.png)       |
+| folder-orange-outline | ![folder-orange-outline](folders/folder-orange-outline.png) |
+| folder-pink           | ![folder-pink](folders/folder-pink.png)                     |
+| folder-pink-code      | ![folder-pink-code](folders/folder-pink-code.png)           |
+| folder-pink-outline   | ![folder-pink-outline](folders/folder-pink-outline.png)     |
+| folder-pipes          | ![folder-pipes](folders/folder-pipes.png)                   |
+| folder-prisma         | ![folder-prisma](folders/folder-prisma.png)                 |
+| folder-providers      | ![folder-providers](folders/folder-providers.png)           |
+| folder-purple         | ![folder-purple](folders/folder-purple.png)                 |
+| folder-purple-code    | ![folder-purple-code](folders/folder-purple-code.png)       |
+| folder-purple-outline | ![folder-purple-outline](folders/folder-purple-outline.png) |
+| folder-red            | ![folder-red](folders/folder-red.png)                       |
+| folder-red-code       | ![folder-red-code](folders/folder-red-code.png)             |
+| folder-red-outline    | ![folder-red-outline](folders/folder-red-outline.png)       |
+| folder-redux-actions  | ![folder-redux-actions](folders/folder-actions.png )        |
+| folder-redux-effects  | ![folder-redux-effects](folders/folder-effects.png )        |
+| folder-redux-facade   | ![folder-redux-facade](folders/folder-facade.png)           |
+| folder-redux-reducer  | ![folder-redux-reducer](folders/folder-reducer.png )        |
+| folder-redux-selector | ![folder-redux-selector](folders/folder-selector.png )      |
+| folder-router         | ![folder-router](folders/folder-router.png)                 |
+| folder-services       | ![folder-services](folders/folder-services.png)             |
+| folder-shared         | ![folder-shared](folders/folder-shared.png)                 |
+| folder-sky            | ![folder-sky](folders/folder-sky.png)                       |
+| folder-sky-code       | ![folder-sky-code](folders/folder-sky-code.png)             |
+| folder-sky-outline    | ![folder-sky-outline](folders/folder-sky-outline.png)       |
+| folder-supabase       | ![folder-supabase](folders/folder-supabase.png)             |
+| folder-target         | ![folder-target](folders/folder-target.png)                 |
+| folder-tina           | ![folder-tina](folders/folder-tina.png)                     |
+| folder-utils          | ![folder-utils](folders/folder-utils.png)                   |
+| folder-vercel         | ![folder-vercel](folders/folder-vercel.png)                 |
+| folder-yellow         | ![folder-yellow](folders/folder-yellow.png)                 |
+| folder-yellow-code    | ![folder-yellow-code](folders/folder-yellow-code.png)       |
+| folder-yellow-outline | ![folder-yellow-outline](folders/folder-yellow-outline.png) |
+| font                  | ![font](files/font.png)                                     |
+| fortran               | ![fortran](files/fortran.png)                               |
+| fresh                 | ![fresh](files/fresh.png)                                   |
+| fsharp                | ![fsharp](files/fsharp.png)                                 |
+| func                  | ![func](files/func.png)                                     |
+| gatsby                | ![gatsby](files/gatsby.png)                                 |
+| gear                  | ![gear](files/gear.png)                                     |
+| gif                   | ![gif](files/gif.png)                                       |
+| git                   | ![git](files/git.png)                                       |
+| github                | ![github](files/github.png)                                 |
+| gitlab                | ![gitlab](files/gitlab.png)                                 |
+| gleam                 | ![gleam](files/gleam.png)                                   |
+| go                    | ![go](files/go.png)                                         |
+| go-green              | ![go-green](files/go-green.png)                             |
+| go-mod                | ![go-mod](files/go-pink.png)                                |
+| go-orange             | ![go-orange](files/go-orange.png)                           |
+| go-pink               | ![go-pink](files/go-pink.png)                               |
+| go-purple             | ![go-purple](files/go-purple.png)                           |
+| go-red                | ![go-red](files/go-red.png)                                 |
+| go-yellow             | ![go-yellow](files/go-yellow.png)                           |
+| gradle                | ![gradle](files/gradle.png)                                 |
+| graphql               | ![graphql](files/graphql.png)                               |
+| gulp                  | ![gulp](files/gulp.png)                                     |
+| h                     | ![h](files/h.png)                                           |
+| haml                  | ![haml](files/haml.png)                                     |
+| haskell               | ![haskell](files/haskell.png)                               |
+| http                  | ![http](files/http.png)                                     |
+| hugo                  | ![hugo](files/hugo.png)                                     |
+| i18n                  | ![i18n](files/i18n.png)                                     |
+| ignore                | ![ignore](files/ignore.png)                                 |
+| image                 | ![image](files/image.png)                                   |
+| ionic                 | ![ionic](files/ionic.png)                                   |
+| java                  | ![java](files/java.png)                                     |
+| jenkins               | ![jenkins](files/jenkins.png)                               |
+| jest                  | ![jest](files/jest.png)                                     |
+| js                    | ![js](files/js.png)                                         |
+| js-test               | ![js-test](files/js-test.png)                               |
+| julia                 | ![julia](files/julia.png)                                   |
+| julia-markdown        | ![julia-markdown](files/julia-markdown.png)                 |
+| keystatic             | ![keystatic](files/keystatic.png)                           |
+| knip                  | ![knip](files/knip.png)                                     |
+| kotlin                | ![kotlin](files/kotlin.png)                                 |
+| laravel               | ![laravel](files/laravel.png)                               |
+| license               | ![license](files/license.png)                               |
+| liquid                | ![liquid](files/liquid.png)                                 |
+| lock                  | ![lock](files/lock.png)                                     |
+| lua                   | ![lua](files/lua.png)                                       |
+| luau                  | ![luau](files/luau.png)                                     |
+| lunaria               | ![lunaria](files/lunaria.png)                               |
+| markdoc               | ![markdoc](files/markdoc.png)                               |
+| markdown              | ![markdown](files/markdown.png)                             |
+| mdx                   | ![mdx](files/mdx.png)                                       |
+| minecraft             | ![minecraft](files/minecraft.png)                           |
+| mongo                 | ![mongo](files/mongo.png)                                   |
+| nest                  | ![nest](files/nest.png)                                     |
+| nest-controller       | ![nest-controller](files/nest-controller.png)               |
+| nest-decorator        | ![nest-decorator](files/nest-decorator.png)                 |
+| nest-guard            | ![nest-guard](files/nest-guard.png)                         |
+| nest-middleware       | ![nest-middleware](files/nest-middleware.png)               |
+| nest-service          | ![nest-service](files/nest-service.png)                     |
+| netlify               | ![netlify](files/netlify.png)                               |
+| next                  | ![next](files/next.png)                                     |
+| nix                   | ![nix](files/nix.png)                                       |
+| node                  | ![node](files/node.png)                                     |
+| nodemon               | ![nodemon](files/nodemon.png)                               |
+| notebook              | ![notebook](files/notebook.png)                             |
+| npm                   | ![npm](files/npm.png)                                       |
+| nunjucks              | ![nunjucks](files/nunjucks.png)                             |
+| nuxt                  | ![nuxt](files/nuxt.png)                                     |
+| ocaml                 | ![ocaml](files/ocaml.png)                                   |
+| oxlint                | ![oxlint](files/oxlint.png)                                 |
+| panda                 | ![panda](files/panda.png)                                   |
+| patch                 | ![patch](files/patch.png)                                   |
+| pdf                   | ![pdf](files/pdf.png)                                       |
+| perl                  | ![perl](files/perl.png)                                     |
+| php                   | ![php](files/php.png)                                       |
+| pkl                   | ![pkl](files/pkl.png)                                       |
+| pnpm                  | ![pnpm](files/pnpm.png)                                     |
+| postcss               | ![postcss](files/postcss.png)                               |
+| prettier              | ![prettier](files/prettier.png)                             |
+| prisma                | ![prisma](files/prisma.png)                                 |
+| proto                 | ![proto](files/proto.png)                                   |
+| pug                   | ![pug](files/pug.png)                                       |
+| pulumi                | ![pulumi](files/pulumi.png)                                 |
+| puzzle                | ![puzzle](files/puzzle.png)                                 |
+| python                | ![python](files/python.png)                                 |
+| r                     | ![r](files/r.png)                                           |
+| razor                 | ![razor](files/razor.png)                                   |
+| react                 | ![react](files/react.png)                                   |
+| react-test            | ![react-test](files/react-test.png)                         |
+| react-ts              | ![react-ts](files/react-ts.png)                             |
+| redux-actions         | ![redux-actions](files/redux-actions.png )                  |
+| redux-effects         | ![redux-effects](files/redux-effects.png )                  |
+| redux-facade          | ![redux-facade](files/redux-facade.png)                     |
+| redux-reducer         | ![redux-reducer](files/redux-reducer.png )                  |
+| redux-selector        | ![redux-selector](files/redux-selector.png )                |
+| rescript              | ![rescript](files/rescript.png)                             |
+| rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
+| robot                 | ![robot](files/robot.png)                                   |
+| rome                  | ![rome](files/rome.png)                                     |
+| rsbuild               | ![rsbuild](files/rsbuild.png)                               |
+| rslib                 | ![rslib](files/rslib.png)                                   |
+| rspack                | ![rspack](files/rspack.png)                                 |
+| ruby                  | ![ruby](files/ruby.png)                                     |
+| rust                  | ![rust](files/rust.png)                                     |
+| sanity                | ![sanity](files/sanity.png)                                 |
+| sass                  | ![sass](files/sass.png)                                     |
+| sbt                   | ![sbt](files/sbt.png)                                       |
+| scala                 | ![scala](files/scala.png)                                   |
+| severless             | ![severless](files/severless.png)                           |
+| shell                 | ![shell](files/shell.png)                                   |
+| solidity              | ![solidity](files/solidity.png)                             |
+| statamic-antlers      | ![statamic-antlers](files/statamic-antlers.png)             |
+| storybook             | ![storybook](files/storybook.png)                           |
+| stylelint             | ![stylelint](files/stylelint.png)                           |
+| stylus                | ![stylus](files/stylus.png)                                 |
+| supabase              | ![supabase](files/supabase.png)                             |
+| svelte                | ![svelte](files/svelte.png)                                 |
+| svelte-ts             | ![svelte-ts](files/svelte-ts.png)                           |
+| svg                   | ![svg](files/svg.png)                                       |
+| svx                   | ![svx](files/svx.png)                                       |
+| swc                   | ![swc](files/swc.png)                                       |
+| swift                 | ![swift](files/swift.png)                                   |
+| tailwind              | ![tailwind](files/tailwind.png)                             |
+| terraform             | ![terraform](files/terraform.png)                           |
+| tex                   | ![tex](files/tex.png)                                       |
+| text                  | ![text](files/text.png)                                     |
+| ts                    | ![ts](files/ts.png)                                         |
+| ts-test               | ![ts-test](files/ts-test.png)                               |
+| ts-types              | ![ts-types](files/ts-types.png)                             |
+| tsconfig              | ![tsconfig](files/tsconfig.png)                             |
+| turborepo             | ![turborepo](files/turborepo.png)                           |
+| twig                  | ![twig](files/twig.png)                                     |
+| unocss                | ![unocss](files/unocss.png)                                 |
+| v                     | ![v](files/v.png)                                           |
+| vanilla-extract       | ![vanilla-extract](files/vanilla-extract.png)               |
+| vercel                | ![vercel](files/vercel.png)                                 |
+| video                 | ![video](files/video.png)                                   |
+| visual-studio         | ![visual-studio](files/visual-studio.png)                   |
+| vite                  | ![vite](files/vite.png)                                     |
+| vitest                | ![vitest](files/vitest.png)                                 |
+| vue                   | ![vue](files/vue.png)                                       |
+| webpack               | ![webpack](files/webpack.png)                               |
+| xml                   | ![xml](files/xml.png)                                       |
+| yaml                  | ![yaml](files/yaml.png)                                     |
+| yarn                  | ![yarn](files/yarn.png)                                     |
+| zig                   | ![zig](files/zig.png)                                       |
