@@ -293,7 +293,8 @@
 		"xml": { "iconPath": "./icons/files/xml.svg" },
 		"yaml": { "iconPath": "./icons/files/yaml.svg" },
 		"yarn": { "iconPath": "./icons/files/yarn.svg" },
-		"zig": { "iconPath": "./icons/files/zig.svg" }
+		"zig": { "iconPath": "./icons/files/zig.svg" },
+		"nx": { "iconPath": "./icons/files/nx.svg" }
 	},
 
 	"fileExtensions": {
@@ -1327,7 +1328,9 @@
 		"rslib.config.mts": "rslib",
 		"rslib.config.cts": "rslib",
 		".oxlintrc.json": "oxlint",
-		".oxlintignore": "oxlint"
+		".oxlintignore": "oxlint",
+		".nxignore": "nx",
+		"nx.json": "nx"
 	},
 
 	"languageIds": {
@@ -1548,7 +1551,8 @@
 		"expo": "folder-expo",
 		".expo": "folder-expo",
 		"gradle": "folder-gradle",
-		".gradle": "folder-gradle"
+		".gradle": "folder-gradle",
+		".nx": "folder-gray"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
