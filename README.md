@@ -16,6 +16,16 @@ If you'd like to contribute to this extension, please take a look at the issues 
 
 When submitting a PR, please ensure you've tested the extension locally and ensure that your new icons appear correctly in the file tree view with your new file extension. Include a screenshot of your proposed icon in your PR.
 
+## Generating Icon Previews
+
+Before submitting a PR, please run the preview generation script to update the icon previews:
+
+```bash
+npm run generate-previews
+```
+
+This script will update the preview markdown files with your new icons. Make sure to commit these changes along with your PR.
+
 ## Configuration
 
 You can configure which folders and files icons are displayed by using the following settings:
