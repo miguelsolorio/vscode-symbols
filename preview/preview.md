@@ -214,6 +214,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | npm                   | ![npm](files/npm.png)                                       |
 | nunjucks              | ![nunjucks](files/nunjucks.png)                             |
 | nuxt                  | ![nuxt](files/nuxt.png)                                     |
+| nx                    | ![nx](files/nx.png)                                         |
 | ocaml                 | ![ocaml](files/ocaml.png)                                   |
 | oxlint                | ![oxlint](files/oxlint.png)                                 |
 | panda                 | ![panda](files/panda.png)                                   |
