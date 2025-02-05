@@ -79,6 +79,7 @@
 		"folder-expo": { "iconPath": "./icons/folders/folder-expo.svg" },
 		"folder-gradle": { "iconPath": "./icons/folders/folder-gradle.svg" },
 		"folder-docker": { "iconPath": "./icons/folders/folder-docker.svg" },
+		"folder-i18n": { "iconPath": "./icons/folders/folder-i18n.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -1434,6 +1435,7 @@
 	},
 
 	"folderNames": {
+		"i18n": "folder-i18n",
 		".venv": "folder-lock",
 		".gitlab": "folder-gitlab",
 		"auth": "folder-lock",
