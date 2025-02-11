@@ -75,3 +75,7 @@ You can preview the icons by reading the the [preview.md](./preview/preview.md) 
 [Pablo Hdez](https://github.com/pheralb) has graciously created [React-Symbols](https://react-symbols.vercel.app) ([pheralb/react-symbols](https://github.com/pheralb/react-symbols)) to allow you to embed Symbol icons for your React projects.
 
 <img src="https://raw.githubusercontent.com/pheralb/react-symbols/main/website/public/images/og.png">
+
+## Zed Editor
+
+If you're using the [Zed](https://zed.dev) editor, You can take a look at its maintenance here. [Symbols For Zed](https://github.com/sebastiandotdev/zed-symbols)
