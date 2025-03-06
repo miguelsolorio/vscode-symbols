@@ -49,6 +49,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | csv                   | ![csv](files/csv.png)                                       |
 | cucumber              | ![cucumber](files/cucumber.png)                             |
 | cuda                  | ![cuda](files/cuda.png)                                     |
+| cursor                | ![cursor](files/cursor.png)                                 |
 | cypress               | ![cypress](files/cypress.png)                               |
 | dart                  | ![dart](files/dart.png)                                     |
 | database              | ![database](files/database.png)                             |
@@ -82,6 +83,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-constants      | ![folder-constants](folders/folder-constants.png)           |
 | folder-context        | ![folder-context](folders/folder-context.png)               |
 | folder-core           | ![folder-core](folders/folder-core.png)                     |
+| folder-cursor         | ![folder-cursor](folders/folder-cursor.png)                 |
 | folder-database       | ![folder-database](folders/folder-database.png)             |
 | folder-docker         | ![folder-docker](folders/folder-docker.png)                 |
 | folder-drizzle        | ![folder-drizzle](folders/folder-drizzle.png)               |
@@ -139,6 +141,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-sky-outline    | ![folder-sky-outline](folders/folder-sky-outline.png)       |
 | folder-supabase       | ![folder-supabase](folders/folder-supabase.png)             |
 | folder-target         | ![folder-target](folders/folder-target.png)                 |
+| folder-tauri          | ![folder-tauri](folders/folder-tauri.png)                   |
 | folder-tina           | ![folder-tina](folders/folder-tina.png)                     |
 | folder-utils          | ![folder-utils](folders/folder-utils.png)                   |
 | folder-vercel         | ![folder-vercel](folders/folder-vercel.png)                 |
@@ -270,6 +273,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | swc                   | ![swc](files/swc.png)                                       |
 | swift                 | ![swift](files/swift.png)                                   |
 | tailwind              | ![tailwind](files/tailwind.png)                             |
+| tauri                 | ![tauri](files/tauri.png)                                   |
 | terraform             | ![terraform](files/terraform.png)                           |
 | tex                   | ![tex](files/tex.png)                                       |
 | text                  | ![text](files/text.png)                                     |
