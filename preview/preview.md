@@ -74,6 +74,8 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-app            | ![folder-app](folders/folder-app.png)                       |
 | folder-assets         | ![folder-assets](folders/folder-assets.png)                 |
 | folder-auth           | ![folder-auth](folders/folder-lock.png)                     |
+| folder-aws            | ![folder-aws](folders/folder-aws.png)                       |
+| folder-azure          | ![folder-azure](folders/folder-azure.png)                   |
 | folder-blue           | ![folder-blue](folders/folder-blue.png)                     |
 | folder-blue-code      | ![folder-blue-code](folders/folder-blue-code.png)           |
 | folder-blue-outline   | ![folder-blue-outline](folders/folder-blue-outline.png)     |
@@ -82,6 +84,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-constants      | ![folder-constants](folders/folder-constants.png)           |
 | folder-context        | ![folder-context](folders/folder-context.png)               |
 | folder-core           | ![folder-core](folders/folder-core.png)                     |
+| folder-cypress        | ![folder-cypress](folders/folder-cypress.png)               |
 | folder-database       | ![folder-database](folders/folder-database.png)             |
 | folder-docker         | ![folder-docker](folders/folder-docker.png)                 |
 | folder-drizzle        | ![folder-drizzle](folders/folder-drizzle.png)               |
@@ -111,6 +114,8 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-models         | ![folder-models](folders/folder-models.png)                 |
 | folder-modules        | ![folder-modules](folders/folder-modules.png)               |
 | folder-mongo          | ![folder-mongo](folders/folder-mongo.png)                   |
+| folder-nginx          | ![folder-nginx](folders/folder-nginx.png)                   |
+| folder-node-modules   | ![folder-node-modules](folders/folder-node-modules.png)     |
 | folder-orange         | ![folder-orange](folders/folder-orange.png)                 |
 | folder-orange-code    | ![folder-orange-code](folders/folder-orange-code.png)       |
 | folder-orange-outline | ![folder-orange-outline](folders/folder-orange-outline.png) |
@@ -123,6 +128,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-purple         | ![folder-purple](folders/folder-purple.png)                 |
 | folder-purple-code    | ![folder-purple-code](folders/folder-purple-code.png)       |
 | folder-purple-outline | ![folder-purple-outline](folders/folder-purple-outline.png) |
+| folder-react          | ![folder-react](folders/folder-react.png)                   |
 | folder-red            | ![folder-red](folders/folder-red.png)                       |
 | folder-red-code       | ![folder-red-code](folders/folder-red-code.png)             |
 | folder-red-outline    | ![folder-red-outline](folders/folder-red-outline.png)       |
