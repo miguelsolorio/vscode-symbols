@@ -294,7 +294,8 @@
 		"yaml": { "iconPath": "./icons/files/yaml.svg" },
 		"yarn": { "iconPath": "./icons/files/yarn.svg" },
 		"zig": { "iconPath": "./icons/files/zig.svg" },
-		"nx": { "iconPath": "./icons/files/nx.svg" }
+		"nx": { "iconPath": "./icons/files/nx.svg" },
+		"yummacss": { "iconPath": "./icons/files/yummacss.svg" }
 	},
 
 	"fileExtensions": {
@@ -1330,7 +1331,13 @@
 		".oxlintrc.json": "oxlint",
 		".oxlintignore": "oxlint",
 		".nxignore": "nx",
-		"nx.json": "nx"
+		"nx.json": "nx",
+		"yumma.config.cjs": "yummacss",
+		"yumma.config.js": "yummacss",
+		"yumma.config.mjs": "yummacss",
+		"yumma.config.ts": "yummacss",
+		"yumma.css": "yummacss",
+		"yummacss.css": "yummacss"
 	},
 
 	"languageIds": {

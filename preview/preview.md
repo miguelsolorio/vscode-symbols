@@ -293,3 +293,4 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | yaml                  | ![yaml](files/yaml.png)                                     |
 | yarn                  | ![yarn](files/yarn.png)                                     |
 | zig                   | ![zig](files/zig.png)                                       |
+| yummacss              | ![yummacss](files/yummacss.png)                             |
