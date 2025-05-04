@@ -92,6 +92,9 @@
 		"folder-gradle": { "iconPath": "./icons/folders/folder-gradle.svg" },
 		"folder-docker": { "iconPath": "./icons/folders/folder-docker.svg" },
 		"folder-i18n": { "iconPath": "./icons/folders/folder-i18n.svg" },
+		"folder-fonts": { "iconPath": "./icons/folders/folder-fonts.svg" },
+		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
+		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -1613,7 +1616,13 @@
 		".expo": "folder-expo",
 		"gradle": "folder-gradle",
 		".gradle": "folder-gradle",
-		".nx": "folder-gray"
+		".nx": "folder-gray",
+		"fonts": "folder-fonts",
+		"font": "folder-fonts",
+		"js": "folder-js",
+		"javascript": "folder-js",
+		"sass": "folder-sass",
+		"scss": "folder-sass"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
