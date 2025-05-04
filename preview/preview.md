@@ -95,6 +95,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-expo           | ![folder-expo](folders/folder-expo.png)                     |
 | folder-files          | ![folder-files](folders/folder-files.png)                   |
 | folder-firebase       | ![folder-firebase](folders/folder-firebase.png)             |
+| folder-fonts          | ![folder-fonts](folders/folder-fonts.png)                   |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
 | folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
 | folder-gradle         | ![folder-gradle](folders/folder-gradle.png)                 |
@@ -112,6 +113,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-interceptors   | ![folder-interceptors](folders/folder-interceptors.png)     |
 | folder-interfaces     | ![folder-interfaces](folders/folder-interfaces.png)         |
 | folder-ios            | ![folder-ios](folders/folder-ios.png)                       |
+| folder-js             | ![folder-js](folders/folder-js.png)                         |
 | folder-layout         | ![folder-layout](folders/folder-layout.png)                 |
 | folder-lock           | ![folder-lock](folders/folder-lock.png)                     |
 | folder-mail           | ![folder-mail](folders/folder-mail.png)                     |
@@ -143,6 +145,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-redux-reducer  | ![folder-redux-reducer](folders/folder-reducer.png )        |
 | folder-redux-selector | ![folder-redux-selector](folders/folder-selector.png )      |
 | folder-router         | ![folder-router](folders/folder-router.png)                 |
+| folder-sass           | ![folder-sass](folders/folder-sass.png)                     |
 | folder-services       | ![folder-services](folders/folder-services.png)             |
 | folder-shared         | ![folder-shared](folders/folder-shared.png)                 |
 | folder-sky            | ![folder-sky](folders/folder-sky.png)                       |
@@ -220,6 +223,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | nest-service          | ![nest-service](files/nest-service.png)                     |
 | netlify               | ![netlify](files/netlify.png)                               |
 | next                  | ![next](files/next.png)                                     |
+| nim                   | ![nim](files/nim.png)                                       |
 | nix                   | ![nix](files/nix.png)                                       |
 | node                  | ![node](files/node.png)                                     |
 | nodemon               | ![nodemon](files/nodemon.png)                               |
