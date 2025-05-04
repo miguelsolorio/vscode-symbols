@@ -1542,6 +1542,7 @@
 		"aws": "folder-aws",
 		".azure": "folder-azure",
 		"nginx": "folder-nginx",
+		"react": "folder-react",
 		".github": "folder-github",
 		"public": "folder-purple-outline",
 		"source": "folder-orange-code",

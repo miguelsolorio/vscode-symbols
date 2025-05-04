@@ -85,8 +85,8 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-constants      | ![folder-constants](folders/folder-constants.png)           |
 | folder-context        | ![folder-context](folders/folder-context.png)               |
 | folder-core           | ![folder-core](folders/folder-core.png)                     |
-| folder-cypress        | ![folder-cypress](folders/folder-cypress.png)               |
 | folder-cursor         | ![folder-cursor](folders/folder-cursor.png)                 |
+| folder-cypress        | ![folder-cypress](folders/folder-cypress.png)               |
 | folder-database       | ![folder-database](folders/folder-database.png)             |
 | folder-docker         | ![folder-docker](folders/folder-docker.png)                 |
 | folder-drizzle        | ![folder-drizzle](folders/folder-drizzle.png)               |
