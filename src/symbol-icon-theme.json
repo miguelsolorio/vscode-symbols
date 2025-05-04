@@ -638,6 +638,8 @@
 		"resi": "rescript-interface",
 		"json": "brackets-yellow",
 		"html": "code-orange",
+		"htm": "code-orange",
+		"shtml": "code-orange",
 		"md": "markdown",
 		"png": "image",
 		"jpeg": "image",
