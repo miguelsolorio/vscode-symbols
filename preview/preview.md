@@ -81,6 +81,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-blue-code      | ![folder-blue-code](folders/folder-blue-code.png)           |
 | folder-blue-outline   | ![folder-blue-outline](folders/folder-blue-outline.png)     |
 | folder-bruno          | ![folder-bruno](folders/folder-bruno.png)                   |
+| folder-build          | ![folder-build](folders/folder-build.png)                   |
 | folder-config         | ![folder-config](folders/folder-config.png)                 |
 | folder-constants      | ![folder-constants](folders/folder-constants.png)           |
 | folder-context        | ![folder-context](folders/folder-context.png)               |
@@ -89,8 +90,10 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-cypress        | ![folder-cypress](folders/folder-cypress.png)               |
 | folder-database       | ![folder-database](folders/folder-database.png)             |
 | folder-docker         | ![folder-docker](folders/folder-docker.png)                 |
+| folder-documents      | ![folder-documents](folders/folder-documents.png)           |
 | folder-drizzle        | ![folder-drizzle](folders/folder-drizzle.png)               |
 | folder-expo           | ![folder-expo](folders/folder-expo.png)                     |
+| folder-files          | ![folder-files](folders/folder-files.png)                   |
 | folder-firebase       | ![folder-firebase](folders/folder-firebase.png)             |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
 | folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
@@ -151,6 +154,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-tina           | ![folder-tina](folders/folder-tina.png)                     |
 | folder-utils          | ![folder-utils](folders/folder-utils.png)                   |
 | folder-vercel         | ![folder-vercel](folders/folder-vercel.png)                 |
+| folder-vscode         | ![folder-vscode](folders/folder-vscode.png)                 |
 | folder-yellow         | ![folder-yellow](folders/folder-yellow.png)                 |
 | folder-yellow-code    | ![folder-yellow-code](folders/folder-yellow-code.png)       |
 | folder-yellow-outline | ![folder-yellow-outline](folders/folder-yellow-outline.png) |
