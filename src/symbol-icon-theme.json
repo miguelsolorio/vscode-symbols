@@ -1528,6 +1528,8 @@
 		"contexts": "folder-context",
 		"middleware": "folder-middleware",
 		"middlewares": "folder-middleware",
+		"pages": "folder-sky-code",
+		"screens": "folder-sky-code",
 		"util": "folder-utils",
 		"utils": "folder-utils",
 		"utility": "folder-utils",
