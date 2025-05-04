@@ -309,10 +309,12 @@
 		"yarn": { "iconPath": "./icons/files/yarn.svg" },
 		"zig": { "iconPath": "./icons/files/zig.svg" },
 		"nx": { "iconPath": "./icons/files/nx.svg" },
-		"yummacss": { "iconPath": "./icons/files/yummacss.svg" }
+		"yummacss": { "iconPath": "./icons/files/yummacss.svg" },
+		"orval": { "iconPath": "./icons/files/orval.svg" }
 	},
 
 	"fileExtensions": {
+		"orval": "orval",
 		"f90": "fortran",
 		"f95": "fortran",
 		"f03": "fortran",
@@ -695,8 +697,19 @@
 	},
 
 	"fileNames": {
+		"orval.config.js": "orval",
+		"orval.config.mjs": "orval",
+		"orval.config.ts": "orval",
+		"orval.config.cjs": "orval",
+		"orval.config.mts": "orval",
+		"orval.config.cts": "orval",
+		".orvalrc": "orval",
+		".orvalrc.js": "orval",
+		".orvalrc.json": "orval",
+		".orvalrc.ts": "orval",
+		".orvalrc.yaml": "orval",
+		".orvalrc.yml": "orval",
 		".gitlab-ci.yml": "gitlab",
-		"gitlab-ci.yml": "gitlab",
 		"file.config": "gear",
 		"lunaria.config.json": "lunaria",
 		"ec.config.mjs": "expressive-code",

@@ -229,6 +229,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | nuxt                  | ![nuxt](files/nuxt.png)                                     |
 | nx                    | ![nx](files/nx.png)                                         |
 | ocaml                 | ![ocaml](files/ocaml.png)                                   |
+| orval                 | ![orval](files/orval.png)                                   |
 | oxlint                | ![oxlint](files/oxlint.png)                                 |
 | panda                 | ![panda](files/panda.png)                                   |
 | patch                 | ![patch](files/patch.png)                                   |
