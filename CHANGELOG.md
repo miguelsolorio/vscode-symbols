@@ -1,5 +1,28 @@
 # Change Log
 
+## 0.0.23
+
+## What's Changed
+* Add icon to Bun text-based lockfiles by [@Bergbok](https://github.com/Bergbok) in [#275](https://github.com/miguelsolorio/vscode-symbols/pull/275)
+* Add information in README for devs using Zed by [@sebastiandotdev](https://github.com/sebastiandotdev) in [#283](https://github.com/miguelsolorio/vscode-symbols/pull/283)
+* `Proposal` Cursor & Tauri icons by [@risixdzn](https://github.com/risixdzn) in [#284](https://github.com/miguelsolorio/vscode-symbols/pull/284)
+* feat:added new icons by [@Joaosam](https://github.com/Joaosam) in [#281](https://github.com/miguelsolorio/vscode-symbols/pull/281)
+* Change styles folder color to purple by [@azrdn](https://github.com/azrdn) in [#289](https://github.com/miguelsolorio/vscode-symbols/pull/289)
+* Add Yumma CSS icon by [@rrenildopereiraa](https://github.com/rrenildopereiraa) in [#290](https://github.com/miguelsolorio/vscode-symbols/pull/290)
+* Add `.slnx` by [@just-ero](https://github.com/just-ero) in [#294](https://github.com/miguelsolorio/vscode-symbols/pull/294)
+* Addition of icons for common folders and change of the "txt" icon. by [@VictorManoel](https://github.com/VictorManoel) in [#269](https://github.com/miguelsolorio/vscode-symbols/pull/269)
+
+## New Contributors
+* [@Bergbok](https://github.com/Bergbok) made their first contribution in [#275](https://github.com/miguelsolorio/vscode-symbols/pull/275)
+* [@risixdzn](https://github.com/risixdzn) made their first contribution in [#284](https://github.com/miguelsolorio/vscode-symbols/pull/284)
+* [@Joaosam](https://github.com/Joaosam) made their first contribution in [#281](https://github.com/miguelsolorio/vscode-symbols/pull/281)
+* [@azrdn](https://github.com/azrdn) made their first contribution in [#289](https://github.com/miguelsolorio/vscode-symbols/pull/289)
+* [@rrenildopereiraa](https://github.com/rrenildopereiraa) made their first contribution in [#290](https://github.com/miguelsolorio/vscode-symbols/pull/290)
+* [@just-ero](https://github.com/just-ero) made their first contribution in [#294](https://github.com/miguelsolorio/vscode-symbols/pull/294)
+* [@VictorManoel](https://github.com/VictorManoel) made their first contribution in [#269](https://github.com/miguelsolorio/vscode-symbols/pull/269)
+
+**Full Changelog**: https://github.com/miguelsolorio/vscode-symbols/compare/0.0.22...0.0.23
+
 ## 0.0.22
 
 ## What's Changed
