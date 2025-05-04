@@ -225,6 +225,7 @@
 		"nest-middleware": { "iconPath": "./icons/files/nest-middleware.svg" },
 		"netlify": { "iconPath": "./icons/files/netlify.svg" },
 		"next": { "iconPath": "./icons/files/next.svg" },
+		"nim": { "iconPath": "./icons/files/nim.svg" },
 		"nix": { "iconPath": "./icons/files/nix.svg" },
 		"node": { "iconPath": "./icons/files/node.svg" },
 		"nodemon": { "iconPath": "./icons/files/nodemon.svg" },
@@ -318,6 +319,7 @@
 
 	"fileExtensions": {
 		"orval": "orval",
+		"nim": "nim",
 		"f90": "fortran",
 		"f95": "fortran",
 		"f03": "fortran",
