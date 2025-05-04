@@ -372,6 +372,7 @@
 		"csproj": "visual-studio",
 		"ruleset": "visual-studio",
 		"sln": "visual-studio",
+		"slnx": "visual-studio",
 		"suo": "visual-studio",
 		"vb": "visual-studio",
 		"vbs": "visual-studio",
