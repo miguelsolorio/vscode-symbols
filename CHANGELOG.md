@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.0.24
+
+## What's Changed
+* Fixed `docs` folder in [#296](https://github.com/miguelsolorio/vscode-symbols/issues/296)
+
 ## 0.0.23
 
 ## What's Changed
