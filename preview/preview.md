@@ -93,7 +93,6 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-documents      | ![folder-documents](folders/folder-documents.png)           |
 | folder-drizzle        | ![folder-drizzle](folders/folder-drizzle.png)               |
 | folder-expo           | ![folder-expo](folders/folder-expo.png)                     |
-| folder-files          | ![folder-files](folders/folder-files.png)                   |
 | folder-firebase       | ![folder-firebase](folders/folder-firebase.png)             |
 | folder-fonts          | ![folder-fonts](folders/folder-fonts.png)                   |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
