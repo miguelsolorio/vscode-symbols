@@ -273,6 +273,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | sbt                   | ![sbt](files/sbt.png)                                       |
 | scala                 | ![scala](files/scala.png)                                   |
 | severless             | ![severless](files/severless.png)                           |
+| shadcn                | ![shadcn](files/shadcn.png)                                 |
 | shell                 | ![shell](files/shell.png)                                   |
 | solidity              | ![solidity](files/solidity.png)                             |
 | statamic-antlers      | ![statamic-antlers](files/statamic-antlers.png)             |
