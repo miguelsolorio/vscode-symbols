@@ -1,11 +1,15 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"organizeImports": {
-		"enabled": true
+	"assist": {
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
 	},
 	"files": {
 		"ignoreUnknown": true,
-		"ignore": ["./file-types/**"]
+		"includes": ["**", "!file-types"]
 	},
 	"linter": {
 		"enabled": true,
@@ -19,7 +23,7 @@
 	},
 	"overrides": [
 		{
-			"include": [".vscode"],
+			"includes": [".vscode"],
 			"json": {
 				"parser": {
 					"allowComments": true

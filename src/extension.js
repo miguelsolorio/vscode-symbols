@@ -5,7 +5,7 @@ const { log } = require("./lib/log");
 /**
  * @param {vscode.ExtensionContext} context
  */
-async function activate(context) {
+async function activate(_context) {
 	log.info("miguelsolorio.symbols activated");
 	await syncOriginal();
 	monitorConfigChanges();
