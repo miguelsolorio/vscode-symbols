@@ -90,8 +90,8 @@
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.2.5",
-		"@types/vscode": "^1.104.0",
+		"@biomejs/biome": "2.2.6",
+		"@types/vscode": "^1.105.0",
 		"sharp": "^0.34.4",
 		"markdown-table": "^3.0.4"
 	}
