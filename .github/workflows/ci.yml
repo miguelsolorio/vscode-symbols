@@ -31,21 +31,5 @@ jobs:
       - name: Check formatting
         run: npm run check-format
 
-      - name: Build extension
-        id: build
-        run: |
-          # Install vsce for packaging
-          npm install -g @vscode/vsce
-
-          # Package the extension
-          vsce package --out symbols-${GITHUB_SHA::7}.vsix
-
-          # Output the VSIX path for artifact upload
-          echo "vsixPath=symbols-${GITHUB_SHA::7}.vsix" >> $GITHUB_OUTPUT
-
-      - name: Upload VSIX artifact
-        uses: actions/upload-artifact@v5
-        with:
-          name: ${{ steps.build.outputs.vsixPath }}
-          path: ${{ steps.build.outputs.vsixPath }}
-          retention-days: 7
+      - name: Check icon integrity
+        run: npm run integrity
