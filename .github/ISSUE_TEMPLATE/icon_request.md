@@ -14,6 +14,14 @@ assignees: 'miguelsolorio'
 **Describe the icon**
 A clear and concise description of the icon you want to request or update.
 
+**File names (if applicable)**
+List any file names that should use this icon (e.g., `config.yml`, `Dockerfile`, `.eslintrc`):
+- 
+
+**Folder names (if applicable)**
+List any folder names that should use this icon (e.g., `components`, `.github`, `tests`):
+- 
+
 **Screenshots or examples**
 If applicable, add screenshots or examples to help explain your request.
 
