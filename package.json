@@ -73,7 +73,8 @@
 		"lint:fix": "biome lint --apply .",
 		"check-format": "biome check .",
 		"check-format:fix": "biome check --apply .",
-		"precommit": "npm run check-format && npm run lint && npm run generate-previews",
+		"integrity": "node --experimental-json-modules scripts/integrity.mjs",
+		"precommit": "npm run check-format && npm run lint && npm run integrity && npm run generate-previews",
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
