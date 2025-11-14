@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a bug or unexpected behaviour
+labels: [bug]
+assignees:
+  - miguelsolorio
+body:
+  - type: input
+    attributes:
+      label: VSCode/Codium version
+      description: What version of VSCode or VSCodium are you using?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Extension version
+      description: What version of Symbols are you using?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: Explain what issue you ran into, what unexpected behaviour you encountered. Providing as much context as possible helps.
+    validations:
+      required: true
