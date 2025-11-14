@@ -1,23 +1,31 @@
-**Is this a new icon or an update to an existing?**
+## Description
+<!-- What does this PR do? What file types/folders does it affect? -->
+
+
+## Type of Change
 - [ ] New icon
-- [ ] Update to an existing icon
+- [ ] Update to existing icon
+- [ ] Bug fix
+- [ ] Other (specify):
 
-**Did you test your changes in the extension?**
-- [ ] Yes
-- [ ] No
+## Screenshots
+<!-- Required for icon changes. Show your icon in VS Code's file tree -->
 
-**Did you follow the [contribution guidelines](https://github.com/miguelsolorio/vscode-symbols?tab=readme-ov-file#contributing)?**
-- [ ] Yes
-- [ ] No
+**Before:**
 
-**Which issue(s) does this PR fix?**
-Please link to the issue(s) this PR fixes. If none, please create an original issue.
 
-**Screenshots (Before and After)**
-Add screenshots to show the changes before and after.
+**After:**
 
-**Describe the changes**
-A clear and concise description of the changes made in this pull request.
 
-**Additional context**
-Add any other context about the pull request here.
+## Checklist
+- [ ] Followed design guidelines (24x24px, 1px stroke, existing colors)
+- [ ] SVG optimized and under 2KB
+- [ ] Updated `src/symbol-icon-theme.json` with icon definition and associations
+- [ ] Ran `npm run generate-previews` and committed preview files
+- [ ] Ran `npm run check-format:fix`
+- [ ] Tested locally in VS Code (press F5)
+- [ ] Included screenshot above
+
+## Related Issues
+<!-- Link related issues. -->
+Fixes #
