@@ -7,3 +7,11 @@ vsc-extension-quickstart.md
 **/.eslintrc.json
 **/*.map
 **/*.ts
+.github/**
+file-types/**
+scripts/**
+**/.env
+.env*
+*.vsix
+node_modules/**
+package-lock.json

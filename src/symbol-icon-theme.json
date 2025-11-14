@@ -104,19 +104,11 @@
 		"folder-prisma": { "iconPath": "./icons/folders/folder-prisma.svg" },
 		"folder-providers": { "iconPath": "./icons/folders/folder-providers.svg" },
 		"folder-react": { "iconPath": "./icons/folders/folder-react.svg" },
-		"folder-redux-actions": {
-			"iconPath": "./icons/folders/folder-actions.svg "
-		},
-		"folder-redux-effects": {
-			"iconPath": "./icons/folders/folder-effects.svg "
-		},
+		"folder-redux-actions": { "iconPath": "./icons/folders/folder-actions.svg" },
+		"folder-redux-effects": { "iconPath": "./icons/folders/folder-effects.svg" },
 		"folder-redux-facade": { "iconPath": "./icons/folders/folder-facade.svg" },
-		"folder-redux-reducer": {
-			"iconPath": "./icons/folders/folder-reducer.svg "
-		},
-		"folder-redux-selector": {
-			"iconPath": "./icons/folders/folder-selector.svg "
-		},
+		"folder-redux-reducer": { "iconPath": "./icons/folders/folder-reducer.svg" },
+		"folder-redux-selector": { "iconPath": "./icons/folders/folder-selector.svg" },
 		"folder-router": { "iconPath": "./icons/folders/folder-router.svg" },
 		"folder-services": { "iconPath": "./icons/folders/folder-services.svg" },
 		"folder-shared": { "iconPath": "./icons/folders/folder-shared.svg" },
@@ -301,14 +293,12 @@
 		"react-test": { "iconPath": "./icons/files/react-test.svg" },
 		"react-ts": { "iconPath": "./icons/files/react-ts.svg" },
 		"react": { "iconPath": "./icons/files/react.svg" },
-		"redux-actions": { "iconPath": "./icons/files/redux-actions.svg " },
-		"redux-effects": { "iconPath": "./icons/files/redux-effects.svg " },
+		"redux-actions": { "iconPath": "./icons/files/redux-actions.svg" },
+		"redux-effects": { "iconPath": "./icons/files/redux-effects.svg" },
 		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg" },
-		"redux-reducer": { "iconPath": "./icons/files/redux-reducer.svg " },
-		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg " },
-		"rescript-interface": {
-			"iconPath": "./icons/files/rescript-interface.svg"
-		},
+		"redux-reducer": { "iconPath": "./icons/files/redux-reducer.svg" },
+		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg" },
+		"rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" },
 		"rescript": { "iconPath": "./icons/files/rescript.svg" },
 		"robot": { "iconPath": "./icons/files/robot.svg" },
 		"rome": { "iconPath": "./icons/files/rome.svg" },

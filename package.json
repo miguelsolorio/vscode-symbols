@@ -85,13 +85,17 @@
 		"lint": "biome lint .",
 		"lint:fix": "biome lint --write .",
 		"check-format": "biome check .",
-		"check-format:fix": "biome check --write .",
-		"precommit": "npm run check-format && npm run lint && npm run generate-previews",
+		"check-format:fix": "biome check --apply .",
+		"integrity": "node --experimental-json-modules scripts/integrity.mjs",
+		"package": "vsce package",
+		"vscode:prepublish": "npm run check-format && npm run lint",
+		"precommit": "npm run check-format && npm run lint && npm run integrity && npm run generate-previews",
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.3.3",
 		"@types/vscode": "^1.105.0",
+		"@vscode/vsce": "^3.2.1",
 		"markdown-table": "^3.0.4",
 		"sharp": "^0.34.4"
 	}
