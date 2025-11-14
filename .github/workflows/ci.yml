@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags-ignore: [v*]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint with Biome
+        run: npm run lint
+
+      - name: Check formatting
+        run: npm run check-format
+
+      - name: Check icon integrity
+        run: npm run integrity

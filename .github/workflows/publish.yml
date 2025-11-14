@@ -1,0 +1,78 @@
+name: Publish
+
+on:
+  push:
+    tags: [v*]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint with Biome
+        run: npm run lint
+
+      - name: Check formatting
+        run: npm run check-format
+
+      - name: Build and package extension
+        id: build
+        run: |
+          # Install vsce for packaging
+          npm install -g @vscode/vsce
+
+          # Extract version from tag (remove 'v' prefix)
+          VERSION=${GITHUB_REF#refs/tags/v}
+
+          # Package the extension
+          vsce package --out symbols-${VERSION}.vsix
+
+          # Output the VSIX path
+          echo "vsixPath=symbols-${VERSION}.vsix" >> $GITHUB_OUTPUT
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.build.outputs.vsixPath }}
+          body: |
+            # Symbols v${{ steps.build.outputs.version }}
+
+            Install this version by downloading the `.vsix` file and running:
+            ```
+            code --install-extension ${{ steps.build.outputs.vsixPath }}
+            ```
+
+            See [CHANGELOG.md](https://github.com/miguelsolorio/vscode-symbols/blob/main/CHANGELOG.md) for details.
+          draft: false
+          prerelease: false
+
+      - name: Publish to Visual Studio Marketplace
+        if: ${{ !github.event.repository.fork }}
+        run: vsce publish --packagePath ${{ steps.build.outputs.vsixPath }}
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to Open VSX Registry
+        if: ${{ !github.event.repository.fork }}
+        continue-on-error: true
+        timeout-minutes: 10
+        run: |
+          npm install -g ovsx
+          ovsx publish ${{ steps.build.outputs.vsixPath }} -p ${{ secrets.OVSX_PAT }}
