@@ -397,6 +397,7 @@
 		"selectors.ts": "redux-selector",
 		"pdf": "pdf",
 		"env": "gear",
+        "env.example": "gear",
 		"pkl": "pkl",
 		"hs": "haskell",
 		"component.dart": "angular-component",
