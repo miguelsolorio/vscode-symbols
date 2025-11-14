@@ -362,7 +362,8 @@
 		"zig": { "iconPath": "./icons/files/zig.svg" },
 		"nx": { "iconPath": "./icons/files/nx.svg" },
 		"yummacss": { "iconPath": "./icons/files/yummacss.svg" },
-		"orval": { "iconPath": "./icons/files/orval.svg" }
+		"orval": { "iconPath": "./icons/files/orval.svg" },
+		"shadcn": { "iconPath": "./icons/files/shadcn.svg" }
 	},
 
 	"fileExtensions": {
@@ -1448,7 +1449,8 @@
 		"yumma.config.mjs": "yummacss",
 		"yumma.config.ts": "yummacss",
 		"yumma.css": "yummacss",
-		"yummacss.css": "yummacss"
+		"yummacss.css": "yummacss",
+		"components.json": "shadcn"
 	},
 
 	"languageIds": {
