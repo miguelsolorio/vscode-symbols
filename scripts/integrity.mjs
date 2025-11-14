@@ -49,11 +49,11 @@ async function validateIcons() {
 
 			try {
 				await fs.access(fullPath);
-				
+
 				// Check file size
 				const stats = await fs.stat(fullPath);
 				const sizeKB = stats.size / 1024;
-				
+
 				if (sizeKB > 2) {
 					warnings.push(`⚠️  Large icon (${sizeKB.toFixed(2)}KB): ${iconName} - ${iconPath} (recommend < 2KB)`);
 				}
