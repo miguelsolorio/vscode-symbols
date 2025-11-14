@@ -1,0 +1,12 @@
+name: Feature request
+description: Request a feature for the Symbols extension
+labels: [enhancement]
+assignees:
+  - miguelsolorio
+body:
+  - type: textarea
+    attributes:
+      label: Describe the feature
+      description: Explain what you want the feature to achieve, including eventual configuration and context.
+    validations:
+      required: true

@@ -28,6 +28,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | bun                   | ![bun](files/bun.png)                                       |
 | c                     | ![c](files/c.png)                                           |
 | capacitor             | ![capacitor](files/capacitor.png)                           |
+| claude                | ![claude](files/claude.png)                                 |
 | clojure               | ![clojure](files/clojure.png)                               |
 | cloudflare-workers    | ![cloudflare-workers](files/cloudflare-workers.png)         |
 | cmake                 | ![cmake](files/cmake.png)                                   |
@@ -82,6 +83,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-blue-outline   | ![folder-blue-outline](folders/folder-blue-outline.png)     |
 | folder-bruno          | ![folder-bruno](folders/folder-bruno.png)                   |
 | folder-build          | ![folder-build](folders/folder-build.png)                   |
+| folder-claude         | ![folder-claude](folders/folder-claude.png)                 |
 | folder-config         | ![folder-config](folders/folder-config.png)                 |
 | folder-constants      | ![folder-constants](folders/folder-constants.png)           |
 | folder-context        | ![folder-context](folders/folder-context.png)               |
@@ -138,6 +140,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-red            | ![folder-red](folders/folder-red.png)                       |
 | folder-red-code       | ![folder-red-code](folders/folder-red-code.png)             |
 | folder-red-outline    | ![folder-red-outline](folders/folder-red-outline.png)       |
+| folder-redis          | ![folder-redis](folders/folder-redis.png)                   |
 | folder-redux-actions  | ![folder-redux-actions](folders/folder-actions.png )        |
 | folder-redux-effects  | ![folder-redux-effects](folders/folder-effects.png )        |
 | folder-redux-facade   | ![folder-redux-facade](folders/folder-facade.png)           |
@@ -273,6 +276,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | sbt                   | ![sbt](files/sbt.png)                                       |
 | scala                 | ![scala](files/scala.png)                                   |
 | severless             | ![severless](files/severless.png)                           |
+| shadcn                | ![shadcn](files/shadcn.png)                                 |
 | shell                 | ![shell](files/shell.png)                                   |
 | solidity              | ![solidity](files/solidity.png)                             |
 | statamic-antlers      | ![statamic-antlers](files/statamic-antlers.png)             |
