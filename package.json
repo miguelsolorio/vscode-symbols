@@ -94,7 +94,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.3.3",
-		"@types/vscode": "^1.105.0",
+		"@types/vscode": "^1.88.0",
 		"@vscode/vsce": "^3.2.1",
 		"markdown-table": "^3.0.4",
 		"sharp": "^0.34.4"
