@@ -90,6 +90,7 @@
 		"package": "vsce package",
 		"vscode:prepublish": "npm run check-format && npm run lint",
 		"precommit": "npm run check-format && npm run lint && npm run integrity && npm run generate-previews",
+		"prepare": "husky",
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
@@ -97,6 +98,7 @@
 		"@types/vscode": "^1.88.0",
 		"@vscode/vsce": "^3.2.1",
 		"markdown-table": "^3.0.4",
-		"sharp": "^0.34.4"
+		"sharp": "^0.34.4",
+		"husky": "^9.0.0"
 	}
 }
