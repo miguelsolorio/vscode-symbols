@@ -89,7 +89,7 @@
 		"integrity": "node --experimental-json-modules scripts/integrity.mjs",
 		"package": "vsce package",
 		"vscode:prepublish": "npm run check-format && npm run lint",
-		"precommit": "npm run format && npm run lint:fix && npm run integrity && npm run generate-previews",
+		"precommit": "npm run check-format:fix && npm run lint:fix && npm run integrity && npm run generate-previews",
 		"prepare": "husky",
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
