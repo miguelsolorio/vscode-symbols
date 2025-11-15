@@ -1,1 +1,7 @@
-npm run precommit
+#!/usr/bin/env sh
+
+# Run formatting/lint/integrity + preview generation
+npm run precommit || exit 1
+
+# Stage any generated assets updated by scripts so commit includes them
+git add -A
