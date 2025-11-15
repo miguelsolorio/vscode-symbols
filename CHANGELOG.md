@@ -1,5 +1,33 @@
 # Change Log
 
+## 0.0.25
+
+## What's Changed
+* Update dependencies and biome by [@jacobdalamb](https://github.com/jacobdalamb) in [#321](https://github.com/miguelsolorio/vscode-symbols/pull/321)
+* Update Yumma CSS asset files by [@rrenildopereiraa](https://github.com/rrenildopereiraa) in [#301](https://github.com/miguelsolorio/vscode-symbols/pull/301)
+* Add missing filenames for Knip config by [@nikolailehbrink](https://github.com/nikolailehbrink) in [#307](https://github.com/miguelsolorio/vscode-symbols/pull/307)
+* [FEAT] Add new folder and file icons for Claude and Redis by [@h3rmel](https://github.com/h3rmel) in [#313](https://github.com/miguelsolorio/vscode-symbols/pull/313)
+* Migrate issue templates to GitHub Issue Forms by [@jacobdalamb](https://github.com/jacobdalamb) in [#326](https://github.com/miguelsolorio/vscode-symbols/pull/326)
+* Add env.example file type support by [@bernardoeuler](https://github.com/bernardoeuler) in [#317](https://github.com/miguelsolorio/vscode-symbols/pull/317)
+* Proposal for shadcn icon in components.json by [@Carlosaac23](https://github.com/Carlosaac23) in [#319](https://github.com/miguelsolorio/vscode-symbols/pull/319)
+* Update pull_request.yml by [@jacobdalamb](https://github.com/jacobdalamb) in [#328](https://github.com/miguelsolorio/vscode-symbols/pull/328)
+* Add icon integrity validation and fix broken icon references by [@jacobdalamb](https://github.com/jacobdalamb) in [#329](https://github.com/miguelsolorio/vscode-symbols/pull/329)
+* Add CI/CD workflows for automated builds and releases by [@jacobdalamb](https://github.com/jacobdalamb) in [#330](https://github.com/miguelsolorio/vscode-symbols/pull/330)
+* Create CONTRIBUTING.md by [@jacobdalamb](https://github.com/jacobdalamb) in [#331](https://github.com/miguelsolorio/vscode-symbols/pull/331)
+* Update pull_request_template.md by [@jacobdalamb](https://github.com/jacobdalamb) in [#332](https://github.com/miguelsolorio/vscode-symbols/pull/332)
+* fix: Update biome schema by [@jacobdalamb](https://github.com/jacobdalamb) in [#337](https://github.com/miguelsolorio/vscode-symbols/pull/337)
+* fix: Update uses versions by [@jacobdalamb](https://github.com/jacobdalamb) in [#338](https://github.com/miguelsolorio/vscode-symbols/pull/338)
+* Add more colors for docker icon by [@papey08](https://github.com/papey08) in [#334](https://github.com/miguelsolorio/vscode-symbols/pull/334)
+
+## New Contributors
+* [@nikolailehbrink](https://github.com/nikolailehbrink) made their first contribution in [#307](https://github.com/miguelsolorio/vscode-symbols/pull/307)
+* [@h3rmel](https://github.com/h3rmel) made their first contribution in [#313](https://github.com/miguelsolorio/vscode-symbols/pull/313)
+* [@bernardoeuler](https://github.com/bernardoeuler) made their first contribution in [#317](https://github.com/miguelsolorio/vscode-symbols/pull/317)
+* [@Carlosaac23](https://github.com/Carlosaac23) made their first contribution in [#319](https://github.com/miguelsolorio/vscode-symbols/pull/319)
+* [@papey08](https://github.com/papey08) made their first contribution in [#334](https://github.com/miguelsolorio/vscode-symbols/pull/334)
+
+**Full Changelog**: https://github.com/miguelsolorio/vscode-symbols/compare/0.0.24...0.0.25
+
 ## 0.0.24
 
 ## What's Changed
@@ -32,19 +60,19 @@
 
 ## What's Changed
 
-* feat: Add `expo` and `gradle` folders by [@Pedroo-Nietoo](https://github.com/Pedroo-Nietoo) in https://github.com/miguelsolorio/vscode-symbols/pull/259
-* Add NestJS Guard, Decorator icons by [@premdasvm](https://github.com/premdasvm) in https://github.com/miguelsolorio/vscode-symbols/pull/262
-* Add missing file name for tailwind.config.mjs by [@victorbadaro](https://github.com/victorbadaro) in https://github.com/miguelsolorio/vscode-symbols/pull/264
-* Add option to exclude default associations by [@Remceau](https://github.com/Remceau) in https://github.com/miguelsolorio/vscode-symbols/pull/266
-* feat: added more colors to `go` files by [@CarlosNayan](https://github.com/CarlosNayan) in https://github.com/miguelsolorio/vscode-symbols/pull/268
+* feat: Add `expo` and `gradle` folders by [@Pedroo-Nietoo](https://github.com/Pedroo-Nietoo) in [#259](https://github.com/miguelsolorio/vscode-symbols/pull/259)
+* Add NestJS Guard, Decorator icons by [@premdasvm](https://github.com/premdasvm) in [#262](https://github.com/miguelsolorio/vscode-symbols/pull/262)
+* Add missing file name for tailwind.config.mjs by [@victorbadaro](https://github.com/victorbadaro) in [#264](https://github.com/miguelsolorio/vscode-symbols/pull/264)
+* Add option to exclude default associations by [@Remceau](https://github.com/Remceau) in [#266](https://github.com/miguelsolorio/vscode-symbols/pull/266)
+* feat: added more colors to `go` files by [@CarlosNayan](https://github.com/CarlosNayan) in [#268](https://github.com/miguelsolorio/vscode-symbols/pull/268)
 
 ## New Contributors
 
-* @Pedroo-Nietoo made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/259
-* @premdasvm made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/262
-* @victorbadaro made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/264
-* @Remceau made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/266
-* @CarlosNayan made their first contribution in https://github.com/miguelsolorio/vscode-symbols/pull/268
+* [@Pedroo-Nietoo](https://github.com/Pedroo-Nietoo) made their first contribution in [#259](https://github.com/miguelsolorio/vscode-symbols/pull/259)
+* [@premdasvm](https://github.com/premdasvm) made their first contribution in [#262](https://github.com/miguelsolorio/vscode-symbols/pull/262)
+* [@victorbadaro](https://github.com/victorbadaro) made their first contribution in [#264](https://github.com/miguelsolorio/vscode-symbols/pull/264)
+* [@Remceau](https://github.com/Remceau) made their first contribution in [#266](https://github.com/miguelsolorio/vscode-symbols/pull/266)
+* [@CarlosNayan](https://github.com/CarlosNayan) made their first contribution in [#268](https://github.com/miguelsolorio/vscode-symbols/pull/268)
 
 ## 0.0.21
 
