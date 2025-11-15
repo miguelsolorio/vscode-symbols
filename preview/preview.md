@@ -56,6 +56,12 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | database              | ![database](files/database.png)                             |
 | deno                  | ![deno](files/deno.png)                                     |
 | docker                | ![docker](files/docker.png)                                 |
+| docker-green          | ![docker-green](files/docker-green.png)                     |
+| docker-orange         | ![docker-orange](files/docker-orange.png)                   |
+| docker-pink           | ![docker-pink](files/docker-pink.png)                       |
+| docker-purple         | ![docker-purple](files/docker-purple.png)                   |
+| docker-red            | ![docker-red](files/docker-red.png)                         |
+| docker-yellow         | ![docker-yellow](files/docker-yellow.png)                   |
 | document              | ![document](files/document.png)                             |
 | docusaurus            | ![docusaurus](files/docusaurus.png)                         |
 | drawio                | ![drawio](files/drawio.png)                                 |
@@ -141,11 +147,11 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-red-code       | ![folder-red-code](folders/folder-red-code.png)             |
 | folder-red-outline    | ![folder-red-outline](folders/folder-red-outline.png)       |
 | folder-redis          | ![folder-redis](folders/folder-redis.png)                   |
-| folder-redux-actions  | ![folder-redux-actions](folders/folder-actions.png )        |
-| folder-redux-effects  | ![folder-redux-effects](folders/folder-effects.png )        |
+| folder-redux-actions  | ![folder-redux-actions](folders/folder-actions.png)         |
+| folder-redux-effects  | ![folder-redux-effects](folders/folder-effects.png)         |
 | folder-redux-facade   | ![folder-redux-facade](folders/folder-facade.png)           |
-| folder-redux-reducer  | ![folder-redux-reducer](folders/folder-reducer.png )        |
-| folder-redux-selector | ![folder-redux-selector](folders/folder-selector.png )      |
+| folder-redux-reducer  | ![folder-redux-reducer](folders/folder-reducer.png)         |
+| folder-redux-selector | ![folder-redux-selector](folders/folder-selector.png)       |
 | folder-router         | ![folder-router](folders/folder-router.png)                 |
 | folder-sass           | ![folder-sass](folders/folder-sass.png)                     |
 | folder-services       | ![folder-services](folders/folder-services.png)             |
@@ -257,11 +263,11 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | react                 | ![react](files/react.png)                                   |
 | react-test            | ![react-test](files/react-test.png)                         |
 | react-ts              | ![react-ts](files/react-ts.png)                             |
-| redux-actions         | ![redux-actions](files/redux-actions.png )                  |
-| redux-effects         | ![redux-effects](files/redux-effects.png )                  |
+| redux-actions         | ![redux-actions](files/redux-actions.png)                   |
+| redux-effects         | ![redux-effects](files/redux-effects.png)                   |
 | redux-facade          | ![redux-facade](files/redux-facade.png)                     |
-| redux-reducer         | ![redux-reducer](files/redux-reducer.png )                  |
-| redux-selector        | ![redux-selector](files/redux-selector.png )                |
+| redux-reducer         | ![redux-reducer](files/redux-reducer.png)                   |
+| redux-selector        | ![redux-selector](files/redux-selector.png)                 |
 | rescript              | ![rescript](files/rescript.png)                             |
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
 | robot                 | ![robot](files/robot.png)                                   |
