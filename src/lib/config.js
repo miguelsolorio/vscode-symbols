@@ -49,6 +49,34 @@ function themeJSONToConfig(themeDef) {
 }
 
 /**
+ * @description migrate defaultFoldersAssociations setting for existing users
+ */
+async function migratedefaultFoldersAssociations() {
+	const config = vscode.workspace.getConfiguration("symbols");
+	const defaultFoldersAssociationsInspect = config.inspect("defaultFoldersAssociations");
+	
+	if (defaultFoldersAssociationsInspect.workspaceValue === undefined && 
+	    defaultFoldersAssociationsInspect.globalValue === undefined) {
+		
+		const defaultAssociations = config.get("defaultAssociations", true);
+		
+		const defaultAssociationsInspect = config.inspect("defaultAssociations");
+		const hasCustomDefaultAssociations = 
+			defaultAssociationsInspect.workspaceValue !== undefined || 
+			defaultAssociationsInspect.globalValue !== undefined;
+		
+		if (hasCustomDefaultAssociations) {
+			log.info(`🔄 Migrating defaultAssociations value (${defaultAssociations}) to defaultFoldersAssociations`);
+			if (defaultAssociationsInspect.workspaceValue !== undefined) {
+				await config.update("defaultFoldersAssociations", defaultAssociations, vscode.ConfigurationTarget.Workspace);
+			} else {
+				await config.update("defaultFoldersAssociations", defaultAssociations, vscode.ConfigurationTarget.Global);
+			}
+		}
+	}
+}
+
+/**
  * @description update the changed property in the global settings and
  * in the theme definition file
  */
@@ -61,6 +89,11 @@ function updateConfig(config) {
 		themeJSON.fileExtensions = {};
 		themeJSON.fileNames = {};
 		themeJSON.languageIds = {};
+	}
+
+	const usedefaultFoldersAssociations = vscode.workspace.getConfiguration("symbols").get("defaultFoldersAssociations", true);
+	log.info(`🤖 symbols.defaultFoldersAssociations changed, updating to ${usedefaultFoldersAssociations}`);
+	if (usedefaultFoldersAssociations === false) {
 		themeJSON.folderNames = {};
 	}
 
@@ -79,4 +112,5 @@ module.exports = {
 	getWorkspaceConfiguration,
 	themeJSONToConfig,
 	updateConfig,
+	migratedefaultFoldersAssociations,
 };

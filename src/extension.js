@@ -1,6 +1,7 @@
 const vscode = require("vscode");
 const { monitorConfigChanges } = require("./lib/change-listener");
 const { syncOriginal } = require("./lib/theme");
+const { migratedefaultFoldersAssociations } = require("./lib/config");
 const { log } = require("./lib/log");
 /**
  * @param {vscode.ExtensionContext} context
@@ -8,6 +9,7 @@ const { log } = require("./lib/log");
 async function activate(context) {
 	log.info("miguelsolorio.symbols activated");
 	await syncOriginal();
+	await migratedefaultFoldersAssociations();
 	monitorConfigChanges();
 
 	vscode.workspace.onDidChangeConfiguration(monitorConfigChanges);
