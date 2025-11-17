@@ -51,7 +51,14 @@
 				"symbols.defaultAssociations": {
 					"type": "boolean",
 					"default": true,
-					"description": "Allows you to use the default icons for files and folders or disable them and specify your own via symbols.files.associations and symbols.folders.associations."
+					"title": "Default Files Associations",
+					"description": "Allows you to use the default icons for files or disable them and specify your own via symbols.files.associations."
+				},
+				"symbols.defaultFoldersAssociations": {
+					"type": "boolean",
+					"default": true,
+					"title": "Default Folders Associations",
+					"description": "Allows you to use the default icons for folders or disable them and specify your own via symbols.folders.associations."
 				},
 				"symbols.folders.associations": {
 					"type": "object",
