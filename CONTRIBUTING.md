@@ -8,9 +8,23 @@ Reference the [Symbols Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd
 
 - **Canvas**: 24x24px
 - **Style**: 1px stroke, no fill
-- **Colors**: Use existing palette (check other icons)
 - **Format**: SVG, under 2KB
 - **Naming**: kebab-case (e.g., `typescript.svg`)
+- **Colors***: Select colors from the palette below:
+
+| Color | Hex |
+|-------|-----|
+| slate-500 | <div style="width:16px;height:16px;background:#64748B;display:inline-block;border-radius:2px"></div> `#64748B` |
+| zinc-500 | <div style="width:16px;height:16px;background:#71717A;display:inline-block;border-radius:2px"></div> `#71717A` |
+| amber-500 | <div style="width:16px;height:16px;background:#F59E0B;display:inline-block;border-radius:2px"></div> `#F59E0B` |
+| blue-600 | <div style="width:16px;height:16px;background:#2563EB;display:inline-block;border-radius:2px"></div> `#2563EB` |
+| green-600 | <div style="width:16px;height:16px;background:#16A34A;display:inline-block;border-radius:2px"></div> `#16A34A` |
+| teal-500 | <div style="width:16px;height:16px;background:#14B8A6;display:inline-block;border-radius:2px"></div> `#14B8A6` |
+| sky-500 | <div style="width:16px;height:16px;background:#0EA5E9;display:inline-block;border-radius:2px"></div> `#0EA5E9` |
+| orange-600 | <div style="width:16px;height:16px;background:#EA580C;display:inline-block;border-radius:2px"></div> `#EA580C` |
+| red-400 | <div style="width:16px;height:16px;background:#F87171;display:inline-block;border-radius:2px"></div> `#F87171` |
+| violet-500 | <div style="width:16px;height:16px;background:#8B5CF6;display:inline-block;border-radius:2px"></div> `#8B5CF6` |
+| pink-400 | <div style="width:16px;height:16px;background:#F472B6;display:inline-block;border-radius:2px"></div> `#F472B6` |
 
 ## Adding an Icon
 
@@ -21,7 +35,7 @@ Reference the [Symbols Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd
    ```
 
 2. **Update `src/symbol-icon-theme.json`**
-   
+
    Add icon definition:
    ```json
    "iconDefinitions": {
@@ -30,21 +44,21 @@ Reference the [Symbols Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd
      }
    }
    ```
-   
+
    Add associations (at end of file):
    ```json
    "fileExtensions": {
      "ext": "your-icon-name"
    }
    ```
-   
+
    Or for specific files:
    ```json
    "fileNames": {
      "package.json": "your-icon-name"
    }
    ```
-   
+
    Or for folders:
    ```json
    "folderNames": {
