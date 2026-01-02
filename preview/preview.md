@@ -69,6 +69,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | dts                   | ![dts](files/dts.png)                                       |
 | dune                  | ![dune](files/dune.png)                                     |
 | earthfile             | ![earthfile](files/earthfile.png)                           |
+| edge                  | ![edge](files/edge.png)                                     |
 | editorconfig          | ![editorconfig](files/editorconfig.png)                     |
 | elixir                | ![elixir](files/elixir.png)                                 |
 | erlang                | ![erlang](files/erlang.png)                                 |
