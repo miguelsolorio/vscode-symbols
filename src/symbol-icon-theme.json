@@ -78,6 +78,7 @@
 		"folder-redis": { "iconPath": "./icons/folders/folder-redis.svg" },
 		"folder-github": { "iconPath": "./icons/folders/folder-github.svg" },
 		"folder-gitlab": { "iconPath": "./icons/folders/folder-gitlab.svg" },
+		"folder-godot": { "iconPath": "./icons/folders/folder-godot.svg" },
 		"folder-graphql": { "iconPath": "./icons/folders/folder-graphql.svg" },
 		"folder-helpers": { "iconPath": "./icons/folders/folder-helpers.svg" },
 		"folder-images": { "iconPath": "./icons/folders/folder-images.svg" },
@@ -359,7 +360,16 @@
 		"nx": { "iconPath": "./icons/files/nx.svg" },
 		"yummacss": { "iconPath": "./icons/files/yummacss.svg" },
 		"orval": { "iconPath": "./icons/files/orval.svg" },
-		"shadcn": { "iconPath": "./icons/files/shadcn.svg" }
+		"shadcn": { "iconPath": "./icons/files/shadcn.svg" },
+		"gdextension": { "iconPath": "./icons/files/gdextension.svg" },
+		"gdignore": { "iconPath": "./icons/files/gdignore.svg" },
+		"gdimport": { "iconPath": "./icons/files/gdimport.svg" },
+		"gdproject": { "iconPath": "./icons/files/gdproject.svg" },
+		"gdresource": { "iconPath": "./icons/files/gdresource.svg" },
+		"gdresource-uid": { "iconPath": "./icons/files/gdresource-uid.svg" },
+		"gdscene": { "iconPath": "./icons/files/gdscene.svg" },
+		"gdscript": { "iconPath": "./icons/files/gdscript.svg" },
+		"gdshader": { "iconPath": "./icons/files/gdshader.svg" }
 	},
 
 	"fileExtensions": {
@@ -746,7 +756,15 @@
 		"toml": "gear",
 		"v": "v",
 		"nix": "nix",
-		"fc": "func"
+		"fc": "func",
+		"gd": "gdscript",
+		"gdextension": "gdextension",
+		"gdshader": "gdshader",
+		"import": "gdimport",
+		"scn": "gdscene",
+		"tres": "gdresource",
+		"tscn": "gdscene",
+		"uid": "gdresource-uid"
 	},
 
 	"fileNames": {
@@ -1464,7 +1482,9 @@
 		"yumma.config.ts": "yummacss",
 		"yumma.css": "yummacss",
 		"yummacss.css": "yummacss",
-		"components.json": "shadcn"
+		"components.json": "shadcn",
+		".gdignore": "gdignore",
+		"project.godot": "gdproject"
 	},
 
 	"languageIds": {
@@ -1568,7 +1588,11 @@
 		"vue-html": "vue",
 		"ng-template": "angular",
 		"nix": "nix",
-		"func": "func"
+		"func": "func",
+		"gdscene": "gdscene",
+		"gdshader": "gdshader",
+		"gdscript": "gdscript",
+		"gdresource": "gdresource"
 	},
 
 	"folderNames": {
@@ -1707,7 +1731,8 @@
 		"js": "folder-js",
 		"javascript": "folder-js",
 		"sass": "folder-sass",
-		"scss": "folder-sass"
+		"scss": "folder-sass",
+		".godot": "folder-godot"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",

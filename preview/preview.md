@@ -105,6 +105,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-fonts          | ![folder-fonts](folders/folder-fonts.png)                   |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
 | folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
+| folder-godot          | ![folder-godot](folders/folder-godot.png)                   |
 | folder-gradle         | ![folder-gradle](folders/folder-gradle.png)                 |
 | folder-graphql        | ![folder-graphql](folders/folder-graphql.png)               |
 | folder-gray           | ![folder-gray](folders/folder-gray.png)                     |
@@ -175,6 +176,15 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | fsharp                | ![fsharp](files/fsharp.png)                                 |
 | func                  | ![func](files/func.png)                                     |
 | gatsby                | ![gatsby](files/gatsby.png)                                 |
+| gdextension           | ![gdextension](files/gdextension.png)                       |
+| gdignore              | ![gdignore](files/gdignore.png)                             |
+| gdimport              | ![gdimport](files/gdimport.png)                             |
+| gdproject             | ![gdproject](files/gdproject.png)                           |
+| gdresource            | ![gdresource](files/gdresource.png)                         |
+| gdresource-uid        | ![gdresource-uid](files/gdresource-uid.png)                 |
+| gdscene               | ![gdscene](files/gdscene.png)                               |
+| gdscript              | ![gdscript](files/gdscript.png)                             |
+| gdshader              | ![gdshader](files/gdshader.png)                             |
 | gear                  | ![gear](files/gear.png)                                     |
 | gif                   | ![gif](files/gif.png)                                       |
 | git                   | ![git](files/git.png)                                       |
