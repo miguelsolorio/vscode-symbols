@@ -28,6 +28,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | bun                   | ![bun](files/bun.png)                                       |
 | c                     | ![c](files/c.png)                                           |
 | capacitor             | ![capacitor](files/capacitor.png)                           |
+| clapper               | ![clapper](files/clapper.png)                               |
 | claude                | ![claude](files/claude.png)                                 |
 | clojure               | ![clojure](files/clojure.png)                               |
 | cloudflare-workers    | ![cloudflare-workers](files/cloudflare-workers.png)         |
@@ -105,6 +106,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-fonts          | ![folder-fonts](folders/folder-fonts.png)                   |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
 | folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
+| folder-godot          | ![folder-godot](folders/folder-godot.png)                   |
 | folder-gradle         | ![folder-gradle](folders/folder-gradle.png)                 |
 | folder-graphql        | ![folder-graphql](folders/folder-graphql.png)               |
 | folder-gray           | ![folder-gray](folders/folder-gray.png)                     |
@@ -175,6 +177,11 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | fsharp                | ![fsharp](files/fsharp.png)                                 |
 | func                  | ![func](files/func.png)                                     |
 | gatsby                | ![gatsby](files/gatsby.png)                                 |
+| gdextension           | ![gdextension](files/gdextension.png)                       |
+| gdignore              | ![gdignore](files/gdignore.png)                             |
+| gdproject             | ![gdproject](files/gdproject.png)                           |
+| gdscript              | ![gdscript](files/gdscript.png)                             |
+| gdshader              | ![gdshader](files/gdshader.png)                             |
 | gear                  | ![gear](files/gear.png)                                     |
 | gif                   | ![gif](files/gif.png)                                       |
 | git                   | ![git](files/git.png)                                       |
@@ -213,6 +220,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | kotlin                | ![kotlin](files/kotlin.png)                                 |
 | laravel               | ![laravel](files/laravel.png)                               |
 | license               | ![license](files/license.png)                               |
+| link                  | ![link](files/link.png)                                     |
 | liquid                | ![liquid](files/liquid.png)                                 |
 | lock                  | ![lock](files/lock.png)                                     |
 | lua                   | ![lua](files/lua.png)                                       |
@@ -270,6 +278,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | redux-selector        | ![redux-selector](files/redux-selector.png)                 |
 | rescript              | ![rescript](files/rescript.png)                             |
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
+| resource              | ![resource](files/resource.png)                             |
 | robot                 | ![robot](files/robot.png)                                   |
 | rome                  | ![rome](files/rome.png)                                     |
 | rsbuild               | ![rsbuild](files/rsbuild.png)                               |
