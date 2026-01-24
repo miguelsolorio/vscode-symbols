@@ -342,6 +342,14 @@
 		"tsconfig": { "iconPath": "./icons/files/tsconfig.svg" },
 		"turborepo": { "iconPath": "./icons/files/turborepo.svg" },
 		"twig": { "iconPath": "./icons/files/twig.svg" },
+		"unity-asmdef": { "iconPath": "./icons/files/unity-asmdef.svg" },
+		"unity-asmref": { "iconPath": "./icons/files/unity-asmref.svg" },
+		"unity-asset": { "iconPath": "./icons/files/unity-asset.svg" },
+		"unity-meta": { "iconPath": "./icons/files/unity-meta.svg" },
+		"unity-package": { "iconPath": "./icons/files/unity-package.svg" },
+		"unity-prefab": { "iconPath": "./icons/files/resource-sky.svg" },
+		"unity-scene": { "iconPath": "./icons/files/unity-scene.svg" },
+		"unity-shader": { "iconPath": "./icons/files/unity-shader.svg" },
 		"unocss": { "iconPath": "./icons/files/unocss.svg" },
 		"v": { "iconPath": "./icons/files/v.svg" },
 		"vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
@@ -746,7 +754,24 @@
 		"toml": "gear",
 		"v": "v",
 		"nix": "nix",
-		"fc": "func"
+		"fc": "func",
+		"unity": "unity-scene",
+		"prefab": "unity-prefab",
+		"asmdef": "unity-asmdef",
+		"asmref": "unity-asmref",
+		"uss": "brackets-blue",
+		"uxml": "brackets-orange",
+		"meta": "unity-meta",
+		"shader": "unity-shader",
+		"unitypackage": "unity-package",
+		"asset": "unity-asset",
+		"mat": "unity-asset",
+		"anim": "unity-asset",
+		"controller": "unity-asset",
+		"inputactions": "unity-asset",
+		"physicsMaterial": "unity-asset",
+		"physicsMaterial2D": "unity-asset",
+		"spriteatlas": "unity-asset"
 	},
 
 	"fileNames": {
@@ -1568,7 +1593,10 @@
 		"vue-html": "vue",
 		"ng-template": "angular",
 		"nix": "nix",
-		"func": "func"
+		"func": "func",
+		"UnityUSS": "brackets-blue",
+		"UnityUXML": "brackets-orange",
+		"UnityShader": "unity-shader"
 	},
 
 	"folderNames": {

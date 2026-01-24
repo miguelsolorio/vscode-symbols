@@ -307,6 +307,14 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | tsconfig              | ![tsconfig](files/tsconfig.png)                             |
 | turborepo             | ![turborepo](files/turborepo.png)                           |
 | twig                  | ![twig](files/twig.png)                                     |
+| unity-asmdef          | ![unity-asmdef](files/unity-asmdef.png)                     |
+| unity-asmref          | ![unity-asmref](files/unity-asmref.png)                     |
+| unity-asset           | ![unity-asset](files/unity-asset.png)                       |
+| unity-meta            | ![unity-meta](files/unity-meta.png)                         |
+| unity-package         | ![unity-package](files/unity-package.png)                   |
+| unity-prefab          | ![unity-prefab](files/resource-sky.png)                     |
+| unity-scene           | ![unity-scene](files/unity-scene.png)                       |
+| unity-shader          | ![unity-shader](files/unity-shader.png)                     |
 | unocss                | ![unocss](files/unocss.png)                                 |
 | v                     | ![v](files/v.png)                                           |
 | vanilla-extract       | ![vanilla-extract](files/vanilla-extract.png)               |
