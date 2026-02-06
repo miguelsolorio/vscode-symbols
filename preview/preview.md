@@ -272,6 +272,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
 | robot                 | ![robot](files/robot.png)                                   |
 | rome                  | ![rome](files/rome.png)                                     |
+| root-folder           | ![root-folder](folders/root-folder.png)                     |
 | rsbuild               | ![rsbuild](files/rsbuild.png)                               |
 | rslib                 | ![rslib](files/rslib.png)                                   |
 | rspack                | ![rspack](files/rspack.png)                                 |

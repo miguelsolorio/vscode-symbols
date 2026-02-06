@@ -131,6 +131,8 @@
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
 
+		"root-folder": { "iconPath": "./icons/folders/root-folder.svg" },
+
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
@@ -1709,7 +1711,11 @@
 		"sass": "folder-sass",
 		"scss": "folder-sass"
 	},
+
+	"rootFolderNames": {},
+
 	"hidesExplorerArrows": false,
 	"file": "document",
-	"folder": "folder"
+	"folder": "folder",
+	"rootFolder": "root-folder"
 }
