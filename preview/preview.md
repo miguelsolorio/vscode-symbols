@@ -316,6 +316,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | vite                  | ![vite](files/vite.png)                                     |
 | vitest                | ![vitest](files/vitest.png)                                 |
 | vue                   | ![vue](files/vue.png)                                       |
+| webgpu                | ![webgpu](files/webgpu.png)                                 |
 | webpack               | ![webpack](files/webpack.png)                               |
 | xml                   | ![xml](files/xml.png)                                       |
 | yaml                  | ![yaml](files/yaml.png)                                     |
