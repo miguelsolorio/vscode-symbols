@@ -79,3 +79,7 @@ You can preview the icons by reading the the [preview.md](./preview/preview.md) 
 ## Zed Editor
 
 If you're using the [Zed](https://zed.dev) editor, You can take a look at its maintenance here. [Symbols For Zed](https://github.com/sebastiandotdev/zed-symbols)
+
+## JetBrains IDEs
+
+If you're using a [JetBrains](https://www.jetbrains.com) IDE (including [Android Studio](https://developer.android.com/studio)), You can take a look at its maintenance here. [Symbols For JetBrains](https://github.com/sebastiandotdev/jetbrains-symbols)
