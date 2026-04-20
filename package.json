@@ -71,6 +71,11 @@
 					"default": {},
 					"description": "With this configuration can customize the folder icons."
 				},
+				"symbols.rootFolders.associations": {
+					"type": "object",
+					"default": {},
+					"description": "With this configuration can customize the root folder icons."
+				},
 				"symbols.files.associations": {
 					"type": "object",
 					"default": {},

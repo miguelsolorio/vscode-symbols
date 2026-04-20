@@ -131,6 +131,44 @@
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
 
+		"root-folder-blue": { "iconPath": "./icons/root-folders/root-folder-blue.svg" },
+		"root-folder-gray": { "iconPath": "./icons/root-folders/root-folder-gray.svg" },
+		"root-folder-green": { "iconPath": "./icons/root-folders/root-folder-green.svg" },
+		"root-folder-orange": { "iconPath": "./icons/root-folders/root-folder-orange.svg" },
+		"root-folder-pink": { "iconPath": "./icons/root-folders/root-folder-pink.svg" },
+		"root-folder-purple": { "iconPath": "./icons/root-folders/root-folder-purple.svg" },
+		"root-folder-red": { "iconPath": "./icons/root-folders/root-folder-red.svg" },
+		"root-folder-sky": { "iconPath": "./icons/root-folders/root-folder-sky.svg" },
+		"root-folder-yellow": { "iconPath": "./icons/root-folders/root-folder-yellow.svg" },
+
+		"root-folder-blue-outline": {
+			"iconPath": "./icons/root-folders/root-folder-blue-outline.svg"
+		},
+		"root-folder-gray-outline": {
+			"iconPath": "./icons/root-folders/root-folder-gray-outline.svg"
+		},
+		"root-folder-green-outline": {
+			"iconPath": "./icons/root-folders/root-folder-green-outline.svg"
+		},
+		"root-folder-orange-outline": {
+			"iconPath": "./icons/root-folders/root-folder-orange-outline.svg"
+		},
+		"root-folder-pink-outline": {
+			"iconPath": "./icons/root-folders/root-folder-pink-outline.svg"
+		},
+		"root-folder-purple-outline": {
+			"iconPath": "./icons/root-folders/root-folder-purple-outline.svg"
+		},
+		"root-folder-red-outline": {
+			"iconPath": "./icons/root-folders/root-folder-red-outline.svg"
+		},
+		"root-folder-sky-outline": {
+			"iconPath": "./icons/root-folders/root-folder-sky-outline.svg"
+		},
+		"root-folder-yellow-outline": {
+			"iconPath": "./icons/root-folders/root-folder-yellow-outline.svg"
+		},
+
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
 		"code-green": { "iconPath": "./icons/files/code-green.svg" },
@@ -1709,7 +1747,11 @@
 		"sass": "folder-sass",
 		"scss": "folder-sass"
 	},
+
+	"rootFolderNames": {},
+
 	"hidesExplorerArrows": false,
 	"file": "document",
-	"folder": "folder"
+	"folder": "folder",
+	"rootFolder": "root-folder-gray"
 }
