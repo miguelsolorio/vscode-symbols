@@ -1751,7 +1751,7 @@
 		"javascript": "folder-js",
 		"sass": "folder-sass",
 		"scss": "folder-sass",
-		"zed": "folder-zed"
+		".zed": "folder-zed"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
