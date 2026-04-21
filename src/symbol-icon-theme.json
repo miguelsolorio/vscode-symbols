@@ -360,7 +360,7 @@
 		"yummacss": { "iconPath": "./icons/files/yummacss.svg" },
 		"orval": { "iconPath": "./icons/files/orval.svg" },
 		"shadcn": { "iconPath": "./icons/files/shadcn.svg" },
-		"kubb": { "iconPath": "./icons/files/kubb.png" }
+		"kubb": { "iconPath": "./icons/files/kubb.svg" }
 	},
 
 	"fileExtensions": {
