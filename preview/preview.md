@@ -169,6 +169,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-yellow         | ![folder-yellow](folders/folder-yellow.png)                 |
 | folder-yellow-code    | ![folder-yellow-code](folders/folder-yellow-code.png)       |
 | folder-yellow-outline | ![folder-yellow-outline](folders/folder-yellow-outline.png) |
+| folder-zed            | ![folder-zed](folders/folder-zed.png)                       |
 | font                  | ![font](files/font.png)                                     |
 | fortran               | ![fortran](files/fortran.png)                               |
 | fresh                 | ![fresh](files/fresh.png)                                   |
