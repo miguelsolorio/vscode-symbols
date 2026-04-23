@@ -242,7 +242,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | nx                    | ![nx](files/nx.png)                                         |
 | ocaml                 | ![ocaml](files/ocaml.png)                                   |
 | orval                 | ![orval](files/orval.png)                                   |
-| oxlint                | ![oxlint](files/oxlint.png)                                 |
+| oxc                   | ![oxc](files/oxc.png)                                       |
 | panda                 | ![panda](files/panda.png)                                   |
 | patch                 | ![patch](files/patch.png)                                   |
 | pdf                   | ![pdf](files/pdf.png)                                       |
@@ -271,6 +271,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | rescript              | ![rescript](files/rescript.png)                             |
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
 | robot                 | ![robot](files/robot.png)                                   |
+| rolldown              | ![rolldown](files/rolldown.png)                             |
 | rome                  | ![rome](files/rome.png)                                     |
 | rsbuild               | ![rsbuild](files/rsbuild.png)                               |
 | rslib                 | ![rslib](files/rslib.png)                                   |
