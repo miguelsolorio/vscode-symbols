@@ -164,6 +164,7 @@
 		"folder-fonts": { "iconPath": "./icons/folders/folder-fonts.svg" },
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
+		"folder-zed": { "iconPath": "./icons/folders/folder-zed.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -1781,7 +1782,8 @@
 		"js": "folder-js",
 		"javascript": "folder-js",
 		"sass": "folder-sass",
-		"scss": "folder-sass"
+		"scss": "folder-sass",
+		".zed": "folder-zed"
 	},
 	"hidesExplorerArrows": false,
 	"file": "document",
