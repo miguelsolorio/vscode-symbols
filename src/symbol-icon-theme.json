@@ -112,6 +112,9 @@
 		"folder-models": { "iconPath": "./icons/folders/folder-models.svg" },
 		"folder-modules": { "iconPath": "./icons/folders/folder-modules.svg" },
 		"folder-mongo": { "iconPath": "./icons/folders/folder-mongo.svg" },
+		"folder-next": {
+			"iconPath": "./icons/folders/folder-next.svg"
+		},
 		"folder-node-modules": {
 			"iconPath": "./icons/folders/folder-node-modules.svg"
 		},
@@ -1726,7 +1729,7 @@
 		"api": "folder-red",
 		".storybook": "folder-pink",
 		".vscode": "folder-vscode",
-		".next": "folder-gray",
+		".next": "folder-next",
 		".nuxt": "folder-green",
 		".turbo": "folder-red",
 		".contentlayer": "folder-purple",
