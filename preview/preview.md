@@ -211,6 +211,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | keystatic             | ![keystatic](files/keystatic.png)                           |
 | knip                  | ![knip](files/knip.png)                                     |
 | kotlin                | ![kotlin](files/kotlin.png)                                 |
+| kubb                  | ![kubb](files/kubb.png)                                     |
 | laravel               | ![laravel](files/laravel.png)                               |
 | license               | ![license](files/license.png)                               |
 | liquid                | ![liquid](files/liquid.png)                                 |
