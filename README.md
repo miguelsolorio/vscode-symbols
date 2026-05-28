@@ -67,6 +67,29 @@ And here is an example:
 
 _Note: For file names, you can use `*` to match all files with a specific file extension._
 
+## Subfolder Files
+
+```json
+ "symbols.subfolder.file.associations": {
+        "{subfolder}": {
+            "{filename}": "{icon name}"
+        },
+    }
+```
+
+And here's an example
+
+```json
+ "symbols.subfolder.file.associations": {
+        "annotation": {
+            "*.java": "at",
+            "LogAPICall.java": "at-blue"
+        },
+    }
+```
+
+_Note: For file names, you can use `*` to match all files with a specific file extension._
+
 ## Icon Preview
 
 You can preview the icons by reading the the [preview.md](./preview/preview.md) file.

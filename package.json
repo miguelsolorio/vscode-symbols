@@ -75,6 +75,11 @@
 					"type": "object",
 					"default": {},
 					"description": "With this configuration can customize the files icons."
+				},
+				"symbols.subfolder.file.associations": {
+					"type": "object",
+					"default": {},
+					"description": "With this configuration can customize the file icons for specific subfolders."
 				}
 			}
 		}
