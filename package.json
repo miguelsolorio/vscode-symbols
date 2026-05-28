@@ -96,6 +96,7 @@
 		"vscode:prepublish": "npm run check-format && npm run lint",
 		"precommit": "npm run check-format:fix && npm run lint:fix && npm run integrity && npm run generate-previews",
 		"prepare": "husky",
+		"build": "npm run generate-previews",
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
