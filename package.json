@@ -71,6 +71,11 @@
 					"default": {},
 					"description": "With this configuration can customize the folder icons."
 				},
+				"symbols.hidesLogoIcons": {
+					"type": "boolean",
+					"default": false,
+					"description": "Hide logo icons for tool-specific files (e.g. biome.json, .prettierrc) and show only the file format icon instead."
+				},
 				"symbols.files.associations": {
 					"type": "object",
 					"default": {},

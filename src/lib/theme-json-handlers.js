@@ -17,6 +17,11 @@ const updateThemeJSONHandlers = {
 			}
 		}
 	},
+	hidesLogoIcons: (themeJSON, value) => {
+		if (value) {
+			themeJSON.fileNames = {};
+		}
+	},
 	"subfolder.file.associations": (themeJSON, folders) => {
 		for (const folder in folders) {
 			for (const file in folders[folder]) {

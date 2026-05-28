@@ -4,6 +4,7 @@ const PKG_PROP_MAP = {
 	"symbols.folders.associations": "folders.associations",
 	"symbols.files.associations": "files.associations",
 	"symbols.subfolder.file.associations": "subfolder.file.associations",
+	"symbols.hidesLogoIcons": "hidesLogoIcons",
 };
 
 const MESSAGES = {
