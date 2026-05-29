@@ -100,6 +100,10 @@ You can preview the icons by reading the the [preview.md](./preview/preview.md) 
 
 <img src="https://raw.githubusercontent.com/pheralb/react-symbols/main/website/public/images/og.png">
 
+## Open VSX
+
+If you're using editors like [Cursor](https://cursor.com/), [Antigravity](https://antigravity.google/), or [VSCodium](https://vscodium.com/), you can find the extension on [Open VSX](https://open-vsx.org/extension/misolori/symbols).
+
 ## Zed Editor
 
 If you're using the [Zed](https://zed.dev) editor, you can find its maintained version here: [Symbols for Zed](https://github.com/sebastiandotdev/zed-symbols).
