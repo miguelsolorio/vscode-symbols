@@ -267,6 +267,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | proto                 | ![proto](files/proto.png)                                   |
 | pug                   | ![pug](files/pug.png)                                       |
 | pulumi                | ![pulumi](files/pulumi.png)                                 |
+| puppeteer             | ![puppeteer](files/puppeteer.png)                           |
 | puzzle                | ![puzzle](files/puzzle.png)                                 |
 | python                | ![python](files/python.png)                                 |
 | r                     | ![r](files/r.png)                                           |
