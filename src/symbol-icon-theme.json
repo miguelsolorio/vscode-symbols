@@ -1817,7 +1817,6 @@
 		"docs": "folder-documents",
 		"documents": "folder-documents",
 		"documentation": "folder-documents",
-		"files": "folder-documents",
 		"dist": "folder-purple-outline",
 		"out": "folder-purple-outline",
 		"build": "folder-build",
