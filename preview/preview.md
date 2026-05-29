@@ -321,6 +321,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | turborepo             | ![turborepo](files/turborepo.png)                           |
 | twig                  | ![twig](files/twig.png)                                     |
 | unocss                | ![unocss](files/unocss.png)                                 |
+| uv                    | ![uv](files/uv.png)                                         |
 | v                     | ![v](files/v.png)                                           |
 | vanilla-extract       | ![vanilla-extract](files/vanilla-extract.png)               |
 | vercel                | ![vercel](files/vercel.png)                                 |
