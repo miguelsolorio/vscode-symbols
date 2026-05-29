@@ -310,6 +310,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | swc                   | ![swc](files/swc.png)                                       |
 | swift                 | ![swift](files/swift.png)                                   |
 | tailwind              | ![tailwind](files/tailwind.png)                             |
+| taskfile              | ![taskfile](files/taskfile.png)                             |
 | tauri                 | ![tauri](files/tauri.png)                                   |
 | terraform             | ![terraform](files/terraform.png)                           |
 | tex                   | ![tex](files/tex.png)                                       |
