@@ -1,7 +1,22 @@
 #!/usr/bin/env sh
 
+# Git hooks may run with a minimal PATH (especially from GUI apps on macOS).
+export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.volta/bin:$HOME/.asdf/shims:$PATH"
+
+if ! command -v npm >/dev/null 2>&1; then
+	# Load nvm lazily when npm is not already available.
+	if [ -s "$HOME/.nvm/nvm.sh" ]; then
+		. "$HOME/.nvm/nvm.sh"
+	fi
+fi
+
+if ! command -v npm >/dev/null 2>&1; then
+	echo "pre-commit: npm not found. Ensure Node.js/npm is installed and available to Git hooks." >&2
+	exit 1
+fi
+
 # Run formatting/lint/integrity + preview generation
 npm run precommit || exit 1
 
-# Stage any generated assets updated by scripts so commit includes them
-git add -A
+# Stage only generated assets updated by scripts so commit includes them
+git add preview/ src/symbol-icon-theme.json README.md

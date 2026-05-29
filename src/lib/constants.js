@@ -2,7 +2,9 @@
 const PKG_PROP_MAP = {
 	"symbols.hidesExplorerArrows": "hidesExplorerArrows",
 	"symbols.folders.associations": "folders.associations",
+	"symbols.rootFolders.associations": "rootFolders.associations",
 	"symbols.files.associations": "files.associations",
+	"symbols.subfolder.file.associations": "subfolder.file.associations",
 };
 
 const MESSAGES = {

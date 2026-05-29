@@ -38,7 +38,7 @@ You can configure which folders and files icons are displayed by using the follo
 }
 ```
 
-And here is an example using this setting:
+Example:
 
 ```json
 "symbols.folders.associations": {
@@ -56,7 +56,7 @@ And here is an example using this setting:
 }
 ```
 
-And here is an example:
+Example:
 
 ```json
 "symbols.files.associations": {
@@ -67,15 +67,47 @@ And here is an example:
 
 _Note: For file names, you can use `*` to match all files with a specific file extension._
 
+### Subfolder Files
+
+```json
+"symbols.subfolder.file.associations": {
+    "{subfolder}": {
+        "{filename}": "{icon name}"
+    }
+}
+```
+
+Example:
+
+```json
+"symbols.subfolder.file.associations": {
+    "annotation": {
+        "*.java": "at",
+        "LogAPICall.java": "at-blue"
+    }
+}
+```
+
+_Note: For file names, you can use `*` to match all files with a specific file extension._
+
 ## Icon Preview
 
 You can preview the icons by reading the the [preview.md](./preview/preview.md) file.
 
 ## React Symbols
+
 [Pablo Hdez](https://github.com/pheralb) has graciously created [React-Symbols](https://react-symbols.vercel.app) ([pheralb/react-symbols](https://github.com/pheralb/react-symbols)) to allow you to embed Symbol icons for your React projects.
 
 <img src="https://raw.githubusercontent.com/pheralb/react-symbols/main/website/public/images/og.png">
 
+## Open VSX
+
+If you're using editors like [Cursor](https://cursor.com/), [Antigravity](https://antigravity.google/), or [VSCodium](https://vscodium.com/), you can find the extension on [Open VSX](https://open-vsx.org/extension/misolori/symbols).
+
 ## Zed Editor
 
-If you're using the [Zed](https://zed.dev) editor, You can take a look at its maintenance here. [Symbols For Zed](https://github.com/sebastiandotdev/zed-symbols)
+If you're using the [Zed](https://zed.dev) editor, you can find its maintained version here: [Symbols for Zed](https://github.com/sebastiandotdev/zed-symbols).
+
+## JetBrains IDEs
+
+If you're using a [JetBrains](https://www.jetbrains.com) IDE (including [Android Studio](https://developer.android.com/studio)), you can find its maintained version here: [Symbols for JetBrains](https://github.com/sebastiandotdev/jetbrains-symbols).

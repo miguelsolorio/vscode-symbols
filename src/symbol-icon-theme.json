@@ -40,20 +40,30 @@
 			"iconPath": "./icons/folders/folder-yellow-outline.svg"
 		},
 
-		"folder-blue-code": { "iconPath": "./icons/folders/folder-blue-code.svg" },
-		"folder-gray-code": { "iconPath": "./icons/folders/folder-gray-code.svg" },
+		"folder-blue-code": {
+			"iconPath": "./icons/folders/folder-blue-code.svg"
+		},
+		"folder-gray-code": {
+			"iconPath": "./icons/folders/folder-gray-code.svg"
+		},
 		"folder-green-code": {
 			"iconPath": "./icons/folders/folder-green-code.svg"
 		},
 		"folder-orange-code": {
 			"iconPath": "./icons/folders/folder-orange-code.svg"
 		},
-		"folder-pink-code": { "iconPath": "./icons/folders/folder-pink-code.svg" },
+		"folder-pink-code": {
+			"iconPath": "./icons/folders/folder-pink-code.svg"
+		},
 		"folder-purple-code": {
 			"iconPath": "./icons/folders/folder-purple-code.svg"
 		},
-		"folder-red-code": { "iconPath": "./icons/folders/folder-red-code.svg" },
-		"folder-sky-code": { "iconPath": "./icons/folders/folder-sky-code.svg" },
+		"folder-red-code": {
+			"iconPath": "./icons/folders/folder-red-code.svg"
+		},
+		"folder-sky-code": {
+			"iconPath": "./icons/folders/folder-sky-code.svg"
+		},
 		"folder-yellow-code": {
 			"iconPath": "./icons/folders/folder-yellow-code.svg"
 		},
@@ -71,10 +81,16 @@
 		"folder-cypress": { "iconPath": "./icons/folders/folder-cypress.svg" },
 		"folder-cursor": { "iconPath": "./icons/folders/folder-cursor.svg" },
 		"folder-claude": { "iconPath": "./icons/folders/folder-claude.svg" },
-		"folder-database": { "iconPath": "./icons/folders/folder-database.svg" },
-		"folder-documents": { "iconPath": "./icons/folders/folder-documents.svg" },
+		"folder-database": {
+			"iconPath": "./icons/folders/folder-database.svg"
+		},
+		"folder-documents": {
+			"iconPath": "./icons/folders/folder-documents.svg"
+		},
 		"folder-drizzle": { "iconPath": "./icons/folders/folder-drizzle.svg" },
-		"folder-firebase": { "iconPath": "./icons/folders/folder-firebase.svg" },
+		"folder-firebase": {
+			"iconPath": "./icons/folders/folder-firebase.svg"
+		},
 		"folder-redis": { "iconPath": "./icons/folders/folder-redis.svg" },
 		"folder-github": { "iconPath": "./icons/folders/folder-github.svg" },
 		"folder-gitlab": { "iconPath": "./icons/folders/folder-gitlab.svg" },
@@ -97,23 +113,42 @@
 		"folder-models": { "iconPath": "./icons/folders/folder-models.svg" },
 		"folder-modules": { "iconPath": "./icons/folders/folder-modules.svg" },
 		"folder-mongo": { "iconPath": "./icons/folders/folder-mongo.svg" },
+		"folder-next": {
+			"iconPath": "./icons/folders/folder-next.svg"
+		},
 		"folder-node-modules": {
 			"iconPath": "./icons/folders/folder-node-modules.svg"
 		},
 		"folder-nginx": { "iconPath": "./icons/folders/folder-nginx.svg" },
 		"folder-pipes": { "iconPath": "./icons/folders/folder-pipes.svg" },
 		"folder-prisma": { "iconPath": "./icons/folders/folder-prisma.svg" },
-		"folder-providers": { "iconPath": "./icons/folders/folder-providers.svg" },
+		"folder-providers": {
+			"iconPath": "./icons/folders/folder-providers.svg"
+		},
 		"folder-react": { "iconPath": "./icons/folders/folder-react.svg" },
-		"folder-redux-actions": { "iconPath": "./icons/folders/folder-actions.svg" },
-		"folder-redux-effects": { "iconPath": "./icons/folders/folder-effects.svg" },
-		"folder-redux-facade": { "iconPath": "./icons/folders/folder-facade.svg" },
-		"folder-redux-reducer": { "iconPath": "./icons/folders/folder-reducer.svg" },
-		"folder-redux-selector": { "iconPath": "./icons/folders/folder-selector.svg" },
+		"folder-redux-actions": {
+			"iconPath": "./icons/folders/folder-actions.svg"
+		},
+		"folder-redux-effects": {
+			"iconPath": "./icons/folders/folder-effects.svg"
+		},
+		"folder-redux-facade": {
+			"iconPath": "./icons/folders/folder-facade.svg"
+		},
+		"folder-redux-reducer": {
+			"iconPath": "./icons/folders/folder-reducer.svg"
+		},
+		"folder-redux-selector": {
+			"iconPath": "./icons/folders/folder-selector.svg"
+		},
 		"folder-router": { "iconPath": "./icons/folders/folder-router.svg" },
-		"folder-services": { "iconPath": "./icons/folders/folder-services.svg" },
+		"folder-services": {
+			"iconPath": "./icons/folders/folder-services.svg"
+		},
 		"folder-shared": { "iconPath": "./icons/folders/folder-shared.svg" },
-		"folder-supabase": { "iconPath": "./icons/folders/folder-supabase.svg" },
+		"folder-supabase": {
+			"iconPath": "./icons/folders/folder-supabase.svg"
+		},
 		"folder-target": { "iconPath": "./icons/folders/folder-target.svg" },
 		"folder-tauri": { "iconPath": "./icons/folders/folder-tauri.svg" },
 		"folder-tina": { "iconPath": "./icons/folders/folder-tina.svg" },
@@ -123,14 +158,18 @@
 		"folder-bruno": { "iconPath": "./icons/folders/folder-bruno.svg" },
 		"folder-build": { "iconPath": "./icons/folders/folder-build.svg" },
 		"folder-hooks": { "iconPath": "./icons/folders/folder-hooks.svg" },
-		"folder-constants": { "iconPath": "./icons/folders/folder-constants.svg" },
+		"folder-constants": {
+			"iconPath": "./icons/folders/folder-constants.svg"
+		},
 		"folder-expo": { "iconPath": "./icons/folders/folder-expo.svg" },
 		"folder-gradle": { "iconPath": "./icons/folders/folder-gradle.svg" },
+		"folder-maven": { "iconPath": "./icons/folders/folder-maven.svg" },
 		"folder-docker": { "iconPath": "./icons/folders/folder-docker.svg" },
 		"folder-i18n": { "iconPath": "./icons/folders/folder-i18n.svg" },
 		"folder-fonts": { "iconPath": "./icons/folders/folder-fonts.svg" },
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
+		"folder-zed": { "iconPath": "./icons/folders/folder-zed.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -152,8 +191,12 @@
 		"brackets-sky": { "iconPath": "./icons/files/brackets-sky.svg" },
 		"brackets-yellow": { "iconPath": "./icons/files/brackets-yellow.svg" },
 
-		"angular-component": { "iconPath": "./icons/files/angular-component.svg" },
-		"angular-directive": { "iconPath": "./icons/files/angular-directive.svg" },
+		"angular-component": {
+			"iconPath": "./icons/files/angular-component.svg"
+		},
+		"angular-directive": {
+			"iconPath": "./icons/files/angular-directive.svg"
+		},
 		"angular-service": { "iconPath": "./icons/files/angular-service.svg" },
 		"angular-module": { "iconPath": "./icons/files/angular-module.svg" },
 		"angular-guard": { "iconPath": "./icons/files/angular-guard.svg" },
@@ -174,6 +217,7 @@
 		"cmake": { "iconPath": "./icons/files/cmake.svg" },
 		"coffeescript": { "iconPath": "./icons/files/coffeescript.svg" },
 		"coldfusion": { "iconPath": "./icons/files/coldfusion.svg" },
+		"compressed": { "iconPath": "./icons/files/compressed.svg" },
 		"contentlayer": { "iconPath": "./icons/files/contentlayer.svg" },
 		"cplus": { "iconPath": "./icons/files/cplus.svg" },
 		"crystal": { "iconPath": "./icons/files/crystal.svg" },
@@ -229,6 +273,7 @@
 		"go-red": { "iconPath": "./icons/files/go-red.svg" },
 		"go-yellow": { "iconPath": "./icons/files/go-yellow.svg" },
 		"gradle": { "iconPath": "./icons/files/gradle.svg" },
+		"maven": { "iconPath": "./icons/files/maven.svg" },
 		"graphql": { "iconPath": "./icons/files/graphql.svg" },
 		"gulp": { "iconPath": "./icons/files/gulp.svg" },
 		"h": { "iconPath": "./icons/files/h.svg" },
@@ -279,7 +324,7 @@
 		"nunjucks": { "iconPath": "./icons/files/nunjucks.svg" },
 		"nuxt": { "iconPath": "./icons/files/nuxt.svg" },
 		"ocaml": { "iconPath": "./icons/files/ocaml.svg" },
-		"oxlint": { "iconPath": "./icons/files/oxlint.svg" },
+		"oxc": { "iconPath": "./icons/files/oxc.svg" },
 		"panda": { "iconPath": "./icons/files/panda.svg" },
 		"patch": { "iconPath": "./icons/files/patch.svg" },
 		"pdf": { "iconPath": "./icons/files/pdf.svg" },
@@ -293,6 +338,7 @@
 		"proto": { "iconPath": "./icons/files/proto.svg" },
 		"pug": { "iconPath": "./icons/files/pug.svg" },
 		"pulumi": { "iconPath": "./icons/files/pulumi.svg" },
+		"puppeteer": { "iconPath": "./icons/files/puppeteer.svg" },
 		"puzzle": { "iconPath": "./icons/files/puzzle.svg" },
 		"python": { "iconPath": "./icons/files/python.svg" },
 		"r": { "iconPath": "./icons/files/r.svg" },
@@ -305,9 +351,12 @@
 		"redux-facade": { "iconPath": "./icons/files/redux-facade.svg" },
 		"redux-reducer": { "iconPath": "./icons/files/redux-reducer.svg" },
 		"redux-selector": { "iconPath": "./icons/files/redux-selector.svg" },
-		"rescript-interface": { "iconPath": "./icons/files/rescript-interface.svg" },
+		"rescript-interface": {
+			"iconPath": "./icons/files/rescript-interface.svg"
+		},
 		"rescript": { "iconPath": "./icons/files/rescript.svg" },
 		"robot": { "iconPath": "./icons/files/robot.svg" },
+		"rolldown": { "iconPath": "./icons/files/rolldown.svg" },
 		"rome": { "iconPath": "./icons/files/rome.svg" },
 		"rsbuild": { "iconPath": "./icons/files/rsbuild.svg" },
 		"rspack": { "iconPath": "./icons/files/rspack.svg" },
@@ -321,7 +370,9 @@
 		"severless": { "iconPath": "./icons/files/severless.svg" },
 		"shell": { "iconPath": "./icons/files/shell.svg" },
 		"solidity": { "iconPath": "./icons/files/solidity.svg" },
-		"statamic-antlers": { "iconPath": "./icons/files/statamic-antlers.svg" },
+		"statamic-antlers": {
+			"iconPath": "./icons/files/statamic-antlers.svg"
+		},
 		"storybook": { "iconPath": "./icons/files/storybook.svg" },
 		"stylelint": { "iconPath": "./icons/files/stylelint.svg" },
 		"stylus": { "iconPath": "./icons/files/stylus.svg" },
@@ -334,6 +385,7 @@
 		"swift": { "iconPath": "./icons/files/swift.svg" },
 		"tailwind": { "iconPath": "./icons/files/tailwind.svg" },
 		"tauri": { "iconPath": "./icons/files/tauri.svg" },
+		"taskfile": { "iconPath": "./icons/files/taskfile.svg" },
 		"terraform": { "iconPath": "./icons/files/terraform.svg" },
 		"tex": { "iconPath": "./icons/files/tex.svg" },
 		"text": { "iconPath": "./icons/files/text.svg" },
@@ -344,6 +396,7 @@
 		"turborepo": { "iconPath": "./icons/files/turborepo.svg" },
 		"twig": { "iconPath": "./icons/files/twig.svg" },
 		"unocss": { "iconPath": "./icons/files/unocss.svg" },
+		"uv": { "iconPath": "./icons/files/uv.svg" },
 		"v": { "iconPath": "./icons/files/v.svg" },
 		"vanilla-extract": { "iconPath": "./icons/files/vanilla-extract.svg" },
 		"vercel": { "iconPath": "./icons/files/vercel.svg" },
@@ -352,6 +405,7 @@
 		"vite": { "iconPath": "./icons/files/vite.svg" },
 		"vitest": { "iconPath": "./icons/files/vitest.svg" },
 		"vue": { "iconPath": "./icons/files/vue.svg" },
+		"webgpu": { "iconPath": "./icons/files/webgpu.svg" },
 		"webpack": { "iconPath": "./icons/files/webpack.svg" },
 		"xml": { "iconPath": "./icons/files/xml.svg" },
 		"yaml": { "iconPath": "./icons/files/yaml.svg" },
@@ -368,10 +422,27 @@
 		"link": { "iconPath": "./icons/files/link.svg" },
 		"clapper": { "iconPath": "./icons/files/clapper.svg" },
 		"gdscript": { "iconPath": "./icons/files/gdscript.svg" },
-		"gdshader": { "iconPath": "./icons/files/gdshader.svg" }
+		"gdshader": { "iconPath": "./icons/files/gdshader.svg" },
+		"kubb": { "iconPath": "./icons/files/kubb.svg" },
+		"browserslist": { "iconPath": "./icons/files/browserslist.svg" },
+		"animate": { "iconPath": "./icons/files/animate.svg" },
+		"photoshop": { "iconPath": "./icons/files/photoshop.svg" },
+		"illustrator": { "iconPath": "./icons/files/illustrator.svg" },
+		"caddy": { "iconPath": "./icons/files/caddy.svg" }
 	},
 
 	"fileExtensions": {
+		"7z": "compressed",
+		"deb": "compressed",
+		"dmg": "compressed",
+		"gz": "compressed",
+		"iso": "compressed",
+		"rar": "compressed",
+		"rpm": "compressed",
+		"tar": "compressed",
+		"tar.bz2": "compressed",
+		"tar.gz": "compressed",
+		"zip": "compressed",
 		"orval": "orval",
 		"nim": "nim",
 		"f90": "fortran",
@@ -394,6 +465,14 @@
 		"mo": "i18n",
 		"po": "i18n",
 		"pot": "i18n",
+		"arb": "i18n",
+		"xlf": "i18n",
+		"xliff": "i18n",
+		"resx": "i18n",
+		"resw": "i18n",
+		"strings": "i18n",
+		"stringsdict": "i18n",
+		"ftl": "i18n",
 		"gleam": "gleam",
 		"actions.ts": "redux-actions",
 		"effects.ts": "redux-effects",
@@ -572,6 +651,7 @@
 		"styl": "stylus",
 		"prisma": "prisma",
 		"astro": "astro",
+		"puppeteer": "puppeteer",
 		"pulumi": "pulumi",
 		"graphql": "graphql",
 		"gql": "graphql",
@@ -668,7 +748,6 @@
 		"dtd": "xml",
 		"xsl": "xml",
 		"xslt": "xml",
-		"resx": "xml",
 		"iml": "xml",
 		"xquery": "xml",
 		"tmLanguage": "xml",
@@ -707,8 +786,6 @@
 		"ico": "image",
 		"tif": "image",
 		"tiff": "image",
-		"psd": "image",
-		"psb": "image",
 		"ami": "image",
 		"apx": "image",
 		"avif": "image",
@@ -765,7 +842,15 @@
 		"gdshader": "gdshader",
 		"gdshader.uid": "link",
 		"gdextension": "gdextension",
-		"godot": "gdproject"
+		"godot": "gdproject",
+		"wgsl": "webgpu",
+		"mdc": "cursor",
+		"edge": "animate",
+		"an": "animate",
+		"fla": "animate",
+		"psd": "photoshop",
+		"psb": "photoshop",
+		"ai": "illustrator"
 	},
 
 	"fileNames": {
@@ -796,6 +881,14 @@
 		"unocss.config.mjs": "unocss",
 		"unocss.config.ts": "unocss",
 		"unocss.config.mts": "unocss",
+		"Taskfile.yaml": "taskfile",
+		"Taskfile.yml": "taskfile",
+		"Taskfile.dist.yml": "taskfile",
+		"Taskfile.dist.yaml": "taskfile",
+		"taskfile.yml": "taskfile",
+		"taskfile.yaml": "taskfile",
+		"uv.lock": "uv",
+		"uv.toml": "uv",
 		"knip.json": "knip",
 		"knip.jsonc": "knip",
 		".knip.json": "knip",
@@ -899,6 +992,12 @@
 		"gradle.properties": "gradle",
 		"gradlew": "gradle",
 		"gradle-wrapper.properties": "gradle",
+		"pom.xml": "maven",
+		"pom.properties": "maven",
+		"mvnw": "maven",
+		"mvnw.cmd": "maven",
+		"maven.config": "maven",
+		"maven-wrapper.properties": "maven",
 		"postcss.config.js": "postcss",
 		"postcss.config.cjs": "postcss",
 		"postcss.config.mjs": "postcss",
@@ -963,6 +1062,12 @@
 		"vite.config.electron.cjs": "vite",
 		"vite.config.electron.mts": "vite",
 		"vite.config.electron.cts": "vite",
+		"rolldown.config.js": "rolldown",
+		"rolldown.config.cjs": "rolldown",
+		"rolldown.config.mjs": "rolldown",
+		"rolldown.config.ts": "rolldown",
+		"rolldown.config.mts": "rolldown",
+		"rolldown.config.cts": "rolldown",
 		"gulp.config.json": "gulp",
 		".babelrc": "babel",
 		".babelrc.js": "babel",
@@ -980,9 +1085,15 @@
 		"prettier.config.js": "prettier",
 		"prettier.config.cjs": "prettier",
 		"prettier.config.mjs": "prettier",
+		"prettier.config.ts": "prettier",
+		"prettier.config.cts": "prettier",
+		"prettier.config.mts": "prettier",
 		".prettierrc.js": "prettier",
 		".prettierrc.cjs": "prettier",
 		".prettierrc.mjs": "prettier",
+		".prettierrc.ts": "prettier",
+		".prettierrc.cts": "prettier",
+		".prettierrc.mts": "prettier",
 		".prettierrc.json": "prettier",
 		".prettierrc.json5": "prettier",
 		".prettierrc.yaml": "prettier",
@@ -990,6 +1101,8 @@
 		".prettierignore": "prettier",
 		".prettierrc.toml": "prettier",
 		".cursorrules": "cursor",
+		".cursorignore": "cursor",
+		".cursorindexingignore": "cursor",
 		"CLAUDE.md": "claude",
 		".claude": "claude",
 		".clauderc": "claude",
@@ -1034,6 +1147,8 @@
 		"graphql.config.yml": "graphql",
 		"svelte.config.js": "svelte",
 		"svelte.config.cjs": "svelte",
+		"svelte.config.ts": "svelte-ts",
+		"svelte.config.cts": "svelte-ts",
 		"svelte.ts": "svelte-ts",
 		".Rhistory": "r",
 		".pug-lintrc": "pug",
@@ -1048,6 +1163,16 @@
 		"manifest.in": "python",
 		"pylintrc": "python",
 		".pylintrc": "python",
+		".puppeteerrc": "puppeteer",
+		".puppeteerrc.cjs": "puppeteer",
+		".puppeteerrc.js": "puppeteer",
+		".puppeteerrc.json": "puppeteer",
+		".puppeteerrc.yaml": "puppeteer",
+		".puppeteerrc.yml": "puppeteer",
+		"puppeteer.config.cjs": "puppeteer",
+		"puppeteer.config.js": "puppeteer",
+		"puppeteer.config.mjs": "puppeteer",
+		"puppeteer.config.ts": "puppeteer",
 		"pyproject.toml": "gear",
 		"setup.cfg": "python",
 		"jest.config.js": "jest",
@@ -1473,8 +1598,21 @@
 		"rslib.config.cjs": "rslib",
 		"rslib.config.mts": "rslib",
 		"rslib.config.cts": "rslib",
-		".oxlintrc.json": "oxlint",
-		".oxlintignore": "oxlint",
+		".oxlintrc.json": "oxc",
+		"oxlint.config.js": "oxc",
+		"oxlint.config.cjs": "oxc",
+		"oxlint.config.mjs": "oxc",
+		"oxlint.config.ts": "oxc",
+		"oxlint.config.mts": "oxc",
+		"oxlint.config.cts": "oxc",
+		".oxfmtrc.json": "oxc",
+		".oxfmtrc.jsonc": "oxc",
+		"oxfmt.config.js": "oxc",
+		"oxfmt.config.cjs": "oxc",
+		"oxfmt.config.mjs": "oxc",
+		"oxfmt.config.ts": "oxc",
+		"oxfmt.config.mts": "oxc",
+		"oxfmt.config.cts": "oxc",
 		".nxignore": "nx",
 		"nx.json": "nx",
 		"yumma.config.cjs": "yummacss",
@@ -1485,7 +1623,14 @@
 		"yummacss.css": "yummacss",
 		"components.json": "shadcn",
 		".gdignore": "gdignore",
-		"project.godot": "gdproject"
+		"project.godot": "gdproject",
+		"kubb.config.ts": "kubb",
+		".browserslist": "browserslist",
+		"Caddyfile": "caddy",
+		".caddyfile": "caddy",
+		"Caddyfile.dev": "caddy",
+		"Caddyfile.prod": "caddy",
+		"Caddyfile.staging": "caddy"
 	},
 
 	"languageIds": {
@@ -1599,6 +1744,14 @@
 	"folderNames": {
 		"i18n": "folder-i18n",
 		"locales": "folder-i18n",
+		"locale": "folder-i18n",
+		"l10n": "folder-i18n",
+		"translation": "folder-i18n",
+		"translations": "folder-i18n",
+		"intl": "folder-i18n",
+		"lang": "folder-i18n",
+		"langs": "folder-i18n",
+		"languages": "folder-i18n",
 		".venv": "folder-lock",
 		".gitlab": "folder-gitlab",
 		"auth": "folder-lock",
@@ -1676,7 +1829,7 @@
 		"api": "folder-red",
 		".storybook": "folder-pink",
 		".vscode": "folder-vscode",
-		".next": "folder-gray",
+		".next": "folder-next",
 		".nuxt": "folder-green",
 		".turbo": "folder-red",
 		".contentlayer": "folder-purple",
@@ -1699,7 +1852,6 @@
 		"docs": "folder-documents",
 		"documents": "folder-documents",
 		"documentation": "folder-documents",
-		"files": "folder-documents",
 		"dist": "folder-purple-outline",
 		"out": "folder-purple-outline",
 		"build": "folder-build",
@@ -1726,6 +1878,8 @@
 		".expo": "folder-expo",
 		"gradle": "folder-gradle",
 		".gradle": "folder-gradle",
+		"maven": "folder-maven",
+		".mvn": "folder-maven",
 		".nx": "folder-gray",
 		"fonts": "folder-fonts",
 		"font": "folder-fonts",
@@ -1733,9 +1887,14 @@
 		"javascript": "folder-js",
 		"sass": "folder-sass",
 		"scss": "folder-sass",
-		".godot": "folder-godot"
+		".godot": "folder-godot",
+		".zed": "folder-zed"
 	},
+
+	"rootFolderNames": {},
+
 	"hidesExplorerArrows": false,
 	"file": "document",
-	"folder": "folder"
+	"folder": "folder",
+	"rootFolder": "folder-gray"
 }
