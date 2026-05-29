@@ -29,6 +29,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | bruno                 | ![bruno](files/bruno.png)                                   |
 | bun                   | ![bun](files/bun.png)                                       |
 | c                     | ![c](files/c.png)                                           |
+| caddy                 | ![caddy](files/caddy.png)                                   |
 | capacitor             | ![capacitor](files/capacitor.png)                           |
 | claude                | ![claude](files/claude.png)                                 |
 | clojure               | ![clojure](files/clojure.png)                               |

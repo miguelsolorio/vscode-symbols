@@ -414,7 +414,8 @@
 		"browserslist": { "iconPath": "./icons/files/browserslist.svg" },
 		"animate": { "iconPath": "./icons/files/animate.svg" },
 		"photoshop": { "iconPath": "./icons/files/photoshop.svg" },
-		"illustrator": { "iconPath": "./icons/files/illustrator.svg" }
+		"illustrator": { "iconPath": "./icons/files/illustrator.svg" },
+		"caddy": { "iconPath": "./icons/files/caddy.svg" }
 	},
 
 	"fileExtensions": {
@@ -1569,7 +1570,12 @@
 		"yummacss.css": "yummacss",
 		"components.json": "shadcn",
 		"kubb.config.ts": "kubb",
-		".browserslist": "browserslist"
+		".browserslist": "browserslist",
+		"Caddyfile": "caddy",
+		".caddyfile": "caddy",
+		"Caddyfile.dev": "caddy",
+		"Caddyfile.prod": "caddy",
+		"Caddyfile.staging": "caddy"
 	},
 
 	"languageIds": {
