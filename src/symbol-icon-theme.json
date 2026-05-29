@@ -411,7 +411,10 @@
 		"orval": { "iconPath": "./icons/files/orval.svg" },
 		"shadcn": { "iconPath": "./icons/files/shadcn.svg" },
 		"kubb": { "iconPath": "./icons/files/kubb.svg" },
-		"browserslist": { "iconPath": "./icons/files/browserslist.svg" }
+		"browserslist": { "iconPath": "./icons/files/browserslist.svg" },
+		"animate": { "iconPath": "./icons/files/animate.svg" },
+		"photoshop": { "iconPath": "./icons/files/photoshop.svg" },
+		"illustrator": { "iconPath": "./icons/files/illustrator.svg" }
 	},
 
 	"fileExtensions": {
@@ -750,8 +753,6 @@
 		"ico": "image",
 		"tif": "image",
 		"tiff": "image",
-		"psd": "image",
-		"psb": "image",
 		"ami": "image",
 		"apx": "image",
 		"avif": "image",
@@ -799,7 +800,13 @@
 		"v": "v",
 		"nix": "nix",
 		"fc": "func",
-		"wgsl": "webgpu"
+		"wgsl": "webgpu",
+		"edge": "animate",
+		"an": "animate",
+		"fla": "animate",
+		"psd": "photoshop",
+		"psb": "photoshop",
+		"ai": "illustrator"
 	},
 
 	"fileNames": {

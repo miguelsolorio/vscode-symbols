@@ -11,6 +11,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | angular-module        | ![angular-module](files/angular-module.png)                 |
 | angular-pipe          | ![angular-pipe](files/angular-pipe.png)                     |
 | angular-service       | ![angular-service](files/angular-service.png)               |
+| animate               | ![animate](files/animate.png)                               |
 | astro                 | ![astro](files/astro.png)                                   |
 | audio                 | ![audio](files/audio.png)                                   |
 | babel                 | ![babel](files/babel.png)                                   |
@@ -203,6 +204,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | hugo                  | ![hugo](files/hugo.png)                                     |
 | i18n                  | ![i18n](files/i18n.png)                                     |
 | ignore                | ![ignore](files/ignore.png)                                 |
+| illustrator           | ![illustrator](files/illustrator.png)                       |
 | image                 | ![image](files/image.png)                                   |
 | ionic                 | ![ionic](files/ionic.png)                                   |
 | java                  | ![java](files/java.png)                                     |
@@ -253,6 +255,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | patch                 | ![patch](files/patch.png)                                   |
 | pdf                   | ![pdf](files/pdf.png)                                       |
 | perl                  | ![perl](files/perl.png)                                     |
+| photoshop             | ![photoshop](files/photoshop.png)                           |
 | php                   | ![php](files/php.png)                                       |
 | pkl                   | ![pkl](files/pkl.png)                                       |
 | pnpm                  | ![pnpm](files/pnpm.png)                                     |
