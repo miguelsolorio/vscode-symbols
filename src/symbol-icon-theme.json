@@ -410,7 +410,8 @@
 		"yummacss": { "iconPath": "./icons/files/yummacss.svg" },
 		"orval": { "iconPath": "./icons/files/orval.svg" },
 		"shadcn": { "iconPath": "./icons/files/shadcn.svg" },
-		"kubb": { "iconPath": "./icons/files/kubb.svg" }
+		"kubb": { "iconPath": "./icons/files/kubb.svg" },
+		"browserslist": { "iconPath": "./icons/files/browserslist.svg" }
 	},
 
 	"fileExtensions": {
@@ -1550,7 +1551,8 @@
 		"yumma.css": "yummacss",
 		"yummacss.css": "yummacss",
 		"components.json": "shadcn",
-		"kubb.config.ts": "kubb"
+		"kubb.config.ts": "kubb",
+		".browserslist": "browserslist"
 	},
 
 	"languageIds": {

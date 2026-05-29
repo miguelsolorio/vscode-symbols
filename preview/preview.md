@@ -24,6 +24,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | brackets-red          | ![brackets-red](files/brackets-red.png)                     |
 | brackets-sky          | ![brackets-sky](files/brackets-sky.png)                     |
 | brackets-yellow       | ![brackets-yellow](files/brackets-yellow.png)               |
+| browserslist          | ![browserslist](files/browserslist.png)                     |
 | bruno                 | ![bruno](files/bruno.png)                                   |
 | bun                   | ![bun](files/bun.png)                                       |
 | c                     | ![c](files/c.png)                                           |
