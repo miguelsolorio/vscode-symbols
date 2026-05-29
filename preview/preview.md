@@ -46,6 +46,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | code-yellow           | ![code-yellow](files/code-yellow.png)                       |
 | coffeescript          | ![coffeescript](files/coffeescript.png)                     |
 | coldfusion            | ![coldfusion](files/coldfusion.png)                         |
+| compressed            | ![compressed](files/compressed.png)                         |
 | contentlayer          | ![contentlayer](files/contentlayer.png)                     |
 | cplus                 | ![cplus](files/cplus.png)                                   |
 | crystal               | ![crystal](files/crystal.png)                               |
