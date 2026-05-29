@@ -1807,7 +1807,11 @@
 		"scss": "folder-sass",
 		".zed": "folder-zed"
 	},
+
+	"rootFolderNames": {},
+
 	"hidesExplorerArrows": false,
 	"file": "document",
-	"folder": "folder"
+	"folder": "folder",
+	"rootFolder": "folder-gray"
 }

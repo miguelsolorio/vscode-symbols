@@ -7,6 +7,11 @@ const updateThemeJSONHandlers = {
 			themeJSON.folderNames[folder] = folders[folder];
 		}
 	},
+	"rootFolders.associations": (themeJSON, rootFolders) => {
+		for (const rootFolder in rootFolders) {
+			themeJSON.rootFolderNames[rootFolder] = rootFolders[rootFolder];
+		}
+	},
 	"files.associations": (themeJSON, files) => {
 		for (const file in files) {
 			if (file.startsWith("*.")) {
