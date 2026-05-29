@@ -124,6 +124,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-layout         | ![folder-layout](folders/folder-layout.png)                 |
 | folder-lock           | ![folder-lock](folders/folder-lock.png)                     |
 | folder-mail           | ![folder-mail](folders/folder-mail.png)                     |
+| folder-maven          | ![folder-maven](folders/folder-maven.png)                   |
 | folder-middleware     | ![folder-middleware](folders/folder-middleware.png)         |
 | folder-models         | ![folder-models](folders/folder-models.png)                 |
 | folder-modules        | ![folder-modules](folders/folder-modules.png)               |
@@ -223,6 +224,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | lunaria               | ![lunaria](files/lunaria.png)                               |
 | markdoc               | ![markdoc](files/markdoc.png)                               |
 | markdown              | ![markdown](files/markdown.png)                             |
+| maven                 | ![maven](files/maven.png)                                   |
 | mdx                   | ![mdx](files/mdx.png)                                       |
 | minecraft             | ![minecraft](files/minecraft.png)                           |
 | mongo                 | ![mongo](files/mongo.png)                                   |
