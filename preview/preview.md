@@ -133,6 +133,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-models         | ![folder-models](folders/folder-models.png)                 |
 | folder-modules        | ![folder-modules](folders/folder-modules.png)               |
 | folder-mongo          | ![folder-mongo](folders/folder-mongo.png)                   |
+| folder-netlify        | ![folder-netlify](folders/folder-netlify.png)               |
 | folder-next           | ![folder-next](folders/folder-next.png)                     |
 | folder-nginx          | ![folder-nginx](folders/folder-nginx.png)                   |
 | folder-node-modules   | ![folder-node-modules](folders/folder-node-modules.png)     |
