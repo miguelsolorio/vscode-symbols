@@ -110,6 +110,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-fonts          | ![folder-fonts](folders/folder-fonts.png)                   |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
 | folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
+| folder-globe          | ![folder-globe](folders/folder-globe.png)                   |
 | folder-godot          | ![folder-godot](folders/folder-godot.png)                   |
 | folder-gradle         | ![folder-gradle](folders/folder-gradle.png)                 |
 | folder-graphql        | ![folder-graphql](folders/folder-graphql.png)               |
@@ -196,6 +197,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | github                | ![github](files/github.png)                                 |
 | gitlab                | ![gitlab](files/gitlab.png)                                 |
 | gleam                 | ![gleam](files/gleam.png)                                   |
+| globe                 | ![globe](files/globe.png)                                   |
 | go                    | ![go](files/go.png)                                         |
 | go-green              | ![go-green](files/go-green.png)                             |
 | go-mod                | ![go-mod](files/go-pink.png)                                |
