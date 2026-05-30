@@ -316,6 +316,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | stylus                | ![stylus](files/stylus.png)                                 |
 | supabase              | ![supabase](files/supabase.png)                             |
 | svelte                | ![svelte](files/svelte.png)                                 |
+| svelte-service        | ![svelte-service](files/svelte-service.png)                 |
 | svelte-ts             | ![svelte-ts](files/svelte-ts.png)                           |
 | svg                   | ![svg](files/svg.png)                                       |
 | svx                   | ![svx](files/svx.png)                                       |
