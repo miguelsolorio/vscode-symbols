@@ -11,6 +11,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | angular-module        | ![angular-module](files/angular-module.png)                 |
 | angular-pipe          | ![angular-pipe](files/angular-pipe.png)                     |
 | angular-service       | ![angular-service](files/angular-service.png)               |
+| animate               | ![animate](files/animate.png)                               |
 | astro                 | ![astro](files/astro.png)                                   |
 | audio                 | ![audio](files/audio.png)                                   |
 | babel                 | ![babel](files/babel.png)                                   |
@@ -24,10 +25,13 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | brackets-red          | ![brackets-red](files/brackets-red.png)                     |
 | brackets-sky          | ![brackets-sky](files/brackets-sky.png)                     |
 | brackets-yellow       | ![brackets-yellow](files/brackets-yellow.png)               |
+| browserslist          | ![browserslist](files/browserslist.png)                     |
 | bruno                 | ![bruno](files/bruno.png)                                   |
 | bun                   | ![bun](files/bun.png)                                       |
 | c                     | ![c](files/c.png)                                           |
+| caddy                 | ![caddy](files/caddy.png)                                   |
 | capacitor             | ![capacitor](files/capacitor.png)                           |
+| clapper               | ![clapper](files/clapper.png)                               |
 | claude                | ![claude](files/claude.png)                                 |
 | clojure               | ![clojure](files/clojure.png)                               |
 | cloudflare-workers    | ![cloudflare-workers](files/cloudflare-workers.png)         |
@@ -43,6 +47,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | code-yellow           | ![code-yellow](files/code-yellow.png)                       |
 | coffeescript          | ![coffeescript](files/coffeescript.png)                     |
 | coldfusion            | ![coldfusion](files/coldfusion.png)                         |
+| compressed            | ![compressed](files/compressed.png)                         |
 | contentlayer          | ![contentlayer](files/contentlayer.png)                     |
 | cplus                 | ![cplus](files/cplus.png)                                   |
 | crystal               | ![crystal](files/crystal.png)                               |
@@ -105,6 +110,8 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-fonts          | ![folder-fonts](folders/folder-fonts.png)                   |
 | folder-github         | ![folder-github](folders/folder-github.png)                 |
 | folder-gitlab         | ![folder-gitlab](folders/folder-gitlab.png)                 |
+| folder-globe          | ![folder-globe](folders/folder-globe.png)                   |
+| folder-godot          | ![folder-godot](folders/folder-godot.png)                   |
 | folder-gradle         | ![folder-gradle](folders/folder-gradle.png)                 |
 | folder-graphql        | ![folder-graphql](folders/folder-graphql.png)               |
 | folder-gray           | ![folder-gray](folders/folder-gray.png)                     |
@@ -124,10 +131,13 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-layout         | ![folder-layout](folders/folder-layout.png)                 |
 | folder-lock           | ![folder-lock](folders/folder-lock.png)                     |
 | folder-mail           | ![folder-mail](folders/folder-mail.png)                     |
+| folder-maven          | ![folder-maven](folders/folder-maven.png)                   |
 | folder-middleware     | ![folder-middleware](folders/folder-middleware.png)         |
 | folder-models         | ![folder-models](folders/folder-models.png)                 |
 | folder-modules        | ![folder-modules](folders/folder-modules.png)               |
 | folder-mongo          | ![folder-mongo](folders/folder-mongo.png)                   |
+| folder-netlify        | ![folder-netlify](folders/folder-netlify.png)               |
+| folder-next           | ![folder-next](folders/folder-next.png)                     |
 | folder-nginx          | ![folder-nginx](folders/folder-nginx.png)                   |
 | folder-node-modules   | ![folder-node-modules](folders/folder-node-modules.png)     |
 | folder-orange         | ![folder-orange](folders/folder-orange.png)                 |
@@ -176,12 +186,18 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | fsharp                | ![fsharp](files/fsharp.png)                                 |
 | func                  | ![func](files/func.png)                                     |
 | gatsby                | ![gatsby](files/gatsby.png)                                 |
+| gdextension           | ![gdextension](files/gdextension.png)                       |
+| gdignore              | ![gdignore](files/gdignore.png)                             |
+| gdproject             | ![gdproject](files/gdproject.png)                           |
+| gdscript              | ![gdscript](files/gdscript.png)                             |
+| gdshader              | ![gdshader](files/gdshader.png)                             |
 | gear                  | ![gear](files/gear.png)                                     |
 | gif                   | ![gif](files/gif.png)                                       |
 | git                   | ![git](files/git.png)                                       |
 | github                | ![github](files/github.png)                                 |
 | gitlab                | ![gitlab](files/gitlab.png)                                 |
 | gleam                 | ![gleam](files/gleam.png)                                   |
+| globe                 | ![globe](files/globe.png)                                   |
 | go                    | ![go](files/go.png)                                         |
 | go-green              | ![go-green](files/go-green.png)                             |
 | go-mod                | ![go-mod](files/go-pink.png)                                |
@@ -200,6 +216,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | hugo                  | ![hugo](files/hugo.png)                                     |
 | i18n                  | ![i18n](files/i18n.png)                                     |
 | ignore                | ![ignore](files/ignore.png)                                 |
+| illustrator           | ![illustrator](files/illustrator.png)                       |
 | image                 | ![image](files/image.png)                                   |
 | ionic                 | ![ionic](files/ionic.png)                                   |
 | java                  | ![java](files/java.png)                                     |
@@ -215,6 +232,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | kubb                  | ![kubb](files/kubb.png)                                     |
 | laravel               | ![laravel](files/laravel.png)                               |
 | license               | ![license](files/license.png)                               |
+| link                  | ![link](files/link.png)                                     |
 | liquid                | ![liquid](files/liquid.png)                                 |
 | lock                  | ![lock](files/lock.png)                                     |
 | lua                   | ![lua](files/lua.png)                                       |
@@ -222,6 +240,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | lunaria               | ![lunaria](files/lunaria.png)                               |
 | markdoc               | ![markdoc](files/markdoc.png)                               |
 | markdown              | ![markdown](files/markdown.png)                             |
+| maven                 | ![maven](files/maven.png)                                   |
 | mdx                   | ![mdx](files/mdx.png)                                       |
 | minecraft             | ![minecraft](files/minecraft.png)                           |
 | mongo                 | ![mongo](files/mongo.png)                                   |
@@ -249,6 +268,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | patch                 | ![patch](files/patch.png)                                   |
 | pdf                   | ![pdf](files/pdf.png)                                       |
 | perl                  | ![perl](files/perl.png)                                     |
+| photoshop             | ![photoshop](files/photoshop.png)                           |
 | php                   | ![php](files/php.png)                                       |
 | pkl                   | ![pkl](files/pkl.png)                                       |
 | pnpm                  | ![pnpm](files/pnpm.png)                                     |
@@ -258,6 +278,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | proto                 | ![proto](files/proto.png)                                   |
 | pug                   | ![pug](files/pug.png)                                       |
 | pulumi                | ![pulumi](files/pulumi.png)                                 |
+| puppeteer             | ![puppeteer](files/puppeteer.png)                           |
 | puzzle                | ![puzzle](files/puzzle.png)                                 |
 | python                | ![python](files/python.png)                                 |
 | r                     | ![r](files/r.png)                                           |
@@ -272,6 +293,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | redux-selector        | ![redux-selector](files/redux-selector.png)                 |
 | rescript              | ![rescript](files/rescript.png)                             |
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
+| resource              | ![resource](files/resource.png)                             |
 | robot                 | ![robot](files/robot.png)                                   |
 | rolldown              | ![rolldown](files/rolldown.png)                             |
 | rome                  | ![rome](files/rome.png)                                     |
@@ -287,6 +309,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | severless             | ![severless](files/severless.png)                           |
 | shadcn                | ![shadcn](files/shadcn.png)                                 |
 | shell                 | ![shell](files/shell.png)                                   |
+| slint                 | ![slint](files/slint.png)                                   |
 | solidity              | ![solidity](files/solidity.png)                             |
 | statamic-antlers      | ![statamic-antlers](files/statamic-antlers.png)             |
 | storybook             | ![storybook](files/storybook.png)                           |
@@ -294,12 +317,14 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | stylus                | ![stylus](files/stylus.png)                                 |
 | supabase              | ![supabase](files/supabase.png)                             |
 | svelte                | ![svelte](files/svelte.png)                                 |
+| svelte-service        | ![svelte-service](files/svelte-service.png)                 |
 | svelte-ts             | ![svelte-ts](files/svelte-ts.png)                           |
 | svg                   | ![svg](files/svg.png)                                       |
 | svx                   | ![svx](files/svx.png)                                       |
 | swc                   | ![swc](files/swc.png)                                       |
 | swift                 | ![swift](files/swift.png)                                   |
 | tailwind              | ![tailwind](files/tailwind.png)                             |
+| taskfile              | ![taskfile](files/taskfile.png)                             |
 | tauri                 | ![tauri](files/tauri.png)                                   |
 | terraform             | ![terraform](files/terraform.png)                           |
 | tex                   | ![tex](files/tex.png)                                       |
@@ -311,6 +336,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | turborepo             | ![turborepo](files/turborepo.png)                           |
 | twig                  | ![twig](files/twig.png)                                     |
 | unocss                | ![unocss](files/unocss.png)                                 |
+| uv                    | ![uv](files/uv.png)                                         |
 | v                     | ![v](files/v.png)                                           |
 | vanilla-extract       | ![vanilla-extract](files/vanilla-extract.png)               |
 | vercel                | ![vercel](files/vercel.png)                                 |
