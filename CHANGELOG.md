@@ -1,5 +1,33 @@
 # Change Log
 
+## 0.0.26
+
+## What's Changed
+* Add ESLint config file TypeScript types by [@glypse](https://github.com/glypse) in [#342](https://github.com/miguelsolorio/vscode-symbols/pull/342)
+* Add JetBrains IDEs section to README by [@sebastiandotdev](https://github.com/sebastiandotdev) in [#366](https://github.com/miguelsolorio/vscode-symbols/pull/366)
+* feat: add support for Prettier TypeScript config files by [@glypse](https://github.com/glypse) in [#350](https://github.com/miguelsolorio/vscode-symbols/pull/350)
+* feat: add support for Svelte TypeScript config files by [@glypse](https://github.com/glypse) in [#353](https://github.com/miguelsolorio/vscode-symbols/pull/353)
+* Update voidzero.dev icons (Vite, Vitest, Oxc, Rolldown) by [@yvvki](https://github.com/yvvki) in [#358](https://github.com/miguelsolorio/vscode-symbols/pull/358)
+* feat: add WebGPU icon by [@glypse](https://github.com/glypse) in [#360](https://github.com/miguelsolorio/vscode-symbols/pull/360)
+* [New] - Subfolder Associations by [@aitoncumbi](https://github.com/aitoncumbi) in [#363](https://github.com/miguelsolorio/vscode-symbols/pull/363)
+* feat: add kubb icon by [@Arturgrr](https://github.com/Arturgrr) in [#368](https://github.com/miguelsolorio/vscode-symbols/pull/368)
+* feat: update firebase file and folder by [@Arturgrr](https://github.com/Arturgrr) in [#369](https://github.com/miguelsolorio/vscode-symbols/pull/369)
+* create zed folder icon by [@Arturgrr](https://github.com/Arturgrr) in [#370](https://github.com/miguelsolorio/vscode-symbols/pull/370)
+* Root folders by [@theNestruo](https://github.com/theNestruo) in [#356](https://github.com/miguelsolorio/vscode-symbols/pull/356)
+* Add compressed file icons by [@Andresit1524](https://github.com/Andresit1524) in [#372](https://github.com/miguelsolorio/vscode-symbols/pull/372)
+* Add Godot icons by [@Andresit1524](https://github.com/Andresit1524) in [#347](https://github.com/miguelsolorio/vscode-symbols/pull/347)
+* feat: add symbols.hidesLogoIcons setting by [@miguelsolorio](https://github.com/miguelsolorio) in [#371](https://github.com/miguelsolorio/vscode-symbols/pull/371)
+
+## New Contributors
+* [@glypse](https://github.com/glypse) made their first contribution in [#342](https://github.com/miguelsolorio/vscode-symbols/pull/342)
+* [@yvvki](https://github.com/yvvki) made their first contribution in [#358](https://github.com/miguelsolorio/vscode-symbols/pull/358)
+* [@aitoncumbi](https://github.com/aitoncumbi) made their first contribution in [#363](https://github.com/miguelsolorio/vscode-symbols/pull/363)
+* [@Arturgrr](https://github.com/Arturgrr) made their first contribution in [#368](https://github.com/miguelsolorio/vscode-symbols/pull/368)
+* [@theNestruo](https://github.com/theNestruo) made their first contribution in [#356](https://github.com/miguelsolorio/vscode-symbols/pull/356)
+* [@Andresit1524](https://github.com/Andresit1524) made their first contribution in [#372](https://github.com/miguelsolorio/vscode-symbols/pull/372)
+
+**Full Changelog**: https://github.com/miguelsolorio/vscode-symbols/compare/0.0.25...0.0.26
+
 ## 0.0.25
 
 ## What's Changed
