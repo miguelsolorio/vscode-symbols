@@ -1612,6 +1612,7 @@
 		"rslib.config.cjs": "rslib",
 		"rslib.config.mts": "rslib",
 		"rslib.config.cts": "rslib",
+		".oxlintignore": "oxc",
 		".oxlintrc.json": "oxc",
 		"oxlint.config.js": "oxc",
 		"oxlint.config.cjs": "oxc",
