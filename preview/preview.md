@@ -309,6 +309,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | severless             | ![severless](files/severless.png)                           |
 | shadcn                | ![shadcn](files/shadcn.png)                                 |
 | shell                 | ![shell](files/shell.png)                                   |
+| slint                 | ![slint](files/slint.png)                                   |
 | solidity              | ![solidity](files/solidity.png)                             |
 | statamic-antlers      | ![statamic-antlers](files/statamic-antlers.png)             |
 | storybook             | ![storybook](files/storybook.png)                           |

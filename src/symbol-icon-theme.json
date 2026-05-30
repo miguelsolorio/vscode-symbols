@@ -373,6 +373,7 @@
 		"severless": { "iconPath": "./icons/files/severless.svg" },
 		"shell": { "iconPath": "./icons/files/shell.svg" },
 		"solidity": { "iconPath": "./icons/files/solidity.svg" },
+		"slint": { "iconPath": "./icons/files/slint.svg" },
 		"statamic-antlers": {
 			"iconPath": "./icons/files/statamic-antlers.svg"
 		},
@@ -510,6 +511,7 @@
 		"pipe.js": "angular-pipe",
 		"earthlyignore": "earthfile",
 		"sol": "solidity",
+		"slint": "slint",
 		"mdoc": "markdoc",
 		"ml": "ocaml",
 		"mli": "ocaml",
@@ -1672,6 +1674,7 @@
 		"swift": "swift",
 		"ruby": "ruby",
 		"svelte": "svelte",
+		"slint": "slint",
 		"gherkin": "cucumber",
 		"r": "r",
 		"rsweave": "r",
