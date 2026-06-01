@@ -94,6 +94,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-blue-outline   | ![folder-blue-outline](folders/folder-blue-outline.png)     |
 | folder-bruno          | ![folder-bruno](folders/folder-bruno.png)                   |
 | folder-build          | ![folder-build](folders/folder-build.png)                   |
+| folder-changeset      | ![folder-changeset](folders/folder-changeset.png)           |
 | folder-claude         | ![folder-claude](folders/folder-claude.png)                 |
 | folder-config         | ![folder-config](folders/folder-config.png)                 |
 | folder-constants      | ![folder-constants](folders/folder-constants.png)           |
