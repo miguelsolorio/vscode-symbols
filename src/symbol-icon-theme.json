@@ -75,6 +75,7 @@
 		"folder-app": { "iconPath": "./icons/folders/folder-app.svg" },
 		"folder-auth": { "iconPath": "./icons/folders/folder-lock.svg" },
 		"folder-lock": { "iconPath": "./icons/folders/folder-lock.svg" },
+		"folder-changeset": { "iconPath": "./icons/folders/folder-changeset.svg" },
 		"folder-config": { "iconPath": "./icons/folders/folder-config.svg" },
 		"folder-context": { "iconPath": "./icons/folders/folder-context.svg" },
 		"folder-core": { "iconPath": "./icons/folders/folder-core.svg" },
@@ -1758,6 +1759,7 @@
 	},
 
 	"folderNames": {
+		".changeset": "folder-changeset",
 		"i18n": "folder-i18n",
 		"locales": "folder-i18n",
 		"locale": "folder-i18n",
