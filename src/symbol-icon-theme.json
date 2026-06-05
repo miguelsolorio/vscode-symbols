@@ -1759,6 +1759,7 @@
 	},
 
 	"folderNames": {
+		".husky": "folder-orange",
 		".changeset": "folder-changeset",
 		"i18n": "folder-i18n",
 		"locales": "folder-i18n",
