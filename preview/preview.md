@@ -335,6 +335,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | tsconfig              | ![tsconfig](files/tsconfig.png)                             |
 | turborepo             | ![turborepo](files/turborepo.png)                           |
 | twig                  | ![twig](files/twig.png)                                     |
+| typst                 | ![typst](files/typst.png)                                   |
 | unocss                | ![unocss](files/unocss.png)                                 |
 | uv                    | ![uv](files/uv.png)                                         |
 | v                     | ![v](files/v.png)                                           |
