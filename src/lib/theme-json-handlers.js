@@ -7,6 +7,11 @@ const updateThemeJSONHandlers = {
 			themeJSON.folderNames[folder] = folders[folder];
 		}
 	},
+	"rootFolders.associations": (themeJSON, rootFolders) => {
+		for (const rootFolder in rootFolders) {
+			themeJSON.rootFolderNames[rootFolder] = rootFolders[rootFolder];
+		}
+	},
 	"files.associations": (themeJSON, files) => {
 		for (const file in files) {
 			if (file.startsWith("*.")) {
@@ -14,6 +19,27 @@ const updateThemeJSONHandlers = {
 				themeJSON.fileExtensions[newExtension] = files[file];
 			} else {
 				themeJSON.fileNames[file] = files[file];
+			}
+		}
+	},
+	hidesLogoIcons: (themeJSON, value) => {
+		if (value) {
+			themeJSON.fileNames = {};
+		}
+	},
+	"subfolder.file.associations": (themeJSON, folders) => {
+		for (const folder in folders) {
+			for (const file in folders[folder]) {
+				const patterns = Array.from({ length: 5 }, (_, i) => `${"*/".repeat(i)}${folder}/${file}`);
+
+				for (const pattern of patterns) {
+					if (file.startsWith("*.")) {
+						const newExtension = pattern.replace("*.", "");
+						themeJSON.fileExtensions[newExtension] = folders[folder][file];
+					} else {
+						themeJSON.fileNames[pattern] = folders[folder][file];
+					}
+				}
 			}
 		}
 	},

@@ -71,10 +71,25 @@
 					"default": {},
 					"description": "With this configuration can customize the folder icons."
 				},
+				"symbols.hidesLogoIcons": {
+					"type": "boolean",
+					"default": false,
+					"description": "Hide logo icons for tool-specific files (e.g. biome.json, .prettierrc) and show only the file format icon instead."
+				},
+				"symbols.rootFolders.associations": {
+					"type": "object",
+					"default": {},
+					"description": "With this configuration can customize the root folder icons."
+				},
 				"symbols.files.associations": {
 					"type": "object",
 					"default": {},
 					"description": "With this configuration can customize the files icons."
+				},
+				"symbols.subfolder.file.associations": {
+					"type": "object",
+					"default": {},
+					"description": "With this configuration can customize the file icons for specific subfolders."
 				}
 			}
 		}
@@ -91,6 +106,7 @@
 		"vscode:prepublish": "npm run check-format && npm run lint",
 		"precommit": "npm run check-format:fix && npm run lint:fix && npm run integrity && npm run generate-previews",
 		"prepare": "husky",
+		"build": "npm run generate-previews",
 		"generate-previews": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 	},
 	"devDependencies": {
