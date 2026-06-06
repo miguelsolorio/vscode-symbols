@@ -344,6 +344,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | unity-prefab          | ![unity-prefab](files/resource-sky.png)                     |
 | unity-scene           | ![unity-scene](files/unity-scene.png)                       |
 | unity-shader          | ![unity-shader](files/unity-shader.png)                     |
+| typst                 | ![typst](files/typst.png)                                   |
 | unocss                | ![unocss](files/unocss.png)                                 |
 | uv                    | ![uv](files/uv.png)                                         |
 | v                     | ![v](files/v.png)                                           |
