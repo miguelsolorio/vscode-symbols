@@ -21,8 +21,8 @@
 - [ ] Followed design guidelines (24x24px, 1px stroke, existing colors)
 - [ ] SVG optimized and under 2KB
 - [ ] Updated `src/symbol-icon-theme.json` with icon definition and associations
-- [ ] Ran `npm run generate-previews` and committed preview files
-- [ ] Ran `npm run check-format:fix`
+- [ ] Ran `pnpm run generate-previews` and committed preview files
+- [ ] Ran `pnpm run check-format:fix`
 - [ ] Tested locally in VS Code (press F5)
 - [ ] Included screenshot above
 

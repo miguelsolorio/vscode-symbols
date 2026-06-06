@@ -21,7 +21,7 @@ When submitting a PR, please ensure you've tested the extension locally and ensu
 Before submitting a PR, please run the preview generation script to update the icon previews:
 
 ```bash
-npm run generate-previews
+pnpm run generate-previews
 ```
 
 This script will update the preview markdown files with your new icons. Make sure to commit these changes along with your PR.
