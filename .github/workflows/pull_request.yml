@@ -10,18 +10,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
           node-version: lts/*
-          cache: npm
-      - name: Install dependencies
-        run: npm ci
+
+      - name: Setup PNPM
+        uses: ./.github/actions/setup-pnpm
+
       - name: Setup Biome
         uses: biomejs/setup-biome@v2
         with:
           version: latest
+
       - name: Run Biome
         run: biome ci .
+        
       - name: Run Icon Integrity Check
-        run: npm run integrity
+        run: pnpm run integrity
