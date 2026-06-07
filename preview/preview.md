@@ -292,6 +292,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | redux-facade          | ![redux-facade](files/redux-facade.png)                     |
 | redux-reducer         | ![redux-reducer](files/redux-reducer.png)                   |
 | redux-selector        | ![redux-selector](files/redux-selector.png)                 |
+| renovate              | ![renovate](files/renovate.png)                             |
 | rescript              | ![rescript](files/rescript.png)                             |
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
 | resource              | ![resource](files/resource.png)                             |
