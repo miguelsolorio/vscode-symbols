@@ -358,6 +358,7 @@
 		"rescript-interface": {
 			"iconPath": "./icons/files/rescript-interface.svg"
 		},
+		"renovate": { "iconPath": "./icons/files/renovate.svg" },
 		"rescript": { "iconPath": "./icons/files/rescript.svg" },
 		"robot": { "iconPath": "./icons/files/robot.svg" },
 		"rolldown": { "iconPath": "./icons/files/rolldown.svg" },
@@ -1599,6 +1600,10 @@
 		"webpackfile.ts": "webpack",
 		"webpackfile.cts": "webpack",
 		"webpackfile.mts": "webpack",
+		"renovate.json": "renovate",
+		"renovate.jsonc": "renovate",
+		"renovate.json5": "renovate",
+		".renovaterc": "renovate",
 		"rsbuild.config.mjs": "rsbuild",
 		"rsbuild.config.ts": "rsbuild",
 		"rsbuild.config.js": "rsbuild",
