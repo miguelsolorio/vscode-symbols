@@ -68,7 +68,7 @@ Reference the [Symbols Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd
 
 3. **Generate previews**
    ```bash
-   npm run generate-previews
+   pnpm run generate-previews
    ```
 
 4. **Test locally**
@@ -78,7 +78,7 @@ Reference the [Symbols Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd
 
 ## Submitting
 
-1. Run `npm run check-format:fix`
+1. Run `pnpm run check-format:fix`
 2. Commit with clear message: `feat: add TypeScript icon`
 3. Include screenshot in PR showing icon in file tree
 4. Link related issues if any

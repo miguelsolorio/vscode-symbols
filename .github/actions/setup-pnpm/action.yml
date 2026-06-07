@@ -1,0 +1,42 @@
+name: 'pnpm install'
+description: 'Run pnpm install with cache enabled'
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up swap space
+      if: runner.os == 'Linux'
+      uses: pierotofy/set-swap-space@49819abfb41bd9b44fb781159c033dba90353a7c # v1.0
+      with:
+        swap-size-gb: 10
+
+    - uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+      name: Install pnpm
+      with:
+        run_install: false
+
+    - name: Expose pnpm config(s) through "$GITHUB_OUTPUT"
+      id: pnpm-config
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+    - name: Cache rotation keys
+      id: cache-rotation
+      shell: bash
+      run: |
+        echo "YEAR_MONTH=$(/bin/date -u "+%Y%m")" >> $GITHUB_OUTPUT
+
+    - uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5
+      name: Setup pnpm cache
+      with:
+        path: ${{ steps.pnpm-config.outputs.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-cache-${{ steps.cache-rotation.outputs.YEAR_MONTH }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-cache-${{ steps.cache-rotation.outputs.YEAR_MONTH }}-
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        pnpm install --frozen-lockfile --prefer-offline --loglevel error
+      env:
+        HUSKY: '0'

@@ -2,14 +2,15 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "npm",
-			"script": "build",
+			"type": "shell",
+			"command": "pnpm",
+			"args": ["run", "build"],
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
 			"problemMatcher": [],
-			"label": "npm: build",
+			"label": "pnpm: build",
 			"detail": "node --experimental-json-modules scripts/generate-previews.mjs && node --experimental-json-modules scripts/generate-markdown.mjs"
 		}
 	]
