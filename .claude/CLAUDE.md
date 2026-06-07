@@ -5,14 +5,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ```bash
-npm run lint              # Lint with Biome
-npm run lint:fix          # Auto-fix lint issues
-npm run check-format      # Check formatting with Biome
-npm run check-format:fix  # Auto-fix formatting
-npm run integrity         # Validate all iconDefinitions reference existing SVG files
-npm run generate-previews # Regenerate preview images and markdown from icon set
-npm run build             # Alias for generate-previews
-npm run package           # Package the extension as .vsix
+pnpm run lint              # Lint with Biome
+pnpm run lint:fix          # Auto-fix lint issues
+pnpm run check-format      # Check formatting with Biome
+pnpm run check-format:fix  # Auto-fix formatting
+pnpm run integrity         # Validate all iconDefinitions reference existing SVG files
+pnpm run generate-previews # Regenerate preview images and markdown from icon set
+pnpm run build             # Alias for generate-previews
+pnpm run package           # Package the extension as .vsix
 ```
 
 **Pre-commit hook** runs automatically: `check-format:fix`, `lint:fix`, `integrity`, and `generate-previews`.
@@ -35,8 +35,8 @@ This is a VS Code file icon theme extension. The core data flow is:
 1. Add SVG to `src/icons/files/your-icon.svg` (or `src/icons/folders/folder-your-icon.svg`)
 2. Add an entry to `iconDefinitions` in `src/symbol-icon-theme.json`
 3. Add file extension or filename associations in the same JSON
-4. Run `npm run generate-previews` to update `preview/preview.md`
-5. Run `npm run integrity` to verify no broken references
+4. Run `pnpm run generate-previews` to update `preview/preview.md`
+5. Run `pnpm run integrity` to verify no broken references
 
 ### Icon Design Constraints
 
