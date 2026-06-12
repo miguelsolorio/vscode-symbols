@@ -1665,6 +1665,8 @@
 		"doctex": "tex",
 		"latex": "tex",
 		"latex-expl3": "tex",
+		"typst": "typst",
+		"typst-code": "typst",
 		"terraform": "terraform",
 		"elixir": "elixir",
 		"erlang": "erlang",
