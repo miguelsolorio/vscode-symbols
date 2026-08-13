@@ -173,6 +173,7 @@
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
 		"folder-zed": { "iconPath": "./icons/folders/folder-zed.svg" },
+		"folder-java": { "iconPath": "./icons/folders/folder-java.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -290,6 +291,7 @@
 		"image": { "iconPath": "./icons/files/image.svg" },
 		"ionic": { "iconPath": "./icons/files/ionic.svg" },
 		"java": { "iconPath": "./icons/files/java.svg" },
+		"java-class": { "iconPath": "./icons/files/java-class.svg" },
 		"jenkins": { "iconPath": "./icons/files/jenkins.svg" },
 		"jest": { "iconPath": "./icons/files/jest.svg" },
 		"js-test": { "iconPath": "./icons/files/js-test.svg" },
@@ -862,7 +864,8 @@
 		"fla": "animate",
 		"psd": "photoshop",
 		"psb": "photoshop",
-		"ai": "illustrator"
+		"ai": "illustrator",
+		"class": "java-class",
 	},
 
 	"fileNames": {
@@ -1772,14 +1775,17 @@
 		"intl": "folder-i18n",
 		"lang": "folder-i18n",
 		"langs": "folder-i18n",
+		"language": "folder-i18n",
 		"languages": "folder-i18n",
 		".venv": "folder-lock",
 		".gitlab": "folder-gitlab",
 		"auth": "folder-lock",
 		"core": "folder-core",
+		"model": "folder-models",
 		"models": "folder-models",
 		"interface": "folder-interfaces",
 		"interfaces": "folder-interfaces",
+		"presentation": "folder-interfaces",
 		"helpers": "folder-helpers",
 		"shared": "folder-shared",
 		"router": "folder-router",
@@ -1913,7 +1919,8 @@
 		"sass": "folder-sass",
 		"scss": "folder-sass",
 		".godot": "folder-godot",
-		".zed": "folder-zed"
+		".zed": "folder-zed",
+		"java": "folder-java",
 	},
 
 	"rootFolderNames": {},
