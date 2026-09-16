@@ -173,6 +173,7 @@
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
 		"folder-zed": { "iconPath": "./icons/folders/folder-zed.svg" },
+		"folder-java": { "iconPath": "./icons/folders/folder-java.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -290,6 +291,7 @@
 		"image": { "iconPath": "./icons/files/image.svg" },
 		"ionic": { "iconPath": "./icons/files/ionic.svg" },
 		"java": { "iconPath": "./icons/files/java.svg" },
+		"java-class": { "iconPath": "./icons/files/java-class.svg" },
 		"jenkins": { "iconPath": "./icons/files/jenkins.svg" },
 		"jest": { "iconPath": "./icons/files/jest.svg" },
 		"js-test": { "iconPath": "./icons/files/js-test.svg" },
@@ -435,7 +437,8 @@
 		"animate": { "iconPath": "./icons/files/animate.svg" },
 		"photoshop": { "iconPath": "./icons/files/photoshop.svg" },
 		"illustrator": { "iconPath": "./icons/files/illustrator.svg" },
-		"caddy": { "iconPath": "./icons/files/caddy.svg" }
+		"caddy": { "iconPath": "./icons/files/caddy.svg" },
+		"readme": { "iconPath": "./icons/files/readme.svg" }
 	},
 
 	"fileExtensions": {
@@ -862,7 +865,8 @@
 		"fla": "animate",
 		"psd": "photoshop",
 		"psb": "photoshop",
-		"ai": "illustrator"
+		"ai": "illustrator",
+		"class": "java-class"
 	},
 
 	"fileNames": {
@@ -1648,7 +1652,8 @@
 		".caddyfile": "caddy",
 		"Caddyfile.dev": "caddy",
 		"Caddyfile.prod": "caddy",
-		"Caddyfile.staging": "caddy"
+		"Caddyfile.staging": "caddy",
+		"README.md": "readme"
 	},
 
 	"languageIds": {
@@ -1778,6 +1783,7 @@
 		"auth": "folder-lock",
 		"core": "folder-core",
 		"models": "folder-models",
+		"model": "folder-models",
 		"interface": "folder-interfaces",
 		"interfaces": "folder-interfaces",
 		"helpers": "folder-helpers",
@@ -1785,7 +1791,9 @@
 		"router": "folder-router",
 		"routers": "folder-router",
 		"routes": "folder-router",
+		"route": "folder-router",
 		"modules": "folder-modules",
+		"module": "folder-modules",
 		"angular": "folder-angular",
 		".angular": "folder-angular",
 		"services": "folder-services",
@@ -1913,7 +1921,8 @@
 		"sass": "folder-sass",
 		"scss": "folder-sass",
 		".godot": "folder-godot",
-		".zed": "folder-zed"
+		".zed": "folder-zed",
+		"java": "folder-java"
 	},
 
 	"rootFolderNames": {},

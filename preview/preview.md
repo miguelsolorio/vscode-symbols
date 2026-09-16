@@ -128,6 +128,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-interceptors   | ![folder-interceptors](folders/folder-interceptors.png)     |
 | folder-interfaces     | ![folder-interfaces](folders/folder-interfaces.png)         |
 | folder-ios            | ![folder-ios](folders/folder-ios.png)                       |
+| folder-java           | ![folder-java](folders/folder-java.png)                     |
 | folder-js             | ![folder-js](folders/folder-js.png)                         |
 | folder-layout         | ![folder-layout](folders/folder-layout.png)                 |
 | folder-lock           | ![folder-lock](folders/folder-lock.png)                     |
@@ -221,6 +222,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | image                 | ![image](files/image.png)                                   |
 | ionic                 | ![ionic](files/ionic.png)                                   |
 | java                  | ![java](files/java.png)                                     |
+| java-class            | ![java-class](files/java-class.png)                         |
 | jenkins               | ![jenkins](files/jenkins.png)                               |
 | jest                  | ![jest](files/jest.png)                                     |
 | js                    | ![js](files/js.png)                                         |
@@ -287,6 +289,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | react                 | ![react](files/react.png)                                   |
 | react-test            | ![react-test](files/react-test.png)                         |
 | react-ts              | ![react-ts](files/react-ts.png)                             |
+| readme                | ![readme](files/readme.png)                                 |
 | redux-actions         | ![redux-actions](files/redux-actions.png)                   |
 | redux-effects         | ![redux-effects](files/redux-effects.png)                   |
 | redux-facade          | ![redux-facade](files/redux-facade.png)                     |
