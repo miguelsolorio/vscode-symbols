@@ -137,6 +137,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-models         | ![folder-models](folders/folder-models.png)                 |
 | folder-modules        | ![folder-modules](folders/folder-modules.png)               |
 | folder-mongo          | ![folder-mongo](folders/folder-mongo.png)                   |
+| folder-moon           | ![folder-moon](folders/folder-moon.png)                     |
 | folder-netlify        | ![folder-netlify](folders/folder-netlify.png)               |
 | folder-next           | ![folder-next](folders/folder-next.png)                     |
 | folder-nginx          | ![folder-nginx](folders/folder-nginx.png)                   |
@@ -245,6 +246,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | mdx                   | ![mdx](files/mdx.png)                                       |
 | minecraft             | ![minecraft](files/minecraft.png)                           |
 | mongo                 | ![mongo](files/mongo.png)                                   |
+| moon                  | ![moon](files/moon.png)                                     |
 | nest                  | ![nest](files/nest.png)                                     |
 | nest-controller       | ![nest-controller](files/nest-controller.png)               |
 | nest-decorator        | ![nest-decorator](files/nest-decorator.png)                 |
