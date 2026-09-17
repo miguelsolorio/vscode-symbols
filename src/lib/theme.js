@@ -1,5 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const vscode = require("vscode");
 const { PKG_PROP_MAP } = require("./constants");
 const { confirmReload } = require("./window");
 const { log } = require("./log");
@@ -139,6 +140,13 @@ async function syncOriginal() {
 	}
 
 	if (needsSync) {
+		if (vscode.env.appName === "Extension Development Host") {
+			fs.unlinkSync(themePath);
+			fs.copyFileSync(getDefaultFilePath(), themePath);
+			fs.copyFileSync(getDefaultFilePath(), getBackupFilePath());
+			return;
+		}
+
 		await confirmReload();
 		fs.unlinkSync(themePath);
 		fs.copyFileSync(getDefaultFilePath(), themePath);
