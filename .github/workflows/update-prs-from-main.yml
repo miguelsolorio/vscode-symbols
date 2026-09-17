@@ -1,0 +1,52 @@
+name: Update PR branches from main
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-prs:
+    name: Update PR branches
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge main into open PR branches when possible
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr list --state open --base main --limit 100 --json number,headRefName,mergeable \
+            --jq '.[] | select(.mergeable != "CONFLICTING") | @base64' | while IFS= read -r item; do
+              pr="$(printf '%s' "$item" | base64 --decode)"
+              pr_number="$(printf '%s' "$pr" | jq -r '.number')"
+              head_ref="$(printf '%s' "$pr" | jq -r '.headRefName')"
+
+              if ! git ls-remote --exit-code --heads origin "$head_ref" >/dev/null 2>&1; then
+                echo "Skipping PR #$pr_number because branch '$head_ref' no longer exists."
+                continue
+              fi
+
+              git fetch origin "$head_ref" main
+              git checkout "$head_ref"
+
+              if git merge --no-edit origin/main; then
+                git push origin HEAD
+                echo "Updated PR #$pr_number with main."
+              else
+                git merge --abort
+                echo "Skipped PR #$pr_number because main conflicts with '$head_ref'."
+              fi
+            done

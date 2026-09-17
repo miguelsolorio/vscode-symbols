@@ -94,20 +94,33 @@ _Note: For file names, you can use `*` to match all files with a specific file e
 
 You can preview the icons by reading the the [preview.md](./preview/preview.md) file.
 
-## React Symbols
+## Other Platforms & Editors
+
+### React Symbols
 
 [Pablo Hdez](https://github.com/pheralb) has graciously created [React-Symbols](https://react-symbols.vercel.app) ([pheralb/react-symbols](https://github.com/pheralb/react-symbols)) to allow you to embed Symbol icons for your React projects.
 
 <img src="https://raw.githubusercontent.com/pheralb/react-symbols/main/website/public/images/og.png">
 
-## Open VSX
+### Open VSX
 
 If you're using editors like [Cursor](https://cursor.com/), [Antigravity](https://antigravity.google/), or [VSCodium](https://vscodium.com/), you can find the extension on [Open VSX](https://open-vsx.org/extension/misolori/symbols).
 
-## Zed Editor
+### Zed Editor
 
 If you're using the [Zed](https://zed.dev) editor, you can find its maintained version here: [Symbols for Zed](https://github.com/sebastiandotdev/zed-symbols).
 
-## JetBrains IDEs
+### JetBrains IDEs
 
 If you're using a [JetBrains](https://www.jetbrains.com) IDE (including [Android Studio](https://developer.android.com/studio)), you can find its maintained version here: [Symbols for JetBrains](https://github.com/sebastiandotdev/jetbrains-symbols).
+
+### Browser
+
+You can use the Symbols icon set in your browser by installing the [`symbols-browser-extension`](https://github.com/jahirfiquitiva/symbols-browser-extension) created by [Jahir Fiquitiva](https://jahir.dev)
+
+<a href="https://github.com/jahirfiquitiva/symbols-browser-extension">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jahirfiquitiva/symbols-browser-extension/refs/heads/main/media/store-preview-dark.jpeg">
+    <img alt="A GitHub file listing with Symbols icons" width="640" src="https://raw.githubusercontent.com/jahirfiquitiva/symbols-browser-extension/refs/heads/main/media/store-preview-light.jpeg">
+  </picture>
+</a>
