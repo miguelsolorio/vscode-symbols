@@ -174,6 +174,9 @@
 		"folder-js": { "iconPath": "./icons/folders/folder-js.svg" },
 		"folder-sass": { "iconPath": "./icons/folders/folder-sass.svg" },
 		"folder-zed": { "iconPath": "./icons/folders/folder-zed.svg" },
+		"folder-java": { "iconPath": "./icons/folders/folder-java.svg" },
+		"folder-components": { "iconPath": "./icons/folders/folder-components.svg" },
+		"folder-go": { "iconPath": "./icons/folders/folder-go.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -291,6 +294,7 @@
 		"image": { "iconPath": "./icons/files/image.svg" },
 		"ionic": { "iconPath": "./icons/files/ionic.svg" },
 		"java": { "iconPath": "./icons/files/java.svg" },
+		"java-class": { "iconPath": "./icons/files/java-class.svg" },
 		"jenkins": { "iconPath": "./icons/files/jenkins.svg" },
 		"jest": { "iconPath": "./icons/files/jest.svg" },
 		"js-test": { "iconPath": "./icons/files/js-test.svg" },
@@ -446,7 +450,8 @@
 		"animate": { "iconPath": "./icons/files/animate.svg" },
 		"photoshop": { "iconPath": "./icons/files/photoshop.svg" },
 		"illustrator": { "iconPath": "./icons/files/illustrator.svg" },
-		"caddy": { "iconPath": "./icons/files/caddy.svg" }
+		"caddy": { "iconPath": "./icons/files/caddy.svg" },
+		"readme": { "iconPath": "./icons/files/readme.svg" }
 	},
 
 	"fileExtensions": {
@@ -893,7 +898,8 @@
 		"fla": "animate",
 		"psd": "photoshop",
 		"psb": "photoshop",
-		"ai": "illustrator"
+		"ai": "illustrator",
+		"class": "java-class"
 	},
 
 	"fileNames": {
@@ -1692,7 +1698,8 @@
 		".caddyfile": "caddy",
 		"Caddyfile.dev": "caddy",
 		"Caddyfile.prod": "caddy",
-		"Caddyfile.staging": "caddy"
+		"Caddyfile.staging": "caddy",
+		"README.md": "readme"
 	},
 
 	"languageIds": {
@@ -1810,6 +1817,8 @@
 	},
 
 	"folderNames": {
+		"go": "folder-go",
+		"components": "folder-components",
 		".husky": "folder-orange",
 		".changeset": "folder-changeset",
 		"i18n": "folder-i18n",
@@ -1821,15 +1830,18 @@
 		"intl": "folder-i18n",
 		"lang": "folder-i18n",
 		"langs": "folder-i18n",
+		"language": "folder-i18n",
 		"languages": "folder-i18n",
 		".venv": "folder-lock",
 		".gitlab": "folder-gitlab",
 		".moon": "folder-moon",
 		"auth": "folder-lock",
 		"core": "folder-core",
+		"model": "folder-models",
 		"models": "folder-models",
 		"interface": "folder-interfaces",
 		"interfaces": "folder-interfaces",
+		"presentation": "folder-interfaces",
 		"helpers": "folder-helpers",
 		"shared": "folder-shared",
 		"router": "folder-router",
@@ -1878,10 +1890,12 @@
 		"utility": "folder-utils",
 		"utilities": "folder-utils",
 		"db": "folder-database",
+		"data": "folder-database",
 		"database": "folder-database",
 		"databases": "folder-database",
 		"layouts": "folder-layout",
 		"layout": "folder-layout",
+		"ui": "folder-layout",
 		"docker": "folder-docker",
 		"docker-compose": "folder-docker",
 		"dockerfiles": "folder-docker",
@@ -1933,7 +1947,6 @@
 		"assets": "folder-assets",
 		"resources": "folder-assets",
 		"static": "folder-assets",
-		"components": "folder-green-code",
 		"prisma": "folder-prisma",
 		"android": "folder-android",
 		"mail": "folder-mail",
@@ -1963,7 +1976,8 @@
 		"sass": "folder-sass",
 		"scss": "folder-sass",
 		".godot": "folder-godot",
-		".zed": "folder-zed"
+		".zed": "folder-zed",
+		"java": "folder-java"
 	},
 
 	"rootFolderNames": {},
