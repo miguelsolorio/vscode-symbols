@@ -1032,6 +1032,8 @@
 		".nvmrc": "node",
 		".esmrc": "node",
 		".node-version": "node",
+		".swift-version": "swift",
+		".xcode-version": "swift",
 		"gradle.properties": "gradle",
 		"gradlew": "gradle",
 		"gradle-wrapper.properties": "gradle",
