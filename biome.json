@@ -17,10 +17,7 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"a11y": {
-				"noSvgWithoutTitle": "off"
-			},
-			"preset": "recommended"
+			"recommended": true
 		}
 	},
 	"javascript": {

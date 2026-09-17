@@ -7,4 +7,3 @@ src/symbol-icon-theme.modified.json
 src/symbol-icon-theme.bkp.json
 .DS_Store
 yarn.lock
-bun.lock
