@@ -177,6 +177,9 @@
 		"folder-java": { "iconPath": "./icons/folders/folder-java.svg" },
 		"folder-components": { "iconPath": "./icons/folders/folder-components.svg" },
 		"folder-go": { "iconPath": "./icons/folders/folder-go.svg" },
+		"folder-packages": { "iconPath": "./icons/folders/folder-packages.svg" },
+		"folder-trpc": { "iconPath": "./icons/folders/folder-trpc.svg" },
+		"folder-web": { "iconPath": "./icons/folders/folder-web.svg" },
 
 		"code-blue": { "iconPath": "./icons/files/code-blue.svg" },
 		"code-gray": { "iconPath": "./icons/files/code-gray.svg" },
@@ -451,7 +454,9 @@
 		"photoshop": { "iconPath": "./icons/files/photoshop.svg" },
 		"illustrator": { "iconPath": "./icons/files/illustrator.svg" },
 		"caddy": { "iconPath": "./icons/files/caddy.svg" },
-		"readme": { "iconPath": "./icons/files/readme.svg" }
+		"readme": { "iconPath": "./icons/files/readme.svg" },
+		"syncpack": { "iconPath": "./icons/files/syncpack.svg" },
+		"trpc": { "iconPath": "./icons/files/trpc.svg" }
 	},
 
 	"fileExtensions": {
@@ -903,6 +908,19 @@
 	},
 
 	"fileNames": {
+		"trpc.ts": "trpc",
+		".syncpackrc": "syncpack",
+		".syncpackrc.json": "syncpack",
+		".syncpackrc.yaml": "syncpack",
+		".syncpackrc.yml": "syncpack",
+		".syncpackrc.js": "syncpack",
+		".syncpackrc.ts": "syncpack",
+		".syncpackrc.mjs": "syncpack",
+		".syncpackrc.cjs": "syncpack",
+		"syncpack.config.js": "syncpack",
+		"syncpack.config.ts": "syncpack",
+		"syncpack.config.mjs": "syncpack",
+		"syncpack.config.cjs": "syncpack",
 		"orval.config.js": "orval",
 		"orval.config.mjs": "orval",
 		"orval.config.ts": "orval",
@@ -1817,6 +1835,12 @@
 	},
 
 	"folderNames": {
+		"web": "folder-web",
+		"website": "folder-web",
+		"trpc": "folder-trpc",
+		"packages": "folder-packages",
+		"package": "folder-packages",
+		"pkg": "folder-packages",
 		"go": "folder-go",
 		"components": "folder-components",
 		".husky": "folder-orange",
@@ -1914,6 +1938,7 @@
 		"scripts": "folder-red-code",
 		"storybook": "folder-pink-outline",
 		"stories": "folder-pink-code",
+		"@types": "folder-blue-code",
 		"types": "folder-blue-code",
 		"api": "folder-red",
 		".storybook": "folder-pink",
@@ -1945,6 +1970,7 @@
 		"out": "folder-purple-outline",
 		"build": "folder-build",
 		"assets": "folder-assets",
+		"icons": "folder-assets",
 		"resources": "folder-assets",
 		"static": "folder-assets",
 		"prisma": "folder-prisma",

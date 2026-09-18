@@ -148,6 +148,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-orange         | ![folder-orange](folders/folder-orange.png)                 |
 | folder-orange-code    | ![folder-orange-code](folders/folder-orange-code.png)       |
 | folder-orange-outline | ![folder-orange-outline](folders/folder-orange-outline.png) |
+| folder-packages       | ![folder-packages](folders/folder-packages.png)             |
 | folder-pink           | ![folder-pink](folders/folder-pink.png)                     |
 | folder-pink-code      | ![folder-pink-code](folders/folder-pink-code.png)           |
 | folder-pink-outline   | ![folder-pink-outline](folders/folder-pink-outline.png)     |
@@ -178,9 +179,11 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-target         | ![folder-target](folders/folder-target.png)                 |
 | folder-tauri          | ![folder-tauri](folders/folder-tauri.png)                   |
 | folder-tina           | ![folder-tina](folders/folder-tina.png)                     |
+| folder-trpc           | ![folder-trpc](folders/folder-trpc.png)                     |
 | folder-utils          | ![folder-utils](folders/folder-utils.png)                   |
 | folder-vercel         | ![folder-vercel](folders/folder-vercel.png)                 |
 | folder-vscode         | ![folder-vscode](folders/folder-vscode.png)                 |
+| folder-web            | ![folder-web](folders/folder-web.png)                       |
 | folder-yellow         | ![folder-yellow](folders/folder-yellow.png)                 |
 | folder-yellow-code    | ![folder-yellow-code](folders/folder-yellow-code.png)       |
 | folder-yellow-outline | ![folder-yellow-outline](folders/folder-yellow-outline.png) |
@@ -332,12 +335,14 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | svx                   | ![svx](files/svx.png)                                       |
 | swc                   | ![swc](files/swc.png)                                       |
 | swift                 | ![swift](files/swift.png)                                   |
+| syncpack              | ![syncpack](files/syncpack.png)                             |
 | tailwind              | ![tailwind](files/tailwind.png)                             |
 | taskfile              | ![taskfile](files/taskfile.png)                             |
 | tauri                 | ![tauri](files/tauri.png)                                   |
 | terraform             | ![terraform](files/terraform.png)                           |
 | tex                   | ![tex](files/tex.png)                                       |
 | text                  | ![text](files/text.png)                                     |
+| trpc                  | ![trpc](files/trpc.png)                                     |
 | ts                    | ![ts](files/ts.png)                                         |
 | ts-test               | ![ts-test](files/ts-test.png)                               |
 | ts-types              | ![ts-types](files/ts-types.png)                             |
