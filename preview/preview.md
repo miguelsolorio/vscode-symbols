@@ -31,6 +31,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | c                     | ![c](files/c.png)                                           |
 | caddy                 | ![caddy](files/caddy.png)                                   |
 | capacitor             | ![capacitor](files/capacitor.png)                           |
+| changelog             | ![changelog](files/changelog.png)                           |
 | clapper               | ![clapper](files/clapper.png)                               |
 | claude                | ![claude](files/claude.png)                                 |
 | clojure               | ![clojure](files/clojure.png)                               |
@@ -49,6 +50,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | coldfusion            | ![coldfusion](files/coldfusion.png)                         |
 | compressed            | ![compressed](files/compressed.png)                         |
 | contentlayer          | ![contentlayer](files/contentlayer.png)                     |
+| contributing          | ![contributing](files/contributing.png)                     |
 | cplus                 | ![cplus](files/cplus.png)                                   |
 | crystal               | ![crystal](files/crystal.png)                               |
 | csharp                | ![csharp](files/csharp.png)                                 |

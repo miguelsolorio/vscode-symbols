@@ -456,6 +456,8 @@
 		"caddy": { "iconPath": "./icons/files/caddy.svg" },
 		"readme": { "iconPath": "./icons/files/readme.svg" },
 		"syncpack": { "iconPath": "./icons/files/syncpack.svg" },
+		"changelog": { "iconPath": "./icons/files/changelog.svg" },
+		"contributing": { "iconPath": "./icons/files/contributing.svg" },
 		"trpc": { "iconPath": "./icons/files/trpc.svg" }
 	},
 
@@ -908,6 +910,8 @@
 	},
 
 	"fileNames": {
+		"CONTRIBUTING.md": "contributing",
+		"CHANGELOG.md": "changelog",
 		"trpc.ts": "trpc",
 		".syncpackrc": "syncpack",
 		".syncpackrc.json": "syncpack",
