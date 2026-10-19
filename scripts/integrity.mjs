@@ -1,6 +1,7 @@
 /**
  * Icon Integrity Validator
  * Ensures all iconDefinitions in symbol-icon-theme.json reference existing SVG files
+ * and all associations reference existing iconDefinitions
  */
 
 import { promises as fs } from "node:fs";
@@ -12,6 +13,19 @@ const __dirname = path.dirname(__filename);
 
 const THEME_PATH = path.join(__dirname, "../src/symbol-icon-theme.json");
 const ICONS_DIR = path.join(__dirname, "../src/icons");
+
+// Theme keys that map a single default to an icon ID
+const DEFAULT_ICON_KEYS = ["file", "folder", "folderExpanded", "rootFolder", "rootFolderExpanded"];
+// Theme keys that map names/extensions/languages to icon IDs
+const ASSOCIATION_KEYS = [
+	"fileExtensions",
+	"fileNames",
+	"folderNames",
+	"folderNamesExpanded",
+	"rootFolderNames",
+	"rootFolderNamesExpanded",
+	"languageIds",
+];
 
 let exitCode = 0;
 const errors = [];
@@ -60,6 +74,33 @@ async function validateIcons() {
 			} catch {
 				errors.push(`❌ Icon "${iconName}" references missing file: ${iconPath}`);
 				exitCode++;
+			}
+		}
+
+		// Validate each association references an existing icon definition
+		const validateAssociations = (section, prefix) => {
+			for (const key of DEFAULT_ICON_KEYS) {
+				const iconId = section[key];
+				if (iconId !== undefined && !Object.hasOwn(iconDefinitions, iconId)) {
+					errors.push(`❌ "${prefix}${key}" references undefined icon: ${iconId}`);
+					exitCode++;
+				}
+			}
+
+			for (const key of ASSOCIATION_KEYS) {
+				for (const [name, iconId] of Object.entries(section[key] || {})) {
+					if (!Object.hasOwn(iconDefinitions, iconId)) {
+						errors.push(`❌ "${prefix}${key}.${name}" references undefined icon: ${iconId}`);
+						exitCode++;
+					}
+				}
+			}
+		};
+
+		validateAssociations(themeData, "");
+		for (const variant of ["light", "highContrast"]) {
+			if (themeData[variant]) {
+				validateAssociations(themeData[variant], `${variant}.`);
 			}
 		}
 
@@ -121,7 +162,7 @@ async function validateIcons() {
 			}
 			console.log(`\n💥 Integrity check failed with ${errors.length} error(s)\n`);
 		} else {
-			console.log("\n✅ Integrity check passed! All icon definitions reference valid files.\n");
+			console.log("\n✅ Integrity check passed! All icon definitions and associations are valid.\n");
 		}
 
 		console.log("═".repeat(60));
