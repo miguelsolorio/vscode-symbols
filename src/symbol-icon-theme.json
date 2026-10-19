@@ -82,6 +82,7 @@
 		"folder-cypress": { "iconPath": "./icons/folders/folder-cypress.svg" },
 		"folder-cursor": { "iconPath": "./icons/folders/folder-cursor.svg" },
 		"folder-claude": { "iconPath": "./icons/folders/folder-claude.svg" },
+		"folder-kadence": { "iconPath": "./icons/folders/folder-kadence.svg" },
 		"folder-database": {
 			"iconPath": "./icons/folders/folder-database.svg"
 		},
@@ -1868,6 +1869,7 @@
 		".cursor": "folder-cursor",
 		".claude-code": "folder-claude",
 		".claude": "folder-claude",
+		".kadence": "folder-kadence",
 		"claude": "folder-claude",
 		"claude-config": "folder-claude",
 		"claude-prompts": "folder-claude",

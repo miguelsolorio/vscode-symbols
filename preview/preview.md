@@ -132,6 +132,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-ios            | ![folder-ios](folders/folder-ios.png)                       |
 | folder-java           | ![folder-java](folders/folder-java.png)                     |
 | folder-js             | ![folder-js](folders/folder-js.png)                         |
+| folder-kadence        | ![folder-kadence](folders/folder-kadence.png)               |
 | folder-layout         | ![folder-layout](folders/folder-layout.png)                 |
 | folder-lock           | ![folder-lock](folders/folder-lock.png)                     |
 | folder-mail           | ![folder-mail](folders/folder-mail.png)                     |
