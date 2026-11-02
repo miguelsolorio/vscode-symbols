@@ -22,7 +22,7 @@
 - [ ] SVG optimized and under 2KB
 - [ ] Updated `src/symbol-icon-theme.json` with icon definition and associations
 - [ ] Ran `npm run generate-previews` and committed preview files
-- [ ] Ran `npm run check-format:fix`
+- [ ] Ran `npm run check-format:fix` (CI will fix this for you if you forget)
 - [ ] Tested locally in VS Code (press F5)
 - [ ] Included screenshot above
 

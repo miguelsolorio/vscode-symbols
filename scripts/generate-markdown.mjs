@@ -30,6 +30,7 @@ async function generateMarkdown() {
 		console.log("Markdown generated successfully");
 	} catch (error) {
 		console.error("Error generating markdown:", error);
+		process.exitCode = 1;
 	}
 }
 

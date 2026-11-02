@@ -47,6 +47,7 @@ async function generatePreviews() {
 		console.log(`Generated ${previews.length} previews`);
 	} catch (error) {
 		console.error("Error generating previews:", error);
+		process.exitCode = 1;
 	}
 }
 

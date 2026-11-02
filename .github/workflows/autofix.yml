@@ -1,0 +1,66 @@
+name: Autofix
+
+# Untrusted half of the PR auto-fix. It runs the contributor's code with a read-only
+# token and no secrets, and only hands a patch to "Autofix apply", which has write access.
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: autofix-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  fix:
+    name: Biome and previews
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+        env:
+          HUSKY: 0
+
+      # Same steps as the local pre-commit hook. A failure here (for example a missing SVG
+      # reported by integrity) is not auto-fixable, so no patch is produced and CI reports it.
+      - name: Apply Biome fixes and regenerate previews
+        id: fix
+        run: npm run precommit
+        continue-on-error: true
+
+      - name: Collect patch
+        if: steps.fix.outcome == 'success'
+        run: |
+          out="$RUNNER_TEMP/autofix"
+          mkdir -p "$out"
+          git add -A
+          git diff --cached --binary --no-renames --no-ext-diff > "$out/autofix.patch"
+          if [ -s "$out/autofix.patch" ]; then
+            echo "::notice::Fixes are available for this PR."
+          else
+            echo "::notice::Nothing to fix."
+          fi
+
+      - name: Upload patch
+        if: steps.fix.outcome == 'success'
+        uses: actions/upload-artifact@v5
+        with:
+          name: autofix
+          path: ${{ runner.temp }}/autofix/autofix.patch
+          if-no-files-found: error
+          retention-days: 1
