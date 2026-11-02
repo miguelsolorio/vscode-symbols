@@ -15,8 +15,23 @@ if ! command -v npm >/dev/null 2>&1; then
 	exit 1
 fi
 
+# Biome rewrites files in the working tree, so remember what the author staged and re-stage it
+# afterwards to keep the fixes in the commit. Files with unstaged edits (git add -p) are skipped so
+# hunks the author left out are never pulled in.
+restage="$(mktemp)"
+trap 'rm -f "$restage"' EXIT
+git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMR | while IFS= read -r file; do
+	if git diff --quiet -- "$file"; then
+		printf '%s\n' "$file"
+	fi
+done >"$restage"
+
 # Run formatting/lint/integrity + preview generation
 npm run precommit || exit 1
 
-# Stage only generated assets updated by scripts so commit includes them
+while IFS= read -r file; do
+	git add -- "$file"
+done <"$restage"
+
+# Stage generated assets updated by scripts so commit includes them
 git add preview/ src/symbol-icon-theme.json README.md

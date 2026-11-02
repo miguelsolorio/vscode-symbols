@@ -78,7 +78,7 @@ Reference the [Symbols Figma file](https://www.figma.com/file/HYLMyRbIdSbIJQlqnd
 
 ## Submitting
 
-1. Run `npm run check-format:fix`. If you forget, CI runs the same fixes and pushes them to your branch when it can. Otherwise it comments with the command to run, and enabling "Allow edits from maintainers" on your PR lets CI push them for you.
+1. Run `npm install` once. It sets up a pre-commit hook that runs `npm run precommit` (Biome format and lint fixes, icon integrity check, preview generation) on every commit and re-stages the files it fixed. If you skip that or forget, CI runs the same fixes and pushes them to your branch when it can. Otherwise it comments with the command to run, and enabling "Allow edits from maintainers" on your PR lets CI push them for you.
 2. Commit with clear message: `feat: add TypeScript icon`
 3. Include screenshot in PR showing icon in file tree
 4. Link related issues if any
