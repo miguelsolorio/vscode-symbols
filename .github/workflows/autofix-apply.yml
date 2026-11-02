@@ -1,0 +1,200 @@
+name: Autofix apply
+
+# Trusted half of the PR auto-fix. It runs from main with write access, so it must never run
+# anything that comes from the PR: it only validates and applies the patch built by "Autofix".
+# The PR is looked up from the workflow_run event, not from the artifact, which is untrusted.
+on:
+  workflow_run:
+    workflows: [Autofix]
+    types: [completed]
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: autofix-apply-${{ github.event.workflow_run.head_sha }}
+  cancel-in-progress: false
+
+env:
+  BOT_MESSAGE: "style: apply biome fixes and regenerate previews"
+  COMMENT_MARKER: "<!-- autofix-comment -->"
+
+jobs:
+  apply:
+    name: Apply
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
+
+    steps:
+      - name: Download patch
+        id: download
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          if gh run download "$RUN_ID" --repo "$GITHUB_REPOSITORY" --name autofix --dir "$RUNNER_TEMP/autofix"; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::notice::No autofix artifact (the fix step did not succeed), nothing to do."
+          fi
+
+      - name: Plan
+        id: plan
+        if: steps.download.outputs.found == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          HEAD_REPO: ${{ github.event.workflow_run.head_repository.full_name }}
+          HAS_PUSH_TOKEN: ${{ secrets.PR_PUSH_TOKEN != '' }}
+        run: |
+          set -euo pipefail
+          patch="$RUNNER_TEMP/autofix/autofix.patch"
+
+          # Only an open PR whose head is still the commit that was checked counts. Anything newer is stale.
+          prs="$(gh api "repos/$GITHUB_REPOSITORY/commits/$HEAD_SHA/pulls" \
+            | jq -c --arg sha "$HEAD_SHA" --arg repo "$HEAD_REPO" \
+              '[.[] | select(.state == "open" and .base.ref == "main" and .head.sha == $sha and .head.repo.full_name == $repo) | .number]')"
+          if [ "$(jq length <<< "$prs")" != "1" ]; then
+            echo "::notice::Expected exactly one open PR whose head is $HEAD_SHA, found $prs. Nothing to do."
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          pr="$(jq -r '.[0]' <<< "$prs")"
+          pr_json="$(gh api "repos/$GITHUB_REPOSITORY/pulls/$pr")"
+          can_modify="$(jq -r '.maintainer_can_modify' <<< "$pr_json")"
+          head_ref="$(jq -r '.head.ref' <<< "$pr_json")"
+
+          # An empty patch means there was nothing to fix. git apply rejects empty input, so check first.
+          size="$(stat -c %s "$patch")"
+          if [ "$size" -eq 0 ]; then
+            {
+              echo "mode=clean"
+              echo "pr=$pr"
+            } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          paths="$(git apply --numstat -z "$patch" | tr '\0' '\n' | cut -f3-)"
+          count="$(grep -c . <<< "$paths" || true)"
+          symlinks="$(git apply --summary "$patch" | grep -c '120000' || true)"
+          printf '%s\n' "$paths" | grep -v '`' | head -n 30 > "$RUNNER_TEMP/autofix/files.txt" || true
+
+          mode=comment
+          reason=""
+          if [ "$size" -gt 10485760 ] || [ "$count" -gt 250 ]; then
+            reason="the fix is unusually large ($count files), so it needs a human look"
+          elif grep -qE '^(\.git|\.husky/|node_modules/)' <<< "$paths"; then
+            reason="the fix touches protected paths such as .github/"
+          elif [ "$symlinks" -gt 0 ]; then
+            reason="the fix would add a symlink"
+          elif [ "${HEAD_REPO,,}" = "${GITHUB_REPOSITORY,,}" ]; then
+            mode=push-same
+          elif [ "$can_modify" != "true" ]; then
+            reason="'Allow edits from maintainers' is turned off for this PR"
+          elif [ "$HAS_PUSH_TOKEN" != "true" ]; then
+            reason="CI is not set up to push to forks"
+          else
+            mode=push-fork
+          fi
+
+          {
+            echo "mode=$mode"
+            echo "pr=$pr"
+            echo "head_repo=$HEAD_REPO"
+            echo "head_ref=$head_ref"
+            echo "reason=$reason"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Checkout PR head
+        if: startsWith(steps.plan.outputs.mode, 'push-')
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ steps.plan.outputs.head_repo }}
+          ref: ${{ github.event.workflow_run.head_sha }}
+          token: ${{ steps.plan.outputs.mode == 'push-fork' && secrets.PR_PUSH_TOKEN || github.token }}
+
+      - name: Apply patch and push
+        id: push
+        if: startsWith(steps.plan.outputs.mode, 'push-')
+        env:
+          HEAD_REF: ${{ steps.plan.outputs.head_ref }}
+        run: |
+          set -uo pipefail
+          fail() {
+            echo "::warning::$1"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            echo "reason=$1" >> "$GITHUB_OUTPUT"
+            exit 0
+          }
+
+          # A previous autofix commit is still the head, so the output is not stable. Do not loop.
+          [ "$(git log -1 --format=%s)" = "$BOT_MESSAGE" ] && fail "the automatic fix did not converge, so it needs a human look"
+
+          git apply --index "$RUNNER_TEMP/autofix/autofix.patch" || fail "the fix could not be applied to this branch"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "$BOT_MESSAGE" || fail "the fix could not be committed"
+          git push origin "HEAD:refs/heads/$HEAD_REF" || fail "the push to the PR branch was rejected"
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes made with GITHUB_TOKEN do not trigger pull_request runs, but workflow_dispatch does.
+      - name: Re-run CI on the new commit
+        if: steps.push.outputs.pushed == 'true' && steps.plan.outputs.mode == 'push-same'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_REF: ${{ steps.plan.outputs.head_ref }}
+        run: |
+          gh workflow run ci.yml --ref "$HEAD_REF"
+          gh workflow run pull_request.yml --ref "$HEAD_REF"
+
+      - name: Update PR comment
+        if: steps.download.outputs.found == 'true' && steps.plan.outputs.mode != 'none'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ steps.plan.outputs.pr }}
+          MODE: ${{ steps.plan.outputs.mode }}
+          PUSHED: ${{ steps.push.outputs.pushed }}
+          REASON: ${{ steps.push.outputs.reason || steps.plan.outputs.reason }}
+        run: |
+          set -euo pipefail
+          api="repos/$GITHUB_REPOSITORY/issues"
+          existing="$(gh api --paginate "$api/$PR/comments" \
+            | jq -r --arg m "$COMMENT_MARKER" '.[] | select(.user.login == "github-actions[bot]" and (.body | contains($m))) | .id' \
+            | sed -n 1p)"
+
+          # Fixed (pushed) or nothing to fix: drop any earlier "needs fixing" comment.
+          if [ "$MODE" = clean ] || [ "$PUSHED" = true ]; then
+            if [ -n "$existing" ]; then
+              gh api -X DELETE "$api/comments/$existing"
+            fi
+            exit 0
+          fi
+
+          body="$RUNNER_TEMP/autofix/comment.md"
+          {
+            echo "$COMMENT_MARKER"
+            echo "### Formatting or previews need an update"
+            echo
+            echo "CI ran the same steps as the pre-commit hook (\`biome check --write\`, \`biome lint --write\` and \`generate-previews\`) and found changes to make, but could not push them to this branch: $REASON."
+            echo
+            echo "Run this locally, then commit and push the result:"
+            echo
+            echo '```bash'
+            echo 'npm install'
+            echo 'npm run precommit'
+            echo '```'
+            echo
+            echo "Files that would change:"
+            echo
+            sed 's/.*/- `&`/' "$RUNNER_TEMP/autofix/files.txt"
+            echo
+            echo "_This comment updates itself and disappears once the checks pass._"
+          } > "$body"
+
+          if [ -n "$existing" ]; then
+            gh api -X PATCH "$api/comments/$existing" -F body=@"$body" > /dev/null
+          else
+            gh api -X POST "$api/$PR/comments" -F body=@"$body" > /dev/null
+          fi
